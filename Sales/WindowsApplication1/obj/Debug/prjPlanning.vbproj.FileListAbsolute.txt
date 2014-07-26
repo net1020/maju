@@ -1,0 +1,113 @@
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\prjPlanning.exe.config
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\prjPlanning.exe
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\prjPlanning.pdb
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\prjPlanning.xml
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\Newtonsoft.Json.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\Newtonsoft.Json.xml
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.frmCalculateForm.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.frmCalculatePlan.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.frmCalculatePlans.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.frmMachineList.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.frmCapacityList.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.frmMaterialList.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.frmProduct.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.frmProductList.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.frmUI.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.frmMaterial.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.frmMachine.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.frmCapacity.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.frmLogin.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.frmMain.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.Resources.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.vbproj.GenerateResource.Cache
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.exe
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.xml
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.pdb
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\Microsoft.Office.Interop.Excel.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\Microsoft.Office.Interop.Excel.xml
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\DevComponents.DotNetBar.SuperGrid.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\DevComponents.DotNetBar2.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\DevComponents.Instrumentation.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\System.Core.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\System.Data.DataSetExtensions.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\System.Data.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\System.Deployment.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\System.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\System.Drawing.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\System.Net.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\System.Windows.Forms.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\System.Xml.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\System.Xml.Linq.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\DevComponents.DotNetBar.SuperGrid.xml
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\DevComponents.Instrumentation.xml
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\DevComponents.DotNetBar2.xml
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\prjPlanning.exe.manifest
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\prjPlanning.application
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.exe.manifest
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjPlanning.application
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\prjTokoMadju.exe.config
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\prjTokoMadju.exe.manifest
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\prjTokoMadju.application
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\prjTokoMadju.exe
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\prjTokoMadju.pdb
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\prjTokoMadju.xml
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\DevComponents.DotNetBar.SuperGrid.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\DevComponents.DotNetBar2.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\DevComponents.Instrumentation.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\Microsoft.Office.Interop.Excel.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\Newtonsoft.Json.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\System.Core.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\System.Data.DataSetExtensions.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\System.Data.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\System.Deployment.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\System.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\System.Drawing.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\System.Net.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\System.Windows.Forms.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\System.Xml.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\System.Xml.Linq.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\DevComponents.DotNetBar.SuperGrid.xml
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\Microsoft.Office.Interop.Excel.xml
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\Newtonsoft.Json.xml
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\DevComponents.Instrumentation.xml
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Debug\DevComponents.DotNetBar2.xml
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmJabatan.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmJabatanList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmUI.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmLogin.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmMain.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.Resources.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjPlanning.vbproj.GenerateResource.Cache
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.exe.manifest
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.application
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.exe
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.xml
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.pdb
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmBank.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmBankList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmCategory.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmCategoryList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmGroup.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmGroupList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmCourier.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmCourierList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmUnit.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmUnitList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmEmployee.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmEmployeeList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmMembership.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmMembershipList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmCustomer.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmCustomerList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmSupplier.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmSupplierList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmItem.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmItemList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmUser.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmUserList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmPricing.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmPricingList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmCatpricing.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Debug\prjTokoMadju.frmCatpricingList.resources

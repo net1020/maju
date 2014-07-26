@@ -1,0 +1,158 @@
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\teriaCashRegister.exe
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\teriaCashRegister.pdb
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\teriaCashRegister.xml
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\Skybound.Gecko.xml
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1Purchase.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1PurchaseList.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1PurchaseReturn.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1Sales.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1PurchaseReturnList.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1SalesList.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1SalesReturnList.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1SalesReturn.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm3Warehouse.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm3Vendor.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm3User.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm3Customer.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm3item.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMain.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm3Category.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMaster.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmpopup.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmPrintIMIP.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmview.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmWorkEntry1.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.Resources.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.vbproj.GenerateResource.Cache
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.exe
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.xml
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.pdb
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmViewCustomer.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmViewData.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmSales.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.exe
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.xml
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.pdb
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\teriaCashRegister.exe
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\teriaCashRegister.pdb
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\teriaCashRegister.xml
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\Microsoft.Office.Interop.Excel.dll
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\Newtonsoft.Json.dll
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\Microsoft.Office.Interop.Excel.xml
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\Newtonsoft.Json.xml
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\Skybound.Gecko.xml
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\ResolveAssemblyReference.cache
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1Purchase.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1PurchaseList.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1PurchaseReturn.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1Sales.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1PurchaseReturnList.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1SalesList.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1SalesReturnList.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frm1SalesReturn.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMain.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMaster.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmpopup.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmPrintIMIP.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmSales.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmViewCustomer.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmViewData.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmWorkEntry1.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.Resources.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.vbproj.GenerateResource.Cache
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmCustomer.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmCombo.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmCombo2.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\ctlNavigation.dll
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\ctlNavigation.pdb
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\ctlNavigation.xml
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMCustomer.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMCustomers.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMEmployees.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMEmployee.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMCategory.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMCategorys.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMVoucher.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMVouchers.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMItem.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMItems.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMVendor.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmMVendors.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\DevComponents.DotNetBar2.dll
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\DevComponents.DotNetBar2.xml
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Debug\Interop.MSCommLib.dll
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\Interop.MSCommLib.dll
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.vbproj.ResolveComReference.cache
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Debug\teriaCashRegister.frmView2.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\Interop.MSCommLib.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.vbproj.ResolveComReference.cache
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.exe
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.pdb
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\teriaCashRegister.exe
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\teriaCashRegister.pdb
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\teriaCashRegister.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\ctlNavigation.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\DevComponents.DotNetBar2.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\Microsoft.Office.Interop.Excel.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\Microsoft.Office.Interop.Excel.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\Newtonsoft.Json.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\DevComponents.DotNetBar2.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\Skybound.Gecko.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\ctlNavigation.pdb
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\ctlNavigation.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\Interop.MSCommLib.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\ResolveAssemblyReference.cache
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmMCategory.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmMCategorys.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmMCustomer.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmMCustomers.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmMVoucher.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmMVouchers.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmMItem.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmMItems.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmMVendor.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmMVendors.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frm1Purchase.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frm1PurchaseList.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frm1PurchaseReturn.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frm1Sales.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frm1PurchaseReturnList.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frm1SalesList.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frm1SalesReturnList.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frm1SalesReturn.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmMEmployees.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmCombo.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmCombo2.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmCustomer.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmMEmployee.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmMain.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmMaster.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmpopup.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmPrintIMIP.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmSales.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmViewCustomer.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmViewData.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmView2.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmWorkEntry1.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.Resources.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.vbproj.GenerateResource.Cache
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\teriaCashRegister.exe.config
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\System.Core.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\System.Data.DataSetExtensions.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\System.Data.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\System.Deployment.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\System.Design.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\System.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\System.Net.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\System.Web.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\System.Windows.Forms.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\System.Xml.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Debug\System.Xml.Linq.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmPayment.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Debug\teriaCashRegister.frmPaymentDone.resources

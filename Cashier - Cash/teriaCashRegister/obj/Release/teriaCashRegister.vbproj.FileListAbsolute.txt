@@ -1,0 +1,118 @@
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\ResolveAssemblyReference.cache
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frm1Purchase.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frm1PurchaseList.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frm1PurchaseReturn.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frm1Sales.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frm1PurchaseReturnList.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frm1SalesList.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frm1SalesReturnList.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frm1SalesReturn.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmCombo.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmCombo2.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmCustomer.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmMain.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmMaster.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmpopup.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmPrintIMIP.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmSales.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmViewCustomer.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmViewData.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmViewProduct.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmWorkEntry1.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.Resources.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.vbproj.GenerateResource.Cache
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Release\teriaCashRegister.exe
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Release\teriaCashRegister.pdb
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Release\teriaCashRegister.xml
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Release\ctlNavigation.dll
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Release\Microsoft.Office.Interop.Excel.dll
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Release\Newtonsoft.Json.dll
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Release\Microsoft.Office.Interop.Excel.xml
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Release\Newtonsoft.Json.xml
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Release\ctlNavigation.pdb
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Release\ctlNavigation.xml
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmMCategory.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmMCategorys.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmMCustomer.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmMCustomers.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmMVoucher.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmMVouchers.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmMItem.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmMItems.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmMVendor.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmMVendors.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmMEmployees.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.frmMEmployee.resources
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.exe
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.xml
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.pdb
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Release\DevComponents.DotNetBar2.dll
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Release\DevComponents.DotNetBar2.xml
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\bin\Release\Interop.MSCommLib.dll
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\Interop.MSCommLib.dll
+F:\DOTNET\Projects\teriaCashRegister\teriaCashRegister\obj\Release\teriaCashRegister.vbproj.ResolveComReference.cache
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\teriaCashRegister.exe.config
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\teriaCashRegister.exe
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\teriaCashRegister.pdb
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\teriaCashRegister.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\ctlNavigation.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\DevComponents.DotNetBar2.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\Microsoft.Office.Interop.Excel.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\Newtonsoft.Json.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\Microsoft.Office.Interop.Excel.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\Newtonsoft.Json.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\DevComponents.DotNetBar2.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\ctlNavigation.pdb
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\ctlNavigation.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\Interop.MSCommLib.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\ResolveAssemblyReference.cache
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\Interop.MSCommLib.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.vbproj.ResolveComReference.cache
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmMCategory.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmMCategorys.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmMCustomer.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmMCustomers.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmMVoucher.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmMVouchers.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmMItem.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmMItems.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmMVendor.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmMVendors.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frm1Purchase.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frm1PurchaseList.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frm1PurchaseReturn.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frm1Sales.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frm1PurchaseReturnList.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frm1SalesList.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frm1SalesReturnList.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frm1SalesReturn.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmMEmployees.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmCombo.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmCombo2.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmCustomer.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmMEmployee.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmMain.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmMaster.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmpopup.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmPrintIMIP.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmSales.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmViewCustomer.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmViewData.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmView2.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.frmWorkEntry1.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.Resources.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.vbproj.GenerateResource.Cache
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.exe
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\teriaCashRegister.pdb
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Core.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Data.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Net.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Web.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Xml.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Xml.Linq.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Data.DataSetExtensions.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Deployment.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Design.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Windows.Forms.dll

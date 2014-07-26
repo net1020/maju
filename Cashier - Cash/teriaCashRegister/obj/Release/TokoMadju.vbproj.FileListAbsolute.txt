@@ -1,0 +1,140 @@
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\TokoMadju.exe.config
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\TokoMadju.exe
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\TokoMadju.pdb
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\TokoMadju.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\ctlNavigation.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\DevComponents.DotNetBar2.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\Microsoft.Office.Interop.Excel.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\Newtonsoft.Json.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Core.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Data.DataSetExtensions.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Data.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Deployment.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Design.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Net.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Web.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Windows.Forms.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Xml.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Xml.Linq.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\Microsoft.Office.Interop.Excel.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\Newtonsoft.Json.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\DevComponents.DotNetBar2.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\ctlNavigation.pdb
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\ctlNavigation.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\ResolveAssemblyReference.cache
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmMCategory.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmMCategorys.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmMCustomer.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmMCustomers.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmMVoucher.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmMVouchers.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmMItem.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmMItems.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmMVendor.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmMVendors.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frm1Purchase.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frm1PurchaseList.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frm1PurchaseReturn.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frm1Sales.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frm1PurchaseReturnList.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frm1SalesList.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frm1SalesReturnList.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frm1SalesReturn.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmMEmployees.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmCombo.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmCombo2.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmCustomer.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmMEmployee.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmMain.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmMaster.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmpopup.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmPrintIMIP.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmLogin.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmCashierOut.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmNewCashier.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmPayment.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmPaymentDone.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmSales.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmViewCustomer.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmViewData.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmView2.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmWorkEntry1.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.Resources.resources
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.vbproj.GenerateResource.Cache
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.exe
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.xml
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.pdb
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Drawing.Design.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\bin\Release\System.Drawing.dll
+F:\DOTNET\Toko Madju POS\teriaCashRegister\obj\Release\TokoMadju.frmView3.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\TokoMadju.exe.config
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\TokoMadju.exe
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\TokoMadju.pdb
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\TokoMadju.xml
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\ctlNavigation.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\DevComponents.DotNetBar2.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\Microsoft.Office.Interop.Excel.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\Newtonsoft.Json.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\System.Core.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\System.Data.DataSetExtensions.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\System.Data.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\System.Deployment.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\System.Design.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\System.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\System.Drawing.Design.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\System.Drawing.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\System.Net.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\System.Web.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\System.Windows.Forms.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\System.Xml.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\System.Xml.Linq.dll
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\ctlNavigation.pdb
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\ctlNavigation.xml
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\DevComponents.DotNetBar2.xml
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\Newtonsoft.Json.xml
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\bin\Release\Microsoft.Office.Interop.Excel.xml
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\ResolveAssemblyReference.cache
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmMCategory.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmMCategorys.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmMCustomer.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmMCustomers.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmMVoucher.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmMVouchers.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmMItem.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmMItems.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmMVendor.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmMVendors.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frm1Purchase.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frm1PurchaseList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frm1PurchaseReturn.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frm1Sales.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frm1PurchaseReturnList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frm1SalesList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frm1SalesReturnList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frm1SalesReturn.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmMEmployees.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmCombo.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmCombo2.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmCustomer.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmMEmployee.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmMain.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmMaster.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmpopup.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmPrintIMIP.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmView2.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmLogin.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmCashierOut.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmNewCashier.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmPayment.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmPaymentDone.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmSales.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmViewCustomer.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmViewData.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmView3.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmWorkEntry1.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.Resources.resources
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.vbproj.GenerateResource.Cache
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.exe
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.xml
+F:\DOTNET\Toko Madju POS\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.pdb

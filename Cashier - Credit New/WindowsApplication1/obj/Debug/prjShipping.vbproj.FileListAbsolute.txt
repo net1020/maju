@@ -1,0 +1,89 @@
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\prjShipping.exe
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\prjShipping.pdb
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\prjShipping.xml
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\prjShipping.Form1.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\prjShipping.FormListTemplate1.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\prjShipping.frmMain.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\prjShipping.Resources.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\prjShipping.vbproj.GenerateResource.Cache
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\prjShipping.exe
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\prjShipping.xml
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\prjShipping.pdb
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\prjShipping.frmLogin.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\prjShipping.frm2CheckVoucher.resources
+C:\Users\Collin\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\prjShipping.frm2CheckVouchers.resources
+F:\DOTNET\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\prjShipping.exe
+F:\DOTNET\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\prjShipping.xml
+F:\DOTNET\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\prjShipping.pdb
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\obj\Debug\prjShipping.exe
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\obj\Debug\prjShipping.xml
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\obj\Debug\prjShipping.pdb
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\bin\Debug\prjShipping.exe
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\bin\Debug\prjShipping.pdb
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\bin\Debug\prjShipping.xml
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\bin\Debug\Newtonsoft.Json.dll
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\bin\Debug\Newtonsoft.Json.xml
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\obj\Debug\prjShipping.Form1.resources
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\obj\Debug\prjShipping.FormListTemplate1.resources
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\obj\Debug\prjShipping.frm2CheckVoucher.resources
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\obj\Debug\prjShipping.frm2CheckVouchers.resources
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\obj\Debug\prjShipping.frmLogin.resources
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\obj\Debug\prjShipping.frmMain.resources
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\obj\Debug\prjShipping.Resources.resources
+F:\DOTNET\Projects\prjProductivity\WindowsApplication1\obj\Debug\prjShipping.vbproj.GenerateResource.Cache
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.exe
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.xml
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.pdb
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmUI.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmProduct.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmMaterial.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmMachine.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmCapacity.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmCalculatePlan.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmCalculatePlans.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmLogin.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmMain.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.Resources.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.vbproj.GenerateResource.Cache
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\prjShipping.exe
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\prjShipping.pdb
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\prjShipping.xml
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\Newtonsoft.Json.dll
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\Newtonsoft.Json.xml
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmProductList.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmMachineList.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmCapacityList.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmMaterialList.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.xml
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.pdb
+E:\PROJECTS\Harjana Project\WindowsApplication1\bin\Debug\prjShipping.exe
+E:\PROJECTS\Harjana Project\WindowsApplication1\bin\Debug\prjShipping.pdb
+E:\PROJECTS\Harjana Project\WindowsApplication1\bin\Debug\prjShipping.xml
+E:\PROJECTS\Harjana Project\WindowsApplication1\bin\Debug\Newtonsoft.Json.xml
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmMachineList.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmCapacityList.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmMaterialList.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmProductList.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmUI.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmProduct.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmMaterial.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmMachine.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmCapacity.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmCalculatePlan.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmCalculatePlans.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmLogin.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmMain.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.Resources.resources
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.vbproj.GenerateResource.Cache
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.exe
+E:\PROJECTS\Harjana Project\WindowsApplication1\obj\Debug\prjShipping.frmCalculateForm.resources
+F:\DOTNET\Harjana Project\WindowsApplication1\bin\Debug\prjPlanning.exe.config

@@ -1,0 +1,168 @@
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\prjTokoMadju.exe.config
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\prjTokoMadju.exe.manifest
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\prjTokoMadju.application
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\prjTokoMadju.exe
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\prjTokoMadju.pdb
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\prjTokoMadju.xml
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\DevComponents.DotNetBar.SuperGrid.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\DevComponents.DotNetBar2.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\DevComponents.Instrumentation.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\Microsoft.Office.Interop.Excel.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\Newtonsoft.Json.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\System.Core.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\System.Data.DataSetExtensions.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\System.Data.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\System.Deployment.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\System.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\System.Drawing.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\System.Net.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\System.Windows.Forms.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\System.Xml.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\System.Xml.Linq.dll
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\DevComponents.DotNetBar.SuperGrid.xml
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\Microsoft.Office.Interop.Excel.xml
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\Newtonsoft.Json.xml
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\DevComponents.Instrumentation.xml
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\bin\Release\DevComponents.DotNetBar2.xml
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\ResolveAssemblyReference.cache
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmBank.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmBankList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmCategory.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmCategoryList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmCustomer.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmCustomerList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmItem.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmItemList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmCatpricing.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmCatpricingList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmEmployee.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmEmployeeList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmGroup.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmGroupList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmJabatan.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmJabatanList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmCourier.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmCourierList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmPricing.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmPricingList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmUser.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmUserList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmSupplier.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmSupplierList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmMembership.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmMembershipList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmUnit.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmUnitList.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmUI.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmLogin.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.frmMain.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.Resources.resources
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.vbproj.GenerateResource.Cache
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.exe.manifest
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.application
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.exe
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.xml
+F:\DOTNET\Toko Madju POS\Backend\WindowsApplication1\obj\Release\prjTokoMadju.pdb
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\prjTokoMadju.exe.config
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\prjTokoMadju.exe.manifest
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\prjTokoMadju.application
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\prjTokoMadju.exe
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\prjTokoMadju.pdb
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\prjTokoMadju.xml
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\adnetObj.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\DevComponents.DotNetBar.SuperGrid.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\DevComponents.DotNetBar2.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\DevComponents.Instrumentation.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\Microsoft.Office.Interop.Excel.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\Newtonsoft.Json.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\System.Core.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\System.Data.DataSetExtensions.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\System.Data.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\System.Deployment.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\System.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\System.Drawing.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\System.Net.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\System.Windows.Forms.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\System.Xml.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\System.Xml.Linq.dll
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\DevComponents.DotNetBar2.xml
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\Newtonsoft.Json.xml
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\DevComponents.DotNetBar.SuperGrid.xml
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\adnetObj.pdb
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\adnetObj.xml
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\Microsoft.Office.Interop.Excel.xml
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\bin\Release\DevComponents.Instrumentation.xml
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\ResolveAssemblyReference.cache
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmBank.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmBankList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmCategory.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmCategoryList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmCustomer.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmCustomerList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmItem.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmItemList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmCatpricing.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmCatpricingList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmEmployee.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmEmployeeList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmGroup.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmGroupList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmJabatan.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmJabatanList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmCourier.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmCourierList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmPricing.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmPricingList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmReport.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmReportSales1.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmSupplier.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmUser.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmUserList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmReportSales.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmSupplierList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmMembership.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmMembershipList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmUnit.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmUnitList.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmUI.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmLogin.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmMain.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.Resources.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmSales.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.frmView2.resources
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.vbproj.GenerateResource.Cache
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.exe.manifest
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.application
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.exe
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.xml
+F:\DOTNET\Toko Madju POS\Cashier - Credit\WindowsApplication1\obj\Release\prjTokoMadju.pdb
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\bin\Release\prjTokoMadju.exe.config
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.exe
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.xml
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.pdb
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\bin\Release\prjTokoMadju.exe.manifest
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\bin\Release\prjTokoMadju.application
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\bin\Release\prjTokoMadju.exe
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\bin\Release\prjTokoMadju.pdb
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\bin\Release\prjTokoMadju.xml
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\bin\Release\adnetObj.dll
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\bin\Release\DevComponents.DotNetBar2.dll
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\bin\Release\DevComponents.DotNetBar2.xml
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\ResolveAssemblyReference.cache
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.frmReportSales1.resources
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.frmReportSales.resources
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.frmLogin.resources
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.frmMain.resources
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.Resources.resources
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.frmSales.resources
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.frmView2.resources
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.vbproj.GenerateResource.Cache
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.exe.manifest
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.application
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\bin\Release\Newtonsoft.Json.Net20.dll
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.frmSalesOrder.resources
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.frmSalesOrder2.resources
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.frmSalesOrder3.resources
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.frmSalesOrder4.resources
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.frmSalesOrder5.resources
+F:\DOTNET\Toko Madju POS\ADNET - CREDIT\WindowsApplication1\obj\Release\prjTokoMadju.frmItems.resources
