@@ -3,10 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="url" Type="System.String" Scope="User">
-      <Value Profile="(Default)">http://localhost/madju/backend/</Value>
+      <Value Profile="(Default)">http://192.168.0.102/madju/backend/</Value>
     </Setting>
     <Setting Name="browse" Type="System.String" Scope="User">
-      <Value Profile="(Default)">http://localhost/madju/</Value>
+      <Value Profile="(Default)">http://192.168.0.102/madju/</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -212,12 +212,12 @@ Public Class frmPayment
     Function ItemDetail() As String
         Dim j, n, n2 As Integer
         Dim str As String
-
+        Dim SalesNo As String
         j = frmSales.grid1.RowCount
         str = ""
-
+        SalesNo = frmSales.SalesNo
         For n = 0 To j - 2
-            str = str & frmSales.salesNo & "[]"
+            str = str & SalesNo & "[]"
             For n2 = 1 To 8
                 If n2 = 1 Then str = str & "Item" 'Kits
                 If n2 = 2 Then str = str & frmSales.grid1.Item(n2 - 1, n).Value()

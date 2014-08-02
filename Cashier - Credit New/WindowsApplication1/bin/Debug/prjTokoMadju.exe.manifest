@@ -114,7 +114,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>iS8J4HzLW5ZOPYjnfIj98tNh6ck=</dsig:DigestValue>
+        <dsig:DigestValue>fUUpgYlkNmmK0EcDQc21Jj/CdX4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -143,14 +143,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="prjTokoMadju.exe" size="1345024">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="prjTokoMadju.exe" size="2016768">
       <assemblyIdentity name="prjTokoMadju" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>TBeeoPe/83UAdv/B1J8wfmfdATY=</dsig:DigestValue>
+        <dsig:DigestValue>hyBWb5zJTXB1a3EyGk0ETb/yp+U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

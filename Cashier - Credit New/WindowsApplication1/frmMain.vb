@@ -208,8 +208,8 @@ Public Class frmMain
         If selectTab("Product") = False Then
             Dim adnet As adnetObj.frmList = New adnetObj.frmList()
             adnet.UrlClient = url
-            adnet.frmNew = New frmItems
-            adnet.newForm = True
+            'adnet.frmNew = New frmItems
+            adnet.newForm = False
             adnet.grid("Product")
             adnet.Text = "Product"
             adnet.MdiParent = Me
@@ -401,7 +401,7 @@ Public Class frmMain
             adnet.UrlClient = url
             adnet.newForm = False
             adnet.grid("warehouse")
-            adnet.Text = "warehouse"
+            adnet.Text = "Warehouse"
             adnet.MdiParent = Me
             adnet.WindowState = FormWindowState.Maximized
             adnet.Show()
@@ -415,7 +415,7 @@ Public Class frmMain
             adnet.UrlClient = url
             adnet.newForm = False
             adnet.grid("payment")
-            adnet.Text = "payment"
+            adnet.Text = "Payment"
             adnet.MdiParent = Me
             adnet.WindowState = FormWindowState.Maximized
             adnet.Show()
@@ -453,7 +453,7 @@ Public Class frmMain
         End If
     End Sub
 
-    Private Sub ButtonItem17_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem17.Click
+    Private Sub ButtonItem17_Click_2(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem17.Click
         If selectTab("Purchase Order") = False Then
             Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
             doc1.UrlClient = url
@@ -468,7 +468,7 @@ Public Class frmMain
         End If
     End Sub
 
-    Private Sub ButtonItem11_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem11.Click
+    Private Sub ButtonItem11_Click_2(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem11.Click
         If selectTab("Purchase Invoice") = False Then
             Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
             doc1.UrlClient = url
@@ -483,7 +483,7 @@ Public Class frmMain
         End If
     End Sub
 
-    Private Sub ButtonItem12_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem12.Click
+    Private Sub ButtonItem12_Click_2(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem12.Click
         If selectTab("Purchase Payment") = False Then
             Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
             doc1.UrlClient = url
@@ -498,7 +498,7 @@ Public Class frmMain
         End If
     End Sub
 
-    Private Sub ButtonItem15_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem15.Click
+    Private Sub ButtonItem15_Click_2(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem15.Click
         If selectTab("Purchase Return") = False Then
             Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
             doc1.UrlClient = url
@@ -506,6 +506,291 @@ Public Class frmMain
             doc1.newForm = True
             doc1.grid("PR")
             doc1.Text = "Purchase Return"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem1_Click_2(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem1.Click
+        If selectTab("Purchase Cheque Status") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            'doc1.frmNew = New frmPurchaseReturn
+            doc1.newForm = False
+            doc1.grid("PCQ")
+            doc1.Text = "Purchase Cheque Status"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem20_Click_2(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem20.Click
+        If selectTab("History Purchase Price") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            'doc1.frmNew = New frmPurchaseReturn
+            doc1.newForm = False
+            doc1.grid("PH")
+            doc1.Text = "History Purchase Price"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem21_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem21.Click
+        If selectTab("Sales Cheque Status") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            'doc1.frmNew = New frmPurchaseReturn
+            doc1.newForm = False
+            doc1.grid("SCQ")
+            doc1.Text = "Sales Cheque Status"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem22_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem22.Click
+        If selectTab("History Sales Price") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            'doc1.frmNew = New frmPurchaseReturn
+            doc1.newForm = False
+            doc1.grid("SH")
+            doc1.Text = "History Sales Price"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem23_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem23.Click
+        If selectTab("Sales Check Point") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            'doc1.frmNew = New frmPurchaseReturn
+            doc1.newForm = False
+            doc1.grid("SCP")
+            doc1.Text = "Sales Check Point"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem24_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem24.Click
+        If selectTab("Sales Point Detail") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            'doc1.frmNew = New frmPurchaseReturn
+            doc1.newForm = False
+            doc1.grid("SPD")
+            doc1.Text = "Sales Point Detail"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem25_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem25.Click
+        If selectTab("Sales Reimburse Point") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            'doc1.frmNew = New frmPurchaseReturn
+            doc1.newForm = False
+            doc1.grid("SRP")
+            doc1.Text = "Sales Reimburse Point"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem7_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem7.Click
+        If selectTab("Consignment Order") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.frmNew = New frmConsigneOrder
+            doc1.newForm = True
+            doc1.grid("CO")
+            doc1.Text = "Consignment Order"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem9_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem9.Click
+        If selectTab("Consignment Invoice") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.frmNew = New frmConsigneInvoice
+            doc1.newForm = True
+            doc1.grid("CI")
+            doc1.Text = "Consignment Invoice"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem26_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem26.Click
+        If selectTab("Consignment Payment") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.frmNew = New frmConsignePayment
+            doc1.newForm = True
+            doc1.grid("CP")
+            doc1.Text = "Consignment Payment"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem27_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem27.Click
+        If selectTab("Consignment Return") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.frmNew = New frmConsigneReturn
+            doc1.newForm = True
+            doc1.grid("CR")
+            doc1.Text = "Consignment Return"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem28_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem28.Click
+        If selectTab("Consignment Cheque Status") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            'doc1.frmNew = New frmPurchaseReturn
+            doc1.newForm = False
+            doc1.grid("CCQ")
+            doc1.Text = "Consignment Cheque Status"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem46_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem46.Click
+        If selectTab("History Consignment Price") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            'doc1.frmNew = New frmPurchaseReturn
+            doc1.newForm = False
+            doc1.grid("CH")
+            doc1.Text = "History Consignment Price"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem55_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem55.Click
+        If selectTab("Delivery Order") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.frmNew = New frmDeliveryOrder
+            doc1.newForm = True
+            doc1.grid("DO")
+            doc1.Text = "Delivery Order"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem56_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem56.Click
+        If selectTab("Delivery Out") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.frmNew = New frmDeliveryOut
+            doc1.newForm = True
+            doc1.grid("DT")
+            doc1.Text = "Delivery Out"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem57_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem57.Click
+        If selectTab("Delivery Received") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.frmNew = New frmDeliveryReceived
+            doc1.newForm = True
+            doc1.grid("DR")
+            doc1.Text = "Delivery Received"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem63_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem63.Click
+        If selectTab("Pending Delivery Order") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            'doc1.frmNew = New frmDeliveryReceived
+            doc1.newForm = False
+            doc1.grid("DPO")
+            doc1.Text = "Pending Delivery Order"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem64_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem64.Click
+        If selectTab("Pending Delivery Out") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            'doc1.frmNew = New frmDeliveryReceived
+            doc1.newForm = False
+            doc1.grid("DPR")
+            doc1.Text = "Pending Delivery Out"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem35_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem35.Click
+        If selectTab("Beginning Stock") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            'doc1.frmNew = New frmDeliveryReceived
+            doc1.newForm = False
+            doc1.grid("SB")
+            doc1.Text = "Beginning Stock"
             doc1.MdiParent = Me
             doc1.WindowState = FormWindowState.Maximized
             doc1.Show()

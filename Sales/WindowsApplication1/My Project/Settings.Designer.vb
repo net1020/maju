@@ -56,7 +56,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("http://localhost/madju/backend/")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("http://192.168.0.102/madju/backend/")>  _
         Public Property url() As String
             Get
                 Return CType(Me("url"),String)
@@ -68,7 +68,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("http://localhost/madju/")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("http://192.168.0.102/madju/")>  _
         Public Property browse() As String
             Get
                 Return CType(Me("browse"),String)

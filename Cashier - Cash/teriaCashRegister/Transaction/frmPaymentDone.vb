@@ -3,6 +3,8 @@ Public Class frmPaymentDone
         If e.KeyCode = Keys.F1 Then
             Me.Hide()
             frmSales.voidall_item()
+            SendKeys.Send("{TAB}")
+            SendKeys.Send("{TAB}")
             frmSales.cmdf2.RaiseClick()
         End If
     End Sub
@@ -14,7 +16,10 @@ Public Class frmPaymentDone
     Private Sub cmdf1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdf1.Click
         Me.Visible = False
         frmSales.voidall_item()
+        SendKeys.Send("{TAB}")
+        SendKeys.Send("{TAB}")
         frmSales.cmdf2.RaiseClick()
+        ' SendKeys.Send("{ENTER}")
     End Sub
 
     Private Sub frmPaymentDone_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load

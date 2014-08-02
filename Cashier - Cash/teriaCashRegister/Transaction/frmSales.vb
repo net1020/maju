@@ -61,8 +61,11 @@ Public Class frmSales
     End Sub
 
     Private Sub ButtonItem5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdf2.Click
-        grid1.Focus()
+        'grid1.Focus()
+        On Error Resume Next
+        
         grid1.CurrentCell = grid1.Rows(grid1.CurrentRow.Index).Cells(1)
+
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
@@ -101,6 +104,11 @@ Public Class frmSales
         cmbMember.Text = "Member : " & frmView3.sName
         cmbMember.Tooltip = "Member : " & frmView3.sName
         cmbMember.Refresh()
+        Dim i As Integer
+        For i = 0 To grid1.RowCount - 2
+            load_item(i, grid1.Item(1, i).Value)
+        Next
+        'recheck_item(grid1.RowCount - 2)
     End Sub
 
     Private Sub ButtonItem2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdf5.Click
@@ -139,7 +147,7 @@ Public Class frmSales
         Online_Status()
         grid1.CurrentCell = grid1.CurrentRow.Cells(1)
         reload_item()
-        recheck_item()
+        recheck_item(e.RowIndex)
 
     End Sub
 
@@ -155,7 +163,7 @@ Public Class frmSales
         End If
         Dim json = wc.DownloadString(Url & "load.php?q=41&q2=" & str & "|" & disctype)
         Dim data As List(Of clsItem) = JsonConvert.DeserializeObject(Of List(Of clsItem))(json)
-        grid1.Item(0, row).Value = grid1.RowCount - 1
+        grid1.Item(0, row).Value = row + 1
         grid1.Item(1, row).Value = data.Item(0).itemcode
         grid1.Item(2, row).Value = data.Item(0).itemname
         If grid1.Item(3, row).Value = "" Then grid1.Item(3, row).Value = 1
@@ -191,11 +199,12 @@ Public Class frmSales
     End Sub
 
     Sub voidall_item()
-        Dim i As Integer
+        'Dim i As Integer
         Online_Status()
-        For i = 0 To grid1.RowCount - 2
-            grid1.Rows.RemoveAt(0)
-        Next
+        'For i = 0 To grid1.RowCount - 2
+        '    grid1.Rows.RemoveAt(0)
+        'Next
+        grid1.Rows.Clear()
         clear_label()
         SubTotal = 0
         salesId = ""
@@ -224,20 +233,22 @@ Public Class frmSales
         cmbSales.Tooltip = ""
     End Sub
 
-    Sub recheck_item()
+    Sub recheck_item(ByVal sColumn As Integer)
         Dim i As Integer
         Dim Max As Integer
         Max = grid1.RowCount - 2
-        For i = 0 To Max - 1
-            If grid1.Item(1, i).Value = grid1.Item(1, Max).Value Then
+        If Max = sColumn - 1 Then
+            For i = 0 To Max - 1
+                If grid1.Item(1, i).Value = grid1.Item(1, Max).Value Then
 
-                grid1.Item(3, i).Value = Val(grid1.Item(3, i).Value) + Val(grid1.Item(3, Max).Value)
-                grid1.Item(7, i).Value = (Val(grid1.Item(5, i).Value) - (Val(grid1.Item(5, i).Value) * (Val(grid1.Item(6, i).Value) / 100))) * Val(grid1.Item(3, i).Value)
-                timerItem.Enabled = True
+                    grid1.Item(3, i).Value = Val(grid1.Item(3, i).Value) + Val(grid1.Item(3, Max).Value)
+                    grid1.Item(7, i).Value = (Val(grid1.Item(5, i).Value) - (Val(grid1.Item(5, i).Value) * (Val(grid1.Item(6, i).Value) / 100))) * Val(grid1.Item(3, i).Value)
+                    timerItem.Enabled = True
 
-            End If
-            grid1.Item(0, i).Value = i + 1
-        Next
+                End If
+                grid1.Item(0, i).Value = i + 1
+            Next
+        End If
     End Sub
 
     Private Sub timerItem_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles timerItem.Tick
@@ -284,8 +295,10 @@ Public Class frmSales
     End Sub
 
     Private Sub ButtonItem6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdf3.Click
+        On Error Resume Next
+        grid1.Focus()
         grid1.CurrentCell = grid1.Rows(grid1.CurrentRow.Index).Cells(3)
-
+        SendKeys.Send("{ENTER}")
     End Sub
 
     Private Sub ButtonItem11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdf11.Click
@@ -302,6 +315,24 @@ Public Class frmSales
         Dim time As DateTime = DateTime.Now
         Dim format As String = "dddd, dd-MMM-yyyy HH:mm:ss"
         lblTime.Text = time.ToString(format)
+    End Sub
+
+    Private Sub frmSales_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles Me.KeyDown
+        If e.KeyCode = Keys.F1 Then cmdf1.RaiseClick()
+        If e.KeyCode = Keys.F2 Then cmdf2.RaiseClick()
+        If e.KeyCode = Keys.F3 Then cmdf3.RaiseClick()
+        If e.KeyCode = Keys.F4 Then cmdf4.RaiseClick()
+        If e.KeyCode = Keys.F5 Then cmdf5.RaiseClick()
+
+        If e.KeyCode = Keys.F6 Then cmdf6.RaiseClick()
+        If e.KeyCode = Keys.F7 Then cmdf7.RaiseClick()
+        If e.KeyCode = Keys.F8 Then cmdf8.RaiseClick()
+        If e.KeyCode = Keys.F9 Then cmdf9.RaiseClick()
+        If e.KeyCode = Keys.F10 Then cmdf10.RaiseClick()
+
+        If e.KeyCode = Keys.F11 Then cmdf11.RaiseClick()
+        If e.KeyCode = Keys.F12 Then cmdf12.RaiseClick()
+        If e.KeyCode = Keys.PrintScreen Then cmdPrint.RaiseClick()
     End Sub
 
     Private Sub frmSales_Leave(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Leave
@@ -392,8 +423,9 @@ Public Class frmSales
 
     Sub Online_Status()
         Dim wc As New WebClient()
-        Dim json = wc.DownloadString(Url & "load.php?q=1")
         On Error Resume Next
+        Dim json = wc.DownloadString(Url & "load.php?q=1")
+
 
         'MsgBox(json)
         Dim data As List(Of clsCombo2) = JsonConvert.DeserializeObject(Of List(Of clsCombo2))(json)
@@ -414,7 +446,9 @@ Public Class frmSales
         If MsgBox("do you confirm to void all the items?", MsgBoxStyle.Question + MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
             voidall_item()
         End If
-
+        SendKeys.Send("{TAB}")
+        SendKeys.Send("{TAB}")
+        cmdf2.RaiseClick()
     End Sub
 
     Private Sub cmdf4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdf4.Click
@@ -497,7 +531,8 @@ Public Class frmSales
         'frmView2.BringToFront()
 
         If frmView3.sCode <> "" Then load_sales(frmView3.sCode)
-
+        reload_item()
+        recheck_item(0)
     End Sub
 
     Sub load_sales(ByVal sNo As String)

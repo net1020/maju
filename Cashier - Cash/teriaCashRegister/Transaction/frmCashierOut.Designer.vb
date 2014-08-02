@@ -27,6 +27,7 @@ Partial Class frmCashierOut
         Me.StyleManager1 = New DevComponents.DotNetBar.StyleManager(Me.components)
         Me.RibbonBar1 = New DevComponents.DotNetBar.RibbonBar
         Me.cmdf4 = New DevComponents.DotNetBar.ButtonItem
+        Me.cmdf2 = New DevComponents.DotNetBar.ButtonItem
         Me.cmdf10 = New DevComponents.DotNetBar.ButtonItem
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel
         Me.LabelX1 = New DevComponents.DotNetBar.LabelX
@@ -64,7 +65,8 @@ Partial Class frmCashierOut
         Me.LabelX22 = New DevComponents.DotNetBar.LabelX
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip
         Me.lblStatus = New System.Windows.Forms.ToolStripStatusLabel
-        Me.cmdf2 = New DevComponents.DotNetBar.ButtonItem
+        Me.cmbPrinters = New System.Windows.Forms.ComboBox
+        Me.RibbonBar1.SuspendLayout()
         Me.FlowLayoutPanel1.SuspendLayout()
         CType(Me.t1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.t2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -97,6 +99,7 @@ Partial Class frmCashierOut
         '
         Me.RibbonBar1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.RibbonBar1.ContainerControlProcessDialogKey = True
+        Me.RibbonBar1.Controls.Add(Me.cmbPrinters)
         Me.RibbonBar1.Dock = System.Windows.Forms.DockStyle.Top
         Me.RibbonBar1.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.cmdf4, Me.cmdf2, Me.cmdf10})
         Me.RibbonBar1.Location = New System.Drawing.Point(0, 0)
@@ -122,6 +125,14 @@ Partial Class frmCashierOut
         Me.cmdf4.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.cmdf4.Name = "cmdf4"
         Me.cmdf4.Text = "(F1)           Setor"
+        '
+        'cmdf2
+        '
+        Me.cmdf2.FixedSize = New System.Drawing.Size(65, 67)
+        Me.cmdf2.Image = CType(resources.GetObject("cmdf2.Image"), System.Drawing.Image)
+        Me.cmdf2.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
+        Me.cmdf2.Name = "cmdf2"
+        Me.cmdf2.Text = "(F2)            No Deposit"
         '
         'cmdf10
         '
@@ -684,13 +695,14 @@ Partial Class frmCashierOut
         Me.lblStatus.Name = "lblStatus"
         Me.lblStatus.Size = New System.Drawing.Size(0, 17)
         '
-        'cmdf2
+        'cmbPrinters
         '
-        Me.cmdf2.FixedSize = New System.Drawing.Size(65, 67)
-        Me.cmdf2.Image = CType(resources.GetObject("cmdf2.Image"), System.Drawing.Image)
-        Me.cmdf2.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
-        Me.cmdf2.Name = "cmdf2"
-        Me.cmdf2.Text = "(F2)            No Deposit"
+        Me.cmbPrinters.FormattingEnabled = True
+        Me.cmbPrinters.Location = New System.Drawing.Point(184, 32)
+        Me.cmbPrinters.Name = "cmbPrinters"
+        Me.cmbPrinters.Size = New System.Drawing.Size(36, 21)
+        Me.cmbPrinters.TabIndex = 1
+        Me.cmbPrinters.Visible = False
         '
         'frmCashierOut
         '
@@ -710,6 +722,7 @@ Partial Class frmCashierOut
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Setoran Akhir"
+        Me.RibbonBar1.ResumeLayout(False)
         Me.FlowLayoutPanel1.ResumeLayout(False)
         CType(Me.t1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.t2, System.ComponentModel.ISupportInitialize).EndInit()
@@ -769,4 +782,5 @@ Partial Class frmCashierOut
     Friend WithEvents LabelX22 As DevComponents.DotNetBar.LabelX
     Friend WithEvents cmdf10 As DevComponents.DotNetBar.ButtonItem
     Friend WithEvents cmdf2 As DevComponents.DotNetBar.ButtonItem
+    Friend WithEvents cmbPrinters As System.Windows.Forms.ComboBox
 End Class

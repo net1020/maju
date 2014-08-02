@@ -18,7 +18,7 @@ Public Class frmPurchaseReturn
     Sub load_Setting()
         Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
         adnet.loadCombo(cmbCustomer, 37, "")
-        adnet.loadCounter(txtTransno, 35)
+        adnet.loadCounter(txtTransno, 42)
         'adnet.loadCombo(cmbSales, 11, "")
         adnet.loadCombo(cmbPayment, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
@@ -103,7 +103,7 @@ Public Class frmPurchaseReturn
         Next
     End Sub
 
-    
+
 
     Private Sub ButtonX1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdWarehouse.Click
         Dim adnet As adnetObj.frmSelect = New adnetObj.frmSelect()
@@ -373,7 +373,7 @@ Public Class frmPurchaseReturn
     End Function
 
     Private Sub cmdEdit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdEdit.Click
-        Me.Text = "Edit - " & "Sales Return"
+        Me.Text = "Edit - " & "Purchase Return"
         load_enabled(True)
     End Sub
 End Class

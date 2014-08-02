@@ -183,6 +183,48 @@
     <Compile Include="Production\frmView2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Transaction\frmConsigneInvoice.designer.vb">
+      <DependentUpon>frmConsigneInvoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmConsigneInvoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmConsigneOrder.designer.vb">
+      <DependentUpon>frmConsigneOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmConsigneOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmConsignePayment.designer.vb">
+      <DependentUpon>frmConsignePayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmConsignePayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmConsigneReturn.designer.vb">
+      <DependentUpon>frmConsigneReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmConsigneReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmDeliveryOrder.designer.vb">
+      <DependentUpon>frmDeliveryOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmDeliveryOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmDeliveryOut.designer.vb">
+      <DependentUpon>frmDeliveryOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmDeliveryOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmDeliveryReceived.designer.vb">
+      <DependentUpon>frmDeliveryReceived.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmDeliveryReceived.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Transaction\frmPurchasePayment.designer.vb">
       <DependentUpon>frmPurchasePayment.vb</DependentUpon>
     </Compile>
@@ -277,6 +319,34 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Production\frmView2.resx">
       <DependentUpon>frmView2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmConsigneInvoice.resx">
+      <DependentUpon>frmConsigneInvoice.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmConsigneOrder.resx">
+      <DependentUpon>frmConsigneOrder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmConsignePayment.resx">
+      <DependentUpon>frmConsignePayment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmConsigneReturn.resx">
+      <DependentUpon>frmConsigneReturn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmDeliveryOrder.resx">
+      <DependentUpon>frmDeliveryOrder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmDeliveryOut.resx">
+      <DependentUpon>frmDeliveryOut.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmDeliveryReceived.resx">
+      <DependentUpon>frmDeliveryReceived.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Transaction\frmPurchasePayment.resx">

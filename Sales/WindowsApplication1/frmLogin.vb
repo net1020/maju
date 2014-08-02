@@ -52,16 +52,17 @@ Public Class frmLogin
 
     Public Function login(ByVal str2 As String, ByVal str3 As String) As Boolean
         On Error Resume Next
-        Dim wc As New WebClient()
-        Dim json = wc.DownloadString(url & "all.php?u=" & userName & "&c=" & compName & "&q=99&q2=" & str2 & "|" & str3)
-        Dim data As List(Of clsReport) = JsonConvert.DeserializeObject(Of List(Of clsReport))(json)
-        If data.Item(0).f1 = "" Then
+        Dim cNet As New adnetObj.clsAdnet
+        'Dim wc As New WebClient()
+        'Dim json = wc.DownloadString(url & "all.php?u=" & userName & "&c=" & compName & "&q=99&q2=" & str2 & "|" & str3)
+        'Dim data As List(Of clsReport) = JsonConvert.DeserializeObject(Of List(Of clsReport))(json)
+        userName = cNet.ExecuteData(99, str2 & "|" & str3)
+        If userName = "" Then
             login = False
             MsgBox("Your login is failed, please check the username or password", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly)
         Else
             login = True
         End If
-        userName = data.Item(0).f1
         'userAccess = data.Item(0).f2
     End Function
 

@@ -1039,7 +1039,7 @@ Partial Class frmPurchasePayment
         DataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Column1.DefaultCellStyle = DataGridViewCellStyle7
         Me.Column1.DisplayFormat = "#,0"
-        Me.Column1.HeaderText = "Received"
+        Me.Column1.HeaderText = "Payed"
         Me.Column1.Increment = 1
         Me.Column1.Name = "Column1"
         Me.Column1.ReadOnly = True
@@ -1077,7 +1077,7 @@ Partial Class frmPurchasePayment
         DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
         Me.Column2.DefaultCellStyle = DataGridViewCellStyle9
         Me.Column2.DisplayFormat = "#,0"
-        Me.Column2.HeaderText = "Received Amount"
+        Me.Column2.HeaderText = "Pay Amount"
         Me.Column2.Increment = 1
         Me.Column2.Name = "Column2"
         '
@@ -1110,6 +1110,7 @@ Partial Class frmPurchasePayment
         Me.Controls.Add(Me.t0)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Bar1)
+        Me.DoubleBuffered = True
         Me.EnableGlass = False
         Me.MinimumSize = New System.Drawing.Size(789, 630)
         Me.Name = "frmPurchasePayment"

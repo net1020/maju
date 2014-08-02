@@ -1,3 +1,4 @@
+Imports System.Drawing.Printing
 Imports System.Net
 Imports Newtonsoft.Json
 
@@ -111,6 +112,15 @@ Public Class frmCashierOut
             cmdf10.RaiseClick()
         End If
     End Sub
+    Public Sub load_printer()
+        cmbPrinters.Items.Clear()
+        For Each Printer In PrinterSettings.InstalledPrinters
+            cmbPrinters.Items.Add(Printer)
+        Next
+        Dim oPS As New System.Drawing.Printing.PrinterSettings
+        cmbPrinters.Text = oPS.PrinterName
+        ' cmbPrinters.SelectedIndex = 0
+    End Sub
 
     Private Sub cmdf4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdf4.Click
         Dim sCounter As String
@@ -123,6 +133,15 @@ Public Class frmCashierOut
         print_Sales()
         On Error Resume Next
         Shell(Application.StartupPath & "\print2.exe")
+        Dim wc As New WebClient()
+        load_printer()
+        Dim json = wc.DownloadString(Url & "print/all.php?q=64&q2=" & userName)
+        Dim users As List(Of clsReport) = JsonConvert.DeserializeObject(Of List(Of clsReport))(json)
+        RunReportPrinter(users, "/template/deposit.rpt", cmbPrinters.Text)
+        Dim json2 = wc.DownloadString(Url & "print/all.php?q=65&q2=" & userName)
+        Dim users2 As List(Of clsReport) = JsonConvert.DeserializeObject(Of List(Of clsReport))(json2)
+        RunReportPrinter(users2, "/template/deposit2.rpt", cmbPrinters.Text)
+
         Me.Hide()
         frmSales.Hide()
         frmLogin.Visible = True
