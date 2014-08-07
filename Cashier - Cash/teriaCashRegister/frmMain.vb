@@ -320,10 +320,10 @@ Public Class frmMain
         Me.ribbonControl1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.ribbonControl1.CanCustomize = False
         Me.ribbonControl1.CaptionVisible = True
-        Me.ribbonControl1.Controls.Add(Me.ribbonPanel1)
-        Me.ribbonControl1.Controls.Add(Me.RibbonPanel2)
-        Me.ribbonControl1.Controls.Add(Me.RibbonPanel4)
         Me.ribbonControl1.Controls.Add(Me.ribbonPanel3)
+        Me.ribbonControl1.Controls.Add(Me.RibbonPanel2)
+        Me.ribbonControl1.Controls.Add(Me.ribbonPanel1)
+        Me.ribbonControl1.Controls.Add(Me.RibbonPanel4)
         Me.ribbonControl1.Controls.Add(Me.RibbonPanel5)
         Me.ribbonControl1.Dock = System.Windows.Forms.DockStyle.Top
         Me.ribbonControl1.ForeColor = System.Drawing.Color.Black
@@ -376,6 +376,7 @@ Public Class frmMain
         '
         Me.ribbonPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.ribbonPanel1.TabIndex = 1
+        Me.ribbonPanel1.Visible = False
         '
         'RibbonBar1
         '
@@ -710,7 +711,6 @@ Public Class frmMain
         '
         Me.ribbonPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.ribbonPanel3.TabIndex = 3
-        Me.ribbonPanel3.Visible = False
         '
         'RibbonBar2
         '
@@ -853,6 +853,7 @@ Public Class frmMain
         '
         'ribbonTabItem3
         '
+        Me.ribbonTabItem3.Checked = True
         Me.ribbonTabItem3.Name = "ribbonTabItem3"
         Me.ribbonTabItem3.Panel = Me.ribbonPanel3
         Me.ribbonTabItem3.Text = "Transactions"
@@ -865,7 +866,6 @@ Public Class frmMain
         '
         'ribbonTabItem1
         '
-        Me.ribbonTabItem1.Checked = True
         Me.ribbonTabItem1.Name = "ribbonTabItem1"
         Me.ribbonTabItem1.Panel = Me.ribbonPanel1
         Me.ribbonTabItem1.Text = "Master"

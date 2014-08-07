@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="url" Type="System.String" Scope="User">
-      <Value Profile="(Default)">http://192.168.0.102/madju/credit/</Value>
+      <Value Profile="(Default)">http://192.168.10.108/madju/credit/</Value>
     </Setting>
   </Settings>
 </SettingsFile>

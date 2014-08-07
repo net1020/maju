@@ -107,14 +107,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="adnetObj.dll" size="81408">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="adnetObj.dll" size="88064">
       <assemblyIdentity name="adnetObj" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>fUUpgYlkNmmK0EcDQc21Jj/CdX4=</dsig:DigestValue>
+        <dsig:DigestValue>IchUm+cWGrfcJi2DJC7MTd7zjqk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -143,14 +143,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="prjTokoMadju.exe" size="2016768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="prjTokoMadju.exe" size="2017792">
       <assemblyIdentity name="prjTokoMadju" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>hyBWb5zJTXB1a3EyGk0ETb/yp+U=</dsig:DigestValue>
+        <dsig:DigestValue>3al9nP7hw4SBHPfcy6i5WBm6I6E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -181,13 +181,13 @@
       <dsig:DigestValue>SPP5fJtr+2a529Hd7jyFka5E+Ms=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="prjTokoMadju.exe.config" size="2331">
+  <file name="prjTokoMadju.exe.config" size="2332">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>uYWbGXFNF7o5n/qdV/s5Om1Lovs=</dsig:DigestValue>
+      <dsig:DigestValue>U5h2fgfeXIgiOOFOeTHbjKZURZ4=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

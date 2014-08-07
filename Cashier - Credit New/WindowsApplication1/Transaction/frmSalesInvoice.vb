@@ -10,7 +10,7 @@ Public Class frmSalesInvoice
         adnet.loadCombo(cmbPayment, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
         adnet.loadCombo(cmbRefno, 18, "")
-        adnet.load_printer(cmbPrinter)
+        adnet.loadCombo(cmbReport, 61, "")
         dtTrans.Value = Now
         dtDelivery.Value = Now
     End Sub
@@ -434,5 +434,10 @@ Public Class frmSalesInvoice
 
     Private Sub tOtherfee_ValueChanged_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tOtherfee.ValueChanged
         load_grid_total()
+    End Sub
+
+    Private Sub cmdPreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdPreview.Click
+        Dim dNet As New adnetObj.clsAdnet
+        dNet.viewReportNew("template\" & cmbReport.SelectedValue & ".repx", dNet.loadJsonReport(cmbReport.SelectedValue, txtTransno.Text))
     End Sub
 End Class

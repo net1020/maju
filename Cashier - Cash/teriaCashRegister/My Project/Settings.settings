@@ -6,7 +6,7 @@
       <Value Profile="(Default)">COM3</Value>
     </Setting>
     <Setting Name="url" Type="System.String" Scope="User">
-      <Value Profile="(Default)">http://192.168.0.102/madju/services/</Value>
+      <Value Profile="(Default)">http://a.xurai.com:2289/madju/services/</Value>
     </Setting>
     <Setting Name="display" Type="System.String" Scope="User">
       <Value Profile="(Default)">     Welcome to          Toko Madju    </Value>

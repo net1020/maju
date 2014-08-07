@@ -56,7 +56,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("http://192.168.0.102/madju/credit/")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("http://192.168.10.108/madju/credit/")>  _
         Public Property url() As String
             Get
                 Return CType(Me("url"),String)

@@ -1,0 +1,1177 @@
+/// <XRTypeInfo>
+///   <AssemblyFullName>DevExpress.XtraReports.v10.2, Version=10.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</AssemblyFullName>
+///   <AssemblyLocation>C:\Windows\assembly\GAC_MSIL\DevExpress.XtraReports.v10.2\10.2.10.0__b88d1754d700e49a\DevExpress.XtraReports.v10.2.dll</AssemblyLocation>
+///   <TypeName>DevExpress.XtraReports.UI.XtraReport</TypeName>
+///   <Localization>en-US</Localization>
+/// </XRTypeInfo>
+namespace XtraReportSerialization {
+    
+    public class xReport : DevExpress.XtraReports.UI.XtraReport {
+        private DevExpress.XtraReports.UI.PageHeaderBand PageHeader;
+        private DevExpress.XtraReports.UI.XRLine line3;
+        private DevExpress.XtraReports.UI.XRLabel label34;
+        private DevExpress.XtraReports.UI.XRLabel label32;
+        private DevExpress.XtraReports.UI.XRLabel label31;
+        private DevExpress.XtraReports.UI.XRLabel label28;
+        private DevExpress.XtraReports.UI.XRLine line2;
+        private DevExpress.XtraReports.UI.XRLine line1;
+        private DevExpress.XtraReports.UI.XRLabel label26;
+        private DevExpress.XtraReports.UI.XRLabel label25;
+        private DevExpress.XtraReports.UI.XRLabel label24;
+        private DevExpress.XtraReports.UI.XRLabel label23;
+        private DevExpress.XtraReports.UI.DetailBand Detail;
+        private DevExpress.XtraReports.UI.PageFooterBand PageFooter;
+        private DevExpress.XtraReports.UI.XRLabel a5;
+        private DevExpress.XtraReports.UI.XRPageInfo pageInfo1;
+        private DevExpress.XtraReports.UI.ReportFooterBand ReportFooter;
+        private DevExpress.XtraReports.UI.XRLabel label44;
+        private DevExpress.XtraReports.UI.XRLabel label43;
+        private DevExpress.XtraReports.UI.XRLabel f22;
+        private DevExpress.XtraReports.UI.XRLabel label17;
+        private DevExpress.XtraReports.UI.XRLabel f18;
+        private DevExpress.XtraReports.UI.XRLabel label12;
+        private DevExpress.XtraReports.UI.XRLabel label13;
+        private DevExpress.XtraReports.UI.XRLabel f20;
+        private DevExpress.XtraReports.UI.XRLabel label80;
+        private DevExpress.XtraReports.UI.XRLabel label79;
+        private DevExpress.XtraReports.UI.XRLabel label78;
+        private DevExpress.XtraReports.UI.XRLabel label77;
+        private DevExpress.XtraReports.UI.XRLabel label73;
+        private DevExpress.XtraReports.UI.XRLabel f19;
+        private DevExpress.XtraReports.UI.XRLabel label72;
+        private DevExpress.XtraReports.UI.XRLabel label70;
+        private DevExpress.XtraReports.UI.XRLabel f16;
+        private DevExpress.XtraReports.UI.XRLabel label65;
+        private DevExpress.XtraReports.UI.XRLabel label64;
+        private DevExpress.XtraReports.UI.XRLabel f17;
+        private DevExpress.XtraReports.UI.XRLabel label62;
+        private DevExpress.XtraReports.UI.XRLabel label61;
+        private DevExpress.XtraReports.UI.XRLabel f13;
+        private DevExpress.XtraReports.UI.XRLabel label41;
+        private DevExpress.XtraReports.UI.XRLabel label40;
+        private DevExpress.XtraReports.UI.XRLabel label39;
+        private DevExpress.XtraReports.UI.XRLabel label38;
+        private DevExpress.XtraReports.UI.XRLabel f21;
+        private DevExpress.XtraReports.UI.XRLabel f15;
+        private DevExpress.XtraReports.UI.XRLine line4;
+        private DevExpress.XtraReports.UI.TopMarginBand topMarginBand1;
+        private DevExpress.XtraReports.UI.BottomMarginBand bottomMarginBand1;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport;
+        private DevExpress.XtraReports.UI.DetailBand Detail1;
+        private DevExpress.XtraReports.UI.XRLabel f6;
+        private DevExpress.XtraReports.UI.XRLabel f5;
+        private DevExpress.XtraReports.UI.XRLabel f7;
+        private DevExpress.XtraReports.UI.XRLabel f8;
+        private DevExpress.XtraReports.UI.XRLabel f9;
+        private DevExpress.XtraReports.UI.XRLabel f10;
+        private DevExpress.XtraReports.UI.XRLabel f11;
+        private DevExpress.XtraReports.UI.XRLabel f12;
+        private DevExpress.XtraReports.UI.ReportHeaderBand ReportHeader;
+        private DevExpress.XtraReports.UI.XRLabel label81;
+        private DevExpress.XtraReports.UI.XRLabel label59;
+        private DevExpress.XtraReports.UI.XRLabel label58;
+        private DevExpress.XtraReports.UI.XRLabel f4;
+        private DevExpress.XtraReports.UI.XRLabel label15;
+        private DevExpress.XtraReports.UI.XRLabel label14;
+        private DevExpress.XtraReports.UI.XRLabel f3;
+        private DevExpress.XtraReports.UI.XRLabel label10;
+        private DevExpress.XtraReports.UI.XRLabel label9;
+        private DevExpress.XtraReports.UI.XRLabel f2;
+        private DevExpress.XtraReports.UI.XRLabel label7;
+        private DevExpress.XtraReports.UI.XRLabel label6;
+        private DevExpress.XtraReports.UI.XRLabel f1;
+        private DevExpress.XtraReports.UI.XRLabel a4;
+        private DevExpress.XtraReports.UI.XRLabel a3;
+        private DevExpress.XtraReports.UI.XRLabel a2;
+        private DevExpress.XtraReports.UI.XRLabel a1;
+        private System.Resources.ResourceManager _resources;
+        public xReport() {
+            this.InitializeComponent();
+        }
+        private System.Resources.ResourceManager resources {
+            get {
+                if (_resources == null) {
+                    string resourceString = "zsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJza" +
+                        "W9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4O" +
+                        "SNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAABAAAAAAAAAFBBRFBBRFBIXnLBA" +
+                        "AAAAOcAAAAmJAB0AGgAaQBzAC4AUwBjAHIAaQBwAHQAcwBTAG8AdQByAGMAZQAAAAAAAZUNDQpQcml2Y" +
+                        "XRlIFN1YiB4UmVwb3J0X0JlZm9yZVByaW50KEJ5VmFsIHNlbmRlciBBcyBPYmplY3QsIEJ5VmFsIGUgQ" +
+                        "XMgU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRFdmVudEFyZ3MpDQpmMS5EYXRhQmluZGluZ3MuQ" +
+                        "WRkKE5ldyBYUkJpbmRpbmcoIlRleHQiLCBOb3RoaW5nLCAiZjEiKSkNCmYyLkRhdGFCaW5kaW5ncy5BZ" +
+                        "GQoTmV3IFhSQmluZGluZygiVGV4dCIsIE5vdGhpbmcsICJmMiIpKQ0KZjMuRGF0YUJpbmRpbmdzLkFkZ" +
+                        "ChOZXcgWFJCaW5kaW5nKCJUZXh0IiwgTm90aGluZywgImYzIikpDQpmNC5EYXRhQmluZGluZ3MuQWRkK" +
+                        "E5ldyBYUkJpbmRpbmcoIlRleHQiLCBOb3RoaW5nLCAiZjQiKSkNCmY1LkRhdGFCaW5kaW5ncy5BZGQoT" +
+                        "mV3IFhSQmluZGluZygiVGV4dCIsIE5vdGhpbmcsICJmNSIpKQ0KZjYuRGF0YUJpbmRpbmdzLkFkZChOZ" +
+                        "XcgWFJCaW5kaW5nKCJUZXh0IiwgTm90aGluZywgImY2IikpDQpmNy5EYXRhQmluZGluZ3MuQWRkKE5ld" +
+                        "yBYUkJpbmRpbmcoIlRleHQiLCBOb3RoaW5nLCAiZjciKSkNCmY4LkRhdGFCaW5kaW5ncy5BZGQoTmV3I" +
+                        "FhSQmluZGluZygiVGV4dCIsIE5vdGhpbmcsICJmOCIpKQ0KZjkuRGF0YUJpbmRpbmdzLkFkZChOZXcgW" +
+                        "FJCaW5kaW5nKCJUZXh0IiwgTm90aGluZywgImY5IikpDQpmMTAuRGF0YUJpbmRpbmdzLkFkZChOZXcgW" +
+                        "FJCaW5kaW5nKCJUZXh0IiwgTm90aGluZywgImYxMCIpKQ0KDQpmMTEuRGF0YUJpbmRpbmdzLkFkZChOZ" +
+                        "XcgWFJCaW5kaW5nKCJUZXh0IiwgTm90aGluZywgImYxMSIpKQ0KZjEyLkRhdGFCaW5kaW5ncy5BZGQoT" +
+                        "mV3IFhSQmluZGluZygiVGV4dCIsIE5vdGhpbmcsICJmMTIiKSkNCmYxMy5EYXRhQmluZGluZ3MuQWRkK" +
+                        "E5ldyBYUkJpbmRpbmcoIlRleHQiLCBOb3RoaW5nLCAiZjEzIikpDQpmMTUuRGF0YUJpbmRpbmdzLkFkZ" +
+                        "ChOZXcgWFJCaW5kaW5nKCJUZXh0IiwgTm90aGluZywgImYxNSIpKQ0KZjE2LkRhdGFCaW5kaW5ncy5BZ" +
+                        "GQoTmV3IFhSQmluZGluZygiVGV4dCIsIE5vdGhpbmcsICJmMTYiKSkNCmYxNy5EYXRhQmluZGluZ3MuQ" +
+                        "WRkKE5ldyBYUkJpbmRpbmcoIlRleHQiLCBOb3RoaW5nLCAiZjE3IikpDQpmMTguRGF0YUJpbmRpbmdzL" +
+                        "kFkZChOZXcgWFJCaW5kaW5nKCJUZXh0IiwgTm90aGluZywgImYxOCIpKQ0KZjE5LkRhdGFCaW5kaW5nc" +
+                        "y5BZGQoTmV3IFhSQmluZGluZygiVGV4dCIsIE5vdGhpbmcsICJmMTkiKSkNCmYyMC5EYXRhQmluZGluZ" +
+                        "3MuQWRkKE5ldyBYUkJpbmRpbmcoIlRleHQiLCBOb3RoaW5nLCAiZjIwIikpDQoNCmYyMS5EYXRhQmluZ" +
+                        "GluZ3MuQWRkKE5ldyBYUkJpbmRpbmcoIlRleHQiLCBOb3RoaW5nLCAiZjIxIikpDQpmMjIuRGF0YUJpb" +
+                        "mRpbmdzLkFkZChOZXcgWFJCaW5kaW5nKCJUZXh0IiwgTm90aGluZywgImYyMiIpKQ0KDQphMS5EYXRhQ" +
+                        "mluZGluZ3MuQWRkKE5ldyBYUkJpbmRpbmcoIlRleHQiLCBOb3RoaW5nLCAiYTEiKSkNCmEyLkRhdGFCa" +
+                        "W5kaW5ncy5BZGQoTmV3IFhSQmluZGluZygiVGV4dCIsIE5vdGhpbmcsICJhMiIpKQ0KYTMuRGF0YUJpb" +
+                        "mRpbmdzLkFkZChOZXcgWFJCaW5kaW5nKCJUZXh0IiwgTm90aGluZywgImEzIikpDQphNC5EYXRhQmluZ" +
+                        "GluZ3MuQWRkKE5ldyBYUkJpbmRpbmcoIlRleHQiLCBOb3RoaW5nLCAiYTQiKSkNCmE1LkRhdGFCaW5ka" +
+                        "W5ncy5BZGQoTmV3IFhSQmluZGluZygiVGV4dCIsIE5vdGhpbmcsICJhNSIpKQ0KDQpFbmQgU3ViDQo=";
+                    this._resources = new DevExpress.XtraReports.Serialization.XRResourceManager(resourceString);
+                }
+                return this._resources;
+            }
+        }
+        private void InitializeComponent() {
+            this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
+            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.PageFooter = new DevExpress.XtraReports.UI.PageFooterBand();
+            this.ReportFooter = new DevExpress.XtraReports.UI.ReportFooterBand();
+            this.topMarginBand1 = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.bottomMarginBand1 = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.DetailReport = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.ReportHeader = new DevExpress.XtraReports.UI.ReportHeaderBand();
+            this.line3 = new DevExpress.XtraReports.UI.XRLine();
+            this.label34 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label32 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label31 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label28 = new DevExpress.XtraReports.UI.XRLabel();
+            this.line2 = new DevExpress.XtraReports.UI.XRLine();
+            this.line1 = new DevExpress.XtraReports.UI.XRLine();
+            this.label26 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label25 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label24 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label23 = new DevExpress.XtraReports.UI.XRLabel();
+            this.a5 = new DevExpress.XtraReports.UI.XRLabel();
+            this.pageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
+            this.label44 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label43 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f22 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label17 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f18 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label12 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label13 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f20 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label80 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label79 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label78 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label77 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label73 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f19 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label72 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label70 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f16 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label65 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label64 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f17 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label62 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label61 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f13 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label41 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label40 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label39 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label38 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f21 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f15 = new DevExpress.XtraReports.UI.XRLabel();
+            this.line4 = new DevExpress.XtraReports.UI.XRLine();
+            this.Detail1 = new DevExpress.XtraReports.UI.DetailBand();
+            this.f6 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f5 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f7 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f8 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f9 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f10 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f11 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f12 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label81 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label59 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label58 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f4 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label15 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label14 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f3 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label10 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label9 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label7 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label6 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.a4 = new DevExpress.XtraReports.UI.XRLabel();
+            this.a3 = new DevExpress.XtraReports.UI.XRLabel();
+            this.a2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.a1 = new DevExpress.XtraReports.UI.XRLabel();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // PageHeader
+            // 
+            this.PageHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.line3,
+                        this.label34,
+                        this.label32,
+                        this.label31,
+                        this.label28,
+                        this.line2,
+                        this.line1,
+                        this.label26,
+                        this.label25,
+                        this.label24,
+                        this.label23});
+            this.PageHeader.Dpi = 254F;
+            this.PageHeader.Font = new System.Drawing.Font("Arial", 9F);
+            this.PageHeader.HeightF = 79.29167F;
+            this.PageHeader.Name = "PageHeader";
+            this.PageHeader.StylePriority.UseFont = false;
+            // 
+            // Detail
+            // 
+            this.Detail.Dpi = 254F;
+            this.Detail.Expanded = false;
+            this.Detail.Font = new System.Drawing.Font("Arial", 9F);
+            this.Detail.HeightF = 0F;
+            this.Detail.Name = "Detail";
+            this.Detail.StylePriority.UseFont = false;
+            // 
+            // PageFooter
+            // 
+            this.PageFooter.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.a5,
+                        this.pageInfo1});
+            this.PageFooter.Dpi = 254F;
+            this.PageFooter.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.PageFooter.HeightF = 82.2325F;
+            this.PageFooter.Name = "PageFooter";
+            this.PageFooter.StylePriority.UseFont = false;
+            // 
+            // ReportFooter
+            // 
+            this.ReportFooter.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label44,
+                        this.label43,
+                        this.f22,
+                        this.label17,
+                        this.f18,
+                        this.label12,
+                        this.label13,
+                        this.f20,
+                        this.label80,
+                        this.label79,
+                        this.label78,
+                        this.label77,
+                        this.label73,
+                        this.f19,
+                        this.label72,
+                        this.label70,
+                        this.f16,
+                        this.label65,
+                        this.label64,
+                        this.f17,
+                        this.label62,
+                        this.label61,
+                        this.f13,
+                        this.label41,
+                        this.label40,
+                        this.label39,
+                        this.label38,
+                        this.f21,
+                        this.f15,
+                        this.line4});
+            this.ReportFooter.Dpi = 254F;
+            this.ReportFooter.Font = new System.Drawing.Font("Arial", 9F);
+            this.ReportFooter.HeightF = 352.1042F;
+            this.ReportFooter.Name = "ReportFooter";
+            this.ReportFooter.StylePriority.UseFont = false;
+            // 
+            // topMarginBand1
+            // 
+            this.topMarginBand1.Dpi = 254F;
+            this.topMarginBand1.HeightF = 38F;
+            this.topMarginBand1.Name = "topMarginBand1";
+            // 
+            // bottomMarginBand1
+            // 
+            this.bottomMarginBand1.Dpi = 254F;
+            this.bottomMarginBand1.HeightF = 38F;
+            this.bottomMarginBand1.Name = "bottomMarginBand1";
+            // 
+            // DetailReport
+            // 
+            this.DetailReport.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail1});
+            this.DetailReport.DataMember = "Data Detail";
+            this.DetailReport.Dpi = 254F;
+            this.DetailReport.Level = 0;
+            this.DetailReport.Name = "DetailReport";
+            // 
+            // ReportHeader
+            // 
+            this.ReportHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label81,
+                        this.label59,
+                        this.label58,
+                        this.f4,
+                        this.label15,
+                        this.label14,
+                        this.f3,
+                        this.label10,
+                        this.label9,
+                        this.f2,
+                        this.label7,
+                        this.label6,
+                        this.f1,
+                        this.a4,
+                        this.a3,
+                        this.a2,
+                        this.a1});
+            this.ReportHeader.Dpi = 254F;
+            this.ReportHeader.Font = new System.Drawing.Font("Arial", 9F);
+            this.ReportHeader.HeightF = 253.6667F;
+            this.ReportHeader.Name = "ReportHeader";
+            this.ReportHeader.StylePriority.UseFont = false;
+            // 
+            // line3
+            // 
+            this.line3.Dpi = 254F;
+            this.line3.LineWidth = 3;
+            this.line3.LocationFloat = new DevExpress.Utils.PointFloat(25.99999F, 74.29166F);
+            this.line3.Name = "line3";
+            this.line3.SizeF = new System.Drawing.SizeF(1984F, 5F);
+            // 
+            // label34
+            // 
+            this.label34.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label34.Dpi = 254F;
+            this.label34.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.label34.LocationFloat = new DevExpress.Utils.PointFloat(1640F, 13.29166F);
+            this.label34.Name = "label34";
+            this.label34.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label34.SizeF = new System.Drawing.SizeF(370F, 53F);
+            this.label34.StylePriority.UseBorders = false;
+            this.label34.StylePriority.UseFont = false;
+            this.label34.StylePriority.UseTextAlignment = false;
+            this.label34.Text = "Total";
+            this.label34.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // label32
+            // 
+            this.label32.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label32.Dpi = 254F;
+            this.label32.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.label32.LocationFloat = new DevExpress.Utils.PointFloat(1535F, 13.29166F);
+            this.label32.Name = "label32";
+            this.label32.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label32.SizeF = new System.Drawing.SizeF(103F, 53F);
+            this.label32.StylePriority.UseBorders = false;
+            this.label32.StylePriority.UseFont = false;
+            this.label32.StylePriority.UseTextAlignment = false;
+            this.label32.Text = "Disc";
+            this.label32.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label31
+            // 
+            this.label31.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label31.Dpi = 254F;
+            this.label31.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.label31.LocationFloat = new DevExpress.Utils.PointFloat(1230F, 13.29166F);
+            this.label31.Name = "label31";
+            this.label31.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label31.SizeF = new System.Drawing.SizeF(302F, 53F);
+            this.label31.StylePriority.UseBorders = false;
+            this.label31.StylePriority.UseFont = false;
+            this.label31.StylePriority.UseTextAlignment = false;
+            this.label31.Text = "Harga";
+            this.label31.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // label28
+            // 
+            this.label28.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label28.Dpi = 254F;
+            this.label28.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.label28.LocationFloat = new DevExpress.Utils.PointFloat(1085F, 13.29166F);
+            this.label28.Name = "label28";
+            this.label28.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label28.SizeF = new System.Drawing.SizeF(143F, 53F);
+            this.label28.StylePriority.UseBorders = false;
+            this.label28.StylePriority.UseFont = false;
+            this.label28.StylePriority.UseTextAlignment = false;
+            this.label28.Text = "Satuan";
+            this.label28.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // line2
+            // 
+            this.line2.Dpi = 254F;
+            this.line2.LineWidth = 3;
+            this.line2.LocationFloat = new DevExpress.Utils.PointFloat(25.99999F, 66.29166F);
+            this.line2.Name = "line2";
+            this.line2.SizeF = new System.Drawing.SizeF(1984F, 5F);
+            // 
+            // line1
+            // 
+            this.line1.Dpi = 254F;
+            this.line1.LineWidth = 3;
+            this.line1.LocationFloat = new DevExpress.Utils.PointFloat(25.99999F, 5.291667F);
+            this.line1.Name = "line1";
+            this.line1.SizeF = new System.Drawing.SizeF(1984F, 5F);
+            // 
+            // label26
+            // 
+            this.label26.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label26.Dpi = 254F;
+            this.label26.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.label26.LocationFloat = new DevExpress.Utils.PointFloat(929F, 13.29166F);
+            this.label26.Name = "label26";
+            this.label26.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label26.SizeF = new System.Drawing.SizeF(146F, 53F);
+            this.label26.StylePriority.UseBorders = false;
+            this.label26.StylePriority.UseFont = false;
+            this.label26.StylePriority.UseTextAlignment = false;
+            this.label26.Text = "Qty";
+            this.label26.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // label25
+            // 
+            this.label25.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label25.Dpi = 254F;
+            this.label25.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.label25.LocationFloat = new DevExpress.Utils.PointFloat(370F, 13.29166F);
+            this.label25.Name = "label25";
+            this.label25.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label25.SizeF = new System.Drawing.SizeF(556F, 53F);
+            this.label25.StylePriority.UseBorders = false;
+            this.label25.StylePriority.UseFont = false;
+            this.label25.StylePriority.UseTextAlignment = false;
+            this.label25.Text = "Nama Item";
+            this.label25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label24
+            // 
+            this.label24.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label24.Dpi = 254F;
+            this.label24.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.label24.LocationFloat = new DevExpress.Utils.PointFloat(116.0001F, 13.29166F);
+            this.label24.Name = "label24";
+            this.label24.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label24.SizeF = new System.Drawing.SizeF(238F, 53F);
+            this.label24.StylePriority.UseBorders = false;
+            this.label24.StylePriority.UseFont = false;
+            this.label24.StylePriority.UseTextAlignment = false;
+            this.label24.Text = "Kode Item";
+            this.label24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label23
+            // 
+            this.label23.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label23.Dpi = 254F;
+            this.label23.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.label23.LocationFloat = new DevExpress.Utils.PointFloat(25.99999F, 13.29166F);
+            this.label23.Name = "label23";
+            this.label23.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label23.SizeF = new System.Drawing.SizeF(90.00006F, 52.99999F);
+            this.label23.StylePriority.UseBorders = false;
+            this.label23.StylePriority.UseFont = false;
+            this.label23.StylePriority.UseTextAlignment = false;
+            this.label23.Text = "No.";
+            this.label23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // a5
+            // 
+            this.a5.Dpi = 254F;
+            this.a5.Font = new System.Drawing.Font("Arial", 8F);
+            this.a5.LocationFloat = new DevExpress.Utils.PointFloat(1407.583F, 0F);
+            this.a5.Name = "a5";
+            this.a5.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.a5.SizeF = new System.Drawing.SizeF(602.416F, 46.75506F);
+            this.a5.StylePriority.UseFont = false;
+            this.a5.StylePriority.UseTextAlignment = false;
+            this.a5.Text = "a5";
+            this.a5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // pageInfo1
+            // 
+            this.pageInfo1.Dpi = 254F;
+            this.pageInfo1.Font = new System.Drawing.Font("Arial", 8F);
+            this.pageInfo1.Format = "{0:dd/MM/yyyy HH:mm}";
+            this.pageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(31.99998F, 0F);
+            this.pageInfo1.Name = "pageInfo1";
+            this.pageInfo1.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.pageInfo1.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime;
+            this.pageInfo1.SizeF = new System.Drawing.SizeF(486.8333F, 46.75506F);
+            this.pageInfo1.StylePriority.UseFont = false;
+            // 
+            // label44
+            // 
+            this.label44.Dpi = 254F;
+            this.label44.LocationFloat = new DevExpress.Utils.PointFloat(1602.166F, 285.292F);
+            this.label44.Name = "label44";
+            this.label44.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label44.SizeF = new System.Drawing.SizeF(30F, 53F);
+            this.label44.StylePriority.UseTextAlignment = false;
+            this.label44.Text = ":";
+            this.label44.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label43
+            // 
+            this.label43.Dpi = 254F;
+            this.label43.LocationFloat = new DevExpress.Utils.PointFloat(1407.583F, 285.292F);
+            this.label43.Name = "label43";
+            this.label43.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label43.SizeF = new System.Drawing.SizeF(194.3124F, 53.00001F);
+            this.label43.StylePriority.UseTextAlignment = false;
+            this.label43.Text = "DP";
+            this.label43.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // f22
+            // 
+            this.f22.Dpi = 254F;
+            this.f22.Font = new System.Drawing.Font("Arial", 9F);
+            this.f22.LocationFloat = new DevExpress.Utils.PointFloat(1632.166F, 285.2917F);
+            this.f22.Name = "f22";
+            this.f22.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f22.SizeF = new System.Drawing.SizeF(377.834F, 53F);
+            this.f22.StylePriority.UseFont = false;
+            this.f22.StylePriority.UseTextAlignment = false;
+            this.f22.Text = "f22";
+            this.f22.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // label17
+            // 
+            this.label17.Dpi = 254F;
+            this.label17.LocationFloat = new DevExpress.Utils.PointFloat(1740.229F, 126.2917F);
+            this.label17.Name = "label17";
+            this.label17.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label17.SizeF = new System.Drawing.SizeF(39.00061F, 53F);
+            this.label17.StylePriority.UseTextAlignment = false;
+            this.label17.Text = "%";
+            this.label17.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // f18
+            // 
+            this.f18.Dpi = 254F;
+            this.f18.Font = new System.Drawing.Font("Arial", 9F);
+            this.f18.LocationFloat = new DevExpress.Utils.PointFloat(1632.166F, 126.2917F);
+            this.f18.Name = "f18";
+            this.f18.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f18.SizeF = new System.Drawing.SizeF(108.063F, 52.99999F);
+            this.f18.StylePriority.UseFont = false;
+            this.f18.StylePriority.UseTextAlignment = false;
+            this.f18.Text = "f18";
+            this.f18.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // label12
+            // 
+            this.label12.Dpi = 254F;
+            this.label12.LocationFloat = new DevExpress.Utils.PointFloat(1602.165F, 179.2919F);
+            this.label12.Name = "label12";
+            this.label12.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label12.SizeF = new System.Drawing.SizeF(30F, 53F);
+            this.label12.StylePriority.UseTextAlignment = false;
+            this.label12.Text = ":";
+            this.label12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label13
+            // 
+            this.label13.Dpi = 254F;
+            this.label13.LocationFloat = new DevExpress.Utils.PointFloat(1407.582F, 179.2919F);
+            this.label13.Name = "label13";
+            this.label13.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label13.SizeF = new System.Drawing.SizeF(194.3124F, 53.00001F);
+            this.label13.StylePriority.UseTextAlignment = false;
+            this.label13.Text = "Biaya Lain";
+            this.label13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // f20
+            // 
+            this.f20.Dpi = 254F;
+            this.f20.Font = new System.Drawing.Font("Arial", 9F);
+            this.f20.LocationFloat = new DevExpress.Utils.PointFloat(1632.165F, 179.2918F);
+            this.f20.Name = "f20";
+            this.f20.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f20.SizeF = new System.Drawing.SizeF(377.834F, 53F);
+            this.f20.StylePriority.UseFont = false;
+            this.f20.StylePriority.UseTextAlignment = false;
+            this.f20.Text = "f20";
+            this.f20.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // label80
+            // 
+            this.label80.Dpi = 254F;
+            this.label80.LocationFloat = new DevExpress.Utils.PointFloat(970.2291F, 274.1042F);
+            this.label80.Name = "label80";
+            this.label80.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label80.SizeF = new System.Drawing.SizeF(277.7292F, 52.99999F);
+            this.label80.StylePriority.UseTextAlignment = false;
+            this.label80.Text = "(.....................)";
+            this.label80.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label79
+            // 
+            this.label79.Dpi = 254F;
+            this.label79.LocationFloat = new DevExpress.Utils.PointFloat(581.0311F, 274.1042F);
+            this.label79.Name = "label79";
+            this.label79.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label79.SizeF = new System.Drawing.SizeF(277.7292F, 52.99999F);
+            this.label79.StylePriority.UseTextAlignment = false;
+            this.label79.Text = "(.....................)";
+            this.label79.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label78
+            // 
+            this.label78.Dpi = 254F;
+            this.label78.LocationFloat = new DevExpress.Utils.PointFloat(970.2291F, 67.99997F);
+            this.label78.Name = "label78";
+            this.label78.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label78.SizeF = new System.Drawing.SizeF(277.7292F, 52.99999F);
+            this.label78.StylePriority.UseTextAlignment = false;
+            this.label78.Text = "Penerima";
+            this.label78.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label77
+            // 
+            this.label77.Dpi = 254F;
+            this.label77.LocationFloat = new DevExpress.Utils.PointFloat(581.0311F, 67.99997F);
+            this.label77.Name = "label77";
+            this.label77.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label77.SizeF = new System.Drawing.SizeF(277.7292F, 52.99999F);
+            this.label77.StylePriority.UseTextAlignment = false;
+            this.label77.Text = "Hormat Kami";
+            this.label77.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label73
+            // 
+            this.label73.Dpi = 254F;
+            this.label73.LocationFloat = new DevExpress.Utils.PointFloat(1602.166F, 126.2917F);
+            this.label73.Name = "label73";
+            this.label73.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label73.SizeF = new System.Drawing.SizeF(30F, 53F);
+            this.label73.StylePriority.UseTextAlignment = false;
+            this.label73.Text = ":";
+            this.label73.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // f19
+            // 
+            this.f19.Dpi = 254F;
+            this.f19.Font = new System.Drawing.Font("Arial", 9F);
+            this.f19.LocationFloat = new DevExpress.Utils.PointFloat(1780.229F, 126.2918F);
+            this.f19.Name = "f19";
+            this.f19.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f19.SizeF = new System.Drawing.SizeF(229.7705F, 52.99998F);
+            this.f19.StylePriority.UseFont = false;
+            this.f19.StylePriority.UseTextAlignment = false;
+            this.f19.Text = "f19";
+            this.f19.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // label72
+            // 
+            this.label72.Dpi = 254F;
+            this.label72.LocationFloat = new DevExpress.Utils.PointFloat(1407.583F, 126.2917F);
+            this.label72.Name = "label72";
+            this.label72.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label72.SizeF = new System.Drawing.SizeF(194.3124F, 53F);
+            this.label72.StylePriority.UseTextAlignment = false;
+            this.label72.Text = "Pajak";
+            this.label72.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label70
+            // 
+            this.label70.Dpi = 254F;
+            this.label70.LocationFloat = new DevExpress.Utils.PointFloat(1740.229F, 73.29172F);
+            this.label70.Name = "label70";
+            this.label70.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label70.SizeF = new System.Drawing.SizeF(39.00061F, 53F);
+            this.label70.StylePriority.UseTextAlignment = false;
+            this.label70.Text = "%";
+            this.label70.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // f16
+            // 
+            this.f16.Dpi = 254F;
+            this.f16.Font = new System.Drawing.Font("Arial", 9F);
+            this.f16.LocationFloat = new DevExpress.Utils.PointFloat(1632.166F, 73.29172F);
+            this.f16.Name = "f16";
+            this.f16.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f16.SizeF = new System.Drawing.SizeF(108.063F, 52.99999F);
+            this.f16.StylePriority.UseFont = false;
+            this.f16.StylePriority.UseTextAlignment = false;
+            this.f16.Text = "f16";
+            this.f16.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // label65
+            // 
+            this.label65.Dpi = 254F;
+            this.label65.LocationFloat = new DevExpress.Utils.PointFloat(1602.166F, 73.29163F);
+            this.label65.Name = "label65";
+            this.label65.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label65.SizeF = new System.Drawing.SizeF(30F, 53F);
+            this.label65.StylePriority.UseTextAlignment = false;
+            this.label65.Text = ":";
+            this.label65.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label64
+            // 
+            this.label64.Dpi = 254F;
+            this.label64.LocationFloat = new DevExpress.Utils.PointFloat(1407.583F, 73.29163F);
+            this.label64.Name = "label64";
+            this.label64.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label64.SizeF = new System.Drawing.SizeF(194.3124F, 53F);
+            this.label64.StylePriority.UseTextAlignment = false;
+            this.label64.Text = "Potongan";
+            this.label64.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // f17
+            // 
+            this.f17.Dpi = 254F;
+            this.f17.Font = new System.Drawing.Font("Arial", 9F);
+            this.f17.LocationFloat = new DevExpress.Utils.PointFloat(1780.229F, 73.29172F);
+            this.f17.Name = "f17";
+            this.f17.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f17.SizeF = new System.Drawing.SizeF(229.7705F, 52.99998F);
+            this.f17.StylePriority.UseFont = false;
+            this.f17.StylePriority.UseTextAlignment = false;
+            this.f17.Text = "f17";
+            this.f17.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // label62
+            // 
+            this.label62.Dpi = 254F;
+            this.label62.LocationFloat = new DevExpress.Utils.PointFloat(32.00003F, 14.99997F);
+            this.label62.Name = "label62";
+            this.label62.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label62.SizeF = new System.Drawing.SizeF(129.5625F, 53F);
+            this.label62.StylePriority.UseTextAlignment = false;
+            this.label62.Text = "Catatan";
+            this.label62.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label61
+            // 
+            this.label61.Dpi = 254F;
+            this.label61.LocationFloat = new DevExpress.Utils.PointFloat(161.5625F, 14.99997F);
+            this.label61.Name = "label61";
+            this.label61.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label61.SizeF = new System.Drawing.SizeF(30F, 53F);
+            this.label61.StylePriority.UseTextAlignment = false;
+            this.label61.Text = ":";
+            this.label61.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // f13
+            // 
+            this.f13.Dpi = 254F;
+            this.f13.LocationFloat = new DevExpress.Utils.PointFloat(32.00003F, 67.99997F);
+            this.f13.Name = "f13";
+            this.f13.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f13.SizeF = new System.Drawing.SizeF(508.9999F, 270.2921F);
+            this.f13.StylePriority.UseTextAlignment = false;
+            this.f13.Text = "label13";
+            this.f13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label41
+            // 
+            this.label41.Dpi = 254F;
+            this.label41.LocationFloat = new DevExpress.Utils.PointFloat(1602.165F, 232.2919F);
+            this.label41.Name = "label41";
+            this.label41.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label41.SizeF = new System.Drawing.SizeF(30F, 53F);
+            this.label41.StylePriority.UseTextAlignment = false;
+            this.label41.Text = ":";
+            this.label41.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label40
+            // 
+            this.label40.Dpi = 254F;
+            this.label40.LocationFloat = new DevExpress.Utils.PointFloat(1407.582F, 232.2919F);
+            this.label40.Name = "label40";
+            this.label40.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label40.SizeF = new System.Drawing.SizeF(194.3124F, 53.00001F);
+            this.label40.StylePriority.UseTextAlignment = false;
+            this.label40.Text = "Total Akhir";
+            this.label40.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label39
+            // 
+            this.label39.Dpi = 254F;
+            this.label39.LocationFloat = new DevExpress.Utils.PointFloat(1602.166F, 15.00001F);
+            this.label39.Name = "label39";
+            this.label39.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label39.SizeF = new System.Drawing.SizeF(30F, 53F);
+            this.label39.StylePriority.UseTextAlignment = false;
+            this.label39.Text = ":";
+            this.label39.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label38
+            // 
+            this.label38.Dpi = 254F;
+            this.label38.LocationFloat = new DevExpress.Utils.PointFloat(1407.583F, 15.00001F);
+            this.label38.Name = "label38";
+            this.label38.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label38.SizeF = new System.Drawing.SizeF(194.3124F, 53F);
+            this.label38.StylePriority.UseTextAlignment = false;
+            this.label38.Text = "Sub Total";
+            this.label38.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // f21
+            // 
+            this.f21.Dpi = 254F;
+            this.f21.Font = new System.Drawing.Font("Arial", 9F);
+            this.f21.LocationFloat = new DevExpress.Utils.PointFloat(1632.165F, 232.2917F);
+            this.f21.Name = "f21";
+            this.f21.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f21.SizeF = new System.Drawing.SizeF(377.834F, 52.99998F);
+            this.f21.StylePriority.UseFont = false;
+            this.f21.StylePriority.UseTextAlignment = false;
+            this.f21.Text = "f21";
+            this.f21.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // f15
+            // 
+            this.f15.Dpi = 254F;
+            this.f15.Font = new System.Drawing.Font("Arial", 9F);
+            this.f15.LocationFloat = new DevExpress.Utils.PointFloat(1632.166F, 14.99997F);
+            this.f15.Name = "f15";
+            this.f15.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f15.SizeF = new System.Drawing.SizeF(377.834F, 53F);
+            this.f15.StylePriority.UseFont = false;
+            this.f15.StylePriority.UseTextAlignment = false;
+            this.f15.Text = "f15";
+            this.f15.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // line4
+            // 
+            this.line4.Dpi = 254F;
+            this.line4.LineWidth = 3;
+            this.line4.LocationFloat = new DevExpress.Utils.PointFloat(26F, 0F);
+            this.line4.Name = "line4";
+            this.line4.SizeF = new System.Drawing.SizeF(1984F, 5F);
+            // 
+            // Detail1
+            // 
+            this.Detail1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.f6,
+                        this.f5,
+                        this.f7,
+                        this.f8,
+                        this.f9,
+                        this.f10,
+                        this.f11,
+                        this.f12});
+            this.Detail1.Dpi = 254F;
+            this.Detail1.Font = new System.Drawing.Font("Arial", 9F);
+            this.Detail1.HeightF = 42F;
+            this.Detail1.Name = "Detail1";
+            this.Detail1.SortFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
+                        new DevExpress.XtraReports.UI.GroupField("nobaris", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
+            this.Detail1.StylePriority.UseFont = false;
+            // 
+            // f6
+            // 
+            this.f6.Dpi = 254F;
+            this.f6.LocationFloat = new DevExpress.Utils.PointFloat(116.0001F, 0F);
+            this.f6.Name = "f6";
+            this.f6.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f6.SizeF = new System.Drawing.SizeF(254F, 42F);
+            this.f6.Text = "f6";
+            // 
+            // f5
+            // 
+            this.f5.Dpi = 254F;
+            this.f5.LocationFloat = new DevExpress.Utils.PointFloat(26.00003F, 0F);
+            this.f5.Name = "f5";
+            this.f5.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f5.SizeF = new System.Drawing.SizeF(79F, 42F);
+            this.f5.StylePriority.UseTextAlignment = false;
+            this.f5.Text = "f5";
+            this.f5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // f7
+            // 
+            this.f7.Dpi = 254F;
+            this.f7.LocationFloat = new DevExpress.Utils.PointFloat(370F, 0F);
+            this.f7.Name = "f7";
+            this.f7.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f7.SizeF = new System.Drawing.SizeF(561F, 42F);
+            this.f7.Text = "f7";
+            // 
+            // f8
+            // 
+            this.f8.Dpi = 254F;
+            this.f8.LocationFloat = new DevExpress.Utils.PointFloat(931F, 0F);
+            this.f8.Name = "f8";
+            this.f8.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f8.SizeF = new System.Drawing.SizeF(148F, 42F);
+            this.f8.StylePriority.UseTextAlignment = false;
+            this.f8.Text = "f8";
+            this.f8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // f9
+            // 
+            this.f9.Dpi = 254F;
+            this.f9.LocationFloat = new DevExpress.Utils.PointFloat(1080F, 0F);
+            this.f9.Name = "f9";
+            this.f9.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f9.SizeF = new System.Drawing.SizeF(148F, 42F);
+            this.f9.Text = "f9";
+            // 
+            // f10
+            // 
+            this.f10.Dpi = 254F;
+            this.f10.LocationFloat = new DevExpress.Utils.PointFloat(1228F, 0F);
+            this.f10.Name = "f10";
+            this.f10.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f10.SizeF = new System.Drawing.SizeF(307F, 42F);
+            this.f10.StylePriority.UseTextAlignment = false;
+            this.f10.Text = "f10";
+            this.f10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // f11
+            // 
+            this.f11.Dpi = 254F;
+            this.f11.LocationFloat = new DevExpress.Utils.PointFloat(1535F, 0F);
+            this.f11.Name = "f11";
+            this.f11.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f11.SizeF = new System.Drawing.SizeF(103F, 42F);
+            this.f11.StylePriority.UseTextAlignment = false;
+            this.f11.Text = "f11";
+            this.f11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // f12
+            // 
+            this.f12.Dpi = 254F;
+            this.f12.LocationFloat = new DevExpress.Utils.PointFloat(1640F, 0F);
+            this.f12.Name = "f12";
+            this.f12.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f12.SizeF = new System.Drawing.SizeF(370F, 42F);
+            this.f12.StylePriority.UseTextAlignment = false;
+            this.f12.Text = "f12";
+            this.f12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // label81
+            // 
+            this.label81.Dpi = 254F;
+            this.label81.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold);
+            this.label81.LocationFloat = new DevExpress.Utils.PointFloat(569.1458F, 177.375F);
+            this.label81.Name = "label81";
+            this.label81.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label81.SizeF = new System.Drawing.SizeF(726.4374F, 52.99998F);
+            this.label81.StylePriority.UseFont = false;
+            this.label81.StylePriority.UseTextAlignment = false;
+            this.label81.Text = "PENAWARAN PENJUALAN";
+            this.label81.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label59
+            // 
+            this.label59.Dpi = 254F;
+            this.label59.LocationFloat = new DevExpress.Utils.PointFloat(1572.166F, 177.375F);
+            this.label59.Name = "label59";
+            this.label59.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label59.SizeF = new System.Drawing.SizeF(30F, 53F);
+            this.label59.StylePriority.UseTextAlignment = false;
+            this.label59.Text = ":";
+            this.label59.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label58
+            // 
+            this.label58.Dpi = 254F;
+            this.label58.LocationFloat = new DevExpress.Utils.PointFloat(1338.083F, 177.375F);
+            this.label58.Name = "label58";
+            this.label58.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label58.SizeF = new System.Drawing.SizeF(234.0826F, 52.99998F);
+            this.label58.StylePriority.UseTextAlignment = false;
+            this.label58.Text = "Sales";
+            this.label58.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // f4
+            // 
+            this.f4.Dpi = 254F;
+            this.f4.LocationFloat = new DevExpress.Utils.PointFloat(1602.166F, 177.375F);
+            this.f4.Name = "f4";
+            this.f4.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f4.SizeF = new System.Drawing.SizeF(407.8329F, 52.99998F);
+            this.f4.StylePriority.UseTextAlignment = false;
+            this.f4.Text = "f4";
+            this.f4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label15
+            // 
+            this.label15.Dpi = 254F;
+            this.label15.LocationFloat = new DevExpress.Utils.PointFloat(1572.166F, 124.375F);
+            this.label15.Name = "label15";
+            this.label15.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label15.SizeF = new System.Drawing.SizeF(30F, 53F);
+            this.label15.StylePriority.UseTextAlignment = false;
+            this.label15.Text = ":";
+            this.label15.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label14
+            // 
+            this.label14.Dpi = 254F;
+            this.label14.LocationFloat = new DevExpress.Utils.PointFloat(1338.166F, 124.375F);
+            this.label14.Name = "label14";
+            this.label14.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label14.SizeF = new System.Drawing.SizeF(234F, 53F);
+            this.label14.StylePriority.UseTextAlignment = false;
+            this.label14.Text = "Pelanggan";
+            this.label14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // f3
+            // 
+            this.f3.Dpi = 254F;
+            this.f3.LocationFloat = new DevExpress.Utils.PointFloat(1602.166F, 124.375F);
+            this.f3.Multiline = true;
+            this.f3.Name = "f3";
+            this.f3.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f3.SizeF = new System.Drawing.SizeF(407.8329F, 52.99998F);
+            this.f3.StylePriority.UseTextAlignment = false;
+            this.f3.Text = "f3\r\n";
+            this.f3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label10
+            // 
+            this.label10.Dpi = 254F;
+            this.label10.LocationFloat = new DevExpress.Utils.PointFloat(1338.166F, 71.375F);
+            this.label10.Name = "label10";
+            this.label10.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label10.SizeF = new System.Drawing.SizeF(234F, 53F);
+            this.label10.StylePriority.UseTextAlignment = false;
+            this.label10.Text = "Tanggal";
+            this.label10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label9
+            // 
+            this.label9.Dpi = 254F;
+            this.label9.LocationFloat = new DevExpress.Utils.PointFloat(1572.166F, 71.375F);
+            this.label9.Name = "label9";
+            this.label9.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label9.SizeF = new System.Drawing.SizeF(30F, 53F);
+            this.label9.StylePriority.UseTextAlignment = false;
+            this.label9.Text = ":";
+            this.label9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // f2
+            // 
+            this.f2.Dpi = 254F;
+            this.f2.LocationFloat = new DevExpress.Utils.PointFloat(1602.166F, 71.375F);
+            this.f2.Name = "f2";
+            this.f2.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f2.SizeF = new System.Drawing.SizeF(407.8329F, 53F);
+            this.f2.StylePriority.UseTextAlignment = false;
+            this.f2.Text = "f2";
+            this.f2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label7
+            // 
+            this.label7.Dpi = 254F;
+            this.label7.LocationFloat = new DevExpress.Utils.PointFloat(1572.166F, 18.37501F);
+            this.label7.Name = "label7";
+            this.label7.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label7.SizeF = new System.Drawing.SizeF(30F, 53F);
+            this.label7.StylePriority.UseTextAlignment = false;
+            this.label7.Text = ":";
+            this.label7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label6
+            // 
+            this.label6.Dpi = 254F;
+            this.label6.LocationFloat = new DevExpress.Utils.PointFloat(1338.166F, 18.37501F);
+            this.label6.Name = "label6";
+            this.label6.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.label6.SizeF = new System.Drawing.SizeF(234F, 53F);
+            this.label6.StylePriority.UseTextAlignment = false;
+            this.label6.Text = "No Transaksi";
+            this.label6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // f1
+            // 
+            this.f1.Dpi = 254F;
+            this.f1.LocationFloat = new DevExpress.Utils.PointFloat(1602.167F, 17.37499F);
+            this.f1.Name = "f1";
+            this.f1.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f1.SizeF = new System.Drawing.SizeF(407.8329F, 53F);
+            this.f1.StylePriority.UseTextAlignment = false;
+            this.f1.Text = "f1";
+            this.f1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // a4
+            // 
+            this.a4.Dpi = 254F;
+            this.a4.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.a4.LocationFloat = new DevExpress.Utils.PointFloat(8.999996F, 177.375F);
+            this.a4.Name = "a4";
+            this.a4.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.a4.SizeF = new System.Drawing.SizeF(528F, 53F);
+            this.a4.StylePriority.UseFont = false;
+            this.a4.StylePriority.UseTextAlignment = false;
+            this.a4.Text = "a4";
+            this.a4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // a3
+            // 
+            this.a3.Dpi = 254F;
+            this.a3.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.a3.LocationFloat = new DevExpress.Utils.PointFloat(8.999996F, 124.375F);
+            this.a3.Name = "a3";
+            this.a3.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.a3.SizeF = new System.Drawing.SizeF(528F, 53F);
+            this.a3.StylePriority.UseFont = false;
+            this.a3.StylePriority.UseTextAlignment = false;
+            this.a3.Text = "a3";
+            this.a3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // a2
+            // 
+            this.a2.Dpi = 254F;
+            this.a2.Font = new System.Drawing.Font("Arial", 9F);
+            this.a2.LocationFloat = new DevExpress.Utils.PointFloat(8.999996F, 71.375F);
+            this.a2.Name = "a2";
+            this.a2.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.a2.SizeF = new System.Drawing.SizeF(528F, 53F);
+            this.a2.StylePriority.UseFont = false;
+            this.a2.StylePriority.UseTextAlignment = false;
+            this.a2.Text = "a2";
+            this.a2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // a1
+            // 
+            this.a1.Dpi = 254F;
+            this.a1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.a1.LocationFloat = new DevExpress.Utils.PointFloat(8.999996F, 17.37499F);
+            this.a1.Name = "a1";
+            this.a1.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.a1.SizeF = new System.Drawing.SizeF(528F, 53F);
+            this.a1.StylePriority.UseFont = false;
+            this.a1.StylePriority.UseTextAlignment = false;
+            this.a1.Text = "a1";
+            this.a1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xReport
+            // 
+            this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.PageHeader,
+                        this.Detail,
+                        this.PageFooter,
+                        this.ReportFooter,
+                        this.topMarginBand1,
+                        this.bottomMarginBand1,
+                        this.DetailReport,
+                        this.ReportHeader});
+            this.DataMember = "Data Transaksi";
+            this.Dpi = 254F;
+            this.DrawGrid = false;
+            this.Margins = new System.Drawing.Printing.Margins(38, 38, 38, 38);
+            this.Name = "xReport";
+            this.PageHeight = 2969;
+            this.PageWidth = 2101;
+            this.PaperKind = System.Drawing.Printing.PaperKind.A4;
+            this.ReportUnit = DevExpress.XtraReports.UI.ReportUnit.TenthsOfAMillimeter;
+            this.ScriptLanguage = DevExpress.XtraReports.ScriptLanguage.VisualBasic;
+            this.Scripts.OnBeforePrint = "xReport_BeforePrint";
+            this.ScriptsSource = resources.GetString("$this.ScriptsSource");
+            this.SnapGridSize = 13.22917F;
+            this.SnapToGrid = false;
+            this.Version = "11.1";
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+        }
+    }
+}

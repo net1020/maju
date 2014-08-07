@@ -21,7 +21,7 @@ Public Class frmSalesReceipt
         adnet.loadCounter(txtTransno, 32)
         adnet.loadCombo(cmbAccount, 19, "")
         adnet.loadCombo(cmbPaytype, 33, "")
-        adnet.load_printer(cmbPrinter)
+        adnet.loadCombo(cmbReport, 62, "")
         dtTrans.Value = Now
         dtPayment.Value = Now
 
@@ -268,5 +268,10 @@ Public Class frmSalesReceipt
 
     Private Sub grid1_CellEnter(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles grid1.CellEnter
         load_grid_total()
+    End Sub
+
+    Private Sub cmdPreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdPreview.Click
+        Dim dNet As New adnetObj.clsAdnet
+        dNet.viewReportNew("template\" & cmbReport.SelectedValue & ".repx", dNet.loadJsonReport(cmbReport.SelectedValue, txtTransno.Text))
     End Sub
 End Class

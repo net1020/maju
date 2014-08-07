@@ -348,16 +348,18 @@ Public Class frmMain
         'doc1.WindowState = FormWindowState.Maximized
         'doc1.Show()
         'doc1.Update()
-        Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
-        doc1.UrlClient = url
-        doc1.frmNew = New frmSalesOrder
-        doc1.newForm = True
-        doc1.grid("SO")
-        doc1.Text = "Sales Order"
-        doc1.MdiParent = Me
-        doc1.WindowState = FormWindowState.Maximized
-        doc1.Show()
-        doc1.Update()
+        If selectTab("Sales Order") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.frmNew = New frmSalesOrder
+            doc1.newForm = True
+            doc1.grid("SO")
+            doc1.Text = "Sales Order"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
     End Sub
 
   
@@ -368,17 +370,18 @@ Public Class frmMain
     End Sub
 
     Private Sub ButtonItem3_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem3.Click
-        Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
-        doc1.UrlClient = url
-        doc1.frmNew = New frmSalesInvoice
-        doc1.newForm = True
-        doc1.grid("SI")
-        doc1.Text = "Sales Invoice"
-        doc1.MdiParent = Me
-        doc1.WindowState = FormWindowState.Maximized
-        doc1.Show()
-        doc1.Update()
-
+        If selectTab("Sales Invoice") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.frmNew = New frmSalesInvoice
+            doc1.newForm = True
+            doc1.grid("SI")
+            doc1.Text = "Sales Invoice"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
     End Sub
 
     Private Sub ButtonItem2_Click_4(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem2.Click
@@ -796,5 +799,10 @@ Public Class frmMain
             doc1.Show()
             doc1.Update()
         End If
+    End Sub
+
+    Private Sub ButtonItem38_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem38.Click
+        Dim dNet As New adnetObj.clsAdnet
+        dNet.viewReportNew("template\S001.repx", dNet.loadJsonReport("101", "1407/SO/IV/0004"))
     End Sub
 End Class

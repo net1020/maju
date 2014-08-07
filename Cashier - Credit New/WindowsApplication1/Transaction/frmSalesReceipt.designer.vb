@@ -23,21 +23,21 @@ Partial Class frmSalesReceipt
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSalesReceipt))
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim SuperTabItemColorTable1 As DevComponents.DotNetBar.Rendering.SuperTabItemColorTable = New DevComponents.DotNetBar.Rendering.SuperTabItemColorTable
-        Dim SuperTabColorStates1 As DevComponents.DotNetBar.Rendering.SuperTabColorStates = New DevComponents.DotNetBar.Rendering.SuperTabColorStates
-        Dim SuperTabItemStateColorTable1 As DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable = New DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim SuperTabItemColorTable2 As DevComponents.DotNetBar.Rendering.SuperTabItemColorTable = New DevComponents.DotNetBar.Rendering.SuperTabItemColorTable
+        Dim SuperTabColorStates2 As DevComponents.DotNetBar.Rendering.SuperTabColorStates = New DevComponents.DotNetBar.Rendering.SuperTabColorStates
+        Dim SuperTabItemStateColorTable2 As DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable = New DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable
         Me.t0 = New System.Windows.Forms.TextBox
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel
         Me.LabelX1 = New DevComponents.DotNetBar.LabelX
@@ -48,7 +48,7 @@ Partial Class frmSalesReceipt
         Me.t4 = New DevComponents.DotNetBar.Controls.ComboBoxEx
         Me.LabelX2 = New DevComponents.DotNetBar.LabelX
         Me.Bar1 = New DevComponents.DotNetBar.Bar
-        Me.cmbPrinter = New DevComponents.DotNetBar.Controls.ComboBoxEx
+        Me.cmbReport = New DevComponents.DotNetBar.Controls.ComboBoxEx
         Me.cmdSave = New DevComponents.DotNetBar.ButtonItem
         Me.cmdEdit = New DevComponents.DotNetBar.ButtonItem
         Me.cmdAdd = New DevComponents.DotNetBar.ButtonItem
@@ -89,8 +89,6 @@ Partial Class frmSalesReceipt
         Me.TB2 = New DevComponents.DotNetBar.SuperTabControl
         Me.SuperTabControlPanel3 = New DevComponents.DotNetBar.SuperTabControlPanel
         Me.grid1 = New DevComponents.DotNetBar.Controls.DataGridViewX
-        Me.SuperTabItem4 = New DevComponents.DotNetBar.SuperTabItem
-        Me.SuperTabItem2 = New DevComponents.DotNetBar.SuperTabItem
         Me.btnremove = New DevComponents.DotNetBar.Controls.DataGridViewButtonXColumn
         Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn
@@ -100,6 +98,8 @@ Partial Class frmSalesReceipt
         Me.total = New DevComponents.DotNetBar.Controls.DataGridViewDoubleInputColumn
         Me.Column2 = New DevComponents.DotNetBar.Controls.DataGridViewDoubleInputColumn
         Me.Column3 = New DevComponents.DotNetBar.Controls.DataGridViewDoubleInputColumn
+        Me.SuperTabItem4 = New DevComponents.DotNetBar.SuperTabItem
+        Me.SuperTabItem2 = New DevComponents.DotNetBar.SuperTabItem
         Me.FlowLayoutPanel1.SuspendLayout()
         CType(Me.t3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Bar1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -282,7 +282,7 @@ Partial Class frmSalesReceipt
         Me.Bar1.AntiAlias = True
         Me.Bar1.BackColor = System.Drawing.Color.Silver
         Me.Bar1.BackgroundImagePosition = DevComponents.DotNetBar.eBackgroundImagePosition.TopLeft
-        Me.Bar1.Controls.Add(Me.cmbPrinter)
+        Me.Bar1.Controls.Add(Me.cmbReport)
         Me.Bar1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Bar1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Bar1.GrabHandleStyle = DevComponents.DotNetBar.eGrabHandleStyle.Office2003
@@ -299,19 +299,20 @@ Partial Class frmSalesReceipt
         Me.Bar1.TabStop = False
         Me.Bar1.Text = "Bar1"
         '
-        'cmbPrinter
+        'cmbReport
         '
-        Me.cmbPrinter.DisplayMember = "Text"
-        Me.cmbPrinter.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.cmbPrinter.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbPrinter.FormattingEnabled = True
-        Me.cmbPrinter.ItemHeight = 16
-        Me.cmbPrinter.Location = New System.Drawing.Point(263, 2)
-        Me.cmbPrinter.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.cmbPrinter.Name = "cmbPrinter"
-        Me.cmbPrinter.Size = New System.Drawing.Size(195, 22)
-        Me.cmbPrinter.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
-        Me.cmbPrinter.TabIndex = 116
+        Me.cmbReport.DisplayMember = "Text"
+        Me.cmbReport.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cmbReport.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbReport.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbReport.FormattingEnabled = True
+        Me.cmbReport.ItemHeight = 16
+        Me.cmbReport.Location = New System.Drawing.Point(263, 2)
+        Me.cmbReport.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.cmbReport.Name = "cmbReport"
+        Me.cmbReport.Size = New System.Drawing.Size(195, 22)
+        Me.cmbReport.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.cmbReport.TabIndex = 116
         '
         'cmdSave
         '
@@ -344,7 +345,7 @@ Partial Class frmSalesReceipt
         'ControlContainerItem1
         '
         Me.ControlContainerItem1.AllowItemResize = False
-        Me.ControlContainerItem1.Control = Me.cmbPrinter
+        Me.ControlContainerItem1.Control = Me.cmbReport
         Me.ControlContainerItem1.MenuVisibility = DevComponents.DotNetBar.eMenuVisibility.VisibleAlways
         Me.ControlContainerItem1.Name = "ControlContainerItem1"
         '
@@ -910,69 +911,46 @@ Partial Class frmSalesReceipt
         '
         'grid1
         '
-        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle20.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle20.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.grid1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle20
+        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle13.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.grid1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle13
         Me.grid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.grid1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.btnremove, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7, Me.Type, Me.DataGridViewDoubleInputColumn2, Me.Column1, Me.total, Me.Column2, Me.Column3})
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.grid1.DefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle10.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.grid1.DefaultCellStyle = DataGridViewCellStyle10
         Me.grid1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grid1.EnableHeadersVisualStyles = False
         Me.grid1.GridColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
         Me.grid1.Location = New System.Drawing.Point(0, 0)
         Me.grid1.Name = "grid1"
-        DataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle26.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle26.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle26.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.grid1.RowHeadersDefaultCellStyle = DataGridViewCellStyle26
+        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle19.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.grid1.RowHeadersDefaultCellStyle = DataGridViewCellStyle19
         Me.grid1.RowHeadersVisible = False
         Me.grid1.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
         Me.grid1.Size = New System.Drawing.Size(779, 302)
         Me.grid1.TabIndex = 8
         '
-        'SuperTabItem4
-        '
-        Me.SuperTabItem4.AttachedControl = Me.SuperTabControlPanel3
-        Me.SuperTabItem4.GlobalItem = False
-        Me.SuperTabItem4.Image = CType(resources.GetObject("SuperTabItem4.Image"), System.Drawing.Image)
-        Me.SuperTabItem4.Name = "SuperTabItem4"
-        SuperTabItemStateColorTable1.CloseMarker = System.Drawing.Color.White
-        SuperTabColorStates1.Normal = SuperTabItemStateColorTable1
-        SuperTabItemColorTable1.Bottom = SuperTabColorStates1
-        Me.SuperTabItem4.TabColor = SuperTabItemColorTable1
-        Me.SuperTabItem4.Text = "Item Details"
-        '
-        'SuperTabItem2
-        '
-        Me.SuperTabItem2.AttachedControl = Me.SuperTabControlPanel1
-        Me.SuperTabItem2.GlobalItem = False
-        Me.SuperTabItem2.Image = CType(resources.GetObject("SuperTabItem2.Image"), System.Drawing.Image)
-        Me.SuperTabItem2.Name = "SuperTabItem2"
-        Me.SuperTabItem2.PredefinedColor = DevComponents.DotNetBar.eTabItemColor.Silver
-        Me.SuperTabItem2.SelectedTabFont = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SuperTabItem2.TabFont = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SuperTabItem2.Text = "Sales Receipt"
-        '
         'btnremove
         '
-        DataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
-        Me.btnremove.DefaultCellStyle = DataGridViewCellStyle21
+        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
+        Me.btnremove.DefaultCellStyle = DataGridViewCellStyle14
         Me.btnremove.HeaderText = ""
         Me.btnremove.Image = CType(resources.GetObject("btnremove.Image"), System.Drawing.Image)
         Me.btnremove.Name = "btnremove"
@@ -981,8 +959,8 @@ Partial Class frmSalesReceipt
         '
         'DataGridViewTextBoxColumn6
         '
-        DataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.DataGridViewTextBoxColumn6.DefaultCellStyle = DataGridViewCellStyle22
+        DataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.DataGridViewTextBoxColumn6.DefaultCellStyle = DataGridViewCellStyle15
         Me.DataGridViewTextBoxColumn6.HeaderText = "Invoice No"
         Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
         Me.DataGridViewTextBoxColumn6.ReadOnly = True
@@ -991,17 +969,17 @@ Partial Class frmSalesReceipt
         'DataGridViewTextBoxColumn7
         '
         Me.DataGridViewTextBoxColumn7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        DataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.DataGridViewTextBoxColumn7.DefaultCellStyle = DataGridViewCellStyle23
+        DataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.DataGridViewTextBoxColumn7.DefaultCellStyle = DataGridViewCellStyle16
         Me.DataGridViewTextBoxColumn7.HeaderText = "Invoice Date"
         Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
         Me.DataGridViewTextBoxColumn7.ReadOnly = True
         '
         'Type
         '
-        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle24.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Type.DefaultCellStyle = DataGridViewCellStyle24
+        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Type.DefaultCellStyle = DataGridViewCellStyle17
         Me.Type.HeaderText = "Payment Term"
         Me.Type.Name = "Type"
         Me.Type.ReadOnly = True
@@ -1016,9 +994,9 @@ Partial Class frmSalesReceipt
         Me.DataGridViewDoubleInputColumn2.BackgroundStyle.Class = "DataGridViewNumericBorder"
         Me.DataGridViewDoubleInputColumn2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.DataGridViewDoubleInputColumn2.BackgroundStyle.TextColor = System.Drawing.Color.Black
-        DataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.DataGridViewDoubleInputColumn2.DefaultCellStyle = DataGridViewCellStyle25
+        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.DataGridViewDoubleInputColumn2.DefaultCellStyle = DataGridViewCellStyle18
         Me.DataGridViewDoubleInputColumn2.DisplayFormat = "#,0"
         Me.DataGridViewDoubleInputColumn2.HeaderText = "Net Amount"
         Me.DataGridViewDoubleInputColumn2.Increment = 1
@@ -1035,9 +1013,9 @@ Partial Class frmSalesReceipt
         Me.Column1.BackgroundStyle.Class = "DataGridViewNumericBorder"
         Me.Column1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.Column1.BackgroundStyle.TextColor = System.Drawing.Color.Black
-        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Column1.DefaultCellStyle = DataGridViewCellStyle18
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Column1.DefaultCellStyle = DataGridViewCellStyle6
         Me.Column1.DisplayFormat = "#,0"
         Me.Column1.HeaderText = "Received"
         Me.Column1.Increment = 1
@@ -1055,9 +1033,9 @@ Partial Class frmSalesReceipt
         Me.total.BackgroundStyle.Class = "DataGridViewNumericBorder"
         Me.total.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.total.BackgroundStyle.TextColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.total.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.total.DefaultCellStyle = DataGridViewCellStyle7
         Me.total.DisplayFormat = "#,0"
         Me.total.HeaderText = "Total"
         Me.total.Increment = 1
@@ -1074,8 +1052,8 @@ Partial Class frmSalesReceipt
         Me.Column2.BackgroundStyle.Class = "DataGridViewNumericBorder"
         Me.Column2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.Column2.BackgroundStyle.TextColor = System.Drawing.Color.Black
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column2.DefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column2.DefaultCellStyle = DataGridViewCellStyle8
         Me.Column2.DisplayFormat = "#,0"
         Me.Column2.HeaderText = "Received Amount"
         Me.Column2.Increment = 1
@@ -1090,9 +1068,9 @@ Partial Class frmSalesReceipt
         Me.Column3.BackgroundStyle.Class = "DataGridViewNumericBorder"
         Me.Column3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.Column3.BackgroundStyle.TextColor = System.Drawing.Color.Black
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Column3.DefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Column3.DefaultCellStyle = DataGridViewCellStyle9
         Me.Column3.DisplayFormat = "#,0"
         Me.Column3.HeaderText = "Left Amount"
         Me.Column3.Increment = 1
@@ -1100,7 +1078,30 @@ Partial Class frmSalesReceipt
         Me.Column3.ReadOnly = True
         Me.Column3.Width = 80
         '
-        'frmSalesPayment
+        'SuperTabItem4
+        '
+        Me.SuperTabItem4.AttachedControl = Me.SuperTabControlPanel3
+        Me.SuperTabItem4.GlobalItem = False
+        Me.SuperTabItem4.Image = CType(resources.GetObject("SuperTabItem4.Image"), System.Drawing.Image)
+        Me.SuperTabItem4.Name = "SuperTabItem4"
+        SuperTabItemStateColorTable2.CloseMarker = System.Drawing.Color.White
+        SuperTabColorStates2.Normal = SuperTabItemStateColorTable2
+        SuperTabItemColorTable2.Bottom = SuperTabColorStates2
+        Me.SuperTabItem4.TabColor = SuperTabItemColorTable2
+        Me.SuperTabItem4.Text = "Item Details"
+        '
+        'SuperTabItem2
+        '
+        Me.SuperTabItem2.AttachedControl = Me.SuperTabControlPanel1
+        Me.SuperTabItem2.GlobalItem = False
+        Me.SuperTabItem2.Image = CType(resources.GetObject("SuperTabItem2.Image"), System.Drawing.Image)
+        Me.SuperTabItem2.Name = "SuperTabItem2"
+        Me.SuperTabItem2.PredefinedColor = DevComponents.DotNetBar.eTabItemColor.Silver
+        Me.SuperTabItem2.SelectedTabFont = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SuperTabItem2.TabFont = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SuperTabItem2.Text = "Sales Receipt"
+        '
+        'frmSalesReceipt
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -1110,10 +1111,9 @@ Partial Class frmSalesReceipt
         Me.Controls.Add(Me.t0)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Bar1)
-        Me.DoubleBuffered = True
         Me.EnableGlass = False
         Me.MinimumSize = New System.Drawing.Size(789, 630)
-        Me.Name = "frmSalesPayment"
+        Me.Name = "frmSalesReceipt"
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -1155,7 +1155,7 @@ Partial Class frmSalesReceipt
     Friend WithEvents t4 As DevComponents.DotNetBar.Controls.ComboBoxEx
     Friend WithEvents LabelX2 As DevComponents.DotNetBar.LabelX
     Friend WithEvents Bar1 As DevComponents.DotNetBar.Bar
-    Friend WithEvents cmbPrinter As DevComponents.DotNetBar.Controls.ComboBoxEx
+    Friend WithEvents cmbReport As DevComponents.DotNetBar.Controls.ComboBoxEx
     Friend WithEvents cmdSave As DevComponents.DotNetBar.ButtonItem
     Friend WithEvents cmdEdit As DevComponents.DotNetBar.ButtonItem
     Friend WithEvents cmdAdd As DevComponents.DotNetBar.ButtonItem
