@@ -183,6 +183,24 @@
     <Compile Include="Production\frmView2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Production\frmViewAccount.designer.vb">
+      <DependentUpon>frmViewAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Production\frmViewAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmCashIn.designer.vb">
+      <DependentUpon>frmCashIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmCashIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmCashOut.designer.vb">
+      <DependentUpon>frmCashOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmCashOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Transaction\frmConsigneInvoice.designer.vb">
       <DependentUpon>frmConsigneInvoice.vb</DependentUpon>
     </Compile>
@@ -319,6 +337,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Production\frmView2.resx">
       <DependentUpon>frmView2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Production\frmViewAccount.resx">
+      <DependentUpon>frmViewAccount.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmCashIn.resx">
+      <DependentUpon>frmCashIn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmCashOut.resx">
+      <DependentUpon>frmCashOut.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Transaction\frmConsigneInvoice.resx">

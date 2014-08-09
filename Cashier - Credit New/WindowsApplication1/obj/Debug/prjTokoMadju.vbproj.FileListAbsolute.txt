@@ -216,3 +216,6 @@ F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Deb
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Debug\prjTokoMadju.frmDeliveryOrder.resources
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Debug\prjTokoMadju.frmDeliveryOut.resources
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Debug\prjTokoMadju.frmDeliveryReceived.resources
+F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Debug\prjTokoMadju.frmCashIn.resources
+F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Debug\prjTokoMadju.frmViewAccount.resources
+F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Debug\prjTokoMadju.frmCashOut.resources

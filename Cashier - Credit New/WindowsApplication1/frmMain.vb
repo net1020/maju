@@ -805,4 +805,34 @@ Public Class frmMain
         Dim dNet As New adnetObj.clsAdnet
         dNet.viewReportNew("template\S001.repx", dNet.loadJsonReport("101", "1407/SO/IV/0004"))
     End Sub
+
+    Private Sub ButtonItem60_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem60.Click
+        If selectTab("Cash In") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.frmNew = New frmCashIn
+            doc1.newForm = True
+            doc1.grid("CIN")
+            doc1.Text = "Cash In"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem61_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem61.Click
+        If selectTab("Cash Out") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.frmNew = New frmCashOut
+            doc1.newForm = True
+            doc1.grid("COT")
+            doc1.Text = "Cash Out"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
 End Class
