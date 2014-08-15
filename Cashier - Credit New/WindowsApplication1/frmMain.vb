@@ -835,4 +835,20 @@ Public Class frmMain
             doc1.Update()
         End If
     End Sub
+
+    Private Sub ButtonItem34_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem34.Click
+        If selectTab("Stock Opname") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.newForm = False
+            doc1.grid("SOPNAME")
+            doc1.Text = "Stock Opname"
+            doc1.updateListColumn = 10
+            doc1.updateListTable = "SOPNAMEupdate"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
 End Class

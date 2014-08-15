@@ -393,7 +393,7 @@ Public Class frmDeliveryOut
             str = str & "{}"
         Next
         str = Strings.Left(str, Len(str) - 2)
-        str = Replace(str, ".", "") 'replace numeric amount with dot 
+        'str = Replace(str, ".", "") 'replace numeric amount with dot 
         itemDetail = str
     End Function
 

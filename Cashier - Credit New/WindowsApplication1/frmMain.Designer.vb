@@ -175,9 +175,9 @@ Partial Class frmMain
         Me.ribbon1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.ribbon1.CanCustomize = False
         Me.ribbon1.CaptionVisible = True
-        Me.ribbon1.Controls.Add(Me.RibbonPanel10)
         Me.ribbon1.Controls.Add(Me.RibbonPanel3)
         Me.ribbon1.Controls.Add(Me.RibbonPanel9)
+        Me.ribbon1.Controls.Add(Me.RibbonPanel10)
         Me.ribbon1.Controls.Add(Me.RibbonPanel8)
         Me.ribbon1.Controls.Add(Me.RibbonPanel7)
         Me.ribbon1.Controls.Add(Me.RibbonPanel2)
@@ -237,6 +237,7 @@ Partial Class frmMain
         '
         Me.RibbonPanel10.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.RibbonPanel10.TabIndex = 16
+        Me.RibbonPanel10.Visible = False
         '
         'RibbonBar14
         '
@@ -295,6 +296,7 @@ Partial Class frmMain
         Me.ButtonItem62.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem62.Name = "ButtonItem62"
         Me.ButtonItem62.Text = "Cash Transfer"
+        Me.ButtonItem62.Visible = False
         '
         'RibbonPanel3
         '
@@ -318,7 +320,6 @@ Partial Class frmMain
         '
         Me.RibbonPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.RibbonPanel3.TabIndex = 10
-        Me.RibbonPanel3.Visible = False
         '
         'RibbonBar10
         '
@@ -1596,13 +1597,13 @@ Partial Class frmMain
         '
         'RibbonTabItem6
         '
+        Me.RibbonTabItem6.Checked = True
         Me.RibbonTabItem6.Name = "RibbonTabItem6"
         Me.RibbonTabItem6.Panel = Me.RibbonPanel3
         Me.RibbonTabItem6.Text = "Items"
         '
         'Accounting
         '
-        Me.Accounting.Checked = True
         Me.Accounting.Name = "Accounting"
         Me.Accounting.Panel = Me.RibbonPanel10
         Me.Accounting.Text = "Accounting"

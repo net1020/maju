@@ -36,13 +36,12 @@ Public Class frmCashOut
         Dim frm As New adnetObj.clsAdnet
         Dim strArr() As String
         strArr = Split(Me.Tag, "|")
-        load_griddata(strArr(32))
+        load_griddata(strArr(7))
         txtTransno.Text = strArr(0)
         dtTrans.Value = strArr(1)
-        'cmbSales.Text = strArr(7)
-        cmbAccount.Text = strArr(5)
+        cmdAccount.Text = strArr(2)
         'tAmount.Value = strArr(8)
-        txtNote.Text = strArr(31)
+        txtNote.Text = strArr(6)
         'tLeftamount.Value = strArr(34)
         load_grid_total()
 
@@ -62,7 +61,7 @@ Public Class frmCashOut
         grid1.Rows.Clear()
         For i = 0 To arr1.Length - 1
             arr2 = arr1(i).Split("[")
-            grid1.Rows.Add("", arr2(1), arr2(2), arr2(3), arr2(4))
+            grid1.Rows.Add("", arr2(1), arr2(2), arr2(3))
         Next
 
     End Sub
@@ -151,7 +150,7 @@ Public Class frmCashOut
     End Sub
 
     Sub Saved()
-
+        load_grid_total()
         Dim str As String
         Dim adnet As New adnetObj.clsAdnet
         str = txtTransno.Text & "|"
@@ -202,7 +201,7 @@ Public Class frmCashOut
             str = str & "{}"
         Next
         str = Strings.Left(str, Len(str) - 2)
-        str = Replace(str, ".", "") 'replace numeric amount with dot 
+        'str = Replace(str, ".", "") 'replace numeric amount with dot 
         itemDetail = str
     End Function
 
