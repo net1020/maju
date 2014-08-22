@@ -167,6 +167,8 @@ Public Class frmPayment
     Private Sub cmdf4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdf4.Click
         Dim SalesNo As String
         t10.Value = (t5.Value + t6.Value + t7.Value + t8.Value + t9.Value) - t4a.Value
+        frmScreen.txtPay.Text = FormatNumber(t5.Value + t6.Value + t7.Value + t8.Value + t9.Value, 0)
+        frmScreen.txtChange.Text = FormatNumber(t10.Value, 0)
         Dim v As Long
         v = t10.Value
         If v < 0 Then
@@ -219,10 +221,8 @@ Public Class frmPayment
         For n = 0 To j - 2
             str = str & SalesNo & "[]"
             For n2 = 1 To 8
-                If n2 = 1 Then str = str & "Item" 'Kits
-                If n2 = 2 Then str = str & frmSales.grid1.Item(n2 - 1, n).Value()
-                If n2 = 3 Then str = str & frmSales.grid1.Item(0, n).Value()
-                If n2 > 3 Then str = str & frmSales.grid1.Item(n2 - 1, n).Value()
+
+                str = str & frmSales.grid1.Item(n2 - 1, n).Value()
 
                 str = str & "[]"
             Next

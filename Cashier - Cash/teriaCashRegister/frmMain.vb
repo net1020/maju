@@ -1323,6 +1323,7 @@ Public Class frmMain
 
     Private Sub frmMain_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         tabStrip1.MdiForm = Me
+        frmScreen.Show()
     End Sub
 
     Private Sub ButtonItem6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem6.Click

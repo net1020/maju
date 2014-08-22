@@ -192,3 +192,4 @@ F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Cash\teriaCashRegister\obj\Debug\TokoM
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Cash\teriaCashRegister\obj\Debug\TokoMadju.frmWorkEntry1.resources
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Cash\teriaCashRegister\obj\Debug\TokoMadju.Resources.resources
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Cash\teriaCashRegister\obj\Debug\TokoMadju.vbproj.GenerateResource.Cache
+F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Cash\teriaCashRegister\obj\Debug\TokoMadju.frmScreen.resources

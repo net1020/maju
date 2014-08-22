@@ -195,3 +195,4 @@ F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Cash\teriaCashRegister\obj\Release\Tok
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.exe
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.xml
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.pdb
+F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Cash\teriaCashRegister\obj\Release\TokoMadju.frmScreen.resources

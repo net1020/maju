@@ -145,7 +145,11 @@ Public Class frmCashierOut
         Me.Hide()
         frmSales.Hide()
         frmLogin.Visible = True
-
+        frmScreen.txtDisc.Text = 0
+        frmScreen.txtChange.Text = 0
+        frmScreen.txtTotal.Text = 0
+        frmScreen.txtPay.Text = 0
+        frmScreen.grid1.Rows.Clear()
     End Sub
 
     Sub print_Sales()
@@ -165,7 +169,7 @@ Public Class frmCashierOut
         n = n + 1
         If t1.Value > 0 Then
             str = str & sCounter & "[]"
-            str = str & 1 & "[]"
+            str = str & n & "[]"
             str = str & t1.Value & "[]"
             str = str & "100000" & "[]"
             str = str & t1.Value * 100000 & "{}"
@@ -173,7 +177,7 @@ Public Class frmCashierOut
         End If
         If t2.Value > 0 Then
             str = str & sCounter & "[]"
-            str = str & 2 & "[]"
+            str = str & n & "[]"
             str = str & t2.Value & "[]"
             str = str & "50000" & "[]"
             str = str & t2.Value * 50000 & "{}"
@@ -344,5 +348,10 @@ Public Class frmCashierOut
         Me.Hide()
         frmSales.Hide()
         frmLogin.Visible = True
+        frmScreen.txtDisc.Text = 0
+        frmScreen.txtChange.Text = 0
+        frmScreen.txtTotal.Text = 0
+        frmScreen.txtPay.Text = 0
+        frmScreen.grid1.Rows.Clear()
     End Sub
 End Class

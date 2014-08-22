@@ -112,7 +112,7 @@ Public Class frmNewCashier
         n = n + 1
         If t1.Value > 0 Then
             str = str & sCounter & "[]"
-            str = str & 1 & "[]"
+            str = str & n & "[]"
             str = str & t1.Value & "[]"
             str = str & "100000" & "[]"
             str = str & t1.Value * 100000 & "{}"
@@ -120,7 +120,7 @@ Public Class frmNewCashier
         End If
         If t2.Value > 0 Then
             str = str & sCounter & "[]"
-            str = str & 2 & "[]"
+            str = str & n & "[]"
             str = str & t2.Value & "[]"
             str = str & "50000" & "[]"
             str = str & t2.Value * 50000 & "{}"

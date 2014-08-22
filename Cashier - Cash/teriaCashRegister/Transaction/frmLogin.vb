@@ -10,6 +10,18 @@ Public Class frmLogin
         Panel1.Left = (Me.Width / 2) - (Panel1.Width / 2)
         Panel1.Top = (Me.Height / 2) - 225
         'frmSales.Open_Screen()
+        frmScreen.Left = My.Settings.screenleft
+        frmScreen.Top = My.Settings.screentop
+        frmScreen.Width = My.Settings.screenwidth
+        frmScreen.Height = My.Settings.screenheight
+
+        Dim Screen2() As Screen = Screen.AllScreens
+        On Error Resume Next
+
+        frmScreen.Location = Screen2(1).Bounds.Location
+        frmScreen.Show()
+        frmScreen.Hide()
+
         frmSales.Print_Screen2("Welcome to", "Toko Madju")
     End Sub
 

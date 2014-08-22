@@ -11,5 +11,20 @@
     <Setting Name="display" Type="System.String" Scope="User">
       <Value Profile="(Default)">     Welcome to          Toko Madju    </Value>
     </Setting>
+    <Setting Name="sliderurl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://a.xurai.com:2289/madju/slider/index.html</Value>
+    </Setting>
+    <Setting Name="screenleft" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1366</Value>
+    </Setting>
+    <Setting Name="screentop" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="screenwidth" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1366</Value>
+    </Setting>
+    <Setting Name="screenheight" Type="System.String" Scope="User">
+      <Value Profile="(Default)">768</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

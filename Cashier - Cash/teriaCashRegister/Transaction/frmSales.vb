@@ -9,6 +9,7 @@ Public Class frmSales
     Public memberId As String
     Public userId As String
     Public SubTotal As Long
+    Dim doubleItem As Boolean
     Public loadPending As Boolean
     'Public salesNo As String
     'Public bookingNo As String
@@ -101,6 +102,7 @@ Public Class frmSales
         frmView3.ShowDialog()
         'frmView2.BringToFront()
         memberId = frmView3.sCode
+        If memberId = "" Then Exit Sub
         cmbMember.Text = "Member : " & frmView3.sName
         cmbMember.Tooltip = "Member : " & frmView3.sName
         cmbMember.Refresh()
@@ -147,7 +149,7 @@ Public Class frmSales
         Online_Status()
         grid1.CurrentCell = grid1.CurrentRow.Cells(1)
         reload_item()
-        recheck_item(e.RowIndex)
+        'recheck_item(e.RowIndex)
 
     End Sub
 
@@ -186,16 +188,28 @@ Public Class frmSales
         End If
 
         Err.Number = 0
+        'Print_SecondScreen(grid1.Item(3, row).Value, grid1.Item(4, row).Value, grid1.Item(5, row).Value, (grid1.Item(3, row).Value * grid1.Item(5, row).Value) * (grid1.Item(6, row).Value / 100), grid1.Item(2, row).Value, Val(grid1.Item(3, row).Value) * Val(grid1.Item(5, row).Value))
         Print_Screen(data.Item(0).itemname, grid1.Item(3, row).Value & grid1.Item(4, row).Value, data.Item(0).unitprice)
     End Sub
 
     Sub reload_item()
+        frmScreen.grid1.Rows.Clear()
         Dim i As Integer
-        For i = 0 To grid1.RowCount - 1
+        For i = 0 To grid1.RowCount - 2
             If grid1.Item(1, i).Value <> "" And grid1.Item(2, i).Value = "" Then
                 load_item(i, grid1.Item(1, i).Value)
             End If
+            load_Newscreen(i)
         Next
+        'second screen show
+        frmScreen.txtDisc.Text = FormatNumber(TotalDisc(), 0)
+        frmScreen.grid1.CurrentCell = frmScreen.grid1.Rows(frmScreen.grid1.RowCount - 1).Cells(0)
+    End Sub
+
+    Sub load_Newscreen(ByVal i As Integer)
+
+        Print_SecondScreen(grid1.Item(3, i).Value, grid1.Item(4, i).Value, grid1.Item(5, i).Value, (Val(grid1.Item(3, i).Value) * Val(grid1.Item(5, i).Value)) * (Val(grid1.Item(6, i).Value) / 100), grid1.Item(2, i).Value, Val(grid1.Item(3, i).Value) * Val(grid1.Item(5, i).Value))
+
     End Sub
 
     Sub voidall_item()
@@ -244,7 +258,7 @@ Public Class frmSales
                     grid1.Item(3, i).Value = Val(grid1.Item(3, i).Value) + Val(grid1.Item(3, Max).Value)
                     grid1.Item(7, i).Value = (Val(grid1.Item(5, i).Value) - (Val(grid1.Item(5, i).Value) * (Val(grid1.Item(6, i).Value) / 100))) * Val(grid1.Item(3, i).Value)
                     timerItem.Enabled = True
-
+                    doubleItem = True
                 End If
                 grid1.Item(0, i).Value = i + 1
             Next
@@ -253,8 +267,11 @@ Public Class frmSales
 
     Private Sub timerItem_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles timerItem.Tick
         On Error Resume Next
+        If grid1.Item(2, grid1.RowCount - 2).Value = "" Or doubleitem = True Then
+            grid1.Rows.RemoveAt(grid1.RowCount - 2)
+            doubleitem = False
+        End If
 
-        grid1.Rows.RemoveAt(grid1.RowCount - 2)
         timerItem.Enabled = False
     End Sub
 
@@ -269,10 +286,10 @@ Public Class frmSales
     End Sub
 
     Sub Open_Drawer()
-        'Dim sPort As SerialPort = New SerialPort(port1.Text, 38400, Parity.None, 8)
-        'sPort.Open()
-        'sPort.Write(Chr(27) & Chr(112) & Chr(0) & Chr(25) & Chr(250))
-        'sPort.Close()
+        Dim sPort As SerialPort = New SerialPort(port1.Text, 38400, Parity.None, 8)
+        sPort.Open()
+        sPort.Write(Chr(27) & Chr(112) & Chr(0) & Chr(25) & Chr(250))
+        sPort.Close()
     End Sub
 
     Sub OpenDrawer()
@@ -346,6 +363,15 @@ Public Class frmSales
         'Me.TopMost = True
         'Open_Screen()
         'load_welcome()
+        frmScreen.Left = My.Settings.screenleft
+        frmScreen.Top = My.Settings.screentop
+        frmScreen.Width = My.Settings.screenwidth
+        frmScreen.Height = My.Settings.screenheight
+
+        Dim Screen2() As Screen = Screen.AllScreens
+
+        frmScreen.Location = Screen2(1).Bounds.Location
+        frmScreen.Show()
         voidall_item()
         cmdUser.Text = "Cashier : " & userName
         cmdf2.RaiseClick()
@@ -382,6 +408,32 @@ Public Class frmSales
             SendKeys.Send("{UP}")
         End If
     End Sub
+
+    Sub Print_SecondScreen(ByVal qty As Integer, ByVal unit As String, ByVal price As Long, ByVal discount As Long, ByVal itemname As String, ByVal totalprice As Long)
+        Dim Row As Integer
+
+        'frmScreen.Left = My.Settings.screenleft
+        'frmScreen.Top = My.Settings.screentop
+        'frmScreen.Width = My.Settings.screenwidth
+        'frmScreen.Height = My.Settings.screenheight
+
+        'Dim Screen2() As Screen = Screen.AllScreens
+
+        'frmScreen.Location = Screen2(1).Bounds.Location
+        'frmScreen.Show()
+
+        Row = (Val(frmScreen.grid1.RowCount - 1) / 2) + 1
+        If discount = 0 Then
+            frmScreen.grid1.Rows.Add(Row, qty & unit & "x" & FormatNumber(price, 0))
+        Else
+            frmScreen.grid1.Rows.Add(Row, qty & unit & "x" & FormatNumber(price, 0) & "  =Discount=  ", FormatNumber(-discount, 0))
+        End If
+        frmScreen.grid1.Rows.Add("", itemname, FormatNumber(totalprice, 0))
+        frmScreen.txtTotal.Text = FormatNumber(SubTotal, 0)
+        'frmScreen.grid1.CurrentCell = frmScreen.grid1.Rows(Row).Cells(3)
+    End Sub
+
+
 
     Sub Print_Screen(ByVal line1 As String, ByVal line2a As String, ByVal line2b As String)
         Dim sDisplay As String
@@ -612,6 +664,7 @@ Public Class frmSales
         'sPort.Open()
         'sPort.Write("Great one")
         'sPort.Close()
+
     End Sub
 
 

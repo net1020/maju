@@ -6,6 +6,10 @@ Public Class frmPaymentDone
             SendKeys.Send("{TAB}")
             SendKeys.Send("{TAB}")
             frmSales.cmdf2.RaiseClick()
+            frmScreen.txtDisc.Text = 0
+            frmScreen.txtChange.Text = 0
+            frmScreen.txtTotal.Text = 0
+            frmScreen.txtPay.Text = 0
         End If
     End Sub
 
@@ -19,6 +23,10 @@ Public Class frmPaymentDone
         SendKeys.Send("{TAB}")
         SendKeys.Send("{TAB}")
         frmSales.cmdf2.RaiseClick()
+        frmScreen.txtDisc.Text = 0
+        frmScreen.txtChange.Text = 0
+        frmScreen.txtTotal.Text = 0
+        frmScreen.txtPay.Text = 0
         ' SendKeys.Send("{ENTER}")
     End Sub
 
