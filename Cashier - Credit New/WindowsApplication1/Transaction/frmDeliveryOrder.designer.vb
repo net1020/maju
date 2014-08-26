@@ -46,7 +46,7 @@ Partial Class frmDeliveryOrder
         Me.t4 = New DevComponents.DotNetBar.Controls.ComboBoxEx
         Me.LabelX2 = New DevComponents.DotNetBar.LabelX
         Me.Bar1 = New DevComponents.DotNetBar.Bar
-        Me.cmbPrinter = New DevComponents.DotNetBar.Controls.ComboBoxEx
+        Me.cmbReport = New DevComponents.DotNetBar.Controls.ComboBoxEx
         Me.cmdSave = New DevComponents.DotNetBar.ButtonItem
         Me.cmdEdit = New DevComponents.DotNetBar.ButtonItem
         Me.cmdAdd = New DevComponents.DotNetBar.ButtonItem
@@ -330,7 +330,7 @@ Partial Class frmDeliveryOrder
         Me.Bar1.AntiAlias = True
         Me.Bar1.BackColor = System.Drawing.Color.Silver
         Me.Bar1.BackgroundImagePosition = DevComponents.DotNetBar.eBackgroundImagePosition.TopLeft
-        Me.Bar1.Controls.Add(Me.cmbPrinter)
+        Me.Bar1.Controls.Add(Me.cmbReport)
         Me.Bar1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Bar1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Bar1.GrabHandleStyle = DevComponents.DotNetBar.eGrabHandleStyle.Office2003
@@ -347,19 +347,20 @@ Partial Class frmDeliveryOrder
         Me.Bar1.TabStop = False
         Me.Bar1.Text = "Bar1"
         '
-        'cmbPrinter
+        'cmbReport
         '
-        Me.cmbPrinter.DisplayMember = "Text"
-        Me.cmbPrinter.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.cmbPrinter.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbPrinter.FormattingEnabled = True
-        Me.cmbPrinter.ItemHeight = 16
-        Me.cmbPrinter.Location = New System.Drawing.Point(263, 2)
-        Me.cmbPrinter.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.cmbPrinter.Name = "cmbPrinter"
-        Me.cmbPrinter.Size = New System.Drawing.Size(195, 22)
-        Me.cmbPrinter.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
-        Me.cmbPrinter.TabIndex = 12
+        Me.cmbReport.DisplayMember = "Text"
+        Me.cmbReport.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cmbReport.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbReport.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbReport.FormattingEnabled = True
+        Me.cmbReport.ItemHeight = 16
+        Me.cmbReport.Location = New System.Drawing.Point(263, 2)
+        Me.cmbReport.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.cmbReport.Name = "cmbReport"
+        Me.cmbReport.Size = New System.Drawing.Size(195, 22)
+        Me.cmbReport.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.cmbReport.TabIndex = 12
         '
         'cmdSave
         '
@@ -392,7 +393,7 @@ Partial Class frmDeliveryOrder
         'ControlContainerItem1
         '
         Me.ControlContainerItem1.AllowItemResize = False
-        Me.ControlContainerItem1.Control = Me.cmbPrinter
+        Me.ControlContainerItem1.Control = Me.cmbReport
         Me.ControlContainerItem1.MenuVisibility = DevComponents.DotNetBar.eMenuVisibility.VisibleAlways
         Me.ControlContainerItem1.Name = "ControlContainerItem1"
         '
@@ -886,8 +887,8 @@ Partial Class frmDeliveryOrder
         Me.SuperTabControl1.ControlBox.MenuBox.Name = ""
         Me.SuperTabControl1.ControlBox.Name = ""
         Me.SuperTabControl1.ControlBox.SubItems.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.SuperTabControl1.ControlBox.MenuBox, Me.SuperTabControl1.ControlBox.CloseBox})
-        Me.SuperTabControl1.Controls.Add(Me.SuperTabControlPanel4)
         Me.SuperTabControl1.Controls.Add(Me.SuperTabControlPanel1)
+        Me.SuperTabControl1.Controls.Add(Me.SuperTabControlPanel4)
         Me.SuperTabControl1.Dock = System.Windows.Forms.DockStyle.Top
         Me.SuperTabControl1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SuperTabControl1.ForeColor = System.Drawing.Color.Black
@@ -1485,9 +1486,9 @@ Partial Class frmDeliveryOrder
         '
         Me.SuperTabControlPanel4.Controls.Add(Me.FlowLayoutPanel4)
         Me.SuperTabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SuperTabControlPanel4.Location = New System.Drawing.Point(0, 30)
+        Me.SuperTabControlPanel4.Location = New System.Drawing.Point(0, 0)
         Me.SuperTabControlPanel4.Name = "SuperTabControlPanel4"
-        Me.SuperTabControlPanel4.Size = New System.Drawing.Size(779, 332)
+        Me.SuperTabControlPanel4.Size = New System.Drawing.Size(779, 362)
         Me.SuperTabControlPanel4.TabIndex = 0
         Me.SuperTabControlPanel4.TabItem = Me.SuperTabItem1
         '
@@ -1509,7 +1510,7 @@ Partial Class frmDeliveryOrder
         Me.FlowLayoutPanel4.Location = New System.Drawing.Point(0, 0)
         Me.FlowLayoutPanel4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.FlowLayoutPanel4.Name = "FlowLayoutPanel4"
-        Me.FlowLayoutPanel4.Size = New System.Drawing.Size(377, 332)
+        Me.FlowLayoutPanel4.Size = New System.Drawing.Size(377, 362)
         Me.FlowLayoutPanel4.TabIndex = 131
         '
         'LabelX9
@@ -1651,7 +1652,6 @@ Partial Class frmDeliveryOrder
         Me.Controls.Add(Me.t0)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Bar1)
-        Me.DoubleBuffered = True
         Me.EnableGlass = False
         Me.MinimumSize = New System.Drawing.Size(789, 600)
         Me.Name = "frmDeliveryOrder"
@@ -1710,7 +1710,7 @@ Partial Class frmDeliveryOrder
     Friend WithEvents t4 As DevComponents.DotNetBar.Controls.ComboBoxEx
     Friend WithEvents LabelX2 As DevComponents.DotNetBar.LabelX
     Friend WithEvents Bar1 As DevComponents.DotNetBar.Bar
-    Friend WithEvents cmbPrinter As DevComponents.DotNetBar.Controls.ComboBoxEx
+    Friend WithEvents cmbReport As DevComponents.DotNetBar.Controls.ComboBoxEx
     Friend WithEvents cmdSave As DevComponents.DotNetBar.ButtonItem
     Friend WithEvents cmdEdit As DevComponents.DotNetBar.ButtonItem
     Friend WithEvents cmdAdd As DevComponents.DotNetBar.ButtonItem

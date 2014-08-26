@@ -20,10 +20,11 @@ Public Class frmDeliveryOrder
         adnet.loadCombo(cmbCustomer, 37, "")
         adnet.loadCounter(txtTransno, 54)
         adnet.loadCombo(cmbType, 50, "", "Credit")
+        adnet.loadCombo(cmbReport, 90, "")
         'adnet.loadCombo(cmbTransno, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
         adnet.loadCombo(cmbVia, 53, "")
-        adnet.load_printer(cmbPrinter)
+        'adnet.load_printer(cmbPrinter)
         dtTrans.Value = Now
         dtDelivery.Value = Now
 
@@ -435,5 +436,10 @@ Public Class frmDeliveryOrder
         Dim adnet2 As adnetObj.clsAdnet = New adnetObj.clsAdnet()
         adnet2.loadCombo(cmbVia, 53, "")
         cmbWarehouse.Text = adnet.SelectedData(1)
+    End Sub
+
+    Private Sub cmdPreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdPreview.Click
+        Dim dNet As New adnetObj.clsAdnet
+        dNet.viewReportNew("template\" & cmbReport.SelectedValue & ".repx", dNet.loadJsonReport(cmbReport.SelectedValue, txtTransno.Text))
     End Sub
 End Class

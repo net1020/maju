@@ -281,6 +281,7 @@ Partial Class frmCashOut
         '
         Me.cmbReport.DisplayMember = "Text"
         Me.cmbReport.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cmbReport.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbReport.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbReport.FormattingEnabled = True
         Me.cmbReport.ItemHeight = 16
@@ -826,7 +827,6 @@ Partial Class frmCashOut
         Me.Controls.Add(Me.t0)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Bar1)
-        Me.DoubleBuffered = True
         Me.EnableGlass = False
         Me.MinimumSize = New System.Drawing.Size(789, 570)
         Me.Name = "frmCashOut"

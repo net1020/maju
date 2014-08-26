@@ -23,16 +23,16 @@ Partial Class frmDeliveryReceived
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmDeliveryReceived))
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim SuperTabItemColorTable2 As DevComponents.DotNetBar.Rendering.SuperTabItemColorTable = New DevComponents.DotNetBar.Rendering.SuperTabItemColorTable
         Dim SuperTabColorStates2 As DevComponents.DotNetBar.Rendering.SuperTabColorStates = New DevComponents.DotNetBar.Rendering.SuperTabColorStates
         Dim SuperTabItemStateColorTable2 As DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable = New DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable
@@ -46,7 +46,7 @@ Partial Class frmDeliveryReceived
         Me.t4 = New DevComponents.DotNetBar.Controls.ComboBoxEx
         Me.LabelX2 = New DevComponents.DotNetBar.LabelX
         Me.Bar1 = New DevComponents.DotNetBar.Bar
-        Me.cmbPrinter = New DevComponents.DotNetBar.Controls.ComboBoxEx
+        Me.cmbReport = New DevComponents.DotNetBar.Controls.ComboBoxEx
         Me.cmdSave = New DevComponents.DotNetBar.ButtonItem
         Me.cmdEdit = New DevComponents.DotNetBar.ButtonItem
         Me.cmdAdd = New DevComponents.DotNetBar.ButtonItem
@@ -78,21 +78,6 @@ Partial Class frmDeliveryReceived
         Me.LabelX12 = New DevComponents.DotNetBar.LabelX
         Me.txtNote = New DevComponents.DotNetBar.Controls.TextBoxX
         Me.SuperTabControl1 = New DevComponents.DotNetBar.SuperTabControl
-        Me.SuperTabControlPanel4 = New DevComponents.DotNetBar.SuperTabControlPanel
-        Me.FlowLayoutPanel4 = New System.Windows.Forms.FlowLayoutPanel
-        Me.LabelX9 = New DevComponents.DotNetBar.LabelX
-        Me.cmbWarehouse = New DevComponents.DotNetBar.Controls.ComboBoxEx
-        Me.cmdWarehouse = New DevComponents.DotNetBar.ButtonX
-        Me.LabelX14 = New DevComponents.DotNetBar.LabelX
-        Me.cmbVia = New DevComponents.DotNetBar.Controls.ComboBoxEx
-        Me.cmdVia = New DevComponents.DotNetBar.ButtonX
-        Me.LabelX24 = New DevComponents.DotNetBar.LabelX
-        Me.txtContact = New DevComponents.DotNetBar.Controls.TextBoxX
-        Me.LabelX26 = New DevComponents.DotNetBar.LabelX
-        Me.txtAddress = New DevComponents.DotNetBar.Controls.TextBoxX
-        Me.LabelX27 = New DevComponents.DotNetBar.LabelX
-        Me.txtPhone = New DevComponents.DotNetBar.Controls.TextBoxX
-        Me.SuperTabItem1 = New DevComponents.DotNetBar.SuperTabItem
         Me.SuperTabControlPanel1 = New DevComponents.DotNetBar.SuperTabControlPanel
         Me.TB2 = New DevComponents.DotNetBar.SuperTabControl
         Me.SuperTabControlPanel3 = New DevComponents.DotNetBar.SuperTabControlPanel
@@ -131,6 +116,21 @@ Partial Class frmDeliveryReceived
         Me.tLeftamount = New DevComponents.Editors.DoubleInput
         Me.SuperTabItem3 = New DevComponents.DotNetBar.SuperTabItem
         Me.SuperTabItem2 = New DevComponents.DotNetBar.SuperTabItem
+        Me.SuperTabControlPanel4 = New DevComponents.DotNetBar.SuperTabControlPanel
+        Me.FlowLayoutPanel4 = New System.Windows.Forms.FlowLayoutPanel
+        Me.LabelX9 = New DevComponents.DotNetBar.LabelX
+        Me.cmbWarehouse = New DevComponents.DotNetBar.Controls.ComboBoxEx
+        Me.cmdWarehouse = New DevComponents.DotNetBar.ButtonX
+        Me.LabelX14 = New DevComponents.DotNetBar.LabelX
+        Me.cmbVia = New DevComponents.DotNetBar.Controls.ComboBoxEx
+        Me.cmdVia = New DevComponents.DotNetBar.ButtonX
+        Me.LabelX24 = New DevComponents.DotNetBar.LabelX
+        Me.txtContact = New DevComponents.DotNetBar.Controls.TextBoxX
+        Me.LabelX26 = New DevComponents.DotNetBar.LabelX
+        Me.txtAddress = New DevComponents.DotNetBar.Controls.TextBoxX
+        Me.LabelX27 = New DevComponents.DotNetBar.LabelX
+        Me.txtPhone = New DevComponents.DotNetBar.Controls.TextBoxX
+        Me.SuperTabItem1 = New DevComponents.DotNetBar.SuperTabItem
         Me.FlowLayoutPanel1.SuspendLayout()
         CType(Me.t3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Bar1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -146,8 +146,6 @@ Partial Class frmDeliveryReceived
         Me.Panel6.SuspendLayout()
         CType(Me.SuperTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuperTabControl1.SuspendLayout()
-        Me.SuperTabControlPanel4.SuspendLayout()
-        Me.FlowLayoutPanel4.SuspendLayout()
         Me.SuperTabControlPanel1.SuspendLayout()
         CType(Me.TB2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TB2.SuspendLayout()
@@ -166,6 +164,8 @@ Partial Class frmDeliveryReceived
         CType(Me.tSubtotal, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.tDP, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.tLeftamount, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuperTabControlPanel4.SuspendLayout()
+        Me.FlowLayoutPanel4.SuspendLayout()
         Me.SuspendLayout()
         '
         't0
@@ -328,7 +328,7 @@ Partial Class frmDeliveryReceived
         Me.Bar1.AntiAlias = True
         Me.Bar1.BackColor = System.Drawing.Color.Silver
         Me.Bar1.BackgroundImagePosition = DevComponents.DotNetBar.eBackgroundImagePosition.TopLeft
-        Me.Bar1.Controls.Add(Me.cmbPrinter)
+        Me.Bar1.Controls.Add(Me.cmbReport)
         Me.Bar1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Bar1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Bar1.GrabHandleStyle = DevComponents.DotNetBar.eGrabHandleStyle.Office2003
@@ -345,19 +345,20 @@ Partial Class frmDeliveryReceived
         Me.Bar1.TabStop = False
         Me.Bar1.Text = "Bar1"
         '
-        'cmbPrinter
+        'cmbReport
         '
-        Me.cmbPrinter.DisplayMember = "Text"
-        Me.cmbPrinter.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.cmbPrinter.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbPrinter.FormattingEnabled = True
-        Me.cmbPrinter.ItemHeight = 16
-        Me.cmbPrinter.Location = New System.Drawing.Point(263, 2)
-        Me.cmbPrinter.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.cmbPrinter.Name = "cmbPrinter"
-        Me.cmbPrinter.Size = New System.Drawing.Size(195, 22)
-        Me.cmbPrinter.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
-        Me.cmbPrinter.TabIndex = 116
+        Me.cmbReport.DisplayMember = "Text"
+        Me.cmbReport.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cmbReport.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbReport.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbReport.FormattingEnabled = True
+        Me.cmbReport.ItemHeight = 16
+        Me.cmbReport.Location = New System.Drawing.Point(263, 2)
+        Me.cmbReport.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.cmbReport.Name = "cmbReport"
+        Me.cmbReport.Size = New System.Drawing.Size(195, 22)
+        Me.cmbReport.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.cmbReport.TabIndex = 116
         '
         'cmdSave
         '
@@ -390,7 +391,7 @@ Partial Class frmDeliveryReceived
         'ControlContainerItem1
         '
         Me.ControlContainerItem1.AllowItemResize = False
-        Me.ControlContainerItem1.Control = Me.cmbPrinter
+        Me.ControlContainerItem1.Control = Me.cmbReport
         Me.ControlContainerItem1.MenuVisibility = DevComponents.DotNetBar.eMenuVisibility.VisibleAlways
         Me.ControlContainerItem1.Name = "ControlContainerItem1"
         '
@@ -811,8 +812,8 @@ Partial Class frmDeliveryReceived
         Me.SuperTabControl1.ControlBox.MenuBox.Name = ""
         Me.SuperTabControl1.ControlBox.Name = ""
         Me.SuperTabControl1.ControlBox.SubItems.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.SuperTabControl1.ControlBox.MenuBox, Me.SuperTabControl1.ControlBox.CloseBox})
-        Me.SuperTabControl1.Controls.Add(Me.SuperTabControlPanel4)
         Me.SuperTabControl1.Controls.Add(Me.SuperTabControlPanel1)
+        Me.SuperTabControl1.Controls.Add(Me.SuperTabControlPanel4)
         Me.SuperTabControl1.Dock = System.Windows.Forms.DockStyle.Top
         Me.SuperTabControl1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SuperTabControl1.ForeColor = System.Drawing.Color.Black
@@ -828,208 +829,6 @@ Partial Class frmDeliveryReceived
         Me.SuperTabControl1.Tabs.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.SuperTabItem2, Me.SuperTabItem1})
         Me.SuperTabControl1.TabStyle = DevComponents.DotNetBar.eSuperTabStyle.VisualStudio2008Dock
         Me.SuperTabControl1.Text = "SuperTabControl1"
-        '
-        'SuperTabControlPanel4
-        '
-        Me.SuperTabControlPanel4.Controls.Add(Me.FlowLayoutPanel4)
-        Me.SuperTabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SuperTabControlPanel4.Location = New System.Drawing.Point(0, 30)
-        Me.SuperTabControlPanel4.Name = "SuperTabControlPanel4"
-        Me.SuperTabControlPanel4.Size = New System.Drawing.Size(779, 332)
-        Me.SuperTabControlPanel4.TabIndex = 0
-        Me.SuperTabControlPanel4.TabItem = Me.SuperTabItem1
-        '
-        'FlowLayoutPanel4
-        '
-        Me.FlowLayoutPanel4.Controls.Add(Me.LabelX9)
-        Me.FlowLayoutPanel4.Controls.Add(Me.cmbWarehouse)
-        Me.FlowLayoutPanel4.Controls.Add(Me.cmdWarehouse)
-        Me.FlowLayoutPanel4.Controls.Add(Me.LabelX14)
-        Me.FlowLayoutPanel4.Controls.Add(Me.cmbVia)
-        Me.FlowLayoutPanel4.Controls.Add(Me.cmdVia)
-        Me.FlowLayoutPanel4.Controls.Add(Me.LabelX24)
-        Me.FlowLayoutPanel4.Controls.Add(Me.txtContact)
-        Me.FlowLayoutPanel4.Controls.Add(Me.LabelX26)
-        Me.FlowLayoutPanel4.Controls.Add(Me.txtAddress)
-        Me.FlowLayoutPanel4.Controls.Add(Me.LabelX27)
-        Me.FlowLayoutPanel4.Controls.Add(Me.txtPhone)
-        Me.FlowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Left
-        Me.FlowLayoutPanel4.Location = New System.Drawing.Point(0, 0)
-        Me.FlowLayoutPanel4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.FlowLayoutPanel4.Name = "FlowLayoutPanel4"
-        Me.FlowLayoutPanel4.Size = New System.Drawing.Size(377, 332)
-        Me.FlowLayoutPanel4.TabIndex = 133
-        '
-        'LabelX9
-        '
-        '
-        '
-        '
-        Me.LabelX9.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.LabelX9.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX9.Location = New System.Drawing.Point(3, 4)
-        Me.LabelX9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.LabelX9.Name = "LabelX9"
-        Me.LabelX9.Size = New System.Drawing.Size(100, 22)
-        Me.LabelX9.TabIndex = 146
-        Me.LabelX9.Text = "Warehouse :"
-        '
-        'cmbWarehouse
-        '
-        Me.cmbWarehouse.DisplayMember = "Text"
-        Me.cmbWarehouse.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.cmbWarehouse.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cmbWarehouse.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbWarehouse.FormattingEnabled = True
-        Me.cmbWarehouse.ItemHeight = 16
-        Me.cmbWarehouse.Location = New System.Drawing.Point(109, 4)
-        Me.cmbWarehouse.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.cmbWarehouse.Name = "cmbWarehouse"
-        Me.cmbWarehouse.Size = New System.Drawing.Size(236, 22)
-        Me.cmbWarehouse.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
-        Me.cmbWarehouse.TabIndex = 5
-        '
-        'cmdWarehouse
-        '
-        Me.cmdWarehouse.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
-        Me.cmdWarehouse.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
-        Me.cmdWarehouse.Image = CType(resources.GetObject("cmdWarehouse.Image"), System.Drawing.Image)
-        Me.cmdWarehouse.ImageFixedSize = New System.Drawing.Size(12, 12)
-        Me.cmdWarehouse.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
-        Me.cmdWarehouse.Location = New System.Drawing.Point(351, 3)
-        Me.cmdWarehouse.Name = "cmdWarehouse"
-        Me.cmdWarehouse.Size = New System.Drawing.Size(21, 22)
-        Me.cmdWarehouse.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
-        Me.cmdWarehouse.TabIndex = 147
-        '
-        'LabelX14
-        '
-        '
-        '
-        '
-        Me.LabelX14.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.LabelX14.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX14.Location = New System.Drawing.Point(3, 34)
-        Me.LabelX14.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.LabelX14.Name = "LabelX14"
-        Me.LabelX14.Size = New System.Drawing.Size(100, 22)
-        Me.LabelX14.TabIndex = 146
-        Me.LabelX14.Text = "Delivery Via :"
-        '
-        'cmbVia
-        '
-        Me.cmbVia.DisplayMember = "Text"
-        Me.cmbVia.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.cmbVia.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cmbVia.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbVia.FormattingEnabled = True
-        Me.cmbVia.ItemHeight = 16
-        Me.cmbVia.Location = New System.Drawing.Point(109, 34)
-        Me.cmbVia.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.cmbVia.Name = "cmbVia"
-        Me.cmbVia.Size = New System.Drawing.Size(236, 22)
-        Me.cmbVia.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
-        Me.cmbVia.TabIndex = 6
-        '
-        'cmdVia
-        '
-        Me.cmdVia.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
-        Me.cmdVia.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
-        Me.cmdVia.Image = CType(resources.GetObject("cmdVia.Image"), System.Drawing.Image)
-        Me.cmdVia.ImageFixedSize = New System.Drawing.Size(12, 12)
-        Me.cmdVia.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
-        Me.cmdVia.Location = New System.Drawing.Point(351, 33)
-        Me.cmdVia.Name = "cmdVia"
-        Me.cmdVia.Size = New System.Drawing.Size(21, 22)
-        Me.cmdVia.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
-        Me.cmdVia.TabIndex = 147
-        '
-        'LabelX24
-        '
-        '
-        '
-        '
-        Me.LabelX24.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.LabelX24.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX24.Location = New System.Drawing.Point(3, 64)
-        Me.LabelX24.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.LabelX24.Name = "LabelX24"
-        Me.LabelX24.Size = New System.Drawing.Size(100, 22)
-        Me.LabelX24.TabIndex = 2
-        Me.LabelX24.Text = "Contact Name :"
-        '
-        'txtContact
-        '
-        '
-        '
-        '
-        Me.txtContact.Border.Class = "TextBoxBorder"
-        Me.txtContact.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.txtContact.Location = New System.Drawing.Point(109, 63)
-        Me.txtContact.Name = "txtContact"
-        Me.txtContact.Size = New System.Drawing.Size(263, 22)
-        Me.txtContact.TabIndex = 7
-        '
-        'LabelX26
-        '
-        '
-        '
-        '
-        Me.LabelX26.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.LabelX26.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX26.Location = New System.Drawing.Point(3, 94)
-        Me.LabelX26.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.LabelX26.Name = "LabelX26"
-        Me.LabelX26.Size = New System.Drawing.Size(100, 22)
-        Me.LabelX26.TabIndex = 111
-        Me.LabelX26.Text = "Address :"
-        '
-        'txtAddress
-        '
-        '
-        '
-        '
-        Me.txtAddress.Border.Class = "TextBoxBorder"
-        Me.txtAddress.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.txtAddress.Location = New System.Drawing.Point(109, 93)
-        Me.txtAddress.Multiline = True
-        Me.txtAddress.Name = "txtAddress"
-        Me.txtAddress.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtAddress.Size = New System.Drawing.Size(263, 91)
-        Me.txtAddress.TabIndex = 8
-        '
-        'LabelX27
-        '
-        '
-        '
-        '
-        Me.LabelX27.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.LabelX27.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX27.Location = New System.Drawing.Point(3, 190)
-        Me.LabelX27.Name = "LabelX27"
-        Me.LabelX27.Size = New System.Drawing.Size(100, 23)
-        Me.LabelX27.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
-        Me.LabelX27.TabIndex = 151
-        Me.LabelX27.Text = "Phone :"
-        '
-        'txtPhone
-        '
-        '
-        '
-        '
-        Me.txtPhone.Border.Class = "TextBoxBorder"
-        Me.txtPhone.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.txtPhone.Location = New System.Drawing.Point(109, 190)
-        Me.txtPhone.Name = "txtPhone"
-        Me.txtPhone.Size = New System.Drawing.Size(263, 22)
-        Me.txtPhone.TabIndex = 9
-        '
-        'SuperTabItem1
-        '
-        Me.SuperTabItem1.AttachedControl = Me.SuperTabControlPanel4
-        Me.SuperTabItem1.GlobalItem = False
-        Me.SuperTabItem1.Name = "SuperTabItem1"
-        Me.SuperTabItem1.Text = "Delivery Information"
         '
         'SuperTabControlPanel1
         '
@@ -1089,37 +888,37 @@ Partial Class frmDeliveryReceived
         '
         'grid1
         '
-        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle23.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.grid1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle23
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle11.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.grid1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle11
         Me.grid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.grid1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.btnremove, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7, Me.qtyrcv, Me.Type, Me.DataGridViewDoubleInputColumn2, Me.Column1, Me.total})
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(83, Byte), Integer), CType(CType(83, Byte), Integer), CType(CType(83, Byte), Integer))
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.grid1.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.grid1.DefaultCellStyle = DataGridViewCellStyle8
         Me.grid1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.grid1.EnableHeadersVisualStyles = False
         Me.grid1.GridColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
         Me.grid1.Location = New System.Drawing.Point(0, 0)
         Me.grid1.Name = "grid1"
-        DataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle28.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.grid1.RowHeadersDefaultCellStyle = DataGridViewCellStyle28
+        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle16.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.grid1.RowHeadersDefaultCellStyle = DataGridViewCellStyle16
         Me.grid1.RowHeadersVisible = False
         Me.grid1.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
         Me.grid1.Size = New System.Drawing.Size(779, 302)
@@ -1127,8 +926,8 @@ Partial Class frmDeliveryReceived
         '
         'btnremove
         '
-        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
-        Me.btnremove.DefaultCellStyle = DataGridViewCellStyle24
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
+        Me.btnremove.DefaultCellStyle = DataGridViewCellStyle12
         Me.btnremove.HeaderText = ""
         Me.btnremove.Image = CType(resources.GetObject("btnremove.Image"), System.Drawing.Image)
         Me.btnremove.Name = "btnremove"
@@ -1144,8 +943,8 @@ Partial Class frmDeliveryReceived
         'DataGridViewTextBoxColumn7
         '
         Me.DataGridViewTextBoxColumn7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        DataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.DataGridViewTextBoxColumn7.DefaultCellStyle = DataGridViewCellStyle25
+        DataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.DataGridViewTextBoxColumn7.DefaultCellStyle = DataGridViewCellStyle13
         Me.DataGridViewTextBoxColumn7.HeaderText = "Description"
         Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
         Me.DataGridViewTextBoxColumn7.ReadOnly = True
@@ -1158,9 +957,9 @@ Partial Class frmDeliveryReceived
         Me.qtyrcv.BackgroundStyle.BackColor = System.Drawing.SystemColors.Window
         Me.qtyrcv.BackgroundStyle.Class = "DataGridViewNumericBorder"
         Me.qtyrcv.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.qtyrcv.BackgroundStyle.TextColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.qtyrcv.DefaultCellStyle = DataGridViewCellStyle26
+        Me.qtyrcv.BackgroundStyle.TextColor = System.Drawing.Color.Black
+        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.qtyrcv.DefaultCellStyle = DataGridViewCellStyle14
         Me.qtyrcv.HeaderText = "Qty"
         Me.qtyrcv.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Center
         Me.qtyrcv.MinimumWidth = 35
@@ -1170,9 +969,9 @@ Partial Class frmDeliveryReceived
         '
         'Type
         '
-        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Type.DefaultCellStyle = DataGridViewCellStyle20
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Type.DefaultCellStyle = DataGridViewCellStyle4
         Me.Type.HeaderText = "Unit"
         Me.Type.Name = "Type"
         Me.Type.ReadOnly = True
@@ -1186,10 +985,10 @@ Partial Class frmDeliveryReceived
         Me.DataGridViewDoubleInputColumn2.BackgroundStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.DataGridViewDoubleInputColumn2.BackgroundStyle.Class = "DataGridViewNumericBorder"
         Me.DataGridViewDoubleInputColumn2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.DataGridViewDoubleInputColumn2.BackgroundStyle.TextColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle27.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.DataGridViewDoubleInputColumn2.DefaultCellStyle = DataGridViewCellStyle27
+        Me.DataGridViewDoubleInputColumn2.BackgroundStyle.TextColor = System.Drawing.Color.Black
+        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.DataGridViewDoubleInputColumn2.DefaultCellStyle = DataGridViewCellStyle15
         Me.DataGridViewDoubleInputColumn2.DisplayFormat = "#,0"
         Me.DataGridViewDoubleInputColumn2.HeaderText = "Price"
         Me.DataGridViewDoubleInputColumn2.Increment = 1
@@ -1205,10 +1004,10 @@ Partial Class frmDeliveryReceived
         Me.Column1.BackgroundStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Column1.BackgroundStyle.Class = "DataGridViewNumericBorder"
         Me.Column1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.Column1.BackgroundStyle.TextColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Column1.DefaultCellStyle = DataGridViewCellStyle21
+        Me.Column1.BackgroundStyle.TextColor = System.Drawing.Color.Black
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Column1.DefaultCellStyle = DataGridViewCellStyle6
         Me.Column1.HeaderText = "Disc(%)"
         Me.Column1.Increment = 1
         Me.Column1.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Center
@@ -1225,10 +1024,10 @@ Partial Class frmDeliveryReceived
         Me.total.BackgroundStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.total.BackgroundStyle.Class = "DataGridViewNumericBorder"
         Me.total.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.total.BackgroundStyle.TextColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
-        DataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.total.DefaultCellStyle = DataGridViewCellStyle15
+        Me.total.BackgroundStyle.TextColor = System.Drawing.Color.Black
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.total.DefaultCellStyle = DataGridViewCellStyle7
         Me.total.DisplayFormat = "#,0"
         Me.total.HeaderText = "Total"
         Me.total.Increment = 1
@@ -1608,6 +1407,208 @@ Partial Class frmDeliveryReceived
         Me.SuperTabItem2.TabFont = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SuperTabItem2.Text = "Delivery Received"
         '
+        'SuperTabControlPanel4
+        '
+        Me.SuperTabControlPanel4.Controls.Add(Me.FlowLayoutPanel4)
+        Me.SuperTabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SuperTabControlPanel4.Location = New System.Drawing.Point(0, 0)
+        Me.SuperTabControlPanel4.Name = "SuperTabControlPanel4"
+        Me.SuperTabControlPanel4.Size = New System.Drawing.Size(779, 362)
+        Me.SuperTabControlPanel4.TabIndex = 0
+        Me.SuperTabControlPanel4.TabItem = Me.SuperTabItem1
+        '
+        'FlowLayoutPanel4
+        '
+        Me.FlowLayoutPanel4.Controls.Add(Me.LabelX9)
+        Me.FlowLayoutPanel4.Controls.Add(Me.cmbWarehouse)
+        Me.FlowLayoutPanel4.Controls.Add(Me.cmdWarehouse)
+        Me.FlowLayoutPanel4.Controls.Add(Me.LabelX14)
+        Me.FlowLayoutPanel4.Controls.Add(Me.cmbVia)
+        Me.FlowLayoutPanel4.Controls.Add(Me.cmdVia)
+        Me.FlowLayoutPanel4.Controls.Add(Me.LabelX24)
+        Me.FlowLayoutPanel4.Controls.Add(Me.txtContact)
+        Me.FlowLayoutPanel4.Controls.Add(Me.LabelX26)
+        Me.FlowLayoutPanel4.Controls.Add(Me.txtAddress)
+        Me.FlowLayoutPanel4.Controls.Add(Me.LabelX27)
+        Me.FlowLayoutPanel4.Controls.Add(Me.txtPhone)
+        Me.FlowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Left
+        Me.FlowLayoutPanel4.Location = New System.Drawing.Point(0, 0)
+        Me.FlowLayoutPanel4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.FlowLayoutPanel4.Name = "FlowLayoutPanel4"
+        Me.FlowLayoutPanel4.Size = New System.Drawing.Size(377, 362)
+        Me.FlowLayoutPanel4.TabIndex = 133
+        '
+        'LabelX9
+        '
+        '
+        '
+        '
+        Me.LabelX9.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX9.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelX9.Location = New System.Drawing.Point(3, 4)
+        Me.LabelX9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.LabelX9.Name = "LabelX9"
+        Me.LabelX9.Size = New System.Drawing.Size(100, 22)
+        Me.LabelX9.TabIndex = 146
+        Me.LabelX9.Text = "Warehouse :"
+        '
+        'cmbWarehouse
+        '
+        Me.cmbWarehouse.DisplayMember = "Text"
+        Me.cmbWarehouse.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cmbWarehouse.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbWarehouse.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbWarehouse.FormattingEnabled = True
+        Me.cmbWarehouse.ItemHeight = 16
+        Me.cmbWarehouse.Location = New System.Drawing.Point(109, 4)
+        Me.cmbWarehouse.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.cmbWarehouse.Name = "cmbWarehouse"
+        Me.cmbWarehouse.Size = New System.Drawing.Size(236, 22)
+        Me.cmbWarehouse.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
+        Me.cmbWarehouse.TabIndex = 5
+        '
+        'cmdWarehouse
+        '
+        Me.cmdWarehouse.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+        Me.cmdWarehouse.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+        Me.cmdWarehouse.Image = CType(resources.GetObject("cmdWarehouse.Image"), System.Drawing.Image)
+        Me.cmdWarehouse.ImageFixedSize = New System.Drawing.Size(12, 12)
+        Me.cmdWarehouse.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
+        Me.cmdWarehouse.Location = New System.Drawing.Point(351, 3)
+        Me.cmdWarehouse.Name = "cmdWarehouse"
+        Me.cmdWarehouse.Size = New System.Drawing.Size(21, 22)
+        Me.cmdWarehouse.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
+        Me.cmdWarehouse.TabIndex = 147
+        '
+        'LabelX14
+        '
+        '
+        '
+        '
+        Me.LabelX14.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX14.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelX14.Location = New System.Drawing.Point(3, 34)
+        Me.LabelX14.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.LabelX14.Name = "LabelX14"
+        Me.LabelX14.Size = New System.Drawing.Size(100, 22)
+        Me.LabelX14.TabIndex = 146
+        Me.LabelX14.Text = "Delivery Via :"
+        '
+        'cmbVia
+        '
+        Me.cmbVia.DisplayMember = "Text"
+        Me.cmbVia.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cmbVia.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbVia.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbVia.FormattingEnabled = True
+        Me.cmbVia.ItemHeight = 16
+        Me.cmbVia.Location = New System.Drawing.Point(109, 34)
+        Me.cmbVia.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.cmbVia.Name = "cmbVia"
+        Me.cmbVia.Size = New System.Drawing.Size(236, 22)
+        Me.cmbVia.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
+        Me.cmbVia.TabIndex = 6
+        '
+        'cmdVia
+        '
+        Me.cmdVia.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+        Me.cmdVia.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+        Me.cmdVia.Image = CType(resources.GetObject("cmdVia.Image"), System.Drawing.Image)
+        Me.cmdVia.ImageFixedSize = New System.Drawing.Size(12, 12)
+        Me.cmdVia.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
+        Me.cmdVia.Location = New System.Drawing.Point(351, 33)
+        Me.cmdVia.Name = "cmdVia"
+        Me.cmdVia.Size = New System.Drawing.Size(21, 22)
+        Me.cmdVia.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
+        Me.cmdVia.TabIndex = 147
+        '
+        'LabelX24
+        '
+        '
+        '
+        '
+        Me.LabelX24.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX24.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelX24.Location = New System.Drawing.Point(3, 64)
+        Me.LabelX24.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.LabelX24.Name = "LabelX24"
+        Me.LabelX24.Size = New System.Drawing.Size(100, 22)
+        Me.LabelX24.TabIndex = 2
+        Me.LabelX24.Text = "Contact Name :"
+        '
+        'txtContact
+        '
+        '
+        '
+        '
+        Me.txtContact.Border.Class = "TextBoxBorder"
+        Me.txtContact.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.txtContact.Location = New System.Drawing.Point(109, 63)
+        Me.txtContact.Name = "txtContact"
+        Me.txtContact.Size = New System.Drawing.Size(263, 22)
+        Me.txtContact.TabIndex = 7
+        '
+        'LabelX26
+        '
+        '
+        '
+        '
+        Me.LabelX26.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX26.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelX26.Location = New System.Drawing.Point(3, 94)
+        Me.LabelX26.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.LabelX26.Name = "LabelX26"
+        Me.LabelX26.Size = New System.Drawing.Size(100, 22)
+        Me.LabelX26.TabIndex = 111
+        Me.LabelX26.Text = "Address :"
+        '
+        'txtAddress
+        '
+        '
+        '
+        '
+        Me.txtAddress.Border.Class = "TextBoxBorder"
+        Me.txtAddress.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.txtAddress.Location = New System.Drawing.Point(109, 93)
+        Me.txtAddress.Multiline = True
+        Me.txtAddress.Name = "txtAddress"
+        Me.txtAddress.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.txtAddress.Size = New System.Drawing.Size(263, 91)
+        Me.txtAddress.TabIndex = 8
+        '
+        'LabelX27
+        '
+        '
+        '
+        '
+        Me.LabelX27.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX27.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelX27.Location = New System.Drawing.Point(3, 190)
+        Me.LabelX27.Name = "LabelX27"
+        Me.LabelX27.Size = New System.Drawing.Size(100, 23)
+        Me.LabelX27.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
+        Me.LabelX27.TabIndex = 151
+        Me.LabelX27.Text = "Phone :"
+        '
+        'txtPhone
+        '
+        '
+        '
+        '
+        Me.txtPhone.Border.Class = "TextBoxBorder"
+        Me.txtPhone.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.txtPhone.Location = New System.Drawing.Point(109, 190)
+        Me.txtPhone.Name = "txtPhone"
+        Me.txtPhone.Size = New System.Drawing.Size(263, 22)
+        Me.txtPhone.TabIndex = 9
+        '
+        'SuperTabItem1
+        '
+        Me.SuperTabItem1.AttachedControl = Me.SuperTabControlPanel4
+        Me.SuperTabItem1.GlobalItem = False
+        Me.SuperTabItem1.Name = "SuperTabItem1"
+        Me.SuperTabItem1.Text = "Delivery Information"
+        '
         'frmDeliveryReceived
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1618,7 +1619,6 @@ Partial Class frmDeliveryReceived
         Me.Controls.Add(Me.t0)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Bar1)
-        Me.DoubleBuffered = True
         Me.EnableGlass = False
         Me.MinimumSize = New System.Drawing.Size(789, 600)
         Me.Name = "frmDeliveryReceived"
@@ -1643,8 +1643,6 @@ Partial Class frmDeliveryReceived
         Me.Panel6.ResumeLayout(False)
         CType(Me.SuperTabControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SuperTabControl1.ResumeLayout(False)
-        Me.SuperTabControlPanel4.ResumeLayout(False)
-        Me.FlowLayoutPanel4.ResumeLayout(False)
         Me.SuperTabControlPanel1.ResumeLayout(False)
         CType(Me.TB2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TB2.ResumeLayout(False)
@@ -1663,6 +1661,8 @@ Partial Class frmDeliveryReceived
         CType(Me.tSubtotal, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.tDP, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.tLeftamount, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.SuperTabControlPanel4.ResumeLayout(False)
+        Me.FlowLayoutPanel4.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1677,7 +1677,7 @@ Partial Class frmDeliveryReceived
     Friend WithEvents t4 As DevComponents.DotNetBar.Controls.ComboBoxEx
     Friend WithEvents LabelX2 As DevComponents.DotNetBar.LabelX
     Friend WithEvents Bar1 As DevComponents.DotNetBar.Bar
-    Friend WithEvents cmbPrinter As DevComponents.DotNetBar.Controls.ComboBoxEx
+    Friend WithEvents cmbReport As DevComponents.DotNetBar.Controls.ComboBoxEx
     Friend WithEvents cmdSave As DevComponents.DotNetBar.ButtonItem
     Friend WithEvents cmdEdit As DevComponents.DotNetBar.ButtonItem
     Friend WithEvents cmdAdd As DevComponents.DotNetBar.ButtonItem

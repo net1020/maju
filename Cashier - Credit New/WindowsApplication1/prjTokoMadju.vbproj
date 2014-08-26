@@ -125,6 +125,7 @@
     <Compile Include="Class\clsCombo.vb" />
     <Compile Include="Class\clsItem.vb" />
     <Compile Include="Class\clsReport.vb" />
+    <Compile Include="Class\clsReport2.vb" />
     <Compile Include="Master\frmItems.designer.vb">
       <DependentUpon>frmItems.vb</DependentUpon>
     </Compile>

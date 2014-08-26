@@ -6,11 +6,12 @@ Public Class frmConsigneInvoice
         Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
         adnet.loadCombo(cmbCustomer, 37, "")
         adnet.loadCounter(txtTransno, 44)
+        adnet.loadCombo(cmbReport, 81, "")
         'adnet.loadCombo(cmbSales, 11, "")
         adnet.loadCombo(cmbPayment, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
         adnet.loadCombo(cmbRefno, 45, "")
-        adnet.load_printer(cmbPrinter)
+        'adnet.load_printer(cmbReport)
         dtTrans.Value = Now
         dtDelivery.Value = Now
     End Sub
@@ -423,5 +424,10 @@ Public Class frmConsigneInvoice
 
     Private Sub tOtherfee_ValueChanged_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tOtherfee.ValueChanged
         load_grid_total()
+    End Sub
+
+    Private Sub cmdPreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdPreview.Click
+        Dim dNet As New adnetObj.clsAdnet
+        dNet.viewReportNew("template\" & cmbReport.SelectedValue & ".repx", dNet.loadJsonReport(cmbReport.SelectedValue, txtTransno.Text))
     End Sub
 End Class

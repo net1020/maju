@@ -56,16 +56,6 @@ namespace XtraReportSerialization {
         private DevExpress.XtraReports.UI.XRLine line4;
         private DevExpress.XtraReports.UI.TopMarginBand topMarginBand1;
         private DevExpress.XtraReports.UI.BottomMarginBand bottomMarginBand1;
-        private DevExpress.XtraReports.UI.DetailReportBand DetailReport;
-        private DevExpress.XtraReports.UI.DetailBand Detail1;
-        private DevExpress.XtraReports.UI.XRLabel f6;
-        private DevExpress.XtraReports.UI.XRLabel f5;
-        private DevExpress.XtraReports.UI.XRLabel f7;
-        private DevExpress.XtraReports.UI.XRLabel f8;
-        private DevExpress.XtraReports.UI.XRLabel f9;
-        private DevExpress.XtraReports.UI.XRLabel f10;
-        private DevExpress.XtraReports.UI.XRLabel f11;
-        private DevExpress.XtraReports.UI.XRLabel f12;
         private DevExpress.XtraReports.UI.ReportHeaderBand ReportHeader;
         private DevExpress.XtraReports.UI.XRLabel label81;
         private DevExpress.XtraReports.UI.XRLabel label59;
@@ -84,6 +74,16 @@ namespace XtraReportSerialization {
         private DevExpress.XtraReports.UI.XRLabel a3;
         private DevExpress.XtraReports.UI.XRLabel a2;
         private DevExpress.XtraReports.UI.XRLabel a1;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport;
+        private DevExpress.XtraReports.UI.DetailBand Detail1;
+        private DevExpress.XtraReports.UI.XRLabel f12;
+        private DevExpress.XtraReports.UI.XRLabel f5;
+        private DevExpress.XtraReports.UI.XRLabel f6;
+        private DevExpress.XtraReports.UI.XRLabel f7;
+        private DevExpress.XtraReports.UI.XRLabel f8;
+        private DevExpress.XtraReports.UI.XRLabel f9;
+        private DevExpress.XtraReports.UI.XRLabel f10;
+        private DevExpress.XtraReports.UI.XRLabel f11;
         private System.Resources.ResourceManager _resources;
         public xReport() {
             this.InitializeComponent();
@@ -135,8 +135,8 @@ namespace XtraReportSerialization {
             this.ReportFooter = new DevExpress.XtraReports.UI.ReportFooterBand();
             this.topMarginBand1 = new DevExpress.XtraReports.UI.TopMarginBand();
             this.bottomMarginBand1 = new DevExpress.XtraReports.UI.BottomMarginBand();
-            this.DetailReport = new DevExpress.XtraReports.UI.DetailReportBand();
             this.ReportHeader = new DevExpress.XtraReports.UI.ReportHeaderBand();
+            this.DetailReport = new DevExpress.XtraReports.UI.DetailReportBand();
             this.line3 = new DevExpress.XtraReports.UI.XRLine();
             this.label34 = new DevExpress.XtraReports.UI.XRLabel();
             this.label32 = new DevExpress.XtraReports.UI.XRLabel();
@@ -180,15 +180,6 @@ namespace XtraReportSerialization {
             this.f21 = new DevExpress.XtraReports.UI.XRLabel();
             this.f15 = new DevExpress.XtraReports.UI.XRLabel();
             this.line4 = new DevExpress.XtraReports.UI.XRLine();
-            this.Detail1 = new DevExpress.XtraReports.UI.DetailBand();
-            this.f6 = new DevExpress.XtraReports.UI.XRLabel();
-            this.f5 = new DevExpress.XtraReports.UI.XRLabel();
-            this.f7 = new DevExpress.XtraReports.UI.XRLabel();
-            this.f8 = new DevExpress.XtraReports.UI.XRLabel();
-            this.f9 = new DevExpress.XtraReports.UI.XRLabel();
-            this.f10 = new DevExpress.XtraReports.UI.XRLabel();
-            this.f11 = new DevExpress.XtraReports.UI.XRLabel();
-            this.f12 = new DevExpress.XtraReports.UI.XRLabel();
             this.label81 = new DevExpress.XtraReports.UI.XRLabel();
             this.label59 = new DevExpress.XtraReports.UI.XRLabel();
             this.label58 = new DevExpress.XtraReports.UI.XRLabel();
@@ -206,6 +197,15 @@ namespace XtraReportSerialization {
             this.a3 = new DevExpress.XtraReports.UI.XRLabel();
             this.a2 = new DevExpress.XtraReports.UI.XRLabel();
             this.a1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.Detail1 = new DevExpress.XtraReports.UI.DetailBand();
+            this.f12 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f5 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f6 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f7 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f8 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f9 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f10 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f11 = new DevExpress.XtraReports.UI.XRLabel();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // PageHeader
@@ -232,7 +232,7 @@ namespace XtraReportSerialization {
             // 
             this.Detail.Dpi = 254F;
             this.Detail.Font = new System.Drawing.Font("Arial", 9F);
-            this.Detail.HeightF = 0F;
+            this.Detail.HeightF = 42F;
             this.Detail.Name = "Detail";
             this.Detail.StylePriority.UseFont = false;
             // 
@@ -298,15 +298,6 @@ namespace XtraReportSerialization {
             this.bottomMarginBand1.HeightF = 38F;
             this.bottomMarginBand1.Name = "bottomMarginBand1";
             // 
-            // DetailReport
-            // 
-            this.DetailReport.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
-                        this.Detail1});
-            this.DetailReport.DataMember = "Data Detail";
-            this.DetailReport.Dpi = 254F;
-            this.DetailReport.Level = 0;
-            this.DetailReport.Name = "DetailReport";
-            // 
             // ReportHeader
             // 
             this.ReportHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
@@ -332,6 +323,14 @@ namespace XtraReportSerialization {
             this.ReportHeader.HeightF = 253.6667F;
             this.ReportHeader.Name = "ReportHeader";
             this.ReportHeader.StylePriority.UseFont = false;
+            // 
+            // DetailReport
+            // 
+            this.DetailReport.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail1});
+            this.DetailReport.Dpi = 254F;
+            this.DetailReport.Level = 0;
+            this.DetailReport.Name = "DetailReport";
             // 
             // line3
             // 
@@ -437,10 +436,10 @@ namespace XtraReportSerialization {
             this.label25.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.label25.Dpi = 254F;
             this.label25.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.label25.LocationFloat = new DevExpress.Utils.PointFloat(370F, 13.29166F);
+            this.label25.LocationFloat = new DevExpress.Utils.PointFloat(425.5624F, 13.29166F);
             this.label25.Name = "label25";
             this.label25.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
-            this.label25.SizeF = new System.Drawing.SizeF(556F, 53F);
+            this.label25.SizeF = new System.Drawing.SizeF(500.4376F, 52.99999F);
             this.label25.StylePriority.UseBorders = false;
             this.label25.StylePriority.UseFont = false;
             this.label25.StylePriority.UseTextAlignment = false;
@@ -845,107 +844,6 @@ namespace XtraReportSerialization {
             this.line4.Name = "line4";
             this.line4.SizeF = new System.Drawing.SizeF(1984F, 5F);
             // 
-            // Detail1
-            // 
-            this.Detail1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-                        this.f6,
-                        this.f5,
-                        this.f7,
-                        this.f8,
-                        this.f9,
-                        this.f10,
-                        this.f11,
-                        this.f12});
-            this.Detail1.Dpi = 254F;
-            this.Detail1.Font = new System.Drawing.Font("Arial", 9F);
-            this.Detail1.HeightF = 42F;
-            this.Detail1.Name = "Detail1";
-            this.Detail1.SortFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
-                        new DevExpress.XtraReports.UI.GroupField("nobaris", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
-            this.Detail1.StylePriority.UseFont = false;
-            // 
-            // f6
-            // 
-            this.f6.Dpi = 254F;
-            this.f6.LocationFloat = new DevExpress.Utils.PointFloat(116.0001F, 0F);
-            this.f6.Name = "f6";
-            this.f6.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
-            this.f6.SizeF = new System.Drawing.SizeF(254F, 42F);
-            this.f6.Text = "f6";
-            // 
-            // f5
-            // 
-            this.f5.Dpi = 254F;
-            this.f5.LocationFloat = new DevExpress.Utils.PointFloat(26.00003F, 0F);
-            this.f5.Name = "f5";
-            this.f5.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
-            this.f5.SizeF = new System.Drawing.SizeF(79F, 42F);
-            this.f5.StylePriority.UseTextAlignment = false;
-            this.f5.Text = "f5";
-            this.f5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
-            // 
-            // f7
-            // 
-            this.f7.Dpi = 254F;
-            this.f7.LocationFloat = new DevExpress.Utils.PointFloat(370F, 0F);
-            this.f7.Name = "f7";
-            this.f7.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
-            this.f7.SizeF = new System.Drawing.SizeF(561F, 42F);
-            this.f7.Text = "f7";
-            // 
-            // f8
-            // 
-            this.f8.Dpi = 254F;
-            this.f8.LocationFloat = new DevExpress.Utils.PointFloat(931F, 0F);
-            this.f8.Name = "f8";
-            this.f8.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
-            this.f8.SizeF = new System.Drawing.SizeF(148F, 42F);
-            this.f8.StylePriority.UseTextAlignment = false;
-            this.f8.Text = "f8";
-            this.f8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // f9
-            // 
-            this.f9.Dpi = 254F;
-            this.f9.LocationFloat = new DevExpress.Utils.PointFloat(1080F, 0F);
-            this.f9.Name = "f9";
-            this.f9.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
-            this.f9.SizeF = new System.Drawing.SizeF(148F, 42F);
-            this.f9.Text = "f9";
-            // 
-            // f10
-            // 
-            this.f10.Dpi = 254F;
-            this.f10.LocationFloat = new DevExpress.Utils.PointFloat(1228F, 0F);
-            this.f10.Name = "f10";
-            this.f10.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
-            this.f10.SizeF = new System.Drawing.SizeF(307F, 42F);
-            this.f10.StylePriority.UseTextAlignment = false;
-            this.f10.Text = "f10";
-            this.f10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // f11
-            // 
-            this.f11.Dpi = 254F;
-            this.f11.LocationFloat = new DevExpress.Utils.PointFloat(1535F, 0F);
-            this.f11.Name = "f11";
-            this.f11.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
-            this.f11.SizeF = new System.Drawing.SizeF(103F, 42F);
-            this.f11.StylePriority.UseTextAlignment = false;
-            this.f11.Text = "f11";
-            this.f11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // f12
-            // 
-            this.f12.Dpi = 254F;
-            this.f12.LocationFloat = new DevExpress.Utils.PointFloat(1640F, 0F);
-            this.f12.Name = "f12";
-            this.f12.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
-            this.f12.SizeF = new System.Drawing.SizeF(370F, 42F);
-            this.f12.StylePriority.UseTextAlignment = false;
-            this.f12.Text = "f12";
-            this.f12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
             // label81
             // 
             this.label81.Dpi = 254F;
@@ -1144,6 +1042,119 @@ namespace XtraReportSerialization {
             this.a1.Text = "a1";
             this.a1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
+            // Detail1
+            // 
+            this.Detail1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.f12,
+                        this.f5,
+                        this.f6,
+                        this.f7,
+                        this.f8,
+                        this.f9,
+                        this.f10,
+                        this.f11});
+            this.Detail1.Dpi = 254F;
+            this.Detail1.HeightF = 55.5625F;
+            this.Detail1.Name = "Detail1";
+            // 
+            // f12
+            // 
+            this.f12.Dpi = 254F;
+            this.f12.Font = new System.Drawing.Font("Arial", 9F);
+            this.f12.LocationFloat = new DevExpress.Utils.PointFloat(1640F, 5F);
+            this.f12.Name = "f12";
+            this.f12.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f12.SizeF = new System.Drawing.SizeF(370F, 42F);
+            this.f12.StylePriority.UseFont = false;
+            this.f12.StylePriority.UseTextAlignment = false;
+            this.f12.Text = "f12";
+            this.f12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // f5
+            // 
+            this.f5.Dpi = 254F;
+            this.f5.Font = new System.Drawing.Font("Arial", 9F);
+            this.f5.LocationFloat = new DevExpress.Utils.PointFloat(25.99987F, 5F);
+            this.f5.Name = "f5";
+            this.f5.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f5.SizeF = new System.Drawing.SizeF(79F, 42F);
+            this.f5.StylePriority.UseFont = false;
+            this.f5.StylePriority.UseTextAlignment = false;
+            this.f5.Text = "f5";
+            this.f5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // f6
+            // 
+            this.f6.Dpi = 254F;
+            this.f6.Font = new System.Drawing.Font("Arial", 9F);
+            this.f6.LocationFloat = new DevExpress.Utils.PointFloat(115.9999F, 4.999977F);
+            this.f6.Name = "f6";
+            this.f6.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f6.SizeF = new System.Drawing.SizeF(309.5625F, 42F);
+            this.f6.StylePriority.UseFont = false;
+            this.f6.Text = "f6";
+            // 
+            // f7
+            // 
+            this.f7.Dpi = 254F;
+            this.f7.Font = new System.Drawing.Font("Arial", 9F);
+            this.f7.LocationFloat = new DevExpress.Utils.PointFloat(425.5624F, 4.999977F);
+            this.f7.Name = "f7";
+            this.f7.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f7.SizeF = new System.Drawing.SizeF(561F, 42.00002F);
+            this.f7.StylePriority.UseFont = false;
+            this.f7.Text = "f7";
+            // 
+            // f8
+            // 
+            this.f8.Dpi = 254F;
+            this.f8.Font = new System.Drawing.Font("Arial", 9F);
+            this.f8.LocationFloat = new DevExpress.Utils.PointFloat(986.5624F, 4.999977F);
+            this.f8.Name = "f8";
+            this.f8.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f8.SizeF = new System.Drawing.SizeF(92.4375F, 42F);
+            this.f8.StylePriority.UseFont = false;
+            this.f8.StylePriority.UseTextAlignment = false;
+            this.f8.Text = "f8";
+            this.f8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // f9
+            // 
+            this.f9.Dpi = 254F;
+            this.f9.Font = new System.Drawing.Font("Arial", 9F);
+            this.f9.LocationFloat = new DevExpress.Utils.PointFloat(1080F, 4.999977F);
+            this.f9.Name = "f9";
+            this.f9.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f9.SizeF = new System.Drawing.SizeF(185.042F, 42.00002F);
+            this.f9.StylePriority.UseFont = false;
+            this.f9.Text = "f9";
+            // 
+            // f10
+            // 
+            this.f10.Dpi = 254F;
+            this.f10.Font = new System.Drawing.Font("Arial", 9F);
+            this.f10.LocationFloat = new DevExpress.Utils.PointFloat(1265.042F, 4.999977F);
+            this.f10.Name = "f10";
+            this.f10.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f10.SizeF = new System.Drawing.SizeF(269.9584F, 42F);
+            this.f10.StylePriority.UseFont = false;
+            this.f10.StylePriority.UseTextAlignment = false;
+            this.f10.Text = "f10";
+            this.f10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // f11
+            // 
+            this.f11.Dpi = 254F;
+            this.f11.Font = new System.Drawing.Font("Arial", 9F);
+            this.f11.LocationFloat = new DevExpress.Utils.PointFloat(1535F, 5F);
+            this.f11.Name = "f11";
+            this.f11.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
+            this.f11.SizeF = new System.Drawing.SizeF(103F, 42F);
+            this.f11.StylePriority.UseFont = false;
+            this.f11.StylePriority.UseTextAlignment = false;
+            this.f11.Text = "f11";
+            this.f11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
             // xReport
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -1153,8 +1164,8 @@ namespace XtraReportSerialization {
                         this.ReportFooter,
                         this.topMarginBand1,
                         this.bottomMarginBand1,
-                        this.DetailReport,
-                        this.ReportHeader});
+                        this.ReportHeader,
+                        this.DetailReport});
             this.DataMember = "Data Transaksi";
             this.Dpi = 254F;
             this.DrawGrid = false;

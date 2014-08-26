@@ -399,4 +399,53 @@
     End Property
     Private m_f40 As String
 
+    Public Property a1() As String
+        Get
+            Return m_a1
+        End Get
+        Set(ByVal value As String)
+            m_a1 = value
+        End Set
+    End Property
+    Private m_a1 As String
+
+    Public Property a2() As String
+        Get
+            Return m_a2
+        End Get
+        Set(ByVal value As String)
+            m_a2 = value
+        End Set
+    End Property
+    Private m_a2 As String
+
+    Public Property a3() As String
+        Get
+            Return m_a3
+        End Get
+        Set(ByVal value As String)
+            m_a3 = value
+        End Set
+    End Property
+    Private m_a3 As String
+
+    Public Property a4() As String
+        Get
+            Return m_a4
+        End Get
+        Set(ByVal value As String)
+            m_a4 = value
+        End Set
+    End Property
+    Private m_a4 As String
+
+    Public Property a5() As String
+        Get
+            Return m_a5
+        End Get
+        Set(ByVal value As String)
+            m_a5 = value
+        End Set
+    End Property
+    Private m_a5 As String
 End Class

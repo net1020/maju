@@ -27,8 +27,6 @@ Partial Class frmReportSales
         Me.StyleManager1 = New DevComponents.DotNetBar.StyleManager(Me.components)
         Me.ToolStrip5 = New System.Windows.Forms.ToolStrip
         Me.cmdView = New System.Windows.Forms.ToolStripButton
-        Me.cmbPrinters = New System.Windows.Forms.ToolStripComboBox
-        Me.cmdPrint = New System.Windows.Forms.ToolStripButton
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel
         Me.LabelX7 = New DevComponents.DotNetBar.LabelX
         Me.t1 = New System.Windows.Forms.DateTimePicker
@@ -47,7 +45,7 @@ Partial Class frmReportSales
         'ToolStrip5
         '
         Me.ToolStrip5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.ToolStrip5.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.cmdView, Me.cmbPrinters, Me.cmdPrint})
+        Me.ToolStrip5.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.cmdView})
         Me.ToolStrip5.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip5.Name = "ToolStrip5"
         Me.ToolStrip5.Size = New System.Drawing.Size(443, 25)
@@ -61,20 +59,6 @@ Partial Class frmReportSales
         Me.cmdView.Name = "cmdView"
         Me.cmdView.Size = New System.Drawing.Size(68, 22)
         Me.cmdView.Text = "Preview"
-        '
-        'cmbPrinters
-        '
-        Me.cmbPrinters.Name = "cmbPrinters"
-        Me.cmbPrinters.Size = New System.Drawing.Size(200, 25)
-        Me.cmbPrinters.Text = "Printer LX-300 (Section 1)"
-        '
-        'cmdPrint
-        '
-        Me.cmdPrint.Image = CType(resources.GetObject("cmdPrint.Image"), System.Drawing.Image)
-        Me.cmdPrint.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.cmdPrint.Name = "cmdPrint"
-        Me.cmdPrint.Size = New System.Drawing.Size(52, 22)
-        Me.cmdPrint.Text = "Print"
         '
         'FlowLayoutPanel1
         '
@@ -143,7 +127,6 @@ Partial Class frmReportSales
         Me.ClientSize = New System.Drawing.Size(443, 90)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.ToolStrip5)
-        Me.DoubleBuffered = True
         Me.EnableGlass = False
         Me.Name = "frmReportSales"
         Me.ShowIcon = False
@@ -160,8 +143,6 @@ Partial Class frmReportSales
     Friend WithEvents StyleManager1 As DevComponents.DotNetBar.StyleManager
     Friend WithEvents ToolStrip5 As System.Windows.Forms.ToolStrip
     Friend WithEvents cmdView As System.Windows.Forms.ToolStripButton
-    Friend WithEvents cmbPrinters As System.Windows.Forms.ToolStripComboBox
-    Friend WithEvents cmdPrint As System.Windows.Forms.ToolStripButton
     Friend WithEvents FlowLayoutPanel1 As System.Windows.Forms.FlowLayoutPanel
     Friend WithEvents LabelX7 As DevComponents.DotNetBar.LabelX
     Friend WithEvents t1 As System.Windows.Forms.DateTimePicker

@@ -23,7 +23,8 @@ Public Class frmDeliveryReceived
         adnet.loadCombo(cmbDeliveryno, 58, "")
         adnet.loadCombo(cmbWarehouse, 14, "")
         adnet.loadCombo(cmbVia, 53, "")
-        adnet.load_printer(cmbPrinter)
+        adnet.loadCombo(cmbReport, 92, "")
+        'adnet.load_printer(cmbReport)
         dtTrans.Value = Now
         dtDelivery.Value = Now
     End Sub
@@ -434,5 +435,10 @@ Public Class frmDeliveryReceived
         Dim adnet2 As adnetObj.clsAdnet = New adnetObj.clsAdnet()
         adnet2.loadCombo(cmbWarehouse, 14, "")
         cmbWarehouse.Text = adnet.SelectedData(1)
+    End Sub
+
+    Private Sub cmdPreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdPreview.Click
+        Dim dNet As New adnetObj.clsAdnet
+        dNet.viewReportNew("template\" & cmbReport.SelectedValue & ".repx", dNet.loadJsonReport(cmbReport.SelectedValue, txtTransno.Text))
     End Sub
 End Class

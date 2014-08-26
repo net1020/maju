@@ -547,7 +547,7 @@ namespace XtraReportSerialization {
             this.label81.SizeF = new System.Drawing.SizeF(726.4374F, 52.99998F);
             this.label81.StylePriority.UseFont = false;
             this.label81.StylePriority.UseTextAlignment = false;
-            this.label81.Text = "PEMBAYARAN PIUTANG";
+            this.label81.Text = "PENERIMAAN PIUTANG";
             this.label81.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
             // label59

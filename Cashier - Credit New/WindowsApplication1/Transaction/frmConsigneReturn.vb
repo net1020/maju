@@ -22,7 +22,7 @@ Public Class frmConsigneReturn
         'adnet.loadCombo(cmbSales, 11, "")
         adnet.loadCombo(cmbPayment, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
-        adnet.load_printer(cmbPrinter)
+        adnet.load_printer(cmbReport)
         dtTrans.Value = Now
 
     End Sub

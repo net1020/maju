@@ -101,8 +101,8 @@ Partial Class frmMain
         Me.ribbon1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.ribbon1.CanCustomize = False
         Me.ribbon1.CaptionVisible = True
-        Me.ribbon1.Controls.Add(Me.ribbonPanel1)
         Me.ribbon1.Controls.Add(Me.RibbonPanel4)
+        Me.ribbon1.Controls.Add(Me.ribbonPanel1)
         Me.ribbon1.Controls.Add(Me.RibbonPanel5)
         Me.ribbon1.Controls.Add(Me.RadioButton1)
         Me.ribbon1.Dock = System.Windows.Forms.DockStyle.Top
@@ -155,6 +155,7 @@ Partial Class frmMain
         '
         Me.ribbonPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.ribbonPanel1.TabIndex = 1
+        Me.ribbonPanel1.Visible = False
         '
         'RibbonBar1
         '
@@ -320,7 +321,6 @@ Partial Class frmMain
         '
         Me.RibbonPanel4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.RibbonPanel4.TabIndex = 6
-        Me.RibbonPanel4.Visible = False
         '
         'RibbonBar8
         '
@@ -601,13 +601,13 @@ Partial Class frmMain
         '
         'ribbonTabItem1
         '
-        Me.ribbonTabItem1.Checked = True
         Me.ribbonTabItem1.Name = "ribbonTabItem1"
         Me.ribbonTabItem1.Panel = Me.ribbonPanel1
         Me.ribbonTabItem1.Text = "Data Master"
         '
         'RibbonTabItem2
         '
+        Me.RibbonTabItem2.Checked = True
         Me.RibbonTabItem2.Name = "RibbonTabItem2"
         Me.RibbonTabItem2.Panel = Me.RibbonPanel4
         Me.RibbonTabItem2.Text = "Report"
