@@ -138,9 +138,20 @@ Public Class frmCashierOut
         Dim json = wc.DownloadString(Url & "print/all.php?q=64&q2=" & userName)
         Dim users As List(Of clsReport) = JsonConvert.DeserializeObject(Of List(Of clsReport))(json)
         RunReportPrinter(users, "/template/deposit.rpt", cmbPrinters.Text)
+
+        Dim json3 = wc.DownloadString(Url & "print/all.php?q=66&q2=" & userName)
+        Dim users3 As List(Of clsReport) = JsonConvert.DeserializeObject(Of List(Of clsReport))(json3)
+        RunReportPrinter(users3, "/template/deposit3.rpt", cmbPrinters.Text)
+
+        Dim json4 = wc.DownloadString(Url & "print/all.php?q=67&q2=" & userName)
+        Dim users4 As List(Of clsReport) = JsonConvert.DeserializeObject(Of List(Of clsReport))(json4)
+        RunReportPrinter(users4, "/template/deposit4.rpt", cmbPrinters.Text)
+
         Dim json2 = wc.DownloadString(Url & "print/all.php?q=65&q2=" & userName)
         Dim users2 As List(Of clsReport) = JsonConvert.DeserializeObject(Of List(Of clsReport))(json2)
         RunReportPrinter(users2, "/template/deposit2.rpt", cmbPrinters.Text)
+
+        
 
         Me.Hide()
         frmSales.Hide()

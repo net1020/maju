@@ -26,6 +26,7 @@ Partial Class frmPayment
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmPayment))
         Me.StyleManager1 = New DevComponents.DotNetBar.StyleManager(Me.components)
         Me.RibbonBar1 = New DevComponents.DotNetBar.RibbonBar
+        Me.cmbPrinters = New System.Windows.Forms.ComboBox
         Me.cmdf4 = New DevComponents.DotNetBar.ButtonItem
         Me.cmdf10 = New DevComponents.DotNetBar.ButtonItem
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel
@@ -59,7 +60,6 @@ Partial Class frmPayment
         Me.t10 = New DevComponents.Editors.DoubleInput
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip
         Me.lblStatus = New System.Windows.Forms.ToolStripStatusLabel
-        Me.cmbPrinters = New System.Windows.Forms.ComboBox
         Me.RibbonBar1.SuspendLayout()
         Me.FlowLayoutPanel1.SuspendLayout()
         CType(Me.t1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -112,6 +112,15 @@ Partial Class frmPayment
         '
         Me.RibbonBar1.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.RibbonBar1.TitleVisible = False
+        '
+        'cmbPrinters
+        '
+        Me.cmbPrinters.FormattingEnabled = True
+        Me.cmbPrinters.Location = New System.Drawing.Point(272, 20)
+        Me.cmbPrinters.Name = "cmbPrinters"
+        Me.cmbPrinters.Size = New System.Drawing.Size(121, 21)
+        Me.cmbPrinters.TabIndex = 0
+        Me.cmbPrinters.Visible = False
         '
         'cmdf4
         '
@@ -614,15 +623,6 @@ Partial Class frmPayment
         Me.lblStatus.Name = "lblStatus"
         Me.lblStatus.Size = New System.Drawing.Size(0, 17)
         '
-        'cmbPrinters
-        '
-        Me.cmbPrinters.FormattingEnabled = True
-        Me.cmbPrinters.Location = New System.Drawing.Point(272, 20)
-        Me.cmbPrinters.Name = "cmbPrinters"
-        Me.cmbPrinters.Size = New System.Drawing.Size(121, 21)
-        Me.cmbPrinters.TabIndex = 0
-        Me.cmbPrinters.Visible = False
-        '
         'frmPayment
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -631,7 +631,6 @@ Partial Class frmPayment
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.RibbonBar1)
-        Me.DoubleBuffered = True
         Me.EnableGlass = False
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.HelpButton = True

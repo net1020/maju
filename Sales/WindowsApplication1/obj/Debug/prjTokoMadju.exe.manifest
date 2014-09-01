@@ -122,14 +122,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="adnetObj.dll" size="81408">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="adnetObj.dll" size="91136">
       <assemblyIdentity name="adnetObj" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>fUUpgYlkNmmK0EcDQc21Jj/CdX4=</dsig:DigestValue>
+        <dsig:DigestValue>s436agn6WnfSQ/N1ral8eMTICW8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -201,7 +201,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>u3W45I55lcxgJVa5d1L8VNtAXok=</dsig:DigestValue>
+        <dsig:DigestValue>XM2FMywypa6t8PbWKc9zndiq+rM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -256,13 +256,13 @@
       <dsig:DigestValue>SPP5fJtr+2a529Hd7jyFka5E+Ms=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="prjTokoMadju.exe.config" size="2211">
+  <file name="prjTokoMadju.exe.config" size="2213">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>O9Z2IKwbW259Q/tbFkJCkL/OHV8=</dsig:DigestValue>
+      <dsig:DigestValue>aLHxmwk1LIKiKfZQcqezy50Z/pw=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

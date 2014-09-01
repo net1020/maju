@@ -208,3 +208,6 @@ F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Rel
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Release\prjTokoMadju.exe
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Release\prjTokoMadju.xml
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Release\prjTokoMadju.pdb
+F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Release\prjTokoMadju.frmViewAccount.resources
+F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Release\prjTokoMadju.frmCashIn.resources
+F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Release\prjTokoMadju.frmCashOut.resources

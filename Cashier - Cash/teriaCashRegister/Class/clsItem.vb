@@ -29,15 +29,25 @@
     End Property
     Private m_unit As String
 
-    Public Property discount() As String
+    'Public Property discount() As String
+    '    Get
+    '        Return m_discount
+    '    End Get
+    '    Set(ByVal value As String)
+    '        m_discount = value
+    '    End Set
+    'End Property
+    'Private m_discount As String
+
+    Public Property stock() As String
         Get
-            Return m_discount
+            Return m_stock
         End Get
         Set(ByVal value As String)
-            m_discount = value
+            m_stock = value
         End Set
     End Property
-    Private m_discount As String
+    Private m_stock As String
 
     Public Property unitprice() As String
         Get

@@ -18,8 +18,11 @@ Public Class frmView2
         End If
 
         'viewSales = data
-
+        grid1.Columns(0).Width = 135
         grid1.Columns(1).Width = 265
+        grid1.Columns(2).Width = 80
+        grid1.Columns(3).Width = 50
+        grid1.Columns(4).Width = 100
         'grid1.Columns(3).Visible = False
         grid1.ColumnHeadersVisible = False
     End Sub

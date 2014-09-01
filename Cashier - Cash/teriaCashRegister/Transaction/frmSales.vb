@@ -31,9 +31,12 @@ Public Class frmSales
 
     Public Function Sub_Total() As Long
         Dim i As Integer
-        For i = 0 To grid1.RowCount - 1
+        For i = 0 To grid1.RowCount - 2
+            grid1.Item(0, i).Value = i + 1
+            grid1.Item(7, i).Value = (Val(grid1.Item(5, i).Value) - Val(grid1.Item(6, i).Value)) * Val(grid1.Item(3, i).Value)
             Sub_Total = Sub_Total + (grid1.Item(7, i).Value)
         Next
+        lblSubTotal.Text = FormatCurrency(Sub_Total, 0)
     End Function
 
     Public Function TotalDisc() As Long
@@ -120,7 +123,7 @@ Public Class frmSales
         frmView2.grid1.Columns(2).Visible = True
         frmView2.grid1.Columns(0).Width = 125
         frmView2.grid1.Columns(1).AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        frmView2.grid1.Columns(3).Visible = False
+        frmView2.grid1.Columns(3).Visible = True
         frmView2.ShowDialog()
         If frmView2.sCode <> "" Then
             If grid1.RowCount = 1 Then grid1.Rows.Add("")
@@ -146,9 +149,16 @@ Public Class frmSales
         On Error Resume Next
         'If grid1.Item(1, grid1.RowCount - 2).Value = "" Then SendKeys.Send("{UP}")
 
-        Online_Status()
+        ' Online_Status()
         grid1.CurrentCell = grid1.CurrentRow.Cells(1)
-        reload_item()
+        If e.RowIndex > grid1.RowCount - 2 And grid1.Item(1, e.RowIndex).Value <> "" And grid1.Item(2, e.RowIndex).Value = "" And grid1.RowCount > 1 Then
+            reload_item()
+        End If
+        If e.RowIndex = 0 And grid1.RowCount = 1 Then Exit Sub
+        If e.RowIndex = 0 And grid1.RowCount > 1 Then Exit Sub
+        If e.RowIndex > grid1.RowCount - 2 And grid1.Item(1, e.RowIndex - 1).Value <> "" And grid1.Item(2, e.RowIndex - 1).Value = "" And grid1.RowCount > 1 Then
+            reload_item()
+        End If
         'recheck_item(e.RowIndex)
 
     End Sub
@@ -171,11 +181,11 @@ Public Class frmSales
         If grid1.Item(3, row).Value = "" Then grid1.Item(3, row).Value = 1
         grid1.Item(4, row).Value = data.Item(0).unit
         grid1.Item(5, row).Value = data.Item(0).unitprice
-        grid1.Item(6, row).Value = data.Item(0).discount
+        grid1.Item(6, row).Value = data.Item(0).stock
         total = (data.Item(0).unitprice - (data.Item(0).unitprice * (Val(grid1.Item(6, row).Value) / 100))) * grid1.Item(3, row).Value
         grid1.Item(7, row).Value = total
         grid1.Item(1, row).ReadOnly = True
-        grid1.Item(3, row).ReadOnly = True
+        'grid1.Item(3, row).ReadOnly = True
         lblName.Text = data.Item(0).itemname
         lblQty.Text = 1 & " " & grid1.Item(4, row).Value
         lblPrice.Text = FormatCurrency(data.Item(0).unitprice, 0)
@@ -314,17 +324,19 @@ Public Class frmSales
     Private Sub ButtonItem6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdf3.Click
         On Error Resume Next
         grid1.Focus()
+
         grid1.CurrentCell = grid1.Rows(grid1.CurrentRow.Index).Cells(3)
-        SendKeys.Send("{ENTER}")
+        If grid1.Item(2, grid1.CurrentRow.Index).Value = "" Then
+            SendKeys.Send("{ENTER}")
+        End If
     End Sub
 
     Private Sub ButtonItem11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdf11.Click
         On Error Resume Next
 
 
-        grid1.Rows.RemoveAt(grid1.RowCount - 2)
+        grid1.Rows.RemoveAt(grid1.CurrentRow.Index)
         SubTotal = Sub_Total()
-        lblSubTotal.Text = FormatCurrency(SubTotal, 0)
     End Sub
 
     Private Sub Timer1_Tick_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
@@ -404,6 +416,7 @@ Public Class frmSales
 
     Private Sub grid1_CellEndEdit(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles grid1.CellEndEdit
         If e.ColumnIndex = 3 Then
+            Sub_Total()
             cmdf2.RaiseClick()
             SendKeys.Send("{UP}")
         End If
@@ -682,5 +695,13 @@ Public Class frmSales
 
     Private Sub grid1_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles grid1.CellContentClick
 
+    End Sub
+
+    Private Sub grid1_CellValueChanged(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles grid1.CellValueChanged
+        'On Error Resume Next
+        'grid1.CurrentCell = grid1.CurrentRow.Cells(1)
+        'If e.ColumnIndex = 3 Then
+        '    reload_item()
+        'End If
     End Sub
 End Class
