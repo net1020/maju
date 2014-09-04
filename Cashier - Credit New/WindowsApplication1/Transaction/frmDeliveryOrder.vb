@@ -21,6 +21,7 @@ Public Class frmDeliveryOrder
         adnet.loadCounter(txtTransno, 54)
         adnet.loadCombo(cmbType, 50, "", "Credit")
         adnet.loadCombo(cmbReport, 90, "")
+        adnet.loadCombo(cmbTransno, 18, "")
         'adnet.loadCombo(cmbTransno, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
         adnet.loadCombo(cmbVia, 53, "")
@@ -83,6 +84,35 @@ Public Class frmDeliveryOrder
         load_grid_total()
 
     End Sub
+
+    Sub load_order()
+        Dim frm As New adnetObj.clsAdnet
+        Dim strArr() As String
+        strArr = Split(Me.Tag, "|")
+        load_griddata(strArr(32))
+        'txtTransno.Text = strArr(0)
+        'dtTrans.Value = strArr(1)
+        cmbCustomer.Text = strArr(4)
+        'cmbSales.Text = strArr(7)
+        'cmbTransno.Text = strArr(5)
+        cmbWarehouse.Text = strArr(20)
+        'txtPO.Text = strArr(6)
+        dtDelivery.Text = strArr(19)
+        'tAmount.Value = strArr(8)
+        tDisccent.Value = Val(strArr(9))
+        'tDiscamount.Value = strArr(10)
+        tPPNcent.Value = Val(strArr(11))
+        'tPPNamount.Value = 0.1 * (Val(strArr(8)) - Val(strArr(10)))
+        tOtherfee.Value = strArr(12)
+        'tSubtotal.Value = Replace(Replace(strArr(13), ",", ""), ".", "")
+        'tTotal.Text = strArr(13)
+        txtNote.Text = strArr(31)
+        tDP.Value = strArr(33)
+        'tLeftamount.Value = strArr(34)
+        load_grid_total()
+
+    End Sub
+
     Sub Clear_data()
         Dim frm As New adnetObj.clsAdnet
         dtTrans.Value = Today
@@ -220,9 +250,15 @@ Public Class frmDeliveryOrder
         load_grid_total()
     End Sub
 
+    Private Sub cmbTransno_DropDownChange(ByVal sender As Object, ByVal Expanded As Boolean) Handles cmbTransno.DropDownChange
+        Dim dNet As New adnetObj.clsAdnet
+        If cmbTransno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(100, cmbTransno.Text)
+        load_order()
+    End Sub
+
     Private Sub cmbPayment_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbTransno.SelectedIndexChanged
         On Error Resume Next
-        load_ppn(cmbTransno.SelectedValue)
+        'load_ppn(cmbTransno.SelectedValue)
     End Sub
 
     Private Sub tDP_ValueChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tDP.ValueChanged
@@ -441,5 +477,18 @@ Public Class frmDeliveryOrder
     Private Sub cmdPreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdPreview.Click
         Dim dNet As New adnetObj.clsAdnet
         dNet.viewReportNew("template\" & cmbReport.SelectedValue & ".repx", dNet.loadJsonReport(cmbReport.SelectedValue, txtTransno.Text))
+    End Sub
+
+    Private Sub cmdTransno_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdTransno.Click
+        Dim adnet As adnetObj.frmSelect = New adnetObj.frmSelect()
+        adnet.UrlClient = url
+        adnet.newForm = False
+        adnet.grid("DOS")
+        adnet.Text = "Delivery Order"
+        adnet.ShowDialog()
+        Dim adnet2 As adnetObj.clsAdnet = New adnetObj.clsAdnet()
+        adnet2.loadCombo(cmbTransno, 18, "")
+        On Error Resume Next
+        cmbTransno.Text = adnet.SelectedData(0)
     End Sub
 End Class

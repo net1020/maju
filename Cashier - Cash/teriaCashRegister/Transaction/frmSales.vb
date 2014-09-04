@@ -336,6 +336,7 @@ Public Class frmSales
 
 
         grid1.Rows.RemoveAt(grid1.CurrentRow.Index)
+        reload_item()
         SubTotal = Sub_Total()
     End Sub
 
@@ -416,6 +417,7 @@ Public Class frmSales
 
     Private Sub grid1_CellEndEdit(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles grid1.CellEndEdit
         If e.ColumnIndex = 3 Then
+            reload_item()
             Sub_Total()
             cmdf2.RaiseClick()
             SendKeys.Send("{UP}")

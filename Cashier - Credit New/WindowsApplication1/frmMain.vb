@@ -894,4 +894,18 @@ Public Class frmMain
     End Sub
 
  
+    Private Sub ButtonItem58_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem58.Click
+        If selectTab("Multi Delivery") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.frmNew = New frmDeliveryMulti
+            doc1.newForm = True
+            doc1.grid("DM")
+            doc1.Text = "Multi Delivery"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
 End Class

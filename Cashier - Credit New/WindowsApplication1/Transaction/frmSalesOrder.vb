@@ -23,6 +23,7 @@ Public Class frmSalesOrder
         adnet.loadCombo(cmbSales, 11, "")
         adnet.loadCombo(cmbPayment, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
+        adnet.loadCombo(cmbRefno, 102, "")
         ' adnet.load_printer(cmbReport)
         dtTrans.Value = Now
         dtDelivery.Value = Now
@@ -81,6 +82,39 @@ Public Class frmSalesOrder
         load_grid_total()
 
     End Sub
+
+    Sub load_order()
+        Dim frm As New adnetObj.clsAdnet
+        Dim strArr() As String
+        On Error Resume Next
+
+        strArr = Split(Me.Tag, "|")
+        load_griddata(strArr(32))
+        'txtTransno.Text = strArr(0)
+        'dtTrans.Value = strArr(1)
+        cmbCustomer.Text = strArr(4)
+        cmbSales.Text = strArr(7)
+        cmbPayment.Text = strArr(5)
+        cmbWarehouse.Text = strArr(20)
+        'txtPO.Text = strArr(6)
+        dtDelivery.Text = strArr(19)
+        'tAmount.Value = strArr(8)
+        tDisccent.Value = Val(strArr(9))
+        'tDiscamount.Value = strArr(10)
+        tPPNcent.Value = Val(strArr(11))
+        'tPPNamount.Value = 0.1 * (Val(strArr(8)) - Val(strArr(10)))
+        tOtherfee.Value = Val(strArr(12))
+        'tSubtotal.Value = Replace(Replace(strArr(13), ",", ""), ".", "")
+        'tTotal.Text = strArr(13)
+        txtNote.Text = strArr(31)
+        tDP.Value = Val(strArr(33))
+        'tLeftamount.Value = strArr(34)
+        load_grid_total()
+
+    End Sub
+
+
+
     Sub Clear_data()
         Dim frm As New adnetObj.clsAdnet
         dtTrans.Value = Today
@@ -302,11 +336,13 @@ Public Class frmSalesOrder
         cmbPayment.Enabled = mode
         cmbSales.Enabled = mode
         cmbWarehouse.Enabled = mode
+        cmbRefno.Enabled = mode
         txtPO.Enabled = mode
         cmdCustomer.Enabled = mode
         cmdPayment.Enabled = mode
         cmdSales.Enabled = mode
         cmdWarehouse.Enabled = mode
+        cmdRefno.Enabled = mode
     End Sub
 
     Sub Saved()
@@ -415,5 +451,28 @@ Public Class frmSalesOrder
     Private Sub cmdPreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdPreview.Click
         Dim dNet As New adnetObj.clsAdnet
         dNet.viewReportNew("template\" & cmbReport.SelectedValue & ".repx", dNet.loadJsonReport(cmbReport.SelectedValue, txtTransno.Text))
+    End Sub
+
+    Private Sub cmdRefno_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdRefno.Click
+        Dim adnet As adnetObj.frmSelect = New adnetObj.frmSelect()
+        adnet.UrlClient = url
+        adnet.newForm = False
+        adnet.grid("SOS")
+        adnet.Text = "Sales Order"
+        adnet.ShowDialog()
+        Dim adnet2 As adnetObj.clsAdnet = New adnetObj.clsAdnet()
+        adnet2.loadCombo(cmbRefno, 102, "")
+        On Error Resume Next
+        cmbRefno.Text = adnet.SelectedData(0)
+    End Sub
+
+    Private Sub cmbRefno_DropDownChange(ByVal sender As Object, ByVal Expanded As Boolean) Handles cmbRefno.DropDownChange
+        Dim dNet As New adnetObj.clsAdnet
+        If cmbRefno.SelectedValue = "sales" Then Me.Tag = dNet.loadJsonFormat(101, cmbRefno.Text)
+        load_order()
+    End Sub
+
+    Private Sub cmbRefno_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedIndexChanged
+
     End Sub
 End Class

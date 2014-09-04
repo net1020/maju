@@ -185,7 +185,7 @@ Public Class frmSalesReturn
 
     End Sub
 
-    Private Sub btnremove_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnremove.Click
+    Private Sub btnremove_Click(ByVal sender As Object, ByVal e As System.EventArgs)
         On Error Resume Next
         If grid1.RowCount > 1 Then
             btnremove.Enabled = True

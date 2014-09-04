@@ -26,14 +26,14 @@ Partial Class frmSalesDelivery
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim SuperTabItemColorTable1 As DevComponents.DotNetBar.Rendering.SuperTabItemColorTable = New DevComponents.DotNetBar.Rendering.SuperTabItemColorTable
-        Dim SuperTabColorStates1 As DevComponents.DotNetBar.Rendering.SuperTabColorStates = New DevComponents.DotNetBar.Rendering.SuperTabColorStates
-        Dim SuperTabItemStateColorTable1 As DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable = New DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim SuperTabItemColorTable1 As DevComponents.DotNetBar.Rendering.SuperTabItemColorTable = New DevComponents.DotNetBar.Rendering.SuperTabItemColorTable
+        Dim SuperTabColorStates1 As DevComponents.DotNetBar.Rendering.SuperTabColorStates = New DevComponents.DotNetBar.Rendering.SuperTabColorStates
+        Dim SuperTabItemStateColorTable1 As DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable = New DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable
         Me.t0 = New System.Windows.Forms.TextBox
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel
         Me.LabelX1 = New DevComponents.DotNetBar.LabelX
@@ -82,29 +82,29 @@ Partial Class frmSalesDelivery
         Me.TB2 = New DevComponents.DotNetBar.SuperTabControl
         Me.SuperTabControlPanel3 = New DevComponents.DotNetBar.SuperTabControlPanel
         Me.grid1 = New DevComponents.DotNetBar.Controls.DataGridViewX
-        Me.SuperTabItem4 = New DevComponents.DotNetBar.SuperTabItem
-        Me.SuperTabControlPanel2 = New DevComponents.DotNetBar.SuperTabControlPanel
-        Me.Panel4 = New System.Windows.Forms.Panel
-        Me.FlowLayoutPanel5 = New System.Windows.Forms.FlowLayoutPanel
-        Me.LabelX15 = New DevComponents.DotNetBar.LabelX
-        Me.LabelX21 = New DevComponents.DotNetBar.LabelX
-        Me.LabelX13 = New DevComponents.DotNetBar.LabelX
-        Me.LabelX22 = New DevComponents.DotNetBar.LabelX
-        Me.LabelX23 = New DevComponents.DotNetBar.LabelX
-        Me.SuperTabItem3 = New DevComponents.DotNetBar.SuperTabItem
-        Me.SuperTabItem2 = New DevComponents.DotNetBar.SuperTabItem
         Me.btnremove = New DevComponents.DotNetBar.Controls.DataGridViewButtonXColumn
         Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.qtyrcv = New DevComponents.DotNetBar.Controls.DataGridViewIntegerInputColumn
         Me.Type = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.DataGridViewDoubleInputColumn2 = New DevComponents.DotNetBar.Controls.DataGridViewDoubleInputColumn
+        Me.SuperTabItem4 = New DevComponents.DotNetBar.SuperTabItem
+        Me.SuperTabControlPanel2 = New DevComponents.DotNetBar.SuperTabControlPanel
+        Me.Panel4 = New System.Windows.Forms.Panel
+        Me.FlowLayoutPanel5 = New System.Windows.Forms.FlowLayoutPanel
+        Me.LabelX15 = New DevComponents.DotNetBar.LabelX
         Me.ComboBoxEx2 = New DevComponents.DotNetBar.Controls.ComboBoxEx
         Me.ButtonX2 = New DevComponents.DotNetBar.ButtonX
+        Me.LabelX21 = New DevComponents.DotNetBar.LabelX
         Me.TextBox1 = New System.Windows.Forms.TextBox
+        Me.LabelX13 = New DevComponents.DotNetBar.LabelX
         Me.TextBox2 = New System.Windows.Forms.TextBox
+        Me.LabelX22 = New DevComponents.DotNetBar.LabelX
         Me.TextBox3 = New System.Windows.Forms.TextBox
+        Me.LabelX23 = New DevComponents.DotNetBar.LabelX
         Me.TextBox4 = New System.Windows.Forms.TextBox
+        Me.SuperTabItem3 = New DevComponents.DotNetBar.SuperTabItem
+        Me.SuperTabItem2 = New DevComponents.DotNetBar.SuperTabItem
         Me.FlowLayoutPanel1.SuspendLayout()
         CType(Me.t3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Bar1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -880,149 +880,6 @@ Partial Class frmSalesDelivery
         Me.grid1.Size = New System.Drawing.Size(779, 302)
         Me.grid1.TabIndex = 8
         '
-        'SuperTabItem4
-        '
-        Me.SuperTabItem4.AttachedControl = Me.SuperTabControlPanel3
-        Me.SuperTabItem4.GlobalItem = False
-        Me.SuperTabItem4.Image = CType(resources.GetObject("SuperTabItem4.Image"), System.Drawing.Image)
-        Me.SuperTabItem4.Name = "SuperTabItem4"
-        SuperTabItemStateColorTable1.CloseMarker = System.Drawing.Color.White
-        SuperTabColorStates1.Normal = SuperTabItemStateColorTable1
-        SuperTabItemColorTable1.Bottom = SuperTabColorStates1
-        Me.SuperTabItem4.TabColor = SuperTabItemColorTable1
-        Me.SuperTabItem4.Text = "Item Details"
-        '
-        'SuperTabControlPanel2
-        '
-        Me.SuperTabControlPanel2.Controls.Add(Me.Panel4)
-        Me.SuperTabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SuperTabControlPanel2.Location = New System.Drawing.Point(0, 0)
-        Me.SuperTabControlPanel2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.SuperTabControlPanel2.Name = "SuperTabControlPanel2"
-        Me.SuperTabControlPanel2.Size = New System.Drawing.Size(779, 302)
-        Me.SuperTabControlPanel2.TabIndex = 0
-        Me.SuperTabControlPanel2.TabItem = Me.SuperTabItem3
-        '
-        'Panel4
-        '
-        Me.Panel4.BackColor = System.Drawing.Color.Transparent
-        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel4.Controls.Add(Me.FlowLayoutPanel5)
-        Me.Panel4.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.Panel4.Location = New System.Drawing.Point(5, 3)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(771, 283)
-        Me.Panel4.TabIndex = 117
-        '
-        'FlowLayoutPanel5
-        '
-        Me.FlowLayoutPanel5.Controls.Add(Me.LabelX15)
-        Me.FlowLayoutPanel5.Controls.Add(Me.ComboBoxEx2)
-        Me.FlowLayoutPanel5.Controls.Add(Me.ButtonX2)
-        Me.FlowLayoutPanel5.Controls.Add(Me.LabelX21)
-        Me.FlowLayoutPanel5.Controls.Add(Me.TextBox1)
-        Me.FlowLayoutPanel5.Controls.Add(Me.LabelX13)
-        Me.FlowLayoutPanel5.Controls.Add(Me.TextBox2)
-        Me.FlowLayoutPanel5.Controls.Add(Me.LabelX22)
-        Me.FlowLayoutPanel5.Controls.Add(Me.TextBox3)
-        Me.FlowLayoutPanel5.Controls.Add(Me.LabelX23)
-        Me.FlowLayoutPanel5.Controls.Add(Me.TextBox4)
-        Me.FlowLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Left
-        Me.FlowLayoutPanel5.Location = New System.Drawing.Point(0, 0)
-        Me.FlowLayoutPanel5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.FlowLayoutPanel5.Name = "FlowLayoutPanel5"
-        Me.FlowLayoutPanel5.Size = New System.Drawing.Size(352, 281)
-        Me.FlowLayoutPanel5.TabIndex = 116
-        '
-        'LabelX15
-        '
-        '
-        '
-        '
-        Me.LabelX15.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.LabelX15.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX15.Location = New System.Drawing.Point(3, 4)
-        Me.LabelX15.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.LabelX15.Name = "LabelX15"
-        Me.LabelX15.Size = New System.Drawing.Size(89, 22)
-        Me.LabelX15.TabIndex = 115
-        Me.LabelX15.Text = "Ship Via :"
-        '
-        'LabelX21
-        '
-        '
-        '
-        '
-        Me.LabelX21.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.LabelX21.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX21.Location = New System.Drawing.Point(3, 34)
-        Me.LabelX21.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.LabelX21.Name = "LabelX21"
-        Me.LabelX21.Size = New System.Drawing.Size(89, 22)
-        Me.LabelX21.TabIndex = 130
-        Me.LabelX21.Text = "To :"
-        '
-        'LabelX13
-        '
-        '
-        '
-        '
-        Me.LabelX13.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.LabelX13.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX13.Location = New System.Drawing.Point(3, 64)
-        Me.LabelX13.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.LabelX13.Name = "LabelX13"
-        Me.LabelX13.Size = New System.Drawing.Size(89, 22)
-        Me.LabelX13.TabIndex = 126
-        Me.LabelX13.Text = "Address :"
-        '
-        'LabelX22
-        '
-        '
-        '
-        '
-        Me.LabelX22.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.LabelX22.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX22.Location = New System.Drawing.Point(3, 154)
-        Me.LabelX22.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.LabelX22.Name = "LabelX22"
-        Me.LabelX22.Size = New System.Drawing.Size(89, 22)
-        Me.LabelX22.TabIndex = 132
-        Me.LabelX22.Text = "PIC :"
-        '
-        'LabelX23
-        '
-        '
-        '
-        '
-        Me.LabelX23.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.LabelX23.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX23.Location = New System.Drawing.Point(3, 184)
-        Me.LabelX23.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.LabelX23.Name = "LabelX23"
-        Me.LabelX23.Size = New System.Drawing.Size(89, 22)
-        Me.LabelX23.TabIndex = 134
-        Me.LabelX23.Text = "Phone :"
-        '
-        'SuperTabItem3
-        '
-        Me.SuperTabItem3.AttachedControl = Me.SuperTabControlPanel2
-        Me.SuperTabItem3.GlobalItem = False
-        Me.SuperTabItem3.Image = CType(resources.GetObject("SuperTabItem3.Image"), System.Drawing.Image)
-        Me.SuperTabItem3.Name = "SuperTabItem3"
-        Me.SuperTabItem3.Text = "Shipping Detail"
-        '
-        'SuperTabItem2
-        '
-        Me.SuperTabItem2.AttachedControl = Me.SuperTabControlPanel1
-        Me.SuperTabItem2.GlobalItem = False
-        Me.SuperTabItem2.Image = CType(resources.GetObject("SuperTabItem2.Image"), System.Drawing.Image)
-        Me.SuperTabItem2.Name = "SuperTabItem2"
-        Me.SuperTabItem2.PredefinedColor = DevComponents.DotNetBar.eTabItemColor.Silver
-        Me.SuperTabItem2.SelectedTabFont = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SuperTabItem2.TabFont = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SuperTabItem2.Text = "Sales Delivery"
-        '
         'btnremove
         '
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
@@ -1095,6 +952,74 @@ Partial Class frmSalesDelivery
         Me.DataGridViewDoubleInputColumn2.ReadOnly = True
         Me.DataGridViewDoubleInputColumn2.Width = 85
         '
+        'SuperTabItem4
+        '
+        Me.SuperTabItem4.AttachedControl = Me.SuperTabControlPanel3
+        Me.SuperTabItem4.GlobalItem = False
+        Me.SuperTabItem4.Image = CType(resources.GetObject("SuperTabItem4.Image"), System.Drawing.Image)
+        Me.SuperTabItem4.Name = "SuperTabItem4"
+        SuperTabItemStateColorTable1.CloseMarker = System.Drawing.Color.White
+        SuperTabColorStates1.Normal = SuperTabItemStateColorTable1
+        SuperTabItemColorTable1.Bottom = SuperTabColorStates1
+        Me.SuperTabItem4.TabColor = SuperTabItemColorTable1
+        Me.SuperTabItem4.Text = "Item Details"
+        '
+        'SuperTabControlPanel2
+        '
+        Me.SuperTabControlPanel2.Controls.Add(Me.Panel4)
+        Me.SuperTabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SuperTabControlPanel2.Location = New System.Drawing.Point(0, 0)
+        Me.SuperTabControlPanel2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.SuperTabControlPanel2.Name = "SuperTabControlPanel2"
+        Me.SuperTabControlPanel2.Size = New System.Drawing.Size(779, 302)
+        Me.SuperTabControlPanel2.TabIndex = 0
+        Me.SuperTabControlPanel2.TabItem = Me.SuperTabItem3
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.Transparent
+        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel4.Controls.Add(Me.FlowLayoutPanel5)
+        Me.Panel4.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Panel4.Location = New System.Drawing.Point(5, 3)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(771, 283)
+        Me.Panel4.TabIndex = 117
+        '
+        'FlowLayoutPanel5
+        '
+        Me.FlowLayoutPanel5.Controls.Add(Me.LabelX15)
+        Me.FlowLayoutPanel5.Controls.Add(Me.ComboBoxEx2)
+        Me.FlowLayoutPanel5.Controls.Add(Me.ButtonX2)
+        Me.FlowLayoutPanel5.Controls.Add(Me.LabelX21)
+        Me.FlowLayoutPanel5.Controls.Add(Me.TextBox1)
+        Me.FlowLayoutPanel5.Controls.Add(Me.LabelX13)
+        Me.FlowLayoutPanel5.Controls.Add(Me.TextBox2)
+        Me.FlowLayoutPanel5.Controls.Add(Me.LabelX22)
+        Me.FlowLayoutPanel5.Controls.Add(Me.TextBox3)
+        Me.FlowLayoutPanel5.Controls.Add(Me.LabelX23)
+        Me.FlowLayoutPanel5.Controls.Add(Me.TextBox4)
+        Me.FlowLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Left
+        Me.FlowLayoutPanel5.Location = New System.Drawing.Point(0, 0)
+        Me.FlowLayoutPanel5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.FlowLayoutPanel5.Name = "FlowLayoutPanel5"
+        Me.FlowLayoutPanel5.Size = New System.Drawing.Size(352, 281)
+        Me.FlowLayoutPanel5.TabIndex = 116
+        '
+        'LabelX15
+        '
+        '
+        '
+        '
+        Me.LabelX15.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX15.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelX15.Location = New System.Drawing.Point(3, 4)
+        Me.LabelX15.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.LabelX15.Name = "LabelX15"
+        Me.LabelX15.Size = New System.Drawing.Size(89, 22)
+        Me.LabelX15.TabIndex = 115
+        Me.LabelX15.Text = "Ship Via :"
+        '
         'ComboBoxEx2
         '
         Me.ComboBoxEx2.DisplayMember = "Text"
@@ -1123,6 +1048,20 @@ Partial Class frmSalesDelivery
         Me.ButtonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
         Me.ButtonX2.TabIndex = 154
         '
+        'LabelX21
+        '
+        '
+        '
+        '
+        Me.LabelX21.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX21.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelX21.Location = New System.Drawing.Point(3, 34)
+        Me.LabelX21.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.LabelX21.Name = "LabelX21"
+        Me.LabelX21.Size = New System.Drawing.Size(89, 22)
+        Me.LabelX21.TabIndex = 130
+        Me.LabelX21.Text = "To :"
+        '
         'TextBox1
         '
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -1132,6 +1071,20 @@ Partial Class frmSalesDelivery
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(246, 22)
         Me.TextBox1.TabIndex = 155
+        '
+        'LabelX13
+        '
+        '
+        '
+        '
+        Me.LabelX13.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX13.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelX13.Location = New System.Drawing.Point(3, 64)
+        Me.LabelX13.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.LabelX13.Name = "LabelX13"
+        Me.LabelX13.Size = New System.Drawing.Size(89, 22)
+        Me.LabelX13.TabIndex = 126
+        Me.LabelX13.Text = "Address :"
         '
         'TextBox2
         '
@@ -1144,6 +1097,20 @@ Partial Class frmSalesDelivery
         Me.TextBox2.Size = New System.Drawing.Size(246, 82)
         Me.TextBox2.TabIndex = 156
         '
+        'LabelX22
+        '
+        '
+        '
+        '
+        Me.LabelX22.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX22.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelX22.Location = New System.Drawing.Point(3, 154)
+        Me.LabelX22.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.LabelX22.Name = "LabelX22"
+        Me.LabelX22.Size = New System.Drawing.Size(89, 22)
+        Me.LabelX22.TabIndex = 132
+        Me.LabelX22.Text = "PIC :"
+        '
         'TextBox3
         '
         Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -1153,6 +1120,20 @@ Partial Class frmSalesDelivery
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(246, 22)
         Me.TextBox3.TabIndex = 157
+        '
+        'LabelX23
+        '
+        '
+        '
+        '
+        Me.LabelX23.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX23.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelX23.Location = New System.Drawing.Point(3, 184)
+        Me.LabelX23.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.LabelX23.Name = "LabelX23"
+        Me.LabelX23.Size = New System.Drawing.Size(89, 22)
+        Me.LabelX23.TabIndex = 134
+        Me.LabelX23.Text = "Phone :"
         '
         'TextBox4
         '
@@ -1164,6 +1145,25 @@ Partial Class frmSalesDelivery
         Me.TextBox4.Size = New System.Drawing.Size(246, 22)
         Me.TextBox4.TabIndex = 158
         '
+        'SuperTabItem3
+        '
+        Me.SuperTabItem3.AttachedControl = Me.SuperTabControlPanel2
+        Me.SuperTabItem3.GlobalItem = False
+        Me.SuperTabItem3.Image = CType(resources.GetObject("SuperTabItem3.Image"), System.Drawing.Image)
+        Me.SuperTabItem3.Name = "SuperTabItem3"
+        Me.SuperTabItem3.Text = "Shipping Detail"
+        '
+        'SuperTabItem2
+        '
+        Me.SuperTabItem2.AttachedControl = Me.SuperTabControlPanel1
+        Me.SuperTabItem2.GlobalItem = False
+        Me.SuperTabItem2.Image = CType(resources.GetObject("SuperTabItem2.Image"), System.Drawing.Image)
+        Me.SuperTabItem2.Name = "SuperTabItem2"
+        Me.SuperTabItem2.PredefinedColor = DevComponents.DotNetBar.eTabItemColor.Silver
+        Me.SuperTabItem2.SelectedTabFont = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SuperTabItem2.TabFont = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SuperTabItem2.Text = "Sales Delivery"
+        '
         'frmSalesDelivery
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1174,7 +1174,6 @@ Partial Class frmSalesDelivery
         Me.Controls.Add(Me.t0)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Bar1)
-        Me.DoubleBuffered = True
         Me.EnableGlass = False
         Me.MinimumSize = New System.Drawing.Size(789, 630)
         Me.Name = "frmSalesDelivery"

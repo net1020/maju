@@ -400,4 +400,8 @@ Public Class frmSalesDelivery
     'Private Sub cmdEdit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdEdit.Click
     '    load_enabled(True)
     'End Sub
+
+    Private Sub cmdPreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdPreview.Click
+
+    End Sub
 End Class

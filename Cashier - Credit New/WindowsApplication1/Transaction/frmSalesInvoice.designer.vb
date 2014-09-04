@@ -1045,9 +1045,9 @@ Partial Class frmSalesInvoice
         DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Window
         DataGridViewCellStyle9.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
         DataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(83, Byte), Integer), CType(CType(83, Byte), Integer), CType(CType(83, Byte), Integer))
+        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black
         DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.grid1.DefaultCellStyle = DataGridViewCellStyle9
         Me.grid1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -1101,7 +1101,7 @@ Partial Class frmSalesInvoice
         Me.qtyrcv.BackgroundStyle.BackColor = System.Drawing.SystemColors.Window
         Me.qtyrcv.BackgroundStyle.Class = "DataGridViewNumericBorder"
         Me.qtyrcv.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.qtyrcv.BackgroundStyle.TextColor = System.Drawing.SystemColors.WindowText
+        Me.qtyrcv.BackgroundStyle.TextColor = System.Drawing.Color.Black
         DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
         Me.qtyrcv.DefaultCellStyle = DataGridViewCellStyle4
         Me.qtyrcv.HeaderText = "Qty"
@@ -1129,7 +1129,7 @@ Partial Class frmSalesInvoice
         Me.DataGridViewDoubleInputColumn2.BackgroundStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.DataGridViewDoubleInputColumn2.BackgroundStyle.Class = "DataGridViewNumericBorder"
         Me.DataGridViewDoubleInputColumn2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.DataGridViewDoubleInputColumn2.BackgroundStyle.TextColor = System.Drawing.SystemColors.WindowText
+        Me.DataGridViewDoubleInputColumn2.BackgroundStyle.TextColor = System.Drawing.Color.Black
         DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
         DataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.DataGridViewDoubleInputColumn2.DefaultCellStyle = DataGridViewCellStyle6
@@ -1148,7 +1148,7 @@ Partial Class frmSalesInvoice
         Me.Column1.BackgroundStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Column1.BackgroundStyle.Class = "DataGridViewNumericBorder"
         Me.Column1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.Column1.BackgroundStyle.TextColor = System.Drawing.SystemColors.WindowText
+        Me.Column1.BackgroundStyle.TextColor = System.Drawing.Color.Black
         DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
         DataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Column1.DefaultCellStyle = DataGridViewCellStyle7
@@ -1168,7 +1168,7 @@ Partial Class frmSalesInvoice
         Me.total.BackgroundStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.total.BackgroundStyle.Class = "DataGridViewNumericBorder"
         Me.total.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.total.BackgroundStyle.TextColor = System.Drawing.SystemColors.WindowText
+        Me.total.BackgroundStyle.TextColor = System.Drawing.Color.Black
         DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
         DataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.total.DefaultCellStyle = DataGridViewCellStyle8
@@ -1592,6 +1592,7 @@ Partial Class frmSalesInvoice
         Me.Controls.Add(Me.t0)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Bar1)
+        Me.DoubleBuffered = True
         Me.EnableGlass = False
         Me.MinimumSize = New System.Drawing.Size(789, 630)
         Me.Name = "frmSalesInvoice"

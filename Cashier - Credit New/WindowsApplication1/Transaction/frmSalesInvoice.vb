@@ -446,6 +446,7 @@ Public Class frmSalesInvoice
         adnet.ShowDialog()
         Dim adnet2 As adnetObj.clsAdnet = New adnetObj.clsAdnet()
         adnet2.loadCombo(cmbRefno, 18, "")
+        On Error Resume Next
         cmbRefno.Text = adnet.SelectedData(0)
     End Sub
 
@@ -473,11 +474,16 @@ Public Class frmSalesInvoice
 
     Private Sub cmbRefno_DropDownChange(ByVal sender As Object, ByVal Expanded As Boolean) Handles cmbRefno.DropDownChange
         Dim dNet As New adnetObj.clsAdnet
-        Me.Tag = dNet.loadJsonFormat(100, cmbRefno.Text)
+        If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(100, cmbRefno.Text)
+        If cmbRefno.SelectedValue = "sales" Then Me.Tag = dNet.loadJsonFormat(101, cmbRefno.Text)
         load_order()
     End Sub
 
     Private Sub cmbRefno_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedIndexChanged
        
+    End Sub
+
+    Private Sub LabelX9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LabelX9.Click
+
     End Sub
 End Class

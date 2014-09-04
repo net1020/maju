@@ -1,3 +1,4 @@
+
 Public Class frmCashOut
     Dim editStatus As Boolean
     Dim grandTotal As Long
@@ -79,6 +80,7 @@ Public Class frmCashOut
             grid1.Rows.Add("", frmViewAccount.selectedData(0), frmViewAccount.selectedData(1), "0")
             load_grid_total()
         End If
+        On Error Resume Next
         grid1.CurrentCell = grid1.Rows(grid1.RowCount - 2).Cells(3)
     End Sub
 
@@ -120,6 +122,7 @@ Public Class frmCashOut
                 grid1.Rows.Add("", frmViewAccount.selectedData(0), frmViewAccount.selectedData(1), "0")
                 load_grid_total()
             End If
+            On Error Resume Next
             grid1.CurrentCell = grid1.Rows(grid1.RowCount - 2).Cells(3)
         End If
     End Sub
