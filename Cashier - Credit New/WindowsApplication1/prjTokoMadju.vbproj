@@ -202,6 +202,12 @@
     <Compile Include="Transaction\frmCashOut.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Transaction\frmConsigneIn.designer.vb">
+      <DependentUpon>frmConsigneIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmConsigneIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Transaction\frmConsigneInvoice.designer.vb">
       <DependentUpon>frmConsigneInvoice.vb</DependentUpon>
     </Compile>
@@ -226,10 +232,10 @@
     <Compile Include="Transaction\frmConsigneReturn.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Transaction\frmDeliveryMulti.designer.vb">
-      <DependentUpon>frmDeliveryMulti.vb</DependentUpon>
+    <Compile Include="Transaction\frmDeliveryRequest.designer.vb">
+      <DependentUpon>frmDeliveryRequest.vb</DependentUpon>
     </Compile>
-    <Compile Include="Transaction\frmDeliveryMulti.vb">
+    <Compile Include="Transaction\frmDeliveryRequest.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Transaction\frmDeliveryOrder.designer.vb">
@@ -358,6 +364,10 @@
       <DependentUpon>frmCashOut.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmConsigneIn.resx">
+      <DependentUpon>frmConsigneIn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Transaction\frmConsigneInvoice.resx">
       <DependentUpon>frmConsigneInvoice.vb</DependentUpon>
       <SubType>Designer</SubType>
@@ -374,8 +384,8 @@
       <DependentUpon>frmConsigneReturn.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Transaction\frmDeliveryMulti.resx">
-      <DependentUpon>frmDeliveryMulti.vb</DependentUpon>
+    <EmbeddedResource Include="Transaction\frmDeliveryRequest.resx">
+      <DependentUpon>frmDeliveryRequest.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Transaction\frmDeliveryOrder.resx">

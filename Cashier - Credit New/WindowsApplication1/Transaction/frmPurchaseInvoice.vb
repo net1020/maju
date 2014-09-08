@@ -10,7 +10,7 @@ Public Class frmPurchaseInvoice
         'adnet.loadCombo(cmbSales, 11, "")
         adnet.loadCombo(cmbPayment, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
-        adnet.loadCombo(cmbRefno, 39, "")
+        adnet.loadCombo(cmbRefno, 39, cmbCustomer.Text)
         'adnet.load_printer(cmbReport)
         dtTrans.Value = Now
         dtDelivery.Value = Now
@@ -27,6 +27,9 @@ Public Class frmPurchaseInvoice
         adnet2.loadCombo(cmbCustomer, 37, "")
         On Error Resume Next
         cmbCustomer.Text = adnet.SelectedData(2)
+        If Me.Text = "Add - Purchase Invoice" Then
+            adnet2.loadCombo(cmbRefno, 39, cmbCustomer.Text)
+        End If
     End Sub
 
     Private Sub frmSalesOrder_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
@@ -79,6 +82,36 @@ Public Class frmPurchaseInvoice
         load_grid_total()
 
     End Sub
+
+    Sub load_order()
+        Dim frm As New adnetObj.clsAdnet
+        Dim strArr() As String
+        strArr = Split(Me.Tag, "|")
+        load_griddata(strArr(32))
+        'txtTransno.Text = strArr(0)
+        ' dtTrans.Value = strArr(1)
+        ' cmbCustomer.Text = strArr(4)
+        'cmbSales.Text = strArr(7)
+        cmbPayment.Text = strArr(5)
+        cmbWarehouse.Text = strArr(20)
+        cmbRefno.Text = strArr(6)
+
+        dtDelivery.Text = strArr(19)
+        'tAmount.Value = strArr(8)
+        tDisccent.Value = Val(strArr(9))
+        'tDiscamount.Value = strArr(10)
+        tPPNcent.Value = Val(strArr(11))
+        'tPPNamount.Value = 0.1 * (Val(strArr(8)) - Val(strArr(10)))
+        tOtherfee.Value = strArr(12)
+        'tSubtotal.Value = Replace(Replace(strArr(13), ",", ""), ".", "")
+        'tTotal.Text = strArr(13)
+        txtNote.Text = strArr(31)
+        tDP.Value = strArr(33)
+        'tLeftamount.Value = strArr(34)
+        load_grid_total()
+
+    End Sub
+
     Sub Clear_data()
         Dim frm As New adnetObj.clsAdnet
         dtTrans.Value = Today
@@ -273,7 +306,7 @@ Public Class frmPurchaseInvoice
     Sub load_enabled(ByVal mode As Boolean)
         cmdSave.Enabled = mode
         cmdEdit.Enabled = Not mode
-        cmdAdd.Enabled = Not mode
+        'cmdAdd.Enabled = Not mode
         cmdPreview.Enabled = Not mode
         cmdPrint.Enabled = Not mode
         grid1.ReadOnly = Not mode
@@ -395,6 +428,11 @@ Public Class frmPurchaseInvoice
     Private Sub cmdEdit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdEdit.Click
         Me.Text = "Edit - " & "Purchase Invoice"
         load_enabled(True)
+        dtTrans.Enabled = False
+        cmbCustomer.Enabled = False
+        cmdCustomer.Enabled = False
+        cmbRefno.Enabled = False
+        cmdRefno.Enabled = False
     End Sub
 
     Private Sub cmdRefno_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdRefno.Click
@@ -407,6 +445,11 @@ Public Class frmPurchaseInvoice
         Dim adnet2 As adnetObj.clsAdnet = New adnetObj.clsAdnet()
         adnet2.loadCombo(cmbRefno, 39, "")
         cmbRefno.Text = adnet.SelectedData(0)
+        If Me.Text = "Add - Purchase Invoice" Then
+            Dim dNet As New adnetObj.clsAdnet
+            Me.Tag = dNet.loadJsonFormat(114, cmbRefno.Text)
+            load_order()
+        End If
     End Sub
 
     Private Sub tLeftamount_ValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles tLeftamount.ValueChanged
@@ -429,5 +472,31 @@ Public Class frmPurchaseInvoice
     Private Sub cmdPreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdPreview.Click
         Dim dNet As New adnetObj.clsAdnet
         dNet.viewReportNew("template\" & cmbReport.SelectedValue & ".repx", dNet.loadJsonReport(cmbReport.SelectedValue, txtTransno.Text))
+    End Sub
+
+    Private Sub cmdExit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdExit.Click
+        Me.Close()
+    End Sub
+
+    Private Sub cmbCustomer_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedIndexChanged
+        On Error Resume Next
+        Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
+        If Me.Text = "Add - Purchase Invoice" Then
+            adnet.loadCombo(cmbRefno, 39, cmbCustomer.Text)
+        End If
+    End Sub
+
+    Private Sub cmbRefno_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedIndexChanged
+        On Error Resume Next
+
+        If Me.Text = "Add - Purchase Invoice" Then
+            Dim dNet As New adnetObj.clsAdnet
+            Me.Tag = dNet.loadJsonFormat(114, cmbRefno.Text)
+            load_order()
+        End If
+    End Sub
+
+    Private Sub cmbWarehouse_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbWarehouse.SelectedIndexChanged
+
     End Sub
 End Class

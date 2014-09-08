@@ -115,7 +115,7 @@ Public Class frmPurchasePayment
     Sub load_enabled(ByVal mode As Boolean)
         cmdSave.Enabled = mode
         cmdEdit.Enabled = Not mode
-        cmdAdd.Enabled = Not mode
+        'cmdAdd.Enabled = Not mode
         cmdPreview.Enabled = Not mode
         cmdPrint.Enabled = Not mode
         grid1.ReadOnly = Not mode
@@ -221,6 +221,10 @@ Public Class frmPurchasePayment
     Private Sub cmdEdit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdEdit.Click
         Me.Text = "Edit - " & "Purchase Payment"
         load_enabled(True)
+        dtTrans.Enabled = False
+        cmbCustomer.Enabled = False
+        cmdCustomer.Enabled = False
+
     End Sub
 
     Private Sub cmbPaytype_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbPaytype.SelectedIndexChanged
@@ -274,5 +278,9 @@ Public Class frmPurchasePayment
     Private Sub cmdPreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdPreview.Click
         Dim dNet As New adnetObj.clsAdnet
         dNet.viewReportNew("template\" & cmbReport.SelectedValue & ".repx", dNet.loadJsonReport(cmbReport.SelectedValue, txtTransno.Text))
+    End Sub
+
+    Private Sub cmdExit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdExit.Click
+        Me.Close()
     End Sub
 End Class

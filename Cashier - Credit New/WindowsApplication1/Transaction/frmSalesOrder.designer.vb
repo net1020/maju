@@ -49,7 +49,6 @@ Partial Class frmSalesOrder
         Me.cmbReport = New DevComponents.DotNetBar.Controls.ComboBoxEx
         Me.cmdSave = New DevComponents.DotNetBar.ButtonItem
         Me.cmdEdit = New DevComponents.DotNetBar.ButtonItem
-        Me.cmdAdd = New DevComponents.DotNetBar.ButtonItem
         Me.cmdPreview = New DevComponents.DotNetBar.ButtonItem
         Me.ControlContainerItem1 = New DevComponents.DotNetBar.ControlContainerItem
         Me.cmdPrint = New DevComponents.DotNetBar.ButtonItem
@@ -72,6 +71,9 @@ Partial Class frmSalesOrder
         Me.txtTransno = New System.Windows.Forms.TextBox
         Me.LabelX6 = New DevComponents.DotNetBar.LabelX
         Me.dtTrans = New DevComponents.Editors.DateTimeAdv.DateTimeInput
+        Me.LabelX24 = New DevComponents.DotNetBar.LabelX
+        Me.cmbRefno = New DevComponents.DotNetBar.Controls.ComboBoxEx
+        Me.cmdRefno = New DevComponents.DotNetBar.ButtonX
         Me.LabelX7 = New DevComponents.DotNetBar.LabelX
         Me.cmbCustomer = New DevComponents.DotNetBar.Controls.ComboBoxEx
         Me.cmdCustomer = New DevComponents.DotNetBar.ButtonX
@@ -125,9 +127,6 @@ Partial Class frmSalesOrder
         Me.tLeftamount = New DevComponents.Editors.DoubleInput
         Me.SuperTabItem3 = New DevComponents.DotNetBar.SuperTabItem
         Me.SuperTabItem2 = New DevComponents.DotNetBar.SuperTabItem
-        Me.LabelX24 = New DevComponents.DotNetBar.LabelX
-        Me.cmbRefno = New DevComponents.DotNetBar.Controls.ComboBoxEx
-        Me.cmdRefno = New DevComponents.DotNetBar.ButtonX
         Me.FlowLayoutPanel1.SuspendLayout()
         CType(Me.t3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Bar1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -327,7 +326,7 @@ Partial Class frmSalesOrder
         Me.Bar1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Bar1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Bar1.GrabHandleStyle = DevComponents.DotNetBar.eGrabHandleStyle.Office2003
-        Me.Bar1.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.cmdSave, Me.cmdEdit, Me.cmdAdd, Me.cmdPreview, Me.ControlContainerItem1, Me.cmdPrint, Me.cmdExit})
+        Me.Bar1.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.cmdSave, Me.cmdEdit, Me.cmdPreview, Me.ControlContainerItem1, Me.cmdPrint, Me.cmdExit})
         Me.Bar1.ItemSpacing = 11
         Me.Bar1.Location = New System.Drawing.Point(0, 0)
         Me.Bar1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
@@ -348,7 +347,7 @@ Partial Class frmSalesOrder
         Me.cmbReport.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbReport.FormattingEnabled = True
         Me.cmbReport.ItemHeight = 16
-        Me.cmbReport.Location = New System.Drawing.Point(263, 2)
+        Me.cmbReport.Location = New System.Drawing.Point(205, 2)
         Me.cmbReport.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.cmbReport.Name = "cmbReport"
         Me.cmbReport.Size = New System.Drawing.Size(195, 22)
@@ -368,13 +367,6 @@ Partial Class frmSalesOrder
         Me.cmdEdit.Image = CType(resources.GetObject("cmdEdit.Image"), System.Drawing.Image)
         Me.cmdEdit.Name = "cmdEdit"
         Me.cmdEdit.Text = "Edit"
-        '
-        'cmdAdd
-        '
-        Me.cmdAdd.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText
-        Me.cmdAdd.Image = CType(resources.GetObject("cmdAdd.Image"), System.Drawing.Image)
-        Me.cmdAdd.Name = "cmdAdd"
-        Me.cmdAdd.Text = "Add"
         '
         'cmdPreview
         '
@@ -423,9 +415,9 @@ Partial Class frmSalesOrder
         '
         'FlowLayoutPanel3
         '
-        Me.FlowLayoutPanel3.Controls.Add(Me.LabelX17)
-        Me.FlowLayoutPanel3.Controls.Add(Me.cmbWarehouse)
-        Me.FlowLayoutPanel3.Controls.Add(Me.cmdWarehouse)
+        Me.FlowLayoutPanel3.Controls.Add(Me.LabelX24)
+        Me.FlowLayoutPanel3.Controls.Add(Me.cmbRefno)
+        Me.FlowLayoutPanel3.Controls.Add(Me.cmdRefno)
         Me.FlowLayoutPanel3.Controls.Add(Me.LabelX8)
         Me.FlowLayoutPanel3.Controls.Add(Me.cmbPayment)
         Me.FlowLayoutPanel3.Controls.Add(Me.cmdPayment)
@@ -447,7 +439,7 @@ Partial Class frmSalesOrder
         '
         Me.LabelX17.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX17.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX17.Location = New System.Drawing.Point(3, 4)
+        Me.LabelX17.Location = New System.Drawing.Point(3, 124)
         Me.LabelX17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LabelX17.Name = "LabelX17"
         Me.LabelX17.Size = New System.Drawing.Size(118, 22)
@@ -462,10 +454,10 @@ Partial Class frmSalesOrder
         Me.cmbWarehouse.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbWarehouse.FormattingEnabled = True
         Me.cmbWarehouse.ItemHeight = 16
-        Me.cmbWarehouse.Location = New System.Drawing.Point(127, 4)
+        Me.cmbWarehouse.Location = New System.Drawing.Point(127, 124)
         Me.cmbWarehouse.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.cmbWarehouse.Name = "cmbWarehouse"
-        Me.cmbWarehouse.Size = New System.Drawing.Size(218, 22)
+        Me.cmbWarehouse.Size = New System.Drawing.Size(209, 22)
         Me.cmbWarehouse.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
         Me.cmbWarehouse.TabIndex = 4
         '
@@ -476,7 +468,7 @@ Partial Class frmSalesOrder
         Me.cmdWarehouse.Image = CType(resources.GetObject("cmdWarehouse.Image"), System.Drawing.Image)
         Me.cmdWarehouse.ImageFixedSize = New System.Drawing.Size(12, 12)
         Me.cmdWarehouse.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
-        Me.cmdWarehouse.Location = New System.Drawing.Point(351, 3)
+        Me.cmdWarehouse.Location = New System.Drawing.Point(342, 123)
         Me.cmdWarehouse.Name = "cmdWarehouse"
         Me.cmdWarehouse.Size = New System.Drawing.Size(21, 22)
         Me.cmdWarehouse.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
@@ -620,15 +612,15 @@ Partial Class frmSalesOrder
         Me.FlowLayoutPanel2.Controls.Add(Me.txtTransno)
         Me.FlowLayoutPanel2.Controls.Add(Me.LabelX6)
         Me.FlowLayoutPanel2.Controls.Add(Me.dtTrans)
-        Me.FlowLayoutPanel2.Controls.Add(Me.LabelX24)
-        Me.FlowLayoutPanel2.Controls.Add(Me.cmbRefno)
-        Me.FlowLayoutPanel2.Controls.Add(Me.cmdRefno)
         Me.FlowLayoutPanel2.Controls.Add(Me.LabelX7)
         Me.FlowLayoutPanel2.Controls.Add(Me.cmbCustomer)
         Me.FlowLayoutPanel2.Controls.Add(Me.cmdCustomer)
         Me.FlowLayoutPanel2.Controls.Add(Me.LabelX14)
         Me.FlowLayoutPanel2.Controls.Add(Me.cmbSales)
         Me.FlowLayoutPanel2.Controls.Add(Me.cmdSales)
+        Me.FlowLayoutPanel2.Controls.Add(Me.LabelX17)
+        Me.FlowLayoutPanel2.Controls.Add(Me.cmbWarehouse)
+        Me.FlowLayoutPanel2.Controls.Add(Me.cmdWarehouse)
         Me.FlowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Left
         Me.FlowLayoutPanel2.Location = New System.Drawing.Point(0, 0)
         Me.FlowLayoutPanel2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
@@ -726,6 +718,48 @@ Partial Class frmSalesOrder
         Me.dtTrans.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
         Me.dtTrans.TabIndex = 1
         '
+        'LabelX24
+        '
+        '
+        '
+        '
+        Me.LabelX24.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX24.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelX24.Location = New System.Drawing.Point(3, 4)
+        Me.LabelX24.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.LabelX24.Name = "LabelX24"
+        Me.LabelX24.Size = New System.Drawing.Size(118, 22)
+        Me.LabelX24.TabIndex = 153
+        Me.LabelX24.Text = "Ref No :"
+        '
+        'cmbRefno
+        '
+        Me.cmbRefno.DisplayMember = "Text"
+        Me.cmbRefno.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cmbRefno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbRefno.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbRefno.FormattingEnabled = True
+        Me.cmbRefno.ItemHeight = 16
+        Me.cmbRefno.Location = New System.Drawing.Point(127, 4)
+        Me.cmbRefno.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.cmbRefno.Name = "cmbRefno"
+        Me.cmbRefno.Size = New System.Drawing.Size(218, 22)
+        Me.cmbRefno.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
+        Me.cmbRefno.TabIndex = 154
+        '
+        'cmdRefno
+        '
+        Me.cmdRefno.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+        Me.cmdRefno.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+        Me.cmdRefno.Image = CType(resources.GetObject("cmdRefno.Image"), System.Drawing.Image)
+        Me.cmdRefno.ImageFixedSize = New System.Drawing.Size(12, 12)
+        Me.cmdRefno.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
+        Me.cmdRefno.Location = New System.Drawing.Point(351, 3)
+        Me.cmdRefno.Name = "cmdRefno"
+        Me.cmdRefno.Size = New System.Drawing.Size(21, 22)
+        Me.cmdRefno.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
+        Me.cmdRefno.TabIndex = 155
+        '
         'LabelX7
         '
         '
@@ -733,7 +767,7 @@ Partial Class frmSalesOrder
         '
         Me.LabelX7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX7.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX7.Location = New System.Drawing.Point(3, 94)
+        Me.LabelX7.Location = New System.Drawing.Point(3, 64)
         Me.LabelX7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LabelX7.Name = "LabelX7"
         Me.LabelX7.Size = New System.Drawing.Size(118, 22)
@@ -748,7 +782,7 @@ Partial Class frmSalesOrder
         Me.cmbCustomer.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbCustomer.FormattingEnabled = True
         Me.cmbCustomer.ItemHeight = 16
-        Me.cmbCustomer.Location = New System.Drawing.Point(127, 94)
+        Me.cmbCustomer.Location = New System.Drawing.Point(127, 64)
         Me.cmbCustomer.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.cmbCustomer.Name = "cmbCustomer"
         Me.cmbCustomer.Size = New System.Drawing.Size(209, 22)
@@ -762,7 +796,7 @@ Partial Class frmSalesOrder
         Me.cmdCustomer.Image = CType(resources.GetObject("cmdCustomer.Image"), System.Drawing.Image)
         Me.cmdCustomer.ImageFixedSize = New System.Drawing.Size(12, 12)
         Me.cmdCustomer.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
-        Me.cmdCustomer.Location = New System.Drawing.Point(342, 93)
+        Me.cmdCustomer.Location = New System.Drawing.Point(342, 63)
         Me.cmdCustomer.Name = "cmdCustomer"
         Me.cmdCustomer.Size = New System.Drawing.Size(21, 22)
         Me.cmdCustomer.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
@@ -775,7 +809,7 @@ Partial Class frmSalesOrder
         '
         Me.LabelX14.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX14.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX14.Location = New System.Drawing.Point(3, 124)
+        Me.LabelX14.Location = New System.Drawing.Point(3, 94)
         Me.LabelX14.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LabelX14.Name = "LabelX14"
         Me.LabelX14.Size = New System.Drawing.Size(118, 22)
@@ -790,7 +824,7 @@ Partial Class frmSalesOrder
         Me.cmbSales.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbSales.FormattingEnabled = True
         Me.cmbSales.ItemHeight = 16
-        Me.cmbSales.Location = New System.Drawing.Point(127, 124)
+        Me.cmbSales.Location = New System.Drawing.Point(127, 94)
         Me.cmbSales.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.cmbSales.Name = "cmbSales"
         Me.cmbSales.Size = New System.Drawing.Size(209, 22)
@@ -804,7 +838,7 @@ Partial Class frmSalesOrder
         Me.cmdSales.Image = CType(resources.GetObject("cmdSales.Image"), System.Drawing.Image)
         Me.cmdSales.ImageFixedSize = New System.Drawing.Size(12, 12)
         Me.cmdSales.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
-        Me.cmdSales.Location = New System.Drawing.Point(342, 123)
+        Me.cmdSales.Location = New System.Drawing.Point(342, 93)
         Me.cmdSales.Name = "cmdSales"
         Me.cmdSales.Size = New System.Drawing.Size(21, 23)
         Me.cmdSales.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
@@ -1028,9 +1062,9 @@ Partial Class frmSalesOrder
         DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window
         DataGridViewCellStyle7.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black
         DataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(83, Byte), Integer), CType(CType(83, Byte), Integer), CType(CType(83, Byte), Integer))
+        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black
         DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.grid1.DefaultCellStyle = DataGridViewCellStyle7
         Me.grid1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -1534,48 +1568,6 @@ Partial Class frmSalesOrder
         Me.SuperTabItem2.TabFont = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SuperTabItem2.Text = "Sales Order"
         '
-        'LabelX24
-        '
-        '
-        '
-        '
-        Me.LabelX24.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.LabelX24.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX24.Location = New System.Drawing.Point(3, 64)
-        Me.LabelX24.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.LabelX24.Name = "LabelX24"
-        Me.LabelX24.Size = New System.Drawing.Size(118, 22)
-        Me.LabelX24.TabIndex = 153
-        Me.LabelX24.Text = "Ref No :"
-        '
-        'cmbRefno
-        '
-        Me.cmbRefno.DisplayMember = "Text"
-        Me.cmbRefno.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.cmbRefno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cmbRefno.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbRefno.FormattingEnabled = True
-        Me.cmbRefno.ItemHeight = 16
-        Me.cmbRefno.Location = New System.Drawing.Point(127, 64)
-        Me.cmbRefno.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.cmbRefno.Name = "cmbRefno"
-        Me.cmbRefno.Size = New System.Drawing.Size(209, 22)
-        Me.cmbRefno.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
-        Me.cmbRefno.TabIndex = 154
-        '
-        'cmdRefno
-        '
-        Me.cmdRefno.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
-        Me.cmdRefno.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
-        Me.cmdRefno.Image = CType(resources.GetObject("cmdRefno.Image"), System.Drawing.Image)
-        Me.cmdRefno.ImageFixedSize = New System.Drawing.Size(12, 12)
-        Me.cmdRefno.ImagePosition = DevComponents.DotNetBar.eImagePosition.Bottom
-        Me.cmdRefno.Location = New System.Drawing.Point(342, 63)
-        Me.cmdRefno.Name = "cmdRefno"
-        Me.cmdRefno.Size = New System.Drawing.Size(21, 22)
-        Me.cmdRefno.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
-        Me.cmdRefno.TabIndex = 155
-        '
         'frmSalesOrder
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1647,7 +1639,6 @@ Partial Class frmSalesOrder
     Friend WithEvents cmbReport As DevComponents.DotNetBar.Controls.ComboBoxEx
     Friend WithEvents cmdSave As DevComponents.DotNetBar.ButtonItem
     Friend WithEvents cmdEdit As DevComponents.DotNetBar.ButtonItem
-    Friend WithEvents cmdAdd As DevComponents.DotNetBar.ButtonItem
     Friend WithEvents cmdPreview As DevComponents.DotNetBar.ButtonItem
     Friend WithEvents ControlContainerItem1 As DevComponents.DotNetBar.ControlContainerItem
     Friend WithEvents cmdPrint As DevComponents.DotNetBar.ButtonItem

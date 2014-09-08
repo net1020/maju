@@ -64,8 +64,8 @@ Public Class frmSalesReceipt
         txtCheque.Text = strArr(8)
         txtNote.Text = strArr(10)
         load_grid_total()
-
     End Sub
+
     Sub Clear_data()
         Dim frm As New adnetObj.clsAdnet
         dtTrans.Value = Today
@@ -114,7 +114,7 @@ Public Class frmSalesReceipt
     Sub load_enabled(ByVal mode As Boolean)
         cmdSave.Enabled = mode
         cmdEdit.Enabled = Not mode
-        cmdAdd.Enabled = Not mode
+        'cmdAdd.Enabled = Not mode
         cmdPreview.Enabled = Not mode
         cmdPrint.Enabled = Not mode
         grid1.ReadOnly = Not mode
@@ -220,6 +220,9 @@ Public Class frmSalesReceipt
     Private Sub cmdEdit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdEdit.Click
         Me.Text = "Edit - " & "Sales Payment"
         load_enabled(True)
+        dtTrans.Enabled = False
+        cmbCustomer.Enabled = False
+        cmdCustomer.Enabled = False
     End Sub
 
     Private Sub cmbPaytype_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbPaytype.SelectedIndexChanged
@@ -273,5 +276,9 @@ Public Class frmSalesReceipt
     Private Sub cmdPreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdPreview.Click
         Dim dNet As New adnetObj.clsAdnet
         dNet.viewReportNew("template\" & cmbReport.SelectedValue & ".repx", dNet.loadJsonReport(cmbReport.SelectedValue, txtTransno.Text))
+    End Sub
+
+    Private Sub cmdExit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdExit.Click
+        Me.Close()
     End Sub
 End Class

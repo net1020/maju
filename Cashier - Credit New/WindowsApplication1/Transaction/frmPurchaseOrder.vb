@@ -276,7 +276,7 @@ Public Class frmPurchaseOrder
     Sub load_enabled(ByVal mode As Boolean)
         cmdSave.Enabled = mode
         cmdEdit.Enabled = Not mode
-        cmdAdd.Enabled = Not mode
+        'cmdAdd.Enabled = Not mode
         cmdPreview.Enabled = Not mode
         cmdPrint.Enabled = Not mode
         grid1.ReadOnly = Not mode
@@ -393,6 +393,10 @@ Public Class frmPurchaseOrder
     Private Sub cmdEdit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdEdit.Click
         Me.Text = "Edit - " & "Purchase Order"
         load_enabled(True)
+        dtTrans.Enabled = False
+        cmbCustomer.Enabled = False
+        cmdCustomer.Enabled = False
+    
     End Sub
 
     Private Sub tPPNcent_ValueChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tPPNcent.ValueChanged
@@ -406,5 +410,9 @@ Public Class frmPurchaseOrder
     Private Sub cmdPreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdPreview.Click
         Dim dNet As New adnetObj.clsAdnet
         dNet.viewReportNew("template\" & cmbReport.SelectedValue & ".repx", dNet.loadJsonReport(cmbReport.SelectedValue, txtTransno.Text))
+    End Sub
+
+    Private Sub cmdExit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdExit.Click
+        Me.Close()
     End Sub
 End Class

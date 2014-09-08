@@ -895,13 +895,57 @@ Public Class frmMain
 
  
     Private Sub ButtonItem58_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem58.Click
-        If selectTab("Multi Delivery") = False Then
+        If selectTab("Delivery Request") = False Then
             Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
             doc1.UrlClient = url
-            doc1.frmNew = New frmDeliveryMulti
+            doc1.frmNew = New frmDeliveryRequest
             doc1.newForm = True
-            doc1.grid("DM")
-            doc1.Text = "Multi Delivery"
+            doc1.grid("DOR")
+            doc1.Text = "Delivery Request"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem59_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem59.Click
+        If selectTab("Consignment Order In") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.frmNew = New frmConsigneIn
+            doc1.newForm = True
+            doc1.grid("COI")
+            doc1.Text = "Consignment Order In"
+            doc1.MdiParent = Me
+            doc1.WindowState = FormWindowState.Maximized
+            doc1.Show()
+            doc1.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem65_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem65.Click
+        If selectTab("Chart of Account") = False Then
+            Dim adnet As adnetObj.frmList = New adnetObj.frmList()
+            adnet.UrlClient = url
+            adnet.newForm = False
+            adnet.grid("Account")
+            adnet.Text = "Chart of Account"
+            adnet.MdiParent = Me
+            adnet.WindowState = FormWindowState.Maximized
+            adnet.Show()
+            adnet.Update()
+        End If
+    End Sub
+
+    Private Sub ButtonItem66_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem66.Click
+        If selectTab("Check Stock") = False Then
+            Dim doc1 As adnetObj.frmList = New adnetObj.frmList()
+            doc1.UrlClient = url
+            doc1.newForm = False
+            doc1.grid("STC")
+            doc1.Text = "Check Stock"
+
             doc1.MdiParent = Me
             doc1.WindowState = FormWindowState.Maximized
             doc1.Show()

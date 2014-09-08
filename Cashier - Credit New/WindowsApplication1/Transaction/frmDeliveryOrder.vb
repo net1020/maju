@@ -17,11 +17,11 @@ Public Class frmDeliveryOrder
 
     Sub load_Setting()
         Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
-        adnet.loadCombo(cmbCustomer, 37, "")
+        adnet.loadCombo(cmbCustomer, 10, "")
         adnet.loadCounter(txtTransno, 54)
         adnet.loadCombo(cmbType, 50, "", "Credit")
         adnet.loadCombo(cmbReport, 90, "")
-        adnet.loadCombo(cmbTransno, 18, "")
+        adnet.loadCombo(cmbTransno, 105, cmbCustomer.Text)
         'adnet.loadCombo(cmbTransno, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
         adnet.loadCombo(cmbVia, 53, "")
@@ -66,20 +66,26 @@ Public Class frmDeliveryOrder
         dtTrans.Value = strArr(1)
         cmbCustomer.Text = strArr(4)
         'cmbSales.Text = strArr(7)
-        cmbTransno.Text = strArr(5)
+        cmbTransno.Text = strArr(6)
         cmbWarehouse.Text = strArr(20)
         'txtPO.Text = strArr(6)
         dtDelivery.Text = strArr(19)
         'tAmount.Value = strArr(8)
-        tDisccent.Value = Val(strArr(9))
+        ' tDisccent.Value = Val(strArr(9))
         'tDiscamount.Value = strArr(10)
-        tPPNcent.Value = Val(strArr(11))
+        'tPPNcent.Value = Val(strArr(11))
         'tPPNamount.Value = 0.1 * (Val(strArr(8)) - Val(strArr(10)))
-        tOtherfee.Value = strArr(12)
+        'tOtherfee.Value = strArr(12)
         'tSubtotal.Value = Replace(Replace(strArr(13), ",", ""), ".", "")
         'tTotal.Text = strArr(13)
         txtNote.Text = strArr(31)
-        tDP.Value = strArr(33)
+        'tDP.Value = strArr(33)
+
+        cmbVia.Text = strArr(14)
+        txtContact.Text = strArr(17)
+        txtAddress.Text = strArr(16)
+        txtPhone.Text = strArr(18)
+
         'tLeftamount.Value = strArr(34)
         load_grid_total()
 
@@ -89,7 +95,7 @@ Public Class frmDeliveryOrder
         Dim frm As New adnetObj.clsAdnet
         Dim strArr() As String
         strArr = Split(Me.Tag, "|")
-        load_griddata(strArr(32))
+        load_griddata2(strArr(32))
         'txtTransno.Text = strArr(0)
         'dtTrans.Value = strArr(1)
         cmbCustomer.Text = strArr(4)
@@ -97,18 +103,24 @@ Public Class frmDeliveryOrder
         'cmbTransno.Text = strArr(5)
         cmbWarehouse.Text = strArr(20)
         'txtPO.Text = strArr(6)
-        dtDelivery.Text = strArr(19)
+        'dtDelivery.Text = strArr(19)
         'tAmount.Value = strArr(8)
-        tDisccent.Value = Val(strArr(9))
+        'tDisccent.Value = Val(strArr(9))
         'tDiscamount.Value = strArr(10)
-        tPPNcent.Value = Val(strArr(11))
+        'tPPNcent.Value = Val(strArr(11))
         'tPPNamount.Value = 0.1 * (Val(strArr(8)) - Val(strArr(10)))
-        tOtherfee.Value = strArr(12)
+        'tOtherfee.Value = strArr(12)
         'tSubtotal.Value = Replace(Replace(strArr(13), ",", ""), ".", "")
         'tTotal.Text = strArr(13)
         txtNote.Text = strArr(31)
-        tDP.Value = strArr(33)
+        ' tDP.Value = strArr(33)
         'tLeftamount.Value = strArr(34)
+
+        cmbVia.Text = strArr(14)
+        txtContact.Text = strArr(17)
+        txtAddress.Text = strArr(16)
+        txtPhone.Text = strArr(18)
+
         load_grid_total()
 
     End Sub
@@ -142,12 +154,27 @@ Public Class frmDeliveryOrder
         grid1.Rows.Clear()
         For i = 0 To arr1.Length - 1
             arr2 = arr1(i).Split("[")
-            grid1.Rows.Add("", arr2(1), arr2(2), arr2(3), arr2(4), arr2(5), arr2(6), arr2(8))
+
+            grid1.Rows.Add("", arr2(1), arr2(2), arr2(3), arr2(4), arr2(5), arr2(6), arr2(8), arr2(9))
+
         Next
 
     End Sub
 
+    Sub load_griddata2(ByVal str As String)
+        Dim arr1() As String
+        Dim arr2() As String
+        Dim i As Integer
+        arr1 = str.Split("{")
+        grid1.Rows.Clear()
+        For i = 0 To arr1.Length - 1
+            arr2 = arr1(i).Split("[")
+            If Val(arr2(9)) > 0 Then
+                grid1.Rows.Add("", arr2(1), arr2(2), arr2(9), arr2(4), arr2(5), arr2(6), arr2(8), arr2(9))
+            End If
+        Next
 
+    End Sub
 
     Private Sub ButtonX1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdWarehouse.Click
         Dim adnet As adnetObj.frmSelect = New adnetObj.frmSelect()
@@ -224,7 +251,7 @@ Public Class frmDeliveryOrder
 
     End Sub
 
-    Private Sub btnremove_Click(ByVal sender As Object, ByVal e As System.EventArgs)
+    Private Sub btnremove_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnremove.Click
         On Error Resume Next
         If grid1.RowCount > 1 Then
             btnremove.Enabled = True
@@ -251,14 +278,17 @@ Public Class frmDeliveryOrder
     End Sub
 
     Private Sub cmbTransno_DropDownChange(ByVal sender As Object, ByVal Expanded As Boolean) Handles cmbTransno.DropDownChange
-        Dim dNet As New adnetObj.clsAdnet
-        If cmbTransno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(100, cmbTransno.Text)
-        load_order()
+      
     End Sub
 
     Private Sub cmbPayment_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbTransno.SelectedIndexChanged
         On Error Resume Next
         'load_ppn(cmbTransno.SelectedValue)
+        If Me.Text = "Add - Delivery Order" Then
+            Dim dNet As New adnetObj.clsAdnet
+            Me.Tag = dNet.loadJsonFormat(106, cmbTransno.Text)
+            load_order()
+        End If
     End Sub
 
     Private Sub tDP_ValueChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tDP.ValueChanged
@@ -267,6 +297,12 @@ Public Class frmDeliveryOrder
 
     Private Sub tOtherfee_ValueChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tOtherfee.ValueChanged
         load_grid_total()
+    End Sub
+
+    Private Sub grid1_CellEndEdit(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles grid1.CellEndEdit
+        If Val(grid1.Item(3, e.RowIndex).Value) > Val(grid1.Item(8, e.RowIndex).Value) Then
+            grid1.Item(3, e.RowIndex).Value = grid1.Item(8, e.RowIndex).Value
+        End If
     End Sub
 
     Private Sub grid1_CellEnter(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles grid1.CellEnter
@@ -317,7 +353,7 @@ Public Class frmDeliveryOrder
     Sub load_enabled(ByVal mode As Boolean)
         cmdSave.Enabled = mode
         cmdEdit.Enabled = Not mode
-        cmdAdd.Enabled = Not mode
+        'cmdAdd.Enabled = False
         cmdPreview.Enabled = Not mode
         cmdPrint.Enabled = Not mode
         grid1.ReadOnly = Not mode
@@ -359,7 +395,7 @@ Public Class frmDeliveryOrder
         str = str & "" & "|"
         str = str & cmbWarehouse.SelectedValue & "|"
 
-        str = str & cmbTransno.SelectedValue & "|"
+        str = str & cmbTransno.Text & "|"
         str = str & "" & "|"
         str = str & tAmount.Value & "|"
         str = str & tDisccent.Value & "|"
@@ -445,6 +481,11 @@ Public Class frmDeliveryOrder
     Private Sub cmdEdit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdEdit.Click
         Me.Text = "Edit - " & "Delivery Order"
         load_enabled(True)
+        dtTrans.Enabled = False
+        cmbCustomer.Enabled = False
+        cmdCustomer.Enabled = False
+        cmbTransno.Enabled = False
+        cmdTransno.Enabled = False
     End Sub
 
     Private Sub tPPNcent_ValueChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tPPNcent.ValueChanged
@@ -483,12 +524,21 @@ Public Class frmDeliveryOrder
         Dim adnet As adnetObj.frmSelect = New adnetObj.frmSelect()
         adnet.UrlClient = url
         adnet.newForm = False
-        adnet.grid("DOS")
+        adnet.grid("DRE")
         adnet.Text = "Delivery Order"
         adnet.ShowDialog()
         Dim adnet2 As adnetObj.clsAdnet = New adnetObj.clsAdnet()
-        adnet2.loadCombo(cmbTransno, 18, "")
+        adnet2.loadCombo(cmbTransno, 105, cmbCustomer.Text)
         On Error Resume Next
         cmbTransno.Text = adnet.SelectedData(0)
+    End Sub
+
+    Private Sub cmbCustomer_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedIndexChanged
+        Dim adnet2 As adnetObj.clsAdnet = New adnetObj.clsAdnet()
+        adnet2.loadCombo(cmbTransno, 105, cmbCustomer.Text)
+    End Sub
+
+    Private Sub cmdExit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdExit.Click
+        Me.Close()
     End Sub
 End Class

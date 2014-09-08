@@ -219,4 +219,5 @@ F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Deb
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Debug\prjTokoMadju.frmCashIn.resources
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Debug\prjTokoMadju.frmViewAccount.resources
 F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Debug\prjTokoMadju.frmCashOut.resources
-F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Debug\prjTokoMadju.frmDeliveryMulti.resources
+F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Debug\prjTokoMadju.frmDeliveryRequest.resources
+F:\DOTNET\Toko Madju POS\ALLNEW\Cashier - Credit New\WindowsApplication1\obj\Debug\prjTokoMadju.frmConsigneIn.resources

@@ -9,7 +9,7 @@ Public Class frmSalesInvoice
         adnet.loadCombo(cmbSales, 11, "")
         adnet.loadCombo(cmbPayment, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
-        adnet.loadCombo(cmbRefno, 18, "")
+        adnet.loadCombo(cmbRefno, 18, cmbCustomer.Text)
         adnet.loadCombo(cmbReport, 61, "")
         dtTrans.Value = Now
         dtDelivery.Value = Now
@@ -313,7 +313,7 @@ Public Class frmSalesInvoice
     Sub load_enabled(ByVal mode As Boolean)
         cmdSave.Enabled = mode
         cmdEdit.Enabled = Not mode
-        cmdAdd.Enabled = Not mode
+        'cmdAdd.Enabled = Not mode
         cmdPreview.Enabled = Not mode
         cmdPrint.Enabled = Not mode
         grid1.ReadOnly = Not mode
@@ -435,6 +435,9 @@ Public Class frmSalesInvoice
     Private Sub cmdEdit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdEdit.Click
         Me.Text = "Edit - " & "Sales Invoice"
         load_enabled(True)
+        dtTrans.Enabled = False
+        cmbCustomer.Enabled = False
+        cmdCustomer.Enabled = False
     End Sub
 
     Private Sub cmdRefno_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdRefno.Click
@@ -445,9 +448,15 @@ Public Class frmSalesInvoice
         adnet.Text = "Sales Order"
         adnet.ShowDialog()
         Dim adnet2 As adnetObj.clsAdnet = New adnetObj.clsAdnet()
-        adnet2.loadCombo(cmbRefno, 18, "")
+        adnet2.loadCombo(cmbRefno, 100, "")
         On Error Resume Next
         cmbRefno.Text = adnet.SelectedData(0)
+        If Me.Text = "Add - Sales Invoice" Then
+            Dim dNet As New adnetObj.clsAdnet
+            If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(111, cmbRefno.Text)
+            load_order()
+        End If
+
     End Sub
 
     Private Sub tLeftamount_ValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles tLeftamount.ValueChanged
@@ -474,16 +483,33 @@ Public Class frmSalesInvoice
 
     Private Sub cmbRefno_DropDownChange(ByVal sender As Object, ByVal Expanded As Boolean) Handles cmbRefno.DropDownChange
         Dim dNet As New adnetObj.clsAdnet
-        If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(100, cmbRefno.Text)
-        If cmbRefno.SelectedValue = "sales" Then Me.Tag = dNet.loadJsonFormat(101, cmbRefno.Text)
+        If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(111, cmbRefno.Text)
         load_order()
     End Sub
 
     Private Sub cmbRefno_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedIndexChanged
-       
+        On Error Resume Next
+
+        If Me.Text = "Add - Sales Invoice" Then
+            Dim dNet As New adnetObj.clsAdnet
+            If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(111, cmbRefno.Text)
+            load_order()
+        End If
     End Sub
 
     Private Sub LabelX9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LabelX9.Click
 
+    End Sub
+
+    Private Sub cmdExit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdExit.Click
+        Me.Close()
+    End Sub
+
+    Private Sub cmbCustomer_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedIndexChanged
+        On Error Resume Next
+        Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
+        If Me.Text = "Add - Sales Invoice" Then
+            adnet.loadCombo(cmbRefno, 18, cmbCustomer.Text)
+        End If
     End Sub
 End Class

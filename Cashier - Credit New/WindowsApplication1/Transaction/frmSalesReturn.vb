@@ -13,6 +13,9 @@ Public Class frmSalesReturn
         adnet2.loadCombo(cmbCustomer, 10, "")
         On Error Resume Next
         cmbCustomer.Text = adnet.SelectedData(2)
+        If Me.Text = "Add - Sales Return" Then
+            adnet2.loadCombo(cmbRefno, 113, cmbCustomer.Text)
+        End If
     End Sub
 
     Sub load_Setting()
@@ -22,6 +25,7 @@ Public Class frmSalesReturn
         adnet.loadCombo(cmbSales, 11, "")
         adnet.loadCombo(cmbPayment, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
+        adnet.loadCombo(cmbRefno, 113, cmbCustomer.Text)
         adnet.load_printer(cmbPrinter)
         dtTrans.Value = Now
 
@@ -75,6 +79,36 @@ Public Class frmSalesReturn
         load_grid_total()
 
     End Sub
+
+
+    Sub load_order()
+        Dim frm As New adnetObj.clsAdnet
+        Dim strArr() As String
+        strArr = Split(Me.Tag, "|")
+        load_griddata(strArr(32))
+        'txtTransno.Text = strArr(0)
+        'dtTrans.Value = strArr(1)
+        'cmbCustomer.Text = strArr(4)
+        cmbSales.Text = strArr(7)
+        cmbPayment.Text = strArr(5)
+        cmbWarehouse.Text = strArr(14)
+
+        'tAmount.Value = strArr(8)
+        tDisccent.Value = Val(strArr(9))
+        'tDiscamount.Value = strArr(10)
+        tPPNcent.Value = Val(strArr(11))
+        'tPPNamount.Value = 0.1 * (Val(strArr(8)) - Val(strArr(10)))
+        tOtherfee.Value = strArr(12)
+        'tSubtotal.Value = Replace(Replace(strArr(13), ",", ""), ".", "")
+        'tTotal.Text = strArr(13)
+        txtNote.Text = strArr(15)
+        tCash.Value = strArr(17)
+        tCredit.Value = strArr(18)
+        load_grid_total()
+
+    End Sub
+
+
     Sub Clear_data()
         Dim frm As New adnetObj.clsAdnet
         dtTrans.Value = Today
@@ -269,7 +303,7 @@ Public Class frmSalesReturn
     Sub load_enabled(ByVal mode As Boolean)
         cmdSave.Enabled = mode
         cmdEdit.Enabled = Not mode
-        cmdAdd.Enabled = Not mode
+        'cmdAdd.Enabled = Not mode
         cmdPreview.Enabled = Not mode
         cmdPrint.Enabled = Not mode
         grid1.ReadOnly = Not mode
@@ -385,5 +419,47 @@ Public Class frmSalesReturn
     Private Sub cmdEdit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdEdit.Click
         Me.Text = "Edit - " & "Sales Return"
         load_enabled(True)
+        dtTrans.Enabled = False
+        cmbCustomer.Enabled = False
+        cmdCustomer.Enabled = False
+    End Sub
+
+    Private Sub cmdExit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdExit.Click
+        Me.Close()
+    End Sub
+
+    Private Sub cmbCustomer_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedIndexChanged
+        On Error Resume Next
+        Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
+        If Me.Text = "Add - Sales Return" Then
+            adnet.loadCombo(cmbRefno, 113, cmbCustomer.Text)
+        End If
+    End Sub
+
+    Private Sub cmbRefno_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedIndexChanged
+        On Error Resume Next
+        If Me.Text = "Add - Sales Return" Then
+            Dim dNet As New adnetObj.clsAdnet
+            If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(112, cmbRefno.Text)
+            load_order()
+        End If
+    End Sub
+
+    Private Sub cmdRefno_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdRefno.Click
+        Dim adnet As adnetObj.frmSelect = New adnetObj.frmSelect()
+        adnet.UrlClient = url
+        adnet.newForm = False
+        adnet.grid("SRT")
+        adnet.Text = "Sales Return"
+        adnet.ShowDialog()
+        Dim adnet2 As adnetObj.clsAdnet = New adnetObj.clsAdnet()
+        adnet2.loadCombo(cmbRefno, 113, "")
+        On Error Resume Next
+        cmbRefno.Text = adnet.SelectedData(0)
+        If Me.Text = "Add - Sales Return" Then
+            Dim dNet As New adnetObj.clsAdnet
+            If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(112, cmbRefno.Text)
+            load_order()
+        End If
     End Sub
 End Class

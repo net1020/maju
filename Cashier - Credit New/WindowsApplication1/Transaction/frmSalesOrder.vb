@@ -320,7 +320,7 @@ Public Class frmSalesOrder
     Sub load_enabled(ByVal mode As Boolean)
         cmdSave.Enabled = mode
         cmdEdit.Enabled = Not mode
-        cmdAdd.Enabled = Not mode
+        'cmdAdd.Enabled = Not mode
         cmdPreview.Enabled = Not mode
         cmdPrint.Enabled = Not mode
         grid1.ReadOnly = Not mode
@@ -438,6 +438,10 @@ Public Class frmSalesOrder
 
     Private Sub cmdEdit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdEdit.Click
         load_enabled(True)
+        dtTrans.Enabled = False
+        cmbCustomer.Enabled = False
+        cmdCustomer.Enabled = False
+
     End Sub
 
     Private Sub tPPNcent_ValueChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tPPNcent.ValueChanged
@@ -467,12 +471,20 @@ Public Class frmSalesOrder
     End Sub
 
     Private Sub cmbRefno_DropDownChange(ByVal sender As Object, ByVal Expanded As Boolean) Handles cmbRefno.DropDownChange
-        Dim dNet As New adnetObj.clsAdnet
-        If cmbRefno.SelectedValue = "sales" Then Me.Tag = dNet.loadJsonFormat(101, cmbRefno.Text)
-        load_order()
+       
     End Sub
 
     Private Sub cmbRefno_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedIndexChanged
+        On Error Resume Next
 
+        If Me.Text = "Add - Sales Order" Then
+            Dim dNet As New adnetObj.clsAdnet
+            If cmbRefno.SelectedValue = "sales" Then Me.Tag = dNet.loadJsonFormat(101, cmbRefno.Text)
+            load_order()
+        End If
+    End Sub
+
+    Private Sub cmdExit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdExit.Click
+        Me.Close()
     End Sub
 End Class
