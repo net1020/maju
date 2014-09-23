@@ -25,8 +25,9 @@ Public Class frmSalesReturn
         adnet.loadCombo(cmbSales, 11, "")
         adnet.loadCombo(cmbPayment, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
+
         adnet.loadCombo(cmbRefno, 113, cmbCustomer.Text)
-        adnet.load_printer(cmbPrinter)
+        'adnet.load_printer(cmbPrinter)
         dtTrans.Value = Now
 
     End Sub
@@ -64,7 +65,7 @@ Public Class frmSalesReturn
         cmbSales.Text = strArr(7)
         cmbPayment.Text = strArr(5)
         cmbWarehouse.Text = strArr(14)
-
+        cmbRefno.Text = strArr(6)
         'tAmount.Value = strArr(8)
         tDisccent.Value = Val(strArr(9))
         'tDiscamount.Value = strArr(10)
@@ -92,6 +93,7 @@ Public Class frmSalesReturn
         cmbSales.Text = strArr(7)
         cmbPayment.Text = strArr(5)
         cmbWarehouse.Text = strArr(14)
+        cmbRefno.Text = strArr(6)
 
         'tAmount.Value = strArr(8)
         tDisccent.Value = Val(strArr(9))
@@ -219,7 +221,7 @@ Public Class frmSalesReturn
 
     End Sub
 
-    Private Sub btnremove_Click(ByVal sender As Object, ByVal e As System.EventArgs)
+    Private Sub btnremove_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnremove.Click
         On Error Resume Next
         If grid1.RowCount > 1 Then
             btnremove.Enabled = True
@@ -308,6 +310,7 @@ Public Class frmSalesReturn
         cmdPrint.Enabled = Not mode
         grid1.ReadOnly = Not mode
         tAmount.Enabled = mode
+
         tDisccent.Enabled = mode
         tPPNcent.Enabled = mode
         tOtherfee.Enabled = mode
@@ -323,6 +326,9 @@ Public Class frmSalesReturn
         cmdPayment.Enabled = mode
         cmdSales.Enabled = mode
         cmdWarehouse.Enabled = mode
+
+        cmbRefno.Enabled = mode
+        cmdRefno.Enabled = mode
     End Sub
 
     Sub Saved()
@@ -422,6 +428,8 @@ Public Class frmSalesReturn
         dtTrans.Enabled = False
         cmbCustomer.Enabled = False
         cmdCustomer.Enabled = False
+        cmbRefno.Enabled = False
+        cmdRefno.Enabled = False
     End Sub
 
     Private Sub cmdExit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdExit.Click
@@ -429,20 +437,11 @@ Public Class frmSalesReturn
     End Sub
 
     Private Sub cmbCustomer_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedIndexChanged
-        On Error Resume Next
-        Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
-        If Me.Text = "Add - Sales Return" Then
-            adnet.loadCombo(cmbRefno, 113, cmbCustomer.Text)
-        End If
+       
     End Sub
 
     Private Sub cmbRefno_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedIndexChanged
-        On Error Resume Next
-        If Me.Text = "Add - Sales Return" Then
-            Dim dNet As New adnetObj.clsAdnet
-            If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(112, cmbRefno.Text)
-            load_order()
-        End If
+        
     End Sub
 
     Private Sub cmdRefno_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdRefno.Click
@@ -462,4 +461,22 @@ Public Class frmSalesReturn
             load_order()
         End If
     End Sub
+
+    Private Sub cmbCustomer_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedValueChanged
+        On Error Resume Next
+        Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
+
+        adnet.loadCombo(cmbRefno, 113, cmbCustomer.Text)
+
+    End Sub
+
+    Private Sub cmbRefno_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedValueChanged
+        On Error Resume Next
+        If Me.Text = "Add - Sales Return" Then
+            Dim dNet As New adnetObj.clsAdnet
+            If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(112, cmbRefno.Text)
+            load_order()
+        End If
+    End Sub
+
 End Class

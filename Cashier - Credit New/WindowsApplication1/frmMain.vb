@@ -364,7 +364,7 @@ Public Class frmMain
 
   
 
-    Private Sub ButtonItem39_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem39.Click
+    Private Sub ButtonItem39_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Dim dNet As New adnetObj.clsAdnet
         dNet.viewReport("template\sample.repx", dNet.loadJson("21", "SQ14060002"))
     End Sub
@@ -801,7 +801,7 @@ Public Class frmMain
         End If
     End Sub
 
-    Private Sub ButtonItem38_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem38.Click
+    Private Sub ButtonItem38_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Dim dNet As New adnetObj.clsAdnet
         dNet.viewReportNew("template\S001.repx", dNet.loadJsonReport("101", "1407/SO/IV/0004"))
     End Sub
@@ -854,33 +854,31 @@ Public Class frmMain
 
     Private Sub ButtonItem43_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem43.Click
 
-        frmReportSales.ReportID = "RS01"
-        frmReportSales.ShowDialog()
     End Sub
 
-    Private Sub ButtonItem44_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem44.Click
+    Private Sub ButtonItem44_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         frmReportSales.ReportID = "RS02"
         frmReportSales.ShowDialog()
     End Sub
 
-    Private Sub ButtonItem48_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem48.Click
+    Private Sub ButtonItem48_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         frmReportSales.ReportID = "RS03"
         frmReportSales.ShowDialog()
     End Sub
 
-    Private Sub ButtonItem49_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem49.Click
+    Private Sub ButtonItem49_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         frmReportSales.ReportID = "RS04"
         frmReportSales.ShowDialog()
     End Sub
 
-    Private Sub ButtonItem50_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem50.Click
+    Private Sub ButtonItem50_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         frmReportSales.ReportID = "RS05"
         frmReportSales.ShowDialog()
     End Sub
 
     Private Sub ButtonItem51_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem51.Click
-        frmReportSales.ReportID = "RS06"
-        frmReportSales.ShowDialog()
+        'frmReportSales.ReportID = "RS06"
+        'frmReportSales.ShowDialog()
     End Sub
 
     Private Sub ButtonItem53_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem53.Click
@@ -951,5 +949,301 @@ Public Class frmMain
             doc1.Show()
             doc1.Update()
         End If
+    End Sub
+
+    Private Sub ButtonItem115_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem115.Click
+
+    End Sub
+
+    Private Sub ButtonItem67_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem67.Click
+
+    End Sub
+
+    Private Sub ButtonItem158_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem158.Click
+        frmReportSales.ReportID = "POS03"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem156_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem156.Click
+
+        frmReportSales.ReportID = "POS01"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem157_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem157.Click
+        frmReportSales.ReportID = "POS02"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem170_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem170.Click
+        frmReportSales.ReportID = "POS04"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem169_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem169.Click
+        frmReportSales.ReportID = "POS05"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem100_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem100.Click
+        frmReportSales.ReportID = "SO01"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem99_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem99.Click
+        frmReportSales.ReportID = "SO02"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem101_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem101.Click
+        frmReportSales.ReportID = "SO04"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem95_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem95.Click
+        frmReportSales.ReportID = "SO03"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem102_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem102.Click
+        frmReportSales.ReportID = "SO06"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem96_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem96.Click
+        frmReportSales.ReportID = "SO05"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem97_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem97.Click
+        frmReportSales.ReportID = "SO07"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem103_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem103.Click
+        frmReportSales.ReportID = "SO08"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem106_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem106.Click
+        frmReportSales.ReportID = "PO01"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem110_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem110.Click
+        frmReportSales.ReportID = "PO02"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem107_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem107.Click
+        frmReportSales.ReportID = "PO03"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem111_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem111.Click
+        frmReportSales.ReportID = "PO04"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem108_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem108.Click
+        frmReportSales.ReportID = "PO05"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem112_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem112.Click
+        frmReportSales.ReportID = "PO06"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem109_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem109.Click
+        frmReportSales.ReportID = "PO07"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem113_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem113.Click
+        frmReportSales.ReportID = "PO08"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem117_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem117.Click
+        frmReportSales.ReportID = "CO01"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem118_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem118.Click
+        frmReportSales.ReportID = "CO02"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem119_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem119.Click
+        frmReportSales.ReportID = "CO03"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem120_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem120.Click
+        frmReportSales.ReportID = "CO04"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem121_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem121.Click
+        frmReportSales.ReportID = "CO05"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem122_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem122.Click
+        frmReportSales.ReportID = "CO06"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem123_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem123.Click
+        frmReportSales.ReportID = "CO07"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem124_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem124.Click
+        frmReportSales.ReportID = "CO08"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem125_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem125.Click
+        frmReportSales.ReportID = "CO09"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem126_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem126.Click
+        frmReportSales.ReportID = "CO10"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub RibbonTabItem9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RibbonTabItem9.Click
+
+    End Sub
+
+    Private Sub ButtonItem130_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem130.Click
+        frmReportSales.ReportID = "DO02"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem131_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem131.Click
+        frmReportSales.ReportID = "DO01"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem133_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem133.Click
+        frmReportSales.ReportID = "DO03"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem132_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem132.Click
+        frmReportSales.ReportID = "DO04"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem135_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem135.Click
+        frmReportSales.ReportID = "DO05"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem134_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem134.Click
+        frmReportSales.ReportID = "DO06"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem137_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem137.Click
+        frmReportSales.ReportID = "DO07"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem136_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem136.Click
+        frmReportSales.ReportID = "DO08"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem68_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem68.Click
+        frmReportSales.ReportID = "CA01"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem129_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem129.Click
+        frmReportSales.ReportID = "CA02"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem138_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem138.Click
+        frmReportSales.ReportID = "CA03"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem139_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem139.Click
+        frmReportSales.ReportID = "CA04"
+        frmReportSales.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem48_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+    End Sub
+
+    Private Sub ButtonItem47_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem47.Click
+        frmReportSales1.loads(124)
+        frmReportSales1.ReportID = "V001"
+        frmReportSales1.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem44_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem44.Click
+        frmReportSales1.loads(124)
+        frmReportSales1.ReportID = "V002"
+        frmReportSales1.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem50_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem50.Click
+        frmReportSales1.loads(10)
+        frmReportSales1.ReportID = "CS01"
+        frmReportSales1.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem49_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem49.Click
+        frmReportSales1.loads(10)
+        frmReportSales1.ReportID = "CS02"
+        frmReportSales1.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem161_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem161.Click
+        frmReportSales1.loads(125)
+        frmReportSales1.cmbT = True
+        frmReportSales1.ReportID = "MM01"
+        frmReportSales1.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem160_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem160.Click
+        frmReportSales1.loads(125)
+        frmReportSales1.cmbT = True
+        frmReportSales1.ReportID = "MM02"
+        frmReportSales1.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem164_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem164.Click
+        frmReportSales1.loads(126)
+        frmReportSales1.ReportID = "CH01"
+        frmReportSales1.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem163_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem163.Click
+        frmReportSales1.loads(126)
+        frmReportSales1.ReportID = "CH02"
+        frmReportSales1.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem167_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem167.Click
+        frmReportSales1.loads(11)
+        frmReportSales1.cmbT = True
+        frmReportSales1.ReportID = "SL01"
+        frmReportSales1.ShowDialog()
+    End Sub
+
+    Private Sub ButtonItem166_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonItem166.Click
+        frmReportSales1.loads(11)
+        frmReportSales1.cmbT = True
+        frmReportSales1.ReportID = "SL02"
+        frmReportSales1.ShowDialog()
     End Sub
 End Class

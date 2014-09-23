@@ -725,9 +725,9 @@ Partial Class frmCashIn
         DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window
         DataGridViewCellStyle5.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
         DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(83, Byte), Integer), CType(CType(83, Byte), Integer), CType(CType(83, Byte), Integer))
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black
         DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.grid1.DefaultCellStyle = DataGridViewCellStyle5
         Me.grid1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -782,7 +782,7 @@ Partial Class frmCashIn
         Me.qtyrcv.BackgroundStyle.BackColor = System.Drawing.SystemColors.Window
         Me.qtyrcv.BackgroundStyle.Class = "DataGridViewNumericBorder"
         Me.qtyrcv.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.qtyrcv.BackgroundStyle.TextColor = System.Drawing.SystemColors.WindowText
+        Me.qtyrcv.BackgroundStyle.TextColor = System.Drawing.Color.Black
         DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
         Me.qtyrcv.DefaultCellStyle = DataGridViewCellStyle4
         Me.qtyrcv.DisplayFormat = "#,0"
@@ -827,7 +827,6 @@ Partial Class frmCashIn
         Me.Controls.Add(Me.t0)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Bar1)
-        Me.DoubleBuffered = True
         Me.EnableGlass = False
         Me.MinimumSize = New System.Drawing.Size(789, 570)
         Me.Name = "frmCashIn"

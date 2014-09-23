@@ -27,15 +27,13 @@ Partial Class frmReportSales1
         Me.StyleManager1 = New DevComponents.DotNetBar.StyleManager(Me.components)
         Me.ToolStrip5 = New System.Windows.Forms.ToolStrip
         Me.cmdView = New System.Windows.Forms.ToolStripButton
-        Me.cmbPrinters = New System.Windows.Forms.ToolStripComboBox
-        Me.cmdPrint = New System.Windows.Forms.ToolStripButton
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel
         Me.LabelX7 = New DevComponents.DotNetBar.LabelX
         Me.t1 = New System.Windows.Forms.DateTimePicker
         Me.LabelX1 = New DevComponents.DotNetBar.LabelX
         Me.t2 = New System.Windows.Forms.DateTimePicker
-        Me.LabelX2 = New DevComponents.DotNetBar.LabelX
-        Me.t3 = New DevComponents.DotNetBar.Controls.TextBoxX
+        Me.lbl1 = New DevComponents.DotNetBar.LabelX
+        Me.cmb = New DevComponents.DotNetBar.Controls.ComboBoxEx
         Me.ToolStrip5.SuspendLayout()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
@@ -49,7 +47,7 @@ Partial Class frmReportSales1
         'ToolStrip5
         '
         Me.ToolStrip5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.ToolStrip5.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.cmdView, Me.cmbPrinters, Me.cmdPrint})
+        Me.ToolStrip5.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.cmdView})
         Me.ToolStrip5.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip5.Name = "ToolStrip5"
         Me.ToolStrip5.Size = New System.Drawing.Size(443, 25)
@@ -64,28 +62,14 @@ Partial Class frmReportSales1
         Me.cmdView.Size = New System.Drawing.Size(68, 22)
         Me.cmdView.Text = "Preview"
         '
-        'cmbPrinters
-        '
-        Me.cmbPrinters.Name = "cmbPrinters"
-        Me.cmbPrinters.Size = New System.Drawing.Size(200, 25)
-        Me.cmbPrinters.Text = "Printer LX-300 (Section 1)"
-        '
-        'cmdPrint
-        '
-        Me.cmdPrint.Image = CType(resources.GetObject("cmdPrint.Image"), System.Drawing.Image)
-        Me.cmdPrint.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.cmdPrint.Name = "cmdPrint"
-        Me.cmdPrint.Size = New System.Drawing.Size(52, 22)
-        Me.cmdPrint.Text = "Print"
-        '
         'FlowLayoutPanel1
         '
+        Me.FlowLayoutPanel1.Controls.Add(Me.lbl1)
+        Me.FlowLayoutPanel1.Controls.Add(Me.cmb)
         Me.FlowLayoutPanel1.Controls.Add(Me.LabelX7)
         Me.FlowLayoutPanel1.Controls.Add(Me.t1)
         Me.FlowLayoutPanel1.Controls.Add(Me.LabelX1)
         Me.FlowLayoutPanel1.Controls.Add(Me.t2)
-        Me.FlowLayoutPanel1.Controls.Add(Me.LabelX2)
-        Me.FlowLayoutPanel1.Controls.Add(Me.t3)
         Me.FlowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 25)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
@@ -99,7 +83,7 @@ Partial Class frmReportSales1
         '
         Me.LabelX7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX7.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX7.Location = New System.Drawing.Point(3, 3)
+        Me.LabelX7.Location = New System.Drawing.Point(3, 33)
         Me.LabelX7.Name = "LabelX7"
         Me.LabelX7.Size = New System.Drawing.Size(86, 21)
         Me.LabelX7.TabIndex = 119
@@ -111,7 +95,7 @@ Partial Class frmReportSales1
         Me.t1.CustomFormat = "dd/MM/yyyy"
         Me.t1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.t1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.t1.Location = New System.Drawing.Point(95, 3)
+        Me.t1.Location = New System.Drawing.Point(95, 33)
         Me.t1.Name = "t1"
         Me.t1.Size = New System.Drawing.Size(340, 22)
         Me.t1.TabIndex = 6
@@ -123,7 +107,7 @@ Partial Class frmReportSales1
         '
         Me.LabelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.LabelX1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX1.Location = New System.Drawing.Point(3, 31)
+        Me.LabelX1.Location = New System.Drawing.Point(3, 61)
         Me.LabelX1.Name = "LabelX1"
         Me.LabelX1.Size = New System.Drawing.Size(86, 21)
         Me.LabelX1.TabIndex = 121
@@ -135,38 +119,38 @@ Partial Class frmReportSales1
         Me.t2.CustomFormat = "dd/MM/yyyy"
         Me.t2.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.t2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.t2.Location = New System.Drawing.Point(95, 31)
+        Me.t2.Location = New System.Drawing.Point(95, 61)
         Me.t2.Name = "t2"
         Me.t2.Size = New System.Drawing.Size(340, 22)
         Me.t2.TabIndex = 120
         '
-        'LabelX2
+        'lbl1
         '
         '
         '
         '
-        Me.LabelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.LabelX2.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelX2.Location = New System.Drawing.Point(3, 59)
-        Me.LabelX2.Name = "LabelX2"
-        Me.LabelX2.Size = New System.Drawing.Size(86, 21)
-        Me.LabelX2.TabIndex = 123
-        Me.LabelX2.Text = "Item Code"
+        Me.lbl1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.lbl1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl1.Location = New System.Drawing.Point(3, 3)
+        Me.lbl1.Name = "lbl1"
+        Me.lbl1.Size = New System.Drawing.Size(86, 21)
+        Me.lbl1.TabIndex = 123
+        Me.lbl1.Text = "Item Code"
         '
-        't3
+        'cmb
         '
-        Me.t3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        '
-        '
-        '
-        Me.t3.Border.Class = "TextBoxBorder"
-        Me.t3.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.t3.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.t3.ForeColor = System.Drawing.Color.Black
-        Me.t3.Location = New System.Drawing.Point(95, 59)
-        Me.t3.Name = "t3"
-        Me.t3.Size = New System.Drawing.Size(340, 22)
-        Me.t3.TabIndex = 122
+        Me.cmb.DisplayMember = "Text"
+        Me.cmb.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cmb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmb.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmb.FormattingEnabled = True
+        Me.cmb.ItemHeight = 16
+        Me.cmb.Location = New System.Drawing.Point(95, 4)
+        Me.cmb.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.cmb.Name = "cmb"
+        Me.cmb.Size = New System.Drawing.Size(340, 22)
+        Me.cmb.Style = DevComponents.DotNetBar.eDotNetBarStyle.Windows7
+        Me.cmb.TabIndex = 124
         '
         'frmReportSales1
         '
@@ -175,7 +159,6 @@ Partial Class frmReportSales1
         Me.ClientSize = New System.Drawing.Size(443, 113)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.ToolStrip5)
-        Me.DoubleBuffered = True
         Me.EnableGlass = False
         Me.Name = "frmReportSales1"
         Me.ShowIcon = False
@@ -192,13 +175,11 @@ Partial Class frmReportSales1
     Friend WithEvents StyleManager1 As DevComponents.DotNetBar.StyleManager
     Friend WithEvents ToolStrip5 As System.Windows.Forms.ToolStrip
     Friend WithEvents cmdView As System.Windows.Forms.ToolStripButton
-    Friend WithEvents cmbPrinters As System.Windows.Forms.ToolStripComboBox
-    Friend WithEvents cmdPrint As System.Windows.Forms.ToolStripButton
     Friend WithEvents FlowLayoutPanel1 As System.Windows.Forms.FlowLayoutPanel
     Friend WithEvents LabelX7 As DevComponents.DotNetBar.LabelX
     Friend WithEvents t1 As System.Windows.Forms.DateTimePicker
     Friend WithEvents LabelX1 As DevComponents.DotNetBar.LabelX
     Friend WithEvents t2 As System.Windows.Forms.DateTimePicker
-    Friend WithEvents LabelX2 As DevComponents.DotNetBar.LabelX
-    Friend WithEvents t3 As DevComponents.DotNetBar.Controls.TextBoxX
+    Friend WithEvents lbl1 As DevComponents.DotNetBar.LabelX
+    Friend WithEvents cmb As DevComponents.DotNetBar.Controls.ComboBoxEx
 End Class

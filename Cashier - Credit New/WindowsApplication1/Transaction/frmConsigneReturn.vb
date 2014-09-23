@@ -13,6 +13,7 @@ Public Class frmConsigneReturn
         adnet2.loadCombo(cmbCustomer, 37, "")
         On Error Resume Next
         cmbCustomer.Text = adnet.SelectedData(2)
+        adnet2.loadCombo(cmbRefno, 121, cmbCustomer.Text)
     End Sub
 
     Sub load_Setting()
@@ -22,7 +23,7 @@ Public Class frmConsigneReturn
         'adnet.loadCombo(cmbSales, 11, "")
         adnet.loadCombo(cmbPayment, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
-        adnet.load_printer(cmbReport)
+        ' adnet.load_printer(cmbReport)
         dtTrans.Value = Now
 
     End Sub
@@ -60,6 +61,7 @@ Public Class frmConsigneReturn
         'cmbSales.Text = strArr(7)
         cmbPayment.Text = strArr(5)
         cmbWarehouse.Text = strArr(14)
+        cmbRefno.Text = strArr(6)
 
         'tAmount.Value = strArr(8)
         tDisccent.Value = Val(strArr(9))
@@ -75,6 +77,35 @@ Public Class frmConsigneReturn
         load_grid_total()
 
     End Sub
+
+    Sub load_order()
+        Dim frm As New adnetObj.clsAdnet
+        Dim strArr() As String
+        strArr = Split(Me.Tag, "|")
+        load_griddata(strArr(32))
+        ' txtTransno.Text = strArr(0)
+        'dtTrans.Value = strArr(1)
+        ' cmbCustomer.Text = strArr(4)
+        'cmbSales.Text = strArr(7)
+        cmbPayment.Text = strArr(5)
+        cmbWarehouse.Text = strArr(14)
+
+        'tAmount.Value = strArr(8)
+        tDisccent.Value = Val(strArr(9))
+        'tDiscamount.Value = strArr(10)
+        tPPNcent.Value = Val(strArr(11))
+        'tPPNamount.Value = 0.1 * (Val(strArr(8)) - Val(strArr(10)))
+        tOtherfee.Value = strArr(12)
+        'tSubtotal.Value = Replace(Replace(strArr(13), ",", ""), ".", "")
+        'tTotal.Text = strArr(13)
+        txtNote.Text = strArr(15)
+        tCash.Value = strArr(17)
+        tCredit.Value = strArr(18)
+        load_grid_total()
+
+    End Sub
+
+
     Sub Clear_data()
         Dim frm As New adnetObj.clsAdnet
         dtTrans.Value = Today
@@ -274,7 +305,8 @@ Public Class frmConsigneReturn
         cmbPayment.Enabled = mode
         ' cmbSales.Enabled = mode
         cmbWarehouse.Enabled = mode
-
+        cmbRefno.Enabled = mode
+        cmdRefno.Enabled = mode
         cmdCustomer.Enabled = mode
         cmdPayment.Enabled = mode
         'cmdSales.Enabled = mode
@@ -375,9 +407,57 @@ Public Class frmConsigneReturn
     Private Sub cmdEdit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdEdit.Click
         Me.Text = "Edit - " & "Consignment Return"
         load_enabled(True)
+        dtTrans.Enabled = False
+        cmdCustomer.Enabled = False
+        cmbCustomer.Enabled = False
+        cmbRefno.Enabled = False
+        cmdRefno.Enabled = False
     End Sub
 
     Private Sub cmdExit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdExit.Click
         Me.Close()
+    End Sub
+
+    Private Sub cmbCustomer_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub cmbRefno_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub cmbRefno_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedValueChanged
+        On Error Resume Next
+        If Me.Text = "Add - Consignment Return" Then
+            Dim dNet As New adnetObj.clsAdnet
+            If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(122, cmbRefno.Text)
+            load_order()
+        End If
+    End Sub
+
+    Private Sub cmbCustomer_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedValueChanged
+        On Error Resume Next
+        Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
+        adnet.loadCombo(cmbRefno, 121, cmbCustomer.Text)
+    End Sub
+
+    Private Sub cmdRefno_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdRefno.Click
+        Dim adnet As adnetObj.frmSelect = New adnetObj.frmSelect()
+        adnet.UrlClient = url
+        adnet.newForm = False
+        adnet.grid("CRT")
+        adnet.Text = "Consignment Return"
+        adnet.ShowDialog()
+        Dim adnet2 As adnetObj.clsAdnet = New adnetObj.clsAdnet()
+        adnet2.loadCombo(cmbRefno, 116, "")
+        On Error Resume Next
+        cmbRefno.Text = adnet.SelectedData(0)
+
+        On Error Resume Next
+        If Me.Text = "Add - Consignment Return" Then
+            Dim dNet As New adnetObj.clsAdnet
+            If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(122, cmbRefno.Text)
+            load_order()
+        End If
     End Sub
 End Class

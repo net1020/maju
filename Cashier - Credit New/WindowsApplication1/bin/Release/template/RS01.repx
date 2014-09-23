@@ -75,7 +75,7 @@ namespace XtraReportSerialization {
         private System.Data.Odbc.OdbcDataAdapter report_formatTableAdapter;
         private System.Data.Odbc.OdbcCommand odbcCommand1;
         private System.Data.Odbc.OdbcConnection odbcConnection1;
-        private System.Data.DataSet report;
+        private XtraReportSerialization.reportDataSet report;
         private DevExpress.XtraReports.UI.XRControlStyle Title;
         private DevExpress.XtraReports.UI.XRControlStyle FieldCaption;
         private DevExpress.XtraReports.UI.XRControlStyle PageInfo;
@@ -122,6 +122,7 @@ namespace XtraReportSerialization {
             }
         }
         private void InitializeComponent() {
+            DevExpress.XtraReports.UI.XRSummary summary1 = new DevExpress.XtraReports.UI.XRSummary();
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
             this.pageFooterBand1 = new DevExpress.XtraReports.UI.PageFooterBand();
             this.reportHeaderBand1 = new DevExpress.XtraReports.UI.ReportHeaderBand();
@@ -523,6 +524,9 @@ namespace XtraReportSerialization {
             this.f3.SizeF = new System.Drawing.SizeF(31.10236F, 16.53543F);
             this.f3.StylePriority.UseFont = false;
             this.f3.StylePriority.UseTextAlignment = false;
+            summary1.Func = DevExpress.XtraReports.UI.SummaryFunc.RecordNumber;
+            summary1.Running = DevExpress.XtraReports.UI.SummaryRunning.Report;
+            this.f3.Summary = summary1;
             this.f3.Text = "f3";
             this.f3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             // 
@@ -611,7 +615,8 @@ namespace XtraReportSerialization {
             // 
             // report
             // 
-            this.report.DataSetName = "report";
+            this.report.DataSetName = "reportDataSet";
+            this.report.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // Title
             // 

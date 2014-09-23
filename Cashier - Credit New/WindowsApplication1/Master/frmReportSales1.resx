@@ -138,14 +138,4 @@
         AElFTkSuQmCC
 </value>
   </data>
-  <data name="cmdPrint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADySURBVDhPY6A6mLFi+398GKoMNwApevH2M1Y8SA3Iyiv5
-        D8MNDQ1EYWQ9YAOOHDsJxkVFRURhmHq4AfsPHgHj+Ph4ojBMPdyALdt2gbGPjw9RGKYebsCa9ZvBGJti
-        bBimHm5Ad/9UML5+/TpRGKYebsDnz1/A2MbG5n9FQ/f/nu6u//65Xf9LGjv+O0UF/XcKT/7fDRQDyYHU
-        wNSDDYCZBsLq6ur/L956DI5zn2W//9989/a/f0fBf+3sXrAYSA6kBlkPNDUgALIBU/at+K8cb/FfIrIF
-        bgBUGW6w8eBFsGJsGCQHVYYbgBThw1BlUMDAAAAWAATATPvTNgAAAABJRU5ErkJggg==
-</value>
-  </data>
 </root>

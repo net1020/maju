@@ -2,7 +2,7 @@
 Imports Newtonsoft.Json
 Module modMain
     Public url As String = My.Settings.url
-    Public userName As String = "Admin"
+    Public userName As String
     Public userAccess As String
     Public compName As String = System.Net.Dns.GetHostName()
 

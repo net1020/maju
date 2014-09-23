@@ -7,7 +7,7 @@ Public Class frmCashOut
         Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
         adnet.loadCounter(txtTransno, 64)
         adnet.loadCombo(cmbAccount, 19, "")
-        adnet.load_printer(cmbReport)
+        'adnet.load_printer(cmbReport)
         dtTrans.Value = Now
     End Sub
 

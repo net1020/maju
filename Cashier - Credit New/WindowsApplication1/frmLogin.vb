@@ -25,6 +25,7 @@ Public Class frmLogin
         'Dim wc As New WebClient()
         'Dim json = wc.DownloadString(url & "all.php?u=" & userName & "&c=" & compName & "&q=99&q2=" & str2 & "|" & str3)
         'Dim data As List(Of clsReport) = JsonConvert.DeserializeObject(Of List(Of clsReport))(json)
+        cNet.urlClient(url)
         userName = cNet.ExecuteData(99, str2 & "|" & str3)
         If userName = "" Then
             login = False

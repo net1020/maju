@@ -103,7 +103,7 @@ Public Class frmDeliveryRequest
         load_griddata(strArr(32))
         'txtTransno.Text = strArr(0)
         'dtTrans.Value = strArr(1)
-        cmbCustomer.Text = strArr(4)
+        'cmbCustomer.Text = strArr(4)
         'cmbSales.Text = strArr(7)
         'cmbTransno.Text = strArr(5)
         cmbWarehouse.Text = strArr(20)
@@ -272,9 +272,11 @@ Public Class frmDeliveryRequest
         'load_ppn(cmbTransno.SelectedValue)
         If Me.Text = "Add - Delivery Request" Then
             Dim dNet As New adnetObj.clsAdnet
-            If cmbTransno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(100, cmbTransno.Text)
+            Me.Tag = ""
+            If cmbTransno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(123, cmbTransno.Text)
             If cmbTransno.SelectedValue = "cash" Then Me.Tag = dNet.loadJsonFormat(104, cmbTransno.Text)
             On Error Resume Next
+            If Me.Tag = "" Then grid1.Rows.Clear()
             load_order()
         End If
     End Sub

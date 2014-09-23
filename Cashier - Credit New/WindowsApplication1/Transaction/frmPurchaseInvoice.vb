@@ -345,7 +345,7 @@ Public Class frmPurchaseInvoice
         str = str & cmbWarehouse.SelectedValue & "|"
 
         str = str & cmbPayment.SelectedValue & "|"
-        str = str & cmbRefno.SelectedValue & "|"
+        str = str & cmbRefno.Text & "|"
         str = str & tAmount.Value & "|"
         str = str & tDisccent.Value & "|"
         str = str & tDiscamount.Value & "|"
@@ -481,12 +481,18 @@ Public Class frmPurchaseInvoice
     Private Sub cmbCustomer_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedIndexChanged
         On Error Resume Next
         Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
-        If Me.Text = "Add - Purchase Invoice" Then
-            adnet.loadCombo(cmbRefno, 39, cmbCustomer.Text)
-        End If
+        adnet.loadCombo(cmbRefno, 39, cmbCustomer.Text)
     End Sub
 
     Private Sub cmbRefno_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedIndexChanged
+        
+    End Sub
+
+    Private Sub cmbWarehouse_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbWarehouse.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub cmbRefno_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedValueChanged
         On Error Resume Next
 
         If Me.Text = "Add - Purchase Invoice" Then
@@ -494,9 +500,5 @@ Public Class frmPurchaseInvoice
             Me.Tag = dNet.loadJsonFormat(114, cmbRefno.Text)
             load_order()
         End If
-    End Sub
-
-    Private Sub cmbWarehouse_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbWarehouse.SelectedIndexChanged
-
     End Sub
 End Class

@@ -492,8 +492,6 @@ Public Class frmConsigneIn
     Private Sub cmbCustomer_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedIndexChanged
         On Error Resume Next
         Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
-        If Me.Text = "Add - Consignment Order In" Then
-            adnet.loadCombo(cmbRefno, 45, cmbCustomer.Text)
-        End If
+        adnet.loadCombo(cmbRefno, 45, cmbCustomer.Text)
     End Sub
 End Class

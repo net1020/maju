@@ -9,6 +9,7 @@ Public Class frmSalesInvoice
         adnet.loadCombo(cmbSales, 11, "")
         adnet.loadCombo(cmbPayment, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
+        'If cmbCustomer.Text = "" Then cmbCustomer.SelectedIndex = 1
         adnet.loadCombo(cmbRefno, 18, cmbCustomer.Text)
         adnet.loadCombo(cmbReport, 61, "")
         dtTrans.Value = Now
@@ -87,7 +88,7 @@ Public Class frmSalesInvoice
         load_griddata(strArr(32))
         'txtTransno.Text = strArr(0)
         'dtTrans.Value = strArr(1)
-        cmbCustomer.Text = strArr(4)
+        'cmbCustomer.Text = strArr(4)
         cmbSales.Text = strArr(7)
         cmbPayment.Text = strArr(5)
         cmbWarehouse.Text = strArr(20)
@@ -352,7 +353,7 @@ Public Class frmSalesInvoice
         str = str & cmbWarehouse.SelectedValue & "|"
 
         str = str & cmbPayment.SelectedValue & "|"
-        str = str & cmbRefno.SelectedValue & "|"
+        str = str & cmbRefno.Text & "|"
         str = str & tAmount.Value & "|"
         str = str & tDisccent.Value & "|"
         str = str & tDiscamount.Value & "|"
@@ -438,6 +439,8 @@ Public Class frmSalesInvoice
         dtTrans.Enabled = False
         cmbCustomer.Enabled = False
         cmdCustomer.Enabled = False
+        cmbRefno.Enabled = False
+        cmdRefno.Enabled = False
     End Sub
 
     Private Sub cmdRefno_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdRefno.Click
@@ -488,13 +491,7 @@ Public Class frmSalesInvoice
     End Sub
 
     Private Sub cmbRefno_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedIndexChanged
-        On Error Resume Next
-
-        If Me.Text = "Add - Sales Invoice" Then
-            Dim dNet As New adnetObj.clsAdnet
-            If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(111, cmbRefno.Text)
-            load_order()
-        End If
+        
     End Sub
 
     Private Sub LabelX9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LabelX9.Click
@@ -506,10 +503,29 @@ Public Class frmSalesInvoice
     End Sub
 
     Private Sub cmbCustomer_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedIndexChanged
+        'On Error Resume Next
+        'Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
+        'If Me.Text = "Add - Sales Invoice" Then
+        '    adnet.loadCombo(cmbRefno, 18, cmbCustomer.Text)
+        'End If
+    End Sub
+
+    Private Sub cmbCustomer_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedValueChanged
+
         On Error Resume Next
         Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
+
+        adnet.loadCombo(cmbRefno, 18, cmbCustomer.Text)
+
+    End Sub
+
+    Private Sub cmbRefno_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedValueChanged
+        On Error Resume Next
+
         If Me.Text = "Add - Sales Invoice" Then
-            adnet.loadCombo(cmbRefno, 18, cmbCustomer.Text)
+            Dim dNet As New adnetObj.clsAdnet
+            If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(111, cmbRefno.Text)
+            load_order()
         End If
     End Sub
 End Class

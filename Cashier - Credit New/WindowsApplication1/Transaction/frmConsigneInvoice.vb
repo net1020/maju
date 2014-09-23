@@ -347,7 +347,7 @@ Public Class frmConsigneInvoice
         str = str & cmbWarehouse.SelectedValue & "|"
 
         str = str & cmbPayment.SelectedValue & "|"
-        str = str & cmbRefno.SelectedValue & "|"
+        str = str & cmbRefno.Text & "|"
         str = str & tAmount.Value & "|"
         str = str & tDisccent.Value & "|"
         str = str & tDiscamount.Value & "|"
@@ -478,9 +478,7 @@ Public Class frmConsigneInvoice
     Private Sub cmbCustomer_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedIndexChanged
         On Error Resume Next
         Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
-        If Me.Text = "Add - Consignment Invoice" Then
-            adnet.loadCombo(cmbRefno, 120, cmbCustomer.Text)
-        End If
+        adnet.loadCombo(cmbRefno, 120, cmbCustomer.Text)
     End Sub
 
     Private Sub cmbRefno_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedIndexChanged

@@ -25,7 +25,8 @@ Public Class frmPurchaseReturn
         'adnet.loadCombo(cmbSales, 11, "")
         adnet.loadCombo(cmbPayment, 12, "", "Cash")
         adnet.loadCombo(cmbWarehouse, 14, "")
-        adnet.load_printer(cmbPrinter)
+        adnet.loadCombo(cmbRefno, 116, cmbCustomer.Text)
+        'adnet.load_printer(cmbPrinter)
         dtTrans.Value = Now
 
     End Sub
@@ -63,6 +64,7 @@ Public Class frmPurchaseReturn
         'cmbSales.Text = strArr(7)
         cmbPayment.Text = strArr(5)
         cmbWarehouse.Text = strArr(14)
+        cmbRefno.Text = strArr(6)
 
         'tAmount.Value = strArr(8)
         tDisccent.Value = Val(strArr(9))
@@ -420,20 +422,11 @@ Public Class frmPurchaseReturn
     End Sub
 
     Private Sub cmbCustomer_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedIndexChanged
-        On Error Resume Next
-        Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
-        If Me.Text = "Add - Purchase Return" Then
-            adnet.loadCombo(cmbRefno, 116, cmbCustomer.Text)
-        End If
+       
     End Sub
 
     Private Sub cmbRefno_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedIndexChanged
-        On Error Resume Next
-        If Me.Text = "Add - Purchase Return" Then
-            Dim dNet As New adnetObj.clsAdnet
-            If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(115, cmbRefno.Text)
-            load_order()
-        End If
+        
     End Sub
 
     Private Sub cmdRefno_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdRefno.Click
@@ -448,6 +441,21 @@ Public Class frmPurchaseReturn
         On Error Resume Next
         cmbRefno.Text = adnet.SelectedData(0)
 
+        If Me.Text = "Add - Purchase Return" Then
+            Dim dNet As New adnetObj.clsAdnet
+            If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(115, cmbRefno.Text)
+            load_order()
+        End If
+    End Sub
+
+    Private Sub cmbCustomer_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbCustomer.SelectedValueChanged
+        On Error Resume Next
+        Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
+        adnet.loadCombo(cmbRefno, 116, cmbCustomer.Text)
+    End Sub
+
+    Private Sub cmbRefno_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbRefno.SelectedValueChanged
+        On Error Resume Next
         If Me.Text = "Add - Purchase Return" Then
             Dim dNet As New adnetObj.clsAdnet
             If cmbRefno.SelectedValue = "credit" Then Me.Tag = dNet.loadJsonFormat(115, cmbRefno.Text)

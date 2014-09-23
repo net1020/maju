@@ -6,7 +6,7 @@ Public Class frmCashIn
         Dim adnet As adnetObj.clsAdnet = New adnetObj.clsAdnet()
         adnet.loadCounter(txtTransno, 63)
         adnet.loadCombo(cmbAccount, 19, "")
-        adnet.load_printer(cmbReport)
+        'adnet.load_printer(cmbReport)
         dtTrans.Value = Now
     End Sub
 
@@ -225,5 +225,9 @@ Public Class frmCashIn
 
     Private Sub cmdExit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdExit.Click
         Me.Close()
+    End Sub
+
+    Private Sub cmdPreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdPreview.Click
+
     End Sub
 End Class
