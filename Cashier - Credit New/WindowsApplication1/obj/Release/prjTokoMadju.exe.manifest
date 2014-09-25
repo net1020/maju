@@ -143,14 +143,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="prjTokoMadju.exe" size="2311168">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="prjTokoMadju.exe" size="2315776">
       <assemblyIdentity name="prjTokoMadju" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>F6qIweT9fnxEAHb5k26PlWIMqj0=</dsig:DigestValue>
+        <dsig:DigestValue>6VyjNZCeGfVI6Zd7MlaYLvIy+0w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

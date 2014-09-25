@@ -1,0 +1,3057 @@
+/// <XRTypeInfo>
+///   <AssemblyFullName>DevExpress.XtraReports.v10.2, Version=10.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</AssemblyFullName>
+///   <AssemblyLocation>C:\Windows\assembly\GAC_MSIL\DevExpress.XtraReports.v10.2\10.2.10.0__b88d1754d700e49a\DevExpress.XtraReports.v10.2.dll</AssemblyLocation>
+///   <TypeName>DevExpress.XtraReports.UI.XtraReport</TypeName>
+///   <Localization>en-US</Localization>
+///   <References>
+///     <Reference Path="C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Data.SqlXml\2.0.0.0__b77a5c561934e089\System.Data.SqlXml.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Security\2.0.0.0__b03f5f7f11d50a3a\System.Security.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\Microsoft.VisualC\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualC.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_32\System.Transactions\2.0.0.0__b77a5c561934e089\System.Transactions.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_32\System.EnterpriseServices\2.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.DirectoryServices\2.0.0.0__b03f5f7f11d50a3a\System.DirectoryServices.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Runtime.Remoting\2.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Design\2.0.0.0__b03f5f7f11d50a3a\System.Design.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\Accessibility\2.0.0.0__b03f5f7f11d50a3a\Accessibility.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Runtime.Serialization.Formatters.Soap\2.0.0.0__b03f5f7f11d50a3a\System.Runtime.Serialization.Formatters.Soap.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Deployment\2.0.0.0__b03f5f7f11d50a3a\System.Deployment.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Drawing.Design\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.Design.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Web.RegularExpressions\2.0.0.0__b03f5f7f11d50a3a\System.Web.RegularExpressions.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.DirectoryServices.Protocols\2.0.0.0__b03f5f7f11d50a3a\System.DirectoryServices.Protocols.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.ServiceProcess\2.0.0.0__b03f5f7f11d50a3a\System.ServiceProcess.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Configuration.Install\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.Install.dll" />
+///   </References>
+/// </XRTypeInfo>
+namespace XtraReportSerialization {
+    
+    public class Report3 : DevExpress.XtraReports.UI.XtraReport {
+        private DevExpress.XtraReports.UI.DetailBand Detail;
+        private DevExpress.XtraReports.UI.PageFooterBand pageFooterBand1;
+        private DevExpress.XtraReports.UI.XRLine line2;
+        private DevExpress.XtraReports.UI.XRPageInfo pageInfo1;
+        private DevExpress.XtraReports.UI.XRLabel a5;
+        private DevExpress.XtraReports.UI.XRPageInfo pageInfo2;
+        private DevExpress.XtraReports.UI.ReportHeaderBand reportHeaderBand1;
+        private DevExpress.XtraReports.UI.XRLabel a4;
+        private DevExpress.XtraReports.UI.XRLabel label81;
+        private DevExpress.XtraReports.UI.XRLabel a3;
+        private DevExpress.XtraReports.UI.XRLabel a1;
+        private DevExpress.XtraReports.UI.XRLabel a2;
+        private DevExpress.XtraReports.UI.TopMarginBand topMarginBand1;
+        private DevExpress.XtraReports.UI.BottomMarginBand bottomMarginBand1;
+        private DevExpress.XtraReports.UI.PageHeaderBand PageHeader;
+        private DevExpress.XtraReports.UI.XRLine line1;
+        private DevExpress.XtraReports.UI.XRLabel label34;
+        private DevExpress.XtraReports.UI.XRLabel label24;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport;
+        private DevExpress.XtraReports.UI.DetailBand Detail1;
+        private DevExpress.XtraReports.UI.XRLabel f2;
+        private DevExpress.XtraReports.UI.XRLabel f4;
+        private DevExpress.XtraReports.UI.GroupFooterBand GroupFooter1;
+        private DevExpress.XtraReports.UI.XRLabel label1;
+        private XtraReportSerialization.reportDataSet report;
+        private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader1;
+        private DevExpress.XtraReports.UI.XRLabel f1;
+        private System.Data.Odbc.OdbcDataAdapter report_formatTableAdapter;
+        private System.Data.Odbc.OdbcCommand odbcCommand1;
+        private System.Data.Odbc.OdbcConnection odbcConnection1;
+        private DevExpress.XtraReports.UI.XRControlStyle Title;
+        private DevExpress.XtraReports.UI.XRControlStyle FieldCaption;
+        private DevExpress.XtraReports.UI.XRControlStyle PageInfo;
+        private DevExpress.XtraReports.UI.XRControlStyle DataField;
+        private System.Resources.ResourceManager _resources;
+        public Report3() {
+            this.InitializeComponent();
+        }
+        private System.Resources.ResourceManager resources {
+            get {
+                if (_resources == null) {
+                    string resourceString = "zsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJza" +
+                        "W9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4O" +
+                        "SNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAACAAAAAAAAAFBBRFBBRFBIXnLB7" +
+                        "YnG3wAAAAArAAAAJAEAACYkAHQAaABpAHMALgBTAGMAcgBpAHAAdABzAFMAbwB1AHIAYwBlAAAAAAAwb" +
+                        "wBkAGIAYwBDAG8AbQBtAGEAbgBkADEALgBDAG8AbQBtAGEAbgBkAFQAZQB4AHQAugQAAAG3CQ0KUHJpd" +
+                        "mF0ZSBTdWIgUmVwb3J0M19CZWZvcmVQcmludChCeVZhbCBzZW5kZXIgQXMgT2JqZWN0LCBCeVZhbCBlI" +
+                        "EFzIFN5c3RlbS5EcmF3aW5nLlByaW50aW5nLlByaW50RXZlbnRBcmdzKQ0KDQpmMS5EYXRhQmluZGluZ" +
+                        "3MuQWRkKE5ldyBYUkJpbmRpbmcoIlRleHQiLCBOb3RoaW5nLCAiZjEiKSkNCmYyLkRhdGFCaW5kaW5nc" +
+                        "y5BZGQoTmV3IFhSQmluZGluZygiVGV4dCIsIE5vdGhpbmcsICJmMiIpKQ0KZjQuRGF0YUJpbmRpbmdzL" +
+                        "kFkZChOZXcgWFJCaW5kaW5nKCJUZXh0IiwgTm90aGluZywgImY0IikpDQpsYWJlbDEuRGF0YUJpbmRpb" +
+                        "mdzLkFkZChOZXcgWFJCaW5kaW5nKCJUZXh0IiwgTm90aGluZywgImYzIikpDQoNCmExLkRhdGFCaW5ka" +
+                        "W5ncy5BZGQoTmV3IFhSQmluZGluZygiVGV4dCIsIE5vdGhpbmcsICJhMSIpKQ0KYTIuRGF0YUJpbmRpb" +
+                        "mdzLkFkZChOZXcgWFJCaW5kaW5nKCJUZXh0IiwgTm90aGluZywgImEyIikpDQphMy5EYXRhQmluZGluZ" +
+                        "3MuQWRkKE5ldyBYUkJpbmRpbmcoIlRleHQiLCBOb3RoaW5nLCAiYTMiKSkNCmE0LkRhdGFCaW5kaW5nc" +
+                        "y5BZGQoTmV3IFhSQmluZGluZygiVGV4dCIsIE5vdGhpbmcsICJhNCIpKQ0KYTUuRGF0YUJpbmRpbmdzL" +
+                        "kFkZChOZXcgWFJCaW5kaW5nKCJUZXh0IiwgTm90aGluZywgImE1IikpDQoNCiAgRGltIHN1bW1hcnkgQ" +
+                        "XMgTmV3IFhSU3VtbWFyeSgpDQoNCiAgICAnIFNldCBhIGZ1bmN0aW9uIHdoaWNoIHNob3VsZCBiZSBjY" +
+                        "WxjdWxhdGVkLg0KICAgIHN1bW1hcnkuRnVuYyA9IFN1bW1hcnlGdW5jLlN1bQ0KDQogICAgJyBTZXQgY" +
+                        "SByYW5nZSBmb3Igd2hpY2ggdGhlIGZ1bmN0aW9uIHNob3VsZCBiZSBjYWxjdWxhdGVkLg0KICAgIHN1b" +
+                        "W1hcnkuUnVubmluZyA9IFN1bW1hcnlSdW5uaW5nLkdyb3VwDQoNCiAgICAnIFNldCB0aGUgImluZ29yZ" +
+                        "SBudWxsIHZhbHVlcyIgb3B0aW9uLg0KICAgIHN1bW1hcnkuSWdub3JlTnVsbFZhbHVlcyA9IFRydWUNC" +
+                        "g0KICAgICcgU2V0IHRoZSBvdXRwdXQgc3RyaW5nIGZvcm1hdC4NCiAgICAnc3VtbWFyeS5Gb3JtYXRTd" +
+                        "HJpbmcgPSAiezA6YzB9Ig0KDQogICAgJyBNYWtlIHRoZSBsYWJlbCBjYWxjdWxhdGUgdGhlIHNwZWNpZ" +
+                        "mllZCBmdW5jdGlvbiBmb3IgdGhlDQogICAgJyB2YWx1ZSBzcGVjaWZpZWQgYnkgaXRzIERhdGFCaW5ka" +
+                        "W5ncy5UZXh0IHByb3BlcnR5Lg0KICAgIGxhYmVsMS5TdW1tYXJ5ID0gc3VtbWFyeQ0KDQpFbmQgU3ViD" +
+                        "QoBowNTZWxlY3QgYGYxYCwgYGYyYCwgYGYzYCwgYGY0YCwgYGY1YCwgYGY2YCwgYGY3YCwgYGY4YCwgY" +
+                        "GY5YCwgYGYxMGAsIGBmMTFgLCBgZjEyYCwgYGYxM2AsIGBmMTRgLCBgZjE1YCwgYGYxNmAsIGBmMTdgL" +
+                        "CBgZjE4YCwgYGYxOWAsIGBmMjBgLCBgZjIxYCwgYGYyMmAsIGBmMjNgLCBgZjI0YCwgYGYyNWAsIGBmM" +
+                        "jZgLCBgZjI3YCwgYGYyOGAsIGBmMjlgLCBgZjMwYCwgYGYzMWAsIGBmMzJgLCBgZjMzYCwgYGYzNGAsI" +
+                        "GBmMzVgLCBgZjM2YCwgYGYzN2AsIGBmMzhgLCBgZjM5YCwgYGY0MGAsIGBhMWAsIGBhMmAsIGBhM2AsI" +
+                        "GBhNGAsIGBhNWAsIGBhNmAsIGBhN2AsIGBhOGAsIGBhOWAsIGBhMTBgLCBgaTFgLCBgaTJgLCBgaTNgL" +
+                        "CBgaTRgLCBgaTVgLCBgaTZgLCBgaTdgLCBgaThgLCBgaTlgLCBgaTEwYCBmcm9tIGByZXBvcnRfZm9yb" +
+                        "WF0YA==";
+                    this._resources = new DevExpress.XtraReports.Serialization.XRResourceManager(resourceString);
+                }
+                return this._resources;
+            }
+        }
+        private void InitializeComponent() {
+            DevExpress.XtraReports.UI.XRSummary summary1 = new DevExpress.XtraReports.UI.XRSummary();
+            DevExpress.XtraReports.UI.XRSummary summary2 = new DevExpress.XtraReports.UI.XRSummary();
+            DevExpress.XtraReports.UI.XRSummary summary3 = new DevExpress.XtraReports.UI.XRSummary();
+            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.pageFooterBand1 = new DevExpress.XtraReports.UI.PageFooterBand();
+            this.reportHeaderBand1 = new DevExpress.XtraReports.UI.ReportHeaderBand();
+            this.topMarginBand1 = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.bottomMarginBand1 = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
+            this.DetailReport = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.line2 = new DevExpress.XtraReports.UI.XRLine();
+            this.pageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
+            this.a5 = new DevExpress.XtraReports.UI.XRLabel();
+            this.pageInfo2 = new DevExpress.XtraReports.UI.XRPageInfo();
+            this.a4 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label81 = new DevExpress.XtraReports.UI.XRLabel();
+            this.a3 = new DevExpress.XtraReports.UI.XRLabel();
+            this.a1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.a2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.line1 = new DevExpress.XtraReports.UI.XRLine();
+            this.label34 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label24 = new DevExpress.XtraReports.UI.XRLabel();
+            this.Detail1 = new DevExpress.XtraReports.UI.DetailBand();
+            this.GroupFooter1 = new DevExpress.XtraReports.UI.GroupFooterBand();
+            this.GroupHeader1 = new DevExpress.XtraReports.UI.GroupHeaderBand();
+            this.f2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f4 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.f1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.report_formatTableAdapter = new System.Data.Odbc.OdbcDataAdapter();
+            this.odbcCommand1 = new System.Data.Odbc.OdbcCommand();
+            this.odbcConnection1 = new System.Data.Odbc.OdbcConnection();
+            this.report = new XtraReportSerialization.reportDataSet();
+            this.Title = new DevExpress.XtraReports.UI.XRControlStyle();
+            this.FieldCaption = new DevExpress.XtraReports.UI.XRControlStyle();
+            this.PageInfo = new DevExpress.XtraReports.UI.XRControlStyle();
+            this.DataField = new DevExpress.XtraReports.UI.XRControlStyle();
+            ((System.ComponentModel.ISupportInitialize)(this.report)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // Detail
+            // 
+            this.Detail.HeightF = 2.166621F;
+            this.Detail.Name = "Detail";
+            // 
+            // pageFooterBand1
+            // 
+            this.pageFooterBand1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.line2,
+                        this.pageInfo1,
+                        this.a5,
+                        this.pageInfo2});
+            this.pageFooterBand1.HeightF = 30.04166F;
+            this.pageFooterBand1.Name = "pageFooterBand1";
+            // 
+            // reportHeaderBand1
+            // 
+            this.reportHeaderBand1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.a4,
+                        this.label81,
+                        this.a3,
+                        this.a1,
+                        this.a2});
+            this.reportHeaderBand1.HeightF = 91.62499F;
+            this.reportHeaderBand1.Name = "reportHeaderBand1";
+            // 
+            // topMarginBand1
+            // 
+            this.topMarginBand1.HeightF = 2.374999F;
+            this.topMarginBand1.Name = "topMarginBand1";
+            // 
+            // bottomMarginBand1
+            // 
+            this.bottomMarginBand1.HeightF = 0F;
+            this.bottomMarginBand1.Name = "bottomMarginBand1";
+            // 
+            // PageHeader
+            // 
+            this.PageHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.line1,
+                        this.label34,
+                        this.label24});
+            this.PageHeader.HeightF = 26.04167F;
+            this.PageHeader.Name = "PageHeader";
+            // 
+            // DetailReport
+            // 
+            this.DetailReport.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail1,
+                        this.GroupFooter1,
+                        this.GroupHeader1});
+            this.DetailReport.Level = 0;
+            this.DetailReport.Name = "DetailReport";
+            // 
+            // line2
+            // 
+            this.line2.LocationFloat = new DevExpress.Utils.PointFloat(9.624998F, 1.291656F);
+            this.line2.Name = "line2";
+            this.line2.SizeF = new System.Drawing.SizeF(806.25F, 2F);
+            // 
+            // pageInfo1
+            // 
+            this.pageInfo1.Font = new System.Drawing.Font("Arial", 8F);
+            this.pageInfo1.Format = "{0:dd/MM/yyyy HH:mm}";
+            this.pageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(8.680557F, 3.291671F);
+            this.pageInfo1.Name = "pageInfo1";
+            this.pageInfo1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.pageInfo1.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime;
+            this.pageInfo1.SizeF = new System.Drawing.SizeF(191.6667F, 18.4075F);
+            this.pageInfo1.StylePriority.UseFont = false;
+            // 
+            // a5
+            // 
+            this.a5.Font = new System.Drawing.Font("Arial", 8F);
+            this.a5.LocationFloat = new DevExpress.Utils.PointFloat(575.0167F, 3.291671F);
+            this.a5.Name = "a5";
+            this.a5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.a5.SizeF = new System.Drawing.SizeF(165.3583F, 18.4075F);
+            this.a5.StylePriority.UseFont = false;
+            this.a5.StylePriority.UseTextAlignment = false;
+            this.a5.Text = "a5";
+            this.a5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // pageInfo2
+            // 
+            this.pageInfo2.Font = new System.Drawing.Font("Arial", 8F);
+            this.pageInfo2.Format = "Page {0} of {1}";
+            this.pageInfo2.LocationFloat = new DevExpress.Utils.PointFloat(740.3749F, 3.291671F);
+            this.pageInfo2.Name = "pageInfo2";
+            this.pageInfo2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.pageInfo2.SizeF = new System.Drawing.SizeF(78.625F, 23F);
+            this.pageInfo2.StyleName = "PageInfo";
+            this.pageInfo2.StylePriority.UseFont = false;
+            this.pageInfo2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // a4
+            // 
+            this.a4.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.a4.LocationFloat = new DevExpress.Utils.PointFloat(9.375008F, 62.59842F);
+            this.a4.Name = "a4";
+            this.a4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.a4.SizeF = new System.Drawing.SizeF(207.874F, 20.86615F);
+            this.a4.StylePriority.UseFont = false;
+            this.a4.StylePriority.UseTextAlignment = false;
+            this.a4.Text = "a4";
+            this.a4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label81
+            // 
+            this.label81.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold);
+            this.label81.LocationFloat = new DevExpress.Utils.PointFloat(255.3706F, 62.59845F);
+            this.label81.Name = "label81";
+            this.label81.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label81.SizeF = new System.Drawing.SizeF(345.374F, 20.86614F);
+            this.label81.StylePriority.UseFont = false;
+            this.label81.StylePriority.UseTextAlignment = false;
+            this.label81.Text = "DELIVERY OUT BY DAILY";
+            this.label81.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // a3
+            // 
+            this.a3.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.a3.LocationFloat = new DevExpress.Utils.PointFloat(9.375008F, 41.73228F);
+            this.a3.Name = "a3";
+            this.a3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.a3.SizeF = new System.Drawing.SizeF(207.874F, 20.86614F);
+            this.a3.StylePriority.UseFont = false;
+            this.a3.StylePriority.UseTextAlignment = false;
+            this.a3.Text = "a3";
+            this.a3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // a1
+            // 
+            this.a1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.a1.LocationFloat = new DevExpress.Utils.PointFloat(9.375F, 0F);
+            this.a1.Name = "a1";
+            this.a1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.a1.SizeF = new System.Drawing.SizeF(207.874F, 20.86614F);
+            this.a1.StylePriority.UseFont = false;
+            this.a1.StylePriority.UseTextAlignment = false;
+            this.a1.Text = "a1";
+            this.a1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // a2
+            // 
+            this.a2.Font = new System.Drawing.Font("Arial", 9F);
+            this.a2.LocationFloat = new DevExpress.Utils.PointFloat(9.375008F, 20.86614F);
+            this.a2.Name = "a2";
+            this.a2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.a2.SizeF = new System.Drawing.SizeF(207.874F, 20.86614F);
+            this.a2.StylePriority.UseFont = false;
+            this.a2.StylePriority.UseTextAlignment = false;
+            this.a2.Text = "a2";
+            this.a2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // line1
+            // 
+            this.line1.LocationFloat = new DevExpress.Utils.PointFloat(10.41667F, 21.875F);
+            this.line1.Name = "line1";
+            this.line1.SizeF = new System.Drawing.SizeF(806.25F, 2F);
+            // 
+            // label34
+            // 
+            this.label34.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label34.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.label34.LocationFloat = new DevExpress.Utils.PointFloat(255.3706F, 0F);
+            this.label34.Name = "label34";
+            this.label34.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label34.SizeF = new System.Drawing.SizeF(105.0443F, 20.86614F);
+            this.label34.StylePriority.UseBorders = false;
+            this.label34.StylePriority.UseFont = false;
+            this.label34.StylePriority.UseTextAlignment = false;
+            this.label34.Text = "Total";
+            this.label34.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // label24
+            // 
+            this.label24.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label24.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.label24.LocationFloat = new DevExpress.Utils.PointFloat(10.41667F, 1.00886F);
+            this.label24.Name = "label24";
+            this.label24.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label24.SizeF = new System.Drawing.SizeF(123.7245F, 20.86614F);
+            this.label24.StylePriority.UseBorders = false;
+            this.label24.StylePriority.UseFont = false;
+            this.label24.StylePriority.UseTextAlignment = false;
+            this.label24.Text = "Tanggal Transaksi";
+            this.label24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // Detail1
+            // 
+            this.Detail1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.f2,
+                        this.f4});
+            this.Detail1.HeightF = 21.875F;
+            this.Detail1.Name = "Detail1";
+            // 
+            // GroupFooter1
+            // 
+            this.GroupFooter1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label1});
+            this.GroupFooter1.HeightF = 25F;
+            this.GroupFooter1.Name = "GroupFooter1";
+            // 
+            // GroupHeader1
+            // 
+            this.GroupHeader1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.f1});
+            this.GroupHeader1.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
+                        new DevExpress.XtraReports.UI.GroupField("f1", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
+            this.GroupHeader1.HeightF = 31.25F;
+            this.GroupHeader1.Name = "GroupHeader1";
+            // 
+            // f2
+            // 
+            this.f2.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.f2.LocationFloat = new DevExpress.Utils.PointFloat(10.41667F, 0F);
+            this.f2.Name = "f2";
+            this.f2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.f2.SizeF = new System.Drawing.SizeF(189.9306F, 16.53544F);
+            this.f2.StylePriority.UseFont = false;
+            this.f2.StylePriority.UseTextAlignment = false;
+            summary1.Func = DevExpress.XtraReports.UI.SummaryFunc.RecordNumber;
+            this.f2.Summary = summary1;
+            this.f2.Text = "f2";
+            this.f2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // f4
+            // 
+            this.f4.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.f4.LocationFloat = new DevExpress.Utils.PointFloat(255.3706F, 0F);
+            this.f4.Name = "f4";
+            this.f4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.f4.SizeF = new System.Drawing.SizeF(105.0443F, 16.53544F);
+            this.f4.StylePriority.UseFont = false;
+            this.f4.StylePriority.UseTextAlignment = false;
+            summary2.Func = DevExpress.XtraReports.UI.SummaryFunc.RecordNumber;
+            this.f4.Summary = summary2;
+            this.f4.Text = "f4";
+            this.f4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // label1
+            // 
+            this.label1.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.label1.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", this.report, "report_format.f9")});
+            this.label1.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.label1.LocationFloat = new DevExpress.Utils.PointFloat(258.4913F, 0F);
+            this.label1.Name = "label1";
+            this.label1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label1.SizeF = new System.Drawing.SizeF(101.9236F, 18.12499F);
+            this.label1.StylePriority.UseBorders = false;
+            this.label1.StylePriority.UseFont = false;
+            this.label1.StylePriority.UseTextAlignment = false;
+            summary3.FormatString = "{0:#,#}";
+            summary3.Func = DevExpress.XtraReports.UI.SummaryFunc.Count;
+            summary3.Running = DevExpress.XtraReports.UI.SummaryRunning.Group;
+            this.label1.Summary = summary3;
+            this.label1.Text = "label1";
+            this.label1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // f1
+            // 
+            this.f1.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
+            this.f1.LocationFloat = new DevExpress.Utils.PointFloat(8.680558F, 0F);
+            this.f1.Name = "f1";
+            this.f1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.f1.SizeF = new System.Drawing.SizeF(190.9722F, 24.4676F);
+            this.f1.StylePriority.UseFont = false;
+            this.f1.Text = "f1";
+            // 
+            // report_formatTableAdapter
+            // 
+            this.report_formatTableAdapter.SelectCommand = this.odbcCommand1;
+            this.report_formatTableAdapter.TableMappings.AddRange(new System.Data.Common.DataTableMapping[] {
+                        new System.Data.Common.DataTableMapping("Table", "report_format", new System.Data.Common.DataColumnMapping[0])});
+            // 
+            // odbcCommand1
+            // 
+            this.odbcCommand1.CommandText = resources.GetString("odbcCommand1.CommandText");
+            this.odbcCommand1.Connection = this.odbcConnection1;
+            // 
+            // odbcConnection1
+            // 
+            this.odbcConnection1.ConnectionString = "Dsn=crystal";
+            // 
+            // report
+            // 
+            this.report.DataSetName = "reportDataSet";
+            this.report.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // Title
+            // 
+            this.Title.BackColor = System.Drawing.Color.White;
+            this.Title.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.Title.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.Title.BorderWidth = 1;
+            this.Title.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
+            this.Title.ForeColor = System.Drawing.Color.Maroon;
+            this.Title.Name = "Title";
+            // 
+            // FieldCaption
+            // 
+            this.FieldCaption.BackColor = System.Drawing.Color.White;
+            this.FieldCaption.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.FieldCaption.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.FieldCaption.BorderWidth = 1;
+            this.FieldCaption.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.FieldCaption.ForeColor = System.Drawing.Color.Maroon;
+            this.FieldCaption.Name = "FieldCaption";
+            // 
+            // PageInfo
+            // 
+            this.PageInfo.BackColor = System.Drawing.Color.White;
+            this.PageInfo.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.PageInfo.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.PageInfo.BorderWidth = 1;
+            this.PageInfo.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
+            this.PageInfo.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.PageInfo.Name = "PageInfo";
+            // 
+            // DataField
+            // 
+            this.DataField.BackColor = System.Drawing.Color.White;
+            this.DataField.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.DataField.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.DataField.BorderWidth = 1;
+            this.DataField.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.DataField.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.DataField.Name = "DataField";
+            this.DataField.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            // 
+            // Report3
+            // 
+            this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail,
+                        this.pageFooterBand1,
+                        this.reportHeaderBand1,
+                        this.topMarginBand1,
+                        this.bottomMarginBand1,
+                        this.PageHeader,
+                        this.DetailReport});
+            this.DataAdapter = this.report_formatTableAdapter;
+            this.DataMember = "report_format";
+            this.DataSource = this.report;
+            this.Margins = new System.Drawing.Printing.Margins(19, 12, 2, 0);
+            this.Name = "Report3";
+            this.PageHeight = 1100;
+            this.PageWidth = 850;
+            this.ScriptLanguage = DevExpress.XtraReports.ScriptLanguage.VisualBasic;
+            this.Scripts.OnBeforePrint = "Report3_BeforePrint";
+            this.ScriptsSource = resources.GetString("$this.ScriptsSource");
+            this.StyleSheet.AddRange(new DevExpress.XtraReports.UI.XRControlStyle[] {
+                        this.Title,
+                        this.FieldCaption,
+                        this.PageInfo,
+                        this.DataField});
+            this.Version = "10.2";
+            ((System.ComponentModel.ISupportInitialize)(this.report)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+        }
+    }
+}
+namespace XtraReportSerialization {
+    
+    /// <summary>
+    ///Represents a strongly typed in-memory cache of data.
+    ///</summary>
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "2.0.0.0")]
+    [global::System.Serializable()]
+    [global::System.ComponentModel.DesignerCategoryAttribute("code")]
+    [global::System.ComponentModel.ToolboxItem(true)]
+    [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
+    [global::System.Xml.Serialization.XmlRootAttribute("reportDataSet")]
+    [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
+    public partial class reportDataSet : global::System.Data.DataSet {
+        private report_formatDataTable tablereport_format;
+        private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public reportDataSet() {
+            this.BeginInit();
+            this.InitClass();
+            global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
+            base.Tables.CollectionChanged += schemaChangedHandler;
+            base.Relations.CollectionChanged += schemaChangedHandler;
+            this.EndInit();
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected reportDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+                base(info, context, false) {
+            if ((this.IsBinarySerialized(info, context) == true)) {
+                this.InitVars(false);
+                global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler1 = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
+                this.Tables.CollectionChanged += schemaChangedHandler1;
+                this.Relations.CollectionChanged += schemaChangedHandler1;
+                return;
+            }
+            string strSchema = ((string)(info.GetValue("XmlSchema", typeof(string))));
+            if ((this.DetermineSchemaSerializationMode(info, context) == global::System.Data.SchemaSerializationMode.IncludeSchema)) {
+                global::System.Data.DataSet ds = new global::System.Data.DataSet();
+                ds.ReadXmlSchema(new global::System.Xml.XmlTextReader(new global::System.IO.StringReader(strSchema)));
+                if ((ds.Tables["report_format"] != null)) {
+                    base.Tables.Add(new report_formatDataTable(ds.Tables["report_format"]));
+                }
+                this.DataSetName = ds.DataSetName;
+                this.Prefix = ds.Prefix;
+                this.Namespace = ds.Namespace;
+                this.Locale = ds.Locale;
+                this.CaseSensitive = ds.CaseSensitive;
+                this.EnforceConstraints = ds.EnforceConstraints;
+                this.Merge(ds, false, global::System.Data.MissingSchemaAction.Add);
+                this.InitVars();
+            }
+            else {
+                this.ReadXmlSchema(new global::System.Xml.XmlTextReader(new global::System.IO.StringReader(strSchema)));
+            }
+            this.GetSerializationData(info, context);
+            global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
+            base.Tables.CollectionChanged += schemaChangedHandler;
+            this.Relations.CollectionChanged += schemaChangedHandler;
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.ComponentModel.Browsable(false)]
+        [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
+        public report_formatDataTable report_format {
+            get {
+                return this.tablereport_format;
+            }
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.ComponentModel.BrowsableAttribute(true)]
+        [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Visible)]
+        public override global::System.Data.SchemaSerializationMode SchemaSerializationMode {
+            get {
+                return this._schemaSerializationMode;
+            }
+            set {
+                this._schemaSerializationMode = value;
+            }
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Hidden)]
+        public new global::System.Data.DataTableCollection Tables {
+            get {
+                return base.Tables;
+            }
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Hidden)]
+        public new global::System.Data.DataRelationCollection Relations {
+            get {
+                return base.Relations;
+            }
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void InitializeDerivedDataSet() {
+            this.BeginInit();
+            this.InitClass();
+            this.EndInit();
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override global::System.Data.DataSet Clone() {
+            reportDataSet cln = ((reportDataSet)(base.Clone()));
+            cln.InitVars();
+            cln.SchemaSerializationMode = this.SchemaSerializationMode;
+            return cln;
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override bool ShouldSerializeTables() {
+            return false;
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override bool ShouldSerializeRelations() {
+            return false;
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void ReadXmlSerializable(global::System.Xml.XmlReader reader) {
+            if ((this.DetermineSchemaSerializationMode(reader) == global::System.Data.SchemaSerializationMode.IncludeSchema)) {
+                this.Reset();
+                global::System.Data.DataSet ds = new global::System.Data.DataSet();
+                ds.ReadXml(reader);
+                if ((ds.Tables["report_format"] != null)) {
+                    base.Tables.Add(new report_formatDataTable(ds.Tables["report_format"]));
+                }
+                this.DataSetName = ds.DataSetName;
+                this.Prefix = ds.Prefix;
+                this.Namespace = ds.Namespace;
+                this.Locale = ds.Locale;
+                this.CaseSensitive = ds.CaseSensitive;
+                this.EnforceConstraints = ds.EnforceConstraints;
+                this.Merge(ds, false, global::System.Data.MissingSchemaAction.Add);
+                this.InitVars();
+            }
+            else {
+                this.ReadXml(reader);
+                this.InitVars();
+            }
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override global::System.Xml.Schema.XmlSchema GetSchemaSerializable() {
+            global::System.IO.MemoryStream stream = new global::System.IO.MemoryStream();
+            this.WriteXmlSchema(new global::System.Xml.XmlTextWriter(stream, null));
+            stream.Position = 0;
+            return global::System.Xml.Schema.XmlSchema.Read(new global::System.Xml.XmlTextReader(stream), null);
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        internal void InitVars() {
+            this.InitVars(true);
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        internal void InitVars(bool initTable) {
+            this.tablereport_format = ((report_formatDataTable)(base.Tables["report_format"]));
+            if ((initTable == true)) {
+                if ((this.tablereport_format != null)) {
+                    this.tablereport_format.InitVars();
+                }
+            }
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void InitClass() {
+            this.DataSetName = "reportDataSet";
+            this.Prefix = "";
+            this.EnforceConstraints = true;
+            this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
+            this.tablereport_format = new report_formatDataTable();
+            base.Tables.Add(this.tablereport_format);
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private bool ShouldSerializereport_format() {
+            return false;
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void SchemaChanged(object sender, global::System.ComponentModel.CollectionChangeEventArgs e) {
+            if ((e.Action == global::System.ComponentModel.CollectionChangeAction.Remove)) {
+                this.InitVars();
+            }
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
+            reportDataSet ds = new reportDataSet();
+            global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
+            global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
+            global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
+            any.Namespace = ds.Namespace;
+            sequence.Items.Add(any);
+            type.Particle = sequence;
+            global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
+            if (xs.Contains(dsSchema.TargetNamespace)) {
+                global::System.IO.MemoryStream s1 = new global::System.IO.MemoryStream();
+                global::System.IO.MemoryStream s2 = new global::System.IO.MemoryStream();
+                try {
+                    global::System.Xml.Schema.XmlSchema schema = null;
+                    dsSchema.Write(s1);
+                    for (global::System.Collections.IEnumerator schemas = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator(); schemas.MoveNext(); ) {
+                        schema = ((global::System.Xml.Schema.XmlSchema)(schemas.Current));
+                        s2.SetLength(0);
+                        schema.Write(s2);
+                        if ((s1.Length == s2.Length)) {
+                            s1.Position = 0;
+                            s2.Position = 0;
+                            for (; ((s1.Position != s1.Length) 
+                                        && (s1.ReadByte() == s2.ReadByte())); ) {
+                                ;
+                            }
+                            if ((s1.Position == s1.Length)) {
+                                return type;
+                            }
+                        }
+                    }
+                }
+                finally {
+                    if ((s1 != null)) {
+                        s1.Close();
+                    }
+                    if ((s2 != null)) {
+                        s2.Close();
+                    }
+                }
+            }
+            xs.Add(dsSchema);
+            return type;
+        }
+        public delegate void report_formatRowChangeEventHandler(object sender, report_formatRowChangeEvent e);
+        /// <summary>
+        ///Represents the strongly named DataTable class.
+        ///</summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "2.0.0.0")]
+        [global::System.Serializable()]
+        [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
+        public partial class report_formatDataTable : global::System.Data.DataTable, global::System.Collections.IEnumerable {
+            private global::System.Data.DataColumn columnf1;
+            private global::System.Data.DataColumn columnf2;
+            private global::System.Data.DataColumn columnf3;
+            private global::System.Data.DataColumn columnf4;
+            private global::System.Data.DataColumn columnf5;
+            private global::System.Data.DataColumn columnf6;
+            private global::System.Data.DataColumn columnf7;
+            private global::System.Data.DataColumn columnf8;
+            private global::System.Data.DataColumn columnf9;
+            private global::System.Data.DataColumn columnf10;
+            private global::System.Data.DataColumn columnf11;
+            private global::System.Data.DataColumn columnf12;
+            private global::System.Data.DataColumn columnf13;
+            private global::System.Data.DataColumn columnf14;
+            private global::System.Data.DataColumn columnf15;
+            private global::System.Data.DataColumn columnf16;
+            private global::System.Data.DataColumn columnf17;
+            private global::System.Data.DataColumn columnf18;
+            private global::System.Data.DataColumn columnf19;
+            private global::System.Data.DataColumn columnf20;
+            private global::System.Data.DataColumn columnf21;
+            private global::System.Data.DataColumn columnf22;
+            private global::System.Data.DataColumn columnf23;
+            private global::System.Data.DataColumn columnf24;
+            private global::System.Data.DataColumn columnf25;
+            private global::System.Data.DataColumn columnf26;
+            private global::System.Data.DataColumn columnf27;
+            private global::System.Data.DataColumn columnf28;
+            private global::System.Data.DataColumn columnf29;
+            private global::System.Data.DataColumn columnf30;
+            private global::System.Data.DataColumn columnf31;
+            private global::System.Data.DataColumn columnf32;
+            private global::System.Data.DataColumn columnf33;
+            private global::System.Data.DataColumn columnf34;
+            private global::System.Data.DataColumn columnf35;
+            private global::System.Data.DataColumn columnf36;
+            private global::System.Data.DataColumn columnf37;
+            private global::System.Data.DataColumn columnf38;
+            private global::System.Data.DataColumn columnf39;
+            private global::System.Data.DataColumn columnf40;
+            private global::System.Data.DataColumn columna1;
+            private global::System.Data.DataColumn columna2;
+            private global::System.Data.DataColumn columna3;
+            private global::System.Data.DataColumn columna4;
+            private global::System.Data.DataColumn columna5;
+            private global::System.Data.DataColumn columna6;
+            private global::System.Data.DataColumn columna7;
+            private global::System.Data.DataColumn columna8;
+            private global::System.Data.DataColumn columna9;
+            private global::System.Data.DataColumn columna10;
+            private global::System.Data.DataColumn columni1;
+            private global::System.Data.DataColumn columni2;
+            private global::System.Data.DataColumn columni3;
+            private global::System.Data.DataColumn columni4;
+            private global::System.Data.DataColumn columni5;
+            private global::System.Data.DataColumn columni6;
+            private global::System.Data.DataColumn columni7;
+            private global::System.Data.DataColumn columni8;
+            private global::System.Data.DataColumn columni9;
+            private global::System.Data.DataColumn columni10;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public report_formatDataTable() {
+                this.TableName = "report_format";
+                this.BeginInit();
+                this.InitClass();
+                this.EndInit();
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            internal report_formatDataTable(global::System.Data.DataTable table) {
+                this.TableName = table.TableName;
+                if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
+                    this.CaseSensitive = table.CaseSensitive;
+                }
+                if ((table.Locale.ToString() != table.DataSet.Locale.ToString())) {
+                    this.Locale = table.Locale;
+                }
+                if ((table.Namespace != table.DataSet.Namespace)) {
+                    this.Namespace = table.Namespace;
+                }
+                this.Prefix = table.Prefix;
+                this.MinimumCapacity = table.MinimumCapacity;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected report_formatDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+                    base(info, context) {
+                this.InitVars();
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f1Column {
+                get {
+                    return this.columnf1;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f2Column {
+                get {
+                    return this.columnf2;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f3Column {
+                get {
+                    return this.columnf3;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f4Column {
+                get {
+                    return this.columnf4;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f5Column {
+                get {
+                    return this.columnf5;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f6Column {
+                get {
+                    return this.columnf6;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f7Column {
+                get {
+                    return this.columnf7;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f8Column {
+                get {
+                    return this.columnf8;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f9Column {
+                get {
+                    return this.columnf9;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f10Column {
+                get {
+                    return this.columnf10;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f11Column {
+                get {
+                    return this.columnf11;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f12Column {
+                get {
+                    return this.columnf12;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f13Column {
+                get {
+                    return this.columnf13;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f14Column {
+                get {
+                    return this.columnf14;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f15Column {
+                get {
+                    return this.columnf15;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f16Column {
+                get {
+                    return this.columnf16;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f17Column {
+                get {
+                    return this.columnf17;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f18Column {
+                get {
+                    return this.columnf18;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f19Column {
+                get {
+                    return this.columnf19;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f20Column {
+                get {
+                    return this.columnf20;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f21Column {
+                get {
+                    return this.columnf21;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f22Column {
+                get {
+                    return this.columnf22;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f23Column {
+                get {
+                    return this.columnf23;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f24Column {
+                get {
+                    return this.columnf24;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f25Column {
+                get {
+                    return this.columnf25;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f26Column {
+                get {
+                    return this.columnf26;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f27Column {
+                get {
+                    return this.columnf27;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f28Column {
+                get {
+                    return this.columnf28;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f29Column {
+                get {
+                    return this.columnf29;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f30Column {
+                get {
+                    return this.columnf30;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f31Column {
+                get {
+                    return this.columnf31;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f32Column {
+                get {
+                    return this.columnf32;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f33Column {
+                get {
+                    return this.columnf33;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f34Column {
+                get {
+                    return this.columnf34;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f35Column {
+                get {
+                    return this.columnf35;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f36Column {
+                get {
+                    return this.columnf36;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f37Column {
+                get {
+                    return this.columnf37;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f38Column {
+                get {
+                    return this.columnf38;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f39Column {
+                get {
+                    return this.columnf39;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn f40Column {
+                get {
+                    return this.columnf40;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn a1Column {
+                get {
+                    return this.columna1;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn a2Column {
+                get {
+                    return this.columna2;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn a3Column {
+                get {
+                    return this.columna3;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn a4Column {
+                get {
+                    return this.columna4;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn a5Column {
+                get {
+                    return this.columna5;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn a6Column {
+                get {
+                    return this.columna6;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn a7Column {
+                get {
+                    return this.columna7;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn a8Column {
+                get {
+                    return this.columna8;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn a9Column {
+                get {
+                    return this.columna9;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn a10Column {
+                get {
+                    return this.columna10;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn i1Column {
+                get {
+                    return this.columni1;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn i2Column {
+                get {
+                    return this.columni2;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn i3Column {
+                get {
+                    return this.columni3;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn i4Column {
+                get {
+                    return this.columni4;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn i5Column {
+                get {
+                    return this.columni5;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn i6Column {
+                get {
+                    return this.columni6;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn i7Column {
+                get {
+                    return this.columni7;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn i8Column {
+                get {
+                    return this.columni8;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn i9Column {
+                get {
+                    return this.columni9;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn i10Column {
+                get {
+                    return this.columni10;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.ComponentModel.Browsable(false)]
+            public int Count {
+                get {
+                    return this.Rows.Count;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public report_formatRow this[int index] {
+                get {
+                    return ((report_formatRow)(this.Rows[index]));
+                }
+            }
+            public event report_formatRowChangeEventHandler report_formatRowChanging;
+            public event report_formatRowChangeEventHandler report_formatRowChanged;
+            public event report_formatRowChangeEventHandler report_formatRowDeleting;
+            public event report_formatRowChangeEventHandler report_formatRowDeleted;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Addreport_formatRow(report_formatRow row) {
+                this.Rows.Add(row);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public report_formatRow Addreport_formatRow(
+                        string f1, 
+                        string f2, 
+                        string f3, 
+                        string f4, 
+                        string f5, 
+                        string f6, 
+                        string f7, 
+                        string f8, 
+                        string f9, 
+                        string f10, 
+                        string f11, 
+                        string f12, 
+                        string f13, 
+                        string f14, 
+                        string f15, 
+                        string f16, 
+                        string f17, 
+                        string f18, 
+                        string f19, 
+                        string f20, 
+                        string f21, 
+                        string f22, 
+                        string f23, 
+                        string f24, 
+                        string f25, 
+                        string f26, 
+                        string f27, 
+                        string f28, 
+                        string f29, 
+                        string f30, 
+                        string f31, 
+                        string f32, 
+                        string f33, 
+                        string f34, 
+                        string f35, 
+                        string f36, 
+                        string f37, 
+                        string f38, 
+                        string f39, 
+                        string f40, 
+                        string a1, 
+                        string a2, 
+                        string a3, 
+                        string a4, 
+                        string a5, 
+                        string a6, 
+                        string a7, 
+                        string a8, 
+                        string a9, 
+                        string a10, 
+                        decimal i1, 
+                        decimal i2, 
+                        decimal i3, 
+                        decimal i4, 
+                        decimal i5, 
+                        decimal i6, 
+                        decimal i7, 
+                        decimal i8, 
+                        decimal i9, 
+                        decimal i10) {
+                report_formatRow rowreport_formatRow = ((report_formatRow)(this.NewRow()));
+                object[] columnValuesArray = new object[] {
+                        f1,
+                        f2,
+                        f3,
+                        f4,
+                        f5,
+                        f6,
+                        f7,
+                        f8,
+                        f9,
+                        f10,
+                        f11,
+                        f12,
+                        f13,
+                        f14,
+                        f15,
+                        f16,
+                        f17,
+                        f18,
+                        f19,
+                        f20,
+                        f21,
+                        f22,
+                        f23,
+                        f24,
+                        f25,
+                        f26,
+                        f27,
+                        f28,
+                        f29,
+                        f30,
+                        f31,
+                        f32,
+                        f33,
+                        f34,
+                        f35,
+                        f36,
+                        f37,
+                        f38,
+                        f39,
+                        f40,
+                        a1,
+                        a2,
+                        a3,
+                        a4,
+                        a5,
+                        a6,
+                        a7,
+                        a8,
+                        a9,
+                        a10,
+                        i1,
+                        i2,
+                        i3,
+                        i4,
+                        i5,
+                        i6,
+                        i7,
+                        i8,
+                        i9,
+                        i10};
+                rowreport_formatRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowreport_formatRow);
+                return rowreport_formatRow;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public virtual global::System.Collections.IEnumerator GetEnumerator() {
+                return this.Rows.GetEnumerator();
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public override global::System.Data.DataTable Clone() {
+                report_formatDataTable cln = ((report_formatDataTable)(base.Clone()));
+                cln.InitVars();
+                return cln;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected override global::System.Data.DataTable CreateInstance() {
+                return new report_formatDataTable();
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            internal void InitVars() {
+                this.columnf1 = base.Columns["f1"];
+                this.columnf2 = base.Columns["f2"];
+                this.columnf3 = base.Columns["f3"];
+                this.columnf4 = base.Columns["f4"];
+                this.columnf5 = base.Columns["f5"];
+                this.columnf6 = base.Columns["f6"];
+                this.columnf7 = base.Columns["f7"];
+                this.columnf8 = base.Columns["f8"];
+                this.columnf9 = base.Columns["f9"];
+                this.columnf10 = base.Columns["f10"];
+                this.columnf11 = base.Columns["f11"];
+                this.columnf12 = base.Columns["f12"];
+                this.columnf13 = base.Columns["f13"];
+                this.columnf14 = base.Columns["f14"];
+                this.columnf15 = base.Columns["f15"];
+                this.columnf16 = base.Columns["f16"];
+                this.columnf17 = base.Columns["f17"];
+                this.columnf18 = base.Columns["f18"];
+                this.columnf19 = base.Columns["f19"];
+                this.columnf20 = base.Columns["f20"];
+                this.columnf21 = base.Columns["f21"];
+                this.columnf22 = base.Columns["f22"];
+                this.columnf23 = base.Columns["f23"];
+                this.columnf24 = base.Columns["f24"];
+                this.columnf25 = base.Columns["f25"];
+                this.columnf26 = base.Columns["f26"];
+                this.columnf27 = base.Columns["f27"];
+                this.columnf28 = base.Columns["f28"];
+                this.columnf29 = base.Columns["f29"];
+                this.columnf30 = base.Columns["f30"];
+                this.columnf31 = base.Columns["f31"];
+                this.columnf32 = base.Columns["f32"];
+                this.columnf33 = base.Columns["f33"];
+                this.columnf34 = base.Columns["f34"];
+                this.columnf35 = base.Columns["f35"];
+                this.columnf36 = base.Columns["f36"];
+                this.columnf37 = base.Columns["f37"];
+                this.columnf38 = base.Columns["f38"];
+                this.columnf39 = base.Columns["f39"];
+                this.columnf40 = base.Columns["f40"];
+                this.columna1 = base.Columns["a1"];
+                this.columna2 = base.Columns["a2"];
+                this.columna3 = base.Columns["a3"];
+                this.columna4 = base.Columns["a4"];
+                this.columna5 = base.Columns["a5"];
+                this.columna6 = base.Columns["a6"];
+                this.columna7 = base.Columns["a7"];
+                this.columna8 = base.Columns["a8"];
+                this.columna9 = base.Columns["a9"];
+                this.columna10 = base.Columns["a10"];
+                this.columni1 = base.Columns["i1"];
+                this.columni2 = base.Columns["i2"];
+                this.columni3 = base.Columns["i3"];
+                this.columni4 = base.Columns["i4"];
+                this.columni5 = base.Columns["i5"];
+                this.columni6 = base.Columns["i6"];
+                this.columni7 = base.Columns["i7"];
+                this.columni8 = base.Columns["i8"];
+                this.columni9 = base.Columns["i9"];
+                this.columni10 = base.Columns["i10"];
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            private void InitClass() {
+                this.columnf1 = new global::System.Data.DataColumn("f1", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf1);
+                this.columnf2 = new global::System.Data.DataColumn("f2", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf2);
+                this.columnf3 = new global::System.Data.DataColumn("f3", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf3);
+                this.columnf4 = new global::System.Data.DataColumn("f4", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf4);
+                this.columnf5 = new global::System.Data.DataColumn("f5", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf5);
+                this.columnf6 = new global::System.Data.DataColumn("f6", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf6);
+                this.columnf7 = new global::System.Data.DataColumn("f7", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf7);
+                this.columnf8 = new global::System.Data.DataColumn("f8", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf8);
+                this.columnf9 = new global::System.Data.DataColumn("f9", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf9);
+                this.columnf10 = new global::System.Data.DataColumn("f10", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf10);
+                this.columnf11 = new global::System.Data.DataColumn("f11", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf11);
+                this.columnf12 = new global::System.Data.DataColumn("f12", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf12);
+                this.columnf13 = new global::System.Data.DataColumn("f13", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf13);
+                this.columnf14 = new global::System.Data.DataColumn("f14", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf14);
+                this.columnf15 = new global::System.Data.DataColumn("f15", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf15);
+                this.columnf16 = new global::System.Data.DataColumn("f16", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf16);
+                this.columnf17 = new global::System.Data.DataColumn("f17", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf17);
+                this.columnf18 = new global::System.Data.DataColumn("f18", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf18);
+                this.columnf19 = new global::System.Data.DataColumn("f19", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf19);
+                this.columnf20 = new global::System.Data.DataColumn("f20", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf20);
+                this.columnf21 = new global::System.Data.DataColumn("f21", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf21);
+                this.columnf22 = new global::System.Data.DataColumn("f22", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf22);
+                this.columnf23 = new global::System.Data.DataColumn("f23", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf23);
+                this.columnf24 = new global::System.Data.DataColumn("f24", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf24);
+                this.columnf25 = new global::System.Data.DataColumn("f25", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf25);
+                this.columnf26 = new global::System.Data.DataColumn("f26", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf26);
+                this.columnf27 = new global::System.Data.DataColumn("f27", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf27);
+                this.columnf28 = new global::System.Data.DataColumn("f28", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf28);
+                this.columnf29 = new global::System.Data.DataColumn("f29", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf29);
+                this.columnf30 = new global::System.Data.DataColumn("f30", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf30);
+                this.columnf31 = new global::System.Data.DataColumn("f31", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf31);
+                this.columnf32 = new global::System.Data.DataColumn("f32", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf32);
+                this.columnf33 = new global::System.Data.DataColumn("f33", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf33);
+                this.columnf34 = new global::System.Data.DataColumn("f34", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf34);
+                this.columnf35 = new global::System.Data.DataColumn("f35", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf35);
+                this.columnf36 = new global::System.Data.DataColumn("f36", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf36);
+                this.columnf37 = new global::System.Data.DataColumn("f37", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf37);
+                this.columnf38 = new global::System.Data.DataColumn("f38", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf38);
+                this.columnf39 = new global::System.Data.DataColumn("f39", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf39);
+                this.columnf40 = new global::System.Data.DataColumn("f40", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnf40);
+                this.columna1 = new global::System.Data.DataColumn("a1", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columna1);
+                this.columna2 = new global::System.Data.DataColumn("a2", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columna2);
+                this.columna3 = new global::System.Data.DataColumn("a3", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columna3);
+                this.columna4 = new global::System.Data.DataColumn("a4", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columna4);
+                this.columna5 = new global::System.Data.DataColumn("a5", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columna5);
+                this.columna6 = new global::System.Data.DataColumn("a6", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columna6);
+                this.columna7 = new global::System.Data.DataColumn("a7", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columna7);
+                this.columna8 = new global::System.Data.DataColumn("a8", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columna8);
+                this.columna9 = new global::System.Data.DataColumn("a9", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columna9);
+                this.columna10 = new global::System.Data.DataColumn("a10", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columna10);
+                this.columni1 = new global::System.Data.DataColumn("i1", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columni1);
+                this.columni2 = new global::System.Data.DataColumn("i2", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columni2);
+                this.columni3 = new global::System.Data.DataColumn("i3", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columni3);
+                this.columni4 = new global::System.Data.DataColumn("i4", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columni4);
+                this.columni5 = new global::System.Data.DataColumn("i5", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columni5);
+                this.columni6 = new global::System.Data.DataColumn("i6", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columni6);
+                this.columni7 = new global::System.Data.DataColumn("i7", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columni7);
+                this.columni8 = new global::System.Data.DataColumn("i8", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columni8);
+                this.columni9 = new global::System.Data.DataColumn("i9", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columni9);
+                this.columni10 = new global::System.Data.DataColumn("i10", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columni10);
+                this.columnf1.MaxLength = 100;
+                this.columnf2.MaxLength = 100;
+                this.columnf3.MaxLength = 100;
+                this.columnf4.MaxLength = 100;
+                this.columnf5.MaxLength = 100;
+                this.columnf6.MaxLength = 100;
+                this.columnf7.MaxLength = 100;
+                this.columnf8.MaxLength = 100;
+                this.columnf9.MaxLength = 100;
+                this.columnf10.MaxLength = 100;
+                this.columnf11.MaxLength = 100;
+                this.columnf12.MaxLength = 100;
+                this.columnf13.MaxLength = 100;
+                this.columnf14.MaxLength = 100;
+                this.columnf15.MaxLength = 100;
+                this.columnf16.MaxLength = 100;
+                this.columnf17.MaxLength = 100;
+                this.columnf18.MaxLength = 100;
+                this.columnf19.MaxLength = 100;
+                this.columnf20.MaxLength = 100;
+                this.columnf21.MaxLength = 100;
+                this.columnf22.MaxLength = 100;
+                this.columnf23.MaxLength = 100;
+                this.columnf24.MaxLength = 100;
+                this.columnf25.MaxLength = 100;
+                this.columnf26.MaxLength = 100;
+                this.columnf27.MaxLength = 100;
+                this.columnf28.MaxLength = 100;
+                this.columnf29.MaxLength = 100;
+                this.columnf30.MaxLength = 100;
+                this.columnf31.MaxLength = 100;
+                this.columnf32.MaxLength = 100;
+                this.columnf33.MaxLength = 100;
+                this.columnf34.MaxLength = 100;
+                this.columnf35.MaxLength = 100;
+                this.columnf36.MaxLength = 100;
+                this.columnf37.MaxLength = 100;
+                this.columnf38.MaxLength = 100;
+                this.columnf39.MaxLength = 100;
+                this.columnf40.MaxLength = 100;
+                this.columna1.MaxLength = 100;
+                this.columna2.MaxLength = 100;
+                this.columna3.MaxLength = 100;
+                this.columna4.MaxLength = 100;
+                this.columna5.MaxLength = 100;
+                this.columna6.MaxLength = 100;
+                this.columna7.MaxLength = 100;
+                this.columna8.MaxLength = 100;
+                this.columna9.MaxLength = 100;
+                this.columna10.MaxLength = 100;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public report_formatRow Newreport_formatRow() {
+                return ((report_formatRow)(this.NewRow()));
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
+                return new report_formatRow(builder);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected override global::System.Type GetRowType() {
+                return typeof(report_formatRow);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanged(e);
+                if ((this.report_formatRowChanged != null)) {
+                    this.report_formatRowChanged(this, new report_formatRowChangeEvent(((report_formatRow)(e.Row)), e.Action));
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanging(e);
+                if ((this.report_formatRowChanging != null)) {
+                    this.report_formatRowChanging(this, new report_formatRowChangeEvent(((report_formatRow)(e.Row)), e.Action));
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleted(e);
+                if ((this.report_formatRowDeleted != null)) {
+                    this.report_formatRowDeleted(this, new report_formatRowChangeEvent(((report_formatRow)(e.Row)), e.Action));
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleting(e);
+                if ((this.report_formatRowDeleting != null)) {
+                    this.report_formatRowDeleting(this, new report_formatRowChangeEvent(((report_formatRow)(e.Row)), e.Action));
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Removereport_formatRow(report_formatRow row) {
+                this.Rows.Remove(row);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
+                global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
+                global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
+                reportDataSet ds = new reportDataSet();
+                global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
+                any1.Namespace = "http://www.w3.org/2001/XMLSchema";
+                any1.MinOccurs = new decimal(0);
+                any1.MaxOccurs = decimal.MaxValue;
+                any1.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any1);
+                global::System.Xml.Schema.XmlSchemaAny any2 = new global::System.Xml.Schema.XmlSchemaAny();
+                any2.Namespace = "urn:schemas-microsoft-com:xml-diffgram-v1";
+                any2.MinOccurs = new decimal(1);
+                any2.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any2);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute1 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute1.Name = "namespace";
+                attribute1.FixedValue = ds.Namespace;
+                type.Attributes.Add(attribute1);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute2.Name = "tableTypeName";
+                attribute2.FixedValue = "report_formatDataTable";
+                type.Attributes.Add(attribute2);
+                type.Particle = sequence;
+                global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
+                if (xs.Contains(dsSchema.TargetNamespace)) {
+                    global::System.IO.MemoryStream s1 = new global::System.IO.MemoryStream();
+                    global::System.IO.MemoryStream s2 = new global::System.IO.MemoryStream();
+                    try {
+                        global::System.Xml.Schema.XmlSchema schema = null;
+                        dsSchema.Write(s1);
+                        for (global::System.Collections.IEnumerator schemas = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator(); schemas.MoveNext(); ) {
+                            schema = ((global::System.Xml.Schema.XmlSchema)(schemas.Current));
+                            s2.SetLength(0);
+                            schema.Write(s2);
+                            if ((s1.Length == s2.Length)) {
+                                s1.Position = 0;
+                                s2.Position = 0;
+                                for (; ((s1.Position != s1.Length) 
+                                            && (s1.ReadByte() == s2.ReadByte())); ) {
+                                    ;
+                                }
+                                if ((s1.Position == s1.Length)) {
+                                    return type;
+                                }
+                            }
+                        }
+                    }
+                    finally {
+                        if ((s1 != null)) {
+                            s1.Close();
+                        }
+                        if ((s2 != null)) {
+                            s2.Close();
+                        }
+                    }
+                }
+                xs.Add(dsSchema);
+                return type;
+            }
+        }
+        /// <summary>
+        ///Represents strongly named DataRow class.
+        ///</summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "2.0.0.0")]
+        public partial class report_formatRow : global::System.Data.DataRow {
+            private report_formatDataTable tablereport_format;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            internal report_formatRow(global::System.Data.DataRowBuilder rb) : 
+                    base(rb) {
+                this.tablereport_format = ((report_formatDataTable)(this.Table));
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f1 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f1Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f1\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f1Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f2 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f2Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f2\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f2Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f3 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f3Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f3\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f3Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f4 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f4Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f4\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f4Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f5 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f5Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f5\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f5Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f6 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f6Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f6\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f6Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f7 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f7Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f7\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f7Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f8 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f8Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f8\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f8Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f9 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f9Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f9\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f9Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f10 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f10Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f10\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f10Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f11 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f11Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f11\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f11Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f12 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f12Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f12\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f12Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f13 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f13Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f13\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f13Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f14 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f14Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f14\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f14Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f15 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f15Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f15\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f15Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f16 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f16Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f16\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f16Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f17 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f17Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f17\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f17Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f18 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f18Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f18\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f18Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f19 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f19Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f19\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f19Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f20 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f20Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f20\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f20Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f21 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f21Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f21\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f21Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f22 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f22Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f22\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f22Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f23 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f23Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f23\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f23Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f24 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f24Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f24\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f24Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f25 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f25Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f25\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f25Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f26 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f26Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f26\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f26Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f27 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f27Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f27\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f27Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f28 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f28Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f28\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f28Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f29 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f29Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f29\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f29Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f30 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f30Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f30\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f30Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f31 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f31Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f31\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f31Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f32 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f32Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f32\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f32Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f33 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f33Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f33\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f33Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f34 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f34Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f34\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f34Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f35 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f35Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f35\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f35Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f36 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f36Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f36\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f36Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f37 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f37Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f37\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f37Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f38 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f38Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f38\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f38Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f39 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f39Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f39\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f39Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string f40 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.f40Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'f40\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.f40Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string a1 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.a1Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'a1\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.a1Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string a2 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.a2Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'a2\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.a2Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string a3 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.a3Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'a3\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.a3Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string a4 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.a4Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'a4\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.a4Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string a5 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.a5Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'a5\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.a5Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string a6 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.a6Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'a6\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.a6Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string a7 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.a7Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'a7\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.a7Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string a8 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.a8Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'a8\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.a8Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string a9 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.a9Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'a9\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.a9Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string a10 {
+                get {
+                    try {
+                        return ((string)(this[this.tablereport_format.a10Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'a10\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.a10Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal i1 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tablereport_format.i1Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'i1\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.i1Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal i2 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tablereport_format.i2Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'i2\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.i2Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal i3 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tablereport_format.i3Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'i3\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.i3Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal i4 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tablereport_format.i4Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'i4\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.i4Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal i5 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tablereport_format.i5Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'i5\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.i5Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal i6 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tablereport_format.i6Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'i6\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.i6Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal i7 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tablereport_format.i7Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'i7\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.i7Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal i8 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tablereport_format.i8Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'i8\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.i8Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal i9 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tablereport_format.i9Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'i9\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.i9Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal i10 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tablereport_format.i10Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'i10\' in table \'report_format\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablereport_format.i10Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf1Null() {
+                return this.IsNull(this.tablereport_format.f1Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf1Null() {
+                this[this.tablereport_format.f1Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf2Null() {
+                return this.IsNull(this.tablereport_format.f2Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf2Null() {
+                this[this.tablereport_format.f2Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf3Null() {
+                return this.IsNull(this.tablereport_format.f3Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf3Null() {
+                this[this.tablereport_format.f3Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf4Null() {
+                return this.IsNull(this.tablereport_format.f4Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf4Null() {
+                this[this.tablereport_format.f4Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf5Null() {
+                return this.IsNull(this.tablereport_format.f5Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf5Null() {
+                this[this.tablereport_format.f5Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf6Null() {
+                return this.IsNull(this.tablereport_format.f6Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf6Null() {
+                this[this.tablereport_format.f6Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf7Null() {
+                return this.IsNull(this.tablereport_format.f7Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf7Null() {
+                this[this.tablereport_format.f7Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf8Null() {
+                return this.IsNull(this.tablereport_format.f8Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf8Null() {
+                this[this.tablereport_format.f8Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf9Null() {
+                return this.IsNull(this.tablereport_format.f9Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf9Null() {
+                this[this.tablereport_format.f9Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf10Null() {
+                return this.IsNull(this.tablereport_format.f10Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf10Null() {
+                this[this.tablereport_format.f10Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf11Null() {
+                return this.IsNull(this.tablereport_format.f11Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf11Null() {
+                this[this.tablereport_format.f11Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf12Null() {
+                return this.IsNull(this.tablereport_format.f12Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf12Null() {
+                this[this.tablereport_format.f12Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf13Null() {
+                return this.IsNull(this.tablereport_format.f13Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf13Null() {
+                this[this.tablereport_format.f13Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf14Null() {
+                return this.IsNull(this.tablereport_format.f14Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf14Null() {
+                this[this.tablereport_format.f14Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf15Null() {
+                return this.IsNull(this.tablereport_format.f15Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf15Null() {
+                this[this.tablereport_format.f15Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf16Null() {
+                return this.IsNull(this.tablereport_format.f16Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf16Null() {
+                this[this.tablereport_format.f16Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf17Null() {
+                return this.IsNull(this.tablereport_format.f17Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf17Null() {
+                this[this.tablereport_format.f17Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf18Null() {
+                return this.IsNull(this.tablereport_format.f18Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf18Null() {
+                this[this.tablereport_format.f18Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf19Null() {
+                return this.IsNull(this.tablereport_format.f19Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf19Null() {
+                this[this.tablereport_format.f19Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf20Null() {
+                return this.IsNull(this.tablereport_format.f20Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf20Null() {
+                this[this.tablereport_format.f20Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf21Null() {
+                return this.IsNull(this.tablereport_format.f21Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf21Null() {
+                this[this.tablereport_format.f21Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf22Null() {
+                return this.IsNull(this.tablereport_format.f22Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf22Null() {
+                this[this.tablereport_format.f22Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf23Null() {
+                return this.IsNull(this.tablereport_format.f23Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf23Null() {
+                this[this.tablereport_format.f23Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf24Null() {
+                return this.IsNull(this.tablereport_format.f24Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf24Null() {
+                this[this.tablereport_format.f24Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf25Null() {
+                return this.IsNull(this.tablereport_format.f25Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf25Null() {
+                this[this.tablereport_format.f25Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf26Null() {
+                return this.IsNull(this.tablereport_format.f26Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf26Null() {
+                this[this.tablereport_format.f26Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf27Null() {
+                return this.IsNull(this.tablereport_format.f27Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf27Null() {
+                this[this.tablereport_format.f27Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf28Null() {
+                return this.IsNull(this.tablereport_format.f28Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf28Null() {
+                this[this.tablereport_format.f28Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf29Null() {
+                return this.IsNull(this.tablereport_format.f29Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf29Null() {
+                this[this.tablereport_format.f29Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf30Null() {
+                return this.IsNull(this.tablereport_format.f30Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf30Null() {
+                this[this.tablereport_format.f30Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf31Null() {
+                return this.IsNull(this.tablereport_format.f31Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf31Null() {
+                this[this.tablereport_format.f31Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf32Null() {
+                return this.IsNull(this.tablereport_format.f32Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf32Null() {
+                this[this.tablereport_format.f32Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf33Null() {
+                return this.IsNull(this.tablereport_format.f33Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf33Null() {
+                this[this.tablereport_format.f33Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf34Null() {
+                return this.IsNull(this.tablereport_format.f34Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf34Null() {
+                this[this.tablereport_format.f34Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf35Null() {
+                return this.IsNull(this.tablereport_format.f35Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf35Null() {
+                this[this.tablereport_format.f35Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf36Null() {
+                return this.IsNull(this.tablereport_format.f36Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf36Null() {
+                this[this.tablereport_format.f36Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf37Null() {
+                return this.IsNull(this.tablereport_format.f37Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf37Null() {
+                this[this.tablereport_format.f37Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf38Null() {
+                return this.IsNull(this.tablereport_format.f38Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf38Null() {
+                this[this.tablereport_format.f38Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf39Null() {
+                return this.IsNull(this.tablereport_format.f39Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf39Null() {
+                this[this.tablereport_format.f39Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isf40Null() {
+                return this.IsNull(this.tablereport_format.f40Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Setf40Null() {
+                this[this.tablereport_format.f40Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isa1Null() {
+                return this.IsNull(this.tablereport_format.a1Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seta1Null() {
+                this[this.tablereport_format.a1Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isa2Null() {
+                return this.IsNull(this.tablereport_format.a2Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seta2Null() {
+                this[this.tablereport_format.a2Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isa3Null() {
+                return this.IsNull(this.tablereport_format.a3Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seta3Null() {
+                this[this.tablereport_format.a3Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isa4Null() {
+                return this.IsNull(this.tablereport_format.a4Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seta4Null() {
+                this[this.tablereport_format.a4Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isa5Null() {
+                return this.IsNull(this.tablereport_format.a5Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seta5Null() {
+                this[this.tablereport_format.a5Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isa6Null() {
+                return this.IsNull(this.tablereport_format.a6Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seta6Null() {
+                this[this.tablereport_format.a6Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isa7Null() {
+                return this.IsNull(this.tablereport_format.a7Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seta7Null() {
+                this[this.tablereport_format.a7Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isa8Null() {
+                return this.IsNull(this.tablereport_format.a8Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seta8Null() {
+                this[this.tablereport_format.a8Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isa9Null() {
+                return this.IsNull(this.tablereport_format.a9Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seta9Null() {
+                this[this.tablereport_format.a9Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isa10Null() {
+                return this.IsNull(this.tablereport_format.a10Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seta10Null() {
+                this[this.tablereport_format.a10Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isi1Null() {
+                return this.IsNull(this.tablereport_format.i1Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seti1Null() {
+                this[this.tablereport_format.i1Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isi2Null() {
+                return this.IsNull(this.tablereport_format.i2Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seti2Null() {
+                this[this.tablereport_format.i2Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isi3Null() {
+                return this.IsNull(this.tablereport_format.i3Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seti3Null() {
+                this[this.tablereport_format.i3Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isi4Null() {
+                return this.IsNull(this.tablereport_format.i4Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seti4Null() {
+                this[this.tablereport_format.i4Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isi5Null() {
+                return this.IsNull(this.tablereport_format.i5Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seti5Null() {
+                this[this.tablereport_format.i5Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isi6Null() {
+                return this.IsNull(this.tablereport_format.i6Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seti6Null() {
+                this[this.tablereport_format.i6Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isi7Null() {
+                return this.IsNull(this.tablereport_format.i7Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seti7Null() {
+                this[this.tablereport_format.i7Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isi8Null() {
+                return this.IsNull(this.tablereport_format.i8Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seti8Null() {
+                this[this.tablereport_format.i8Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isi9Null() {
+                return this.IsNull(this.tablereport_format.i9Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seti9Null() {
+                this[this.tablereport_format.i9Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Isi10Null() {
+                return this.IsNull(this.tablereport_format.i10Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Seti10Null() {
+                this[this.tablereport_format.i10Column] = global::System.Convert.DBNull;
+            }
+        }
+        /// <summary>
+        ///Row event argument class
+        ///</summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "2.0.0.0")]
+        public class report_formatRowChangeEvent : global::System.EventArgs {
+            private report_formatRow eventRow;
+            private global::System.Data.DataRowAction eventAction;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public report_formatRowChangeEvent(report_formatRow row, global::System.Data.DataRowAction action) {
+                this.eventRow = row;
+                this.eventAction = action;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public report_formatRow Row {
+                get {
+                    return this.eventRow;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataRowAction Action {
+                get {
+                    return this.eventAction;
+                }
+            }
+        }
+    }
+}
